@@ -1,0 +1,1644 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="Year 1 Introductory Lectures, part of 1VGLA and 1RA" />
+<meta property="og:type" content="book" />
+
+
+
+
+
+<meta name="author" content="Chris Good, Sara Jabbari, Olga Maleva" />
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Register.MessageHook("End Math", function (msg) {
+  var nodes = Array.from(msg[1].querySelectorAll('.MJX_Assistive_MathML [id]'));
+  while (nodes.length) {
+    nodes.shift().removeAttribute('id');
+  }
+}, 20);
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  "fast-preview": {disabled: true},
+  explorer:{ subtitle: true },
+  MatchWebFonts: { 
+    matchFor: { "HTML-CSS": true, NativeMML: false, SVG: false },
+    fontCheckDelay: 2000,
+    fontCheckTimeout: 30 * 1000
+  },
+  "HTML-CSS": {
+    preferredFont: "STIX",
+    availableFonts: ["STIX","TeX"],
+    webFont: "STIX-Web",
+    linebreaks: { automatic: true, width: "90\% container" }
+  },
+  CommonHTML: {
+    linebreaks: { automatic: true, width: "90\% container" }
+  },
+  SVG: {
+    font: "STIX-Web",
+    linebreaks: { automatic: false, width: "90\% container" }
+  },
+  menuSettings: { 
+    collapsible: false, 
+    autocollapse: false, 
+    explorer: false 
+  }
+});
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+
+<meta name="description" content="Year 1 Introductory Lectures, part of 1VGLA and 1RA">
+
+<title>Year 1 Introductory Lectures, part of 1VGLA and 1RA</title>
+
+<script src="libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+</style>
+
+<style type="text/css">
+  a {
+   color: blue;
+  }
+
+  [custom-style=DefinitionStyle] {
+    margin-bottom: 1.5em;
+    margin-top:1.5em;
+    background-color: AliceBlue;
+    border-left-style: solid;
+    border-color: CadetBlue;
+    padding-left: 0.5em;
+  }
+
+  [custom-style=TheoremStyle] {
+    margin-bottom: 1.5em;
+    margin-top:1.5em;
+    background-color: honeydew;
+    border-left-style: solid;
+    border-color: darkseagreen;
+    padding-left: 0.5em;
+    font-style: italic;
+  }
+
+  [custom-style=TheoremStyleUpright] {
+    margin-bottom: 1.5em;
+    margin-top:1.5em;
+    background-color: honeydew;
+    border-left-style: solid;
+    border-color: darkseagreen;
+    padding-left: 0.5em;
+    font-style: normal;
+  }
+
+  [custom-style=NameStyle]{
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  [custom-style=NameStyleItalics]{
+    font-style: italic;
+  }
+
+  
+  [custom-style=ProofStyle] {
+    margin-bottom: 1.5em;
+    margin-top:1.5em;
+    background-color: seashell;
+    border-left-style: solid;
+    border-color: darkkhaki;
+    padding-left: 0.5em;
+  }
+
+  [custom-style=ExampleStyle] {
+    margin-bottom: 1.5em;
+    margin-top:1.5em;
+    background-color: lavenderblush;
+    border-left-style: solid;
+    border-color: mediumorchid;
+    padding-left: 0.5em;
+  }
+
+  [data-custom-style=DefinitionStyle] {
+    margin-bottom: 1.5em;
+    margin-top:1.5em;
+    background-color: AliceBlue;
+    border-left-style: solid;
+    border-color: CadetBlue;
+    padding-left: 0.5em;
+  }
+
+  [data-custom-style=TheoremStyle] {
+    margin-bottom: 1.5em;
+    margin-top:1.5em;
+    background-color: honeydew;
+    border-left-style: solid;
+    border-color: darkseagreen;
+    padding-left: 0.5em;
+  }
+
+  [data-custom-style=TheoremStyleUpright] {
+    margin-bottom: 1.5em;
+    margin-top:1.5em;
+    background-color: honeydew;
+    border-left-style: solid;
+    border-color: darkseagreen;
+    padding-left: 0.5em;
+    font-style: normal;
+  }
+  
+  [data-custom-style=ProofStyle] {
+    margin-bottom: 1.5em;
+    margin-top:1.5em;
+    background-color: seashell;
+    border-left-style: solid;
+    border-color: darkkhaki;
+    padding-left: 0.5em;
+  }
+
+  [data-custom-style=ExampleStyle] {
+    margin-bottom: 1.5em;
+    margin-top:1.5em;
+    background-color: lavenderblush;
+    border-left-style: solid;
+    border-color: mediumorchid;
+    padding-left: 0.5em;
+  }
+
+  
+</style>
+
+</head>
+
+<body>
+
+<div class="container-fluid main-container">
+
+
+<!--bookdown:title:start-->
+<div id="header">
+<h1 class="title">Year 1 Introductory Lectures, part of 1VGLA and 1RA</h1>
+<h4 class="author"><em>Chris Good, Sara Jabbari, Olga Maleva</em></h4>
+<h4 class="date"><em>September 2024</em></h4>
+</div>
+<!--bookdown:title:end-->
+
+<!--bookdown:toc:start-->
+<div id="TOC">
+<ul>
+<li><a href="#introduction" id="toc-introduction">Introduction</a>
+<ul>
+<li><a href="#why" id="toc-why"><span class="toc-section-number">0.1</span> Why?</a></li>
+<li><a href="#when" id="toc-when"><span class="toc-section-number">0.2</span> When</a></li>
+<li><a href="#what" id="toc-what"><span class="toc-section-number">0.3</span> What?</a></li>
+</ul></li>
+<li><a href="#writing" id="toc-writing"><span class="toc-section-number">1</span> Mathematical Language, Terminology and Notation</a>
+<ul>
+<li><a href="#doing" id="toc-doing"><span class="toc-section-number">1.1</span> Chris’s Golden Rules for Doing Maths</a></li>
+<li><a href="#notation" id="toc-notation"><span class="toc-section-number">1.2</span> Notation</a>
+<ul>
+<li><a href="#usingnotation" id="toc-usingnotation"><span class="toc-section-number">1.2.1</span> Using Notation</a></li>
+<li><a href="#alphabeta" id="toc-alphabeta"><span class="toc-section-number">1.2.2</span> The Greek Alphabet</a></li>
+<li><a href="#othernotation" id="toc-othernotation"><span class="toc-section-number">1.2.3</span> Some Other Common Symbols</a></li>
+<li><a href="#sets1" id="toc-sets1"><span class="toc-section-number">1.2.4</span> Set Notation</a></li>
+<li><a href="#intervals" id="toc-intervals"><span class="toc-section-number">1.2.5</span> Intervals in the Real Line</a></li>
+</ul></li>
+<li><a href="#writingrules" id="toc-writingrules"><span class="toc-section-number">1.3</span> Chris’s Golden Rules for Writing Maths</a></li>
+</ul></li>
+<li><a href="#proof" id="toc-proof"><span class="toc-section-number">2</span> Proof</a>
+<ul>
+<li><a href="#proofs" id="toc-proofs"><span class="toc-section-number">2.1</span> Methods of Proof</a>
+<ul>
+<li><a href="#seelater" id="toc-seelater"><span class="toc-section-number">2.1.1</span> Mathematical Induction</a></li>
+<li><a href="#directproof" id="toc-directproof"><span class="toc-section-number">2.1.2</span> Direct Proof</a></li>
+<li><a href="#contrapositive" id="toc-contrapositive"><span class="toc-section-number">2.1.3</span> Proof by Contraposition</a></li>
+<li><a href="#contradict" id="toc-contradict"><span class="toc-section-number">2.1.4</span> Proof by Contradiction</a></li>
+<li><a href="#nonconstrictive" id="toc-nonconstrictive"><span class="toc-section-number">2.1.5</span> Non-constructive Proof</a></li>
+<li><a href="#constructive" id="toc-constructive"><span class="toc-section-number">2.1.6</span> Constructive Proof</a></li>
+<li><a href="#proofcases" id="toc-proofcases"><span class="toc-section-number">2.1.7</span> Proof by Cases</a></li>
+</ul></li>
+<li><a href="#induction" id="toc-induction"><span class="toc-section-number">2.2</span> The Principle of Mathematical Induction</a></li>
+</ul></li>
+<li><a href="#inequalities" id="toc-inequalities"><span class="toc-section-number">3</span> Inequalities and the Modulus</a>
+<ul>
+<li><a href="#the-modulus" id="toc-the-modulus"><span class="toc-section-number">3.1</span> The Modulus</a></li>
+<li><a href="#solveineq" id="toc-solveineq"><span class="toc-section-number">3.2</span> Solving Inequalities</a></li>
+</ul></li>
+<li><a href="#sets" id="toc-sets"><span class="toc-section-number">4</span> Naive Set Theory</a>
+<ul>
+<li><a href="#setdefn" id="toc-setdefn"><span class="toc-section-number">4.1</span> Sets, Elements and Subsets</a></li>
+<li><a href="#unions" id="toc-unions"><span class="toc-section-number">4.2</span> The Algebra of Sets</a></li>
+<li><a href="#bigcap" id="toc-bigcap"><span class="toc-section-number">4.3</span> Arbitrary Unions and Intersections</a></li>
+</ul></li>
+<li><a href="#functions" id="toc-functions"><span class="toc-section-number">5</span> Functions</a>
+<ul>
+<li><a href="#deffn" id="toc-deffn"><span class="toc-section-number">5.1</span> The Defintion of a Function</a></li>
+<li><a href="#injections-surjections-and-bijections" id="toc-injections-surjections-and-bijections"><span class="toc-section-number">5.2</span> Injections, Surjections and Bijections</a></li>
+</ul></li>
+</ul>
+</div>
+<!--bookdown:toc:end-->
+
+<!--bookdown:body:start-->
+<div id="introduction" class="section level1 unnumbered">
+<h1>Introduction</h1>
+<div id="why" class="section level2" number="0.1">
+<h2><span class="header-section-number">0.1</span> Why?</h2>
+<p>These lectures cover some basic material that will be used across all of your modules in the first twop weeks of term. The lectures are part of both Vectors, Geometry and Linear Algebra (1VGLA) and Real analysis (1RA), so use the first 4 lectures of each of those modules.</p>
+</div>
+<div id="when" class="section level2" number="0.2">
+<h2><span class="header-section-number">0.2</span> When</h2>
+<ul>
+<li><p>The first two weeks will be delivered by Chris Good, Olga Maleva and Sara Jabarri.</p></li>
+<li><p>VGLA will then be taught by Andrew Treglown and Galane Luo.</p></li>
+<li><p>RA will then be taught by Yuzhao Wang and Andrew Morris.</p></li>
+</ul>
+<p>The lectures will be at the following times:</p>
+<ul>
+<li><p>Monday, 0900, VGLA, University Centre, Avon Room, Chris Good</p></li>
+<li><p>Tuesday, 1700, VGLA, School of Education, Vaughan Jeffreys Theatre, Chris Good</p></li>
+<li><p>Tuesday, 1700, VGLA, Watson Building, LRC, Sara Jabbari</p></li>
+<li><p>Thursday, 1400, RA, School of Education, Vaughan Jeffreys Theatre, Chris Good</p></li>
+<li><p>Thursday, 1400, RA, Gisbert Kapp Building, NG16, Olga Maleva</p></li>
+<li><p>Friday, 1300, RA, School of Education, Vaughan Jeffreys Theatre, Chris Good</p></li>
+<li><p>Friday, 1300, RA, Watson Building, LTA, Olga Maleva</p></li>
+</ul>
+</div>
+<div id="what" class="section level2" number="0.3">
+<h2><span class="header-section-number">0.3</span> What?</h2>
+<p>We are going to talk about</p>
+<ul>
+<li>Language, Terminology and Notation: how you do and write maths</li>
+<li>Proof: in particular Mathematical Induction</li>
+<li>Inequalities and the Modulus</li>
+<li>Naive Set Theory</li>
+<li>Functions</li>
+</ul>
+</div>
+</div>
+<div id="writing" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Mathematical Language, Terminology and Notation</h1>
+<p>There are two aspects to mathematics: <strong>doing maths</strong>, working through proofs, methods and examples from lectures, books and papers so that you understand them, modelling, doing calculations, solving problems, thinking hard about stuff, and; <strong>presenting maths</strong>, writing up your work. Doing maths can be messy, frustrating, difficult, challenging, fun, exciting, satisfying (just like anything that is worth doing). Writing up your maths can be tedious but it is one of the key skills you learn as mathematician because it allows you and others to check whether your working is correct.</p>
+<p>(Note that when I use the term ‘mathematics,’ I am including pure maths, applied maths, statistics, optimization, etc.)</p>
+<div id="doing" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Chris’s Golden Rules for Doing Maths</h2>
+<p>Doing maths is the fun part, but it is not all plain sailing and it at times there will be things that you really have to struggle with. This is OK, it is not supposed to be easy, it is supposed to be rewarding. Here are my top tips</p>
+<ol style="list-style-type: decimal">
+<li>Make sure you know your definitions. If you don’t know the definition of a prime number, how can you begin to understand whether there are infinitely many of them?</li>
+<li>Make sure you understand the notation so that you can talk about what you are looking at.<br />
+</li>
+<li>Work through relevant proofs and techniques from lectures and books, writing them out line by line. Try to understand them, rather than just memorize them. Look for similarities with other arguments, often they are almost identical. Break proofs and arguments down, try to work out the key idea and the bits that are just routine manipulation. Be confident that you can recreate the routine calculations, so you only need to remember the key ideas.</li>
+<li>Work in rough first.</li>
+<li>Expect to get stuck and expect to go wrong. Don’t be frightened of this, there is no shame in being wrong, it is a normal part of learning how to do new things. The key point is to think about why you went wrong and try something else. Keep going.</li>
+<li>Put the problem away and sleep on it … let you brain work on things in the background.</li>
+<li>Play around with the problem. Try toy examples. Experiment with ideas. Can you solve a simpler version of the problem? Can you solve extreme cases?</li>
+<li>Work with others and try to solve things together.</li>
+<li>Look things up in your notes, in books or online, ask ChatGPT. Can you find the question or something similar? Be careful though to make sure what you find is correct (when writing these notes, I used ChatGPT for additional ideas and it confidently told me that <span class="math inline">\(3!&gt;2^3\)</span>!)</li>
+<li>Use any feedback you have to help you next time.</li>
+</ol>
+<p><strong>Remember, the only way to learn maths is to do maths.</strong></p>
+</div>
+<div id="notation" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Notation</h2>
+<div id="usingnotation" class="section level3" number="1.2.1">
+<h3><span class="header-section-number">1.2.1</span> Using Notation</h3>
+<p>We use a lot of notation in maths (and therefore in physics, computer science, engineering, etc), using symbols to represent words <strong>so that we can express complex ideas clearly, concisely and accurately</strong>.</p>
+<p>In your degree programme, maths should be written in properly punctuated English sentences. Any notation is just a substitute for words. For example: ‘Let <span class="math inline">\(y=x^2\)</span>.’ is a sentence with nouns <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>, an adjective <span class="math inline">\({^2}\)</span> and a verb <span class="math inline">\(=\)</span>.</p>
+<p>Once we are used to it, the careful use of notation helps us to understand what we are looking at. For example, because we are all familiar with the notation, it is much easier to read and understand</p>
+<ul>
+<li>‘If <span class="math inline">\(2x^2+5x+1=0\)</span>, then <span class="math inline">\(x=\dfrac{-5\pm\sqrt{5^2-4.2.1}}{2.2}\)</span>.’</li>
+</ul>
+<p>than it is to read and understand</p>
+<ul>
+<li>‘If <span class="math inline">\(2\)</span> times the unknown squared plus <span class="math inline">\(5\)</span> times the unknown plus <span class="math inline">\(1\)</span> equals <span class="math inline">\(0\)</span>, then the unknown equals minus <span class="math inline">\(5\)</span> plus or minus the square root of <span class="math inline">\(5\)</span> squared minus four times <span class="math inline">\(2\)</span> times <span class="math inline">\(1\)</span> all divided by <span class="math inline">\(2\)</span> times <span class="math inline">\(2\)</span>.’</li>
+</ul>
+<p>So notation is there to help us understand what we are looking at. When we use notation, it good practice to try to keep it standard and coherent. For example, we often use: <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span> and <span class="math inline">\(z\)</span> for variables; <span class="math inline">\(f\)</span>, <span class="math inline">\(g\)</span> and <span class="math inline">\(h\)</span> for functions; <span class="math inline">\(i\)</span>, <span class="math inline">\(j\)</span>, <span class="math inline">\(k\)</span>, <span class="math inline">\(n\)</span> and <span class="math inline">\(m\)</span> for whole numbers; <span class="math inline">\(\theta\)</span>, <span class="math inline">\(\phi\)</span> and <span class="math inline">\(\psi\)</span> for angles; <span class="math inline">\(\underline{u}\)</span> and <span class="math inline">\(\underline{v}\)</span>, <span class="math inline">\(\underline{w}\)</span> or <span class="math inline">\(\mathbf{u}\)</span>, <span class="math inline">\(\mathbf{v}\)</span>, and <span class="math inline">\(\mathbf{w}\)</span> for vectors; <span class="math inline">\(A\)</span>, <span class="math inline">\(B\)</span>, <span class="math inline">\(C\)</span> for sets or matrices, and so on.</p>
+<p>When you are choosing notation, <strong>try to choose notation that helps your reader</strong>; doing maths is hard enough without making it harder with poor notation. For example, if we have two sets <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> and we want to choose elements from each of them, it would be confusing to call the element we choose from <span class="math inline">\(A\)</span> by <span class="math inline">\(b\)</span> and the element we choose from <span class="math inline">\(B\)</span> by <span class="math inline">\(a\)</span>. Again, it is much easier to remember and understand the statement</p>
+<ul>
+<li>‘If <span class="math inline">\(ax^2+bx+c=0\)</span>, then <span class="math inline">\(x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a}\)</span>,’</li>
+</ul>
+<p>than it is to understand</p>
+<ul>
+<li>‘If <span class="math inline">\(ba^2+xa+y=0\)</span>, then <span class="math inline">\(a=0.5(-x\pm\Xi^{1/2})/b\)</span>, where <span class="math inline">\(\Xi=-4by+x^2\)</span>,’</li>
+</ul>
+<p>even though both statements say the same thing, because the notation is confusing, unfamiliar and unnecessarily complicated.</p>
+<p>How much notation you use is a matter of taste. At the extreme end, a set theorist or logician might write</p>
+<ul>
+<li>‘<span class="math inline">\(\displaystyle \forall x\forall y[\forall z(z\in x\Leftrightarrow z\in y)\Rightarrow x=y].\)</span>’</li>
+</ul>
+<p>(we read this as ’for all <span class="math inline">\(x\)</span> and for all <span class="math inline">\(y\)</span>, if, for all <span class="math inline">\(z\)</span>, <span class="math inline">\(z\)</span> is an element of <span class="math inline">\(x\)</span> if and only if <span class="math inline">\(z\)</span> is an element of <span class="math inline">\(y\)</span>, then <span class="math inline">\(x\)</span> equals <span class="math inline">\(y\)</span>) to mean</p>
+<ul>
+<li>‘Two sets are equal if they have the same elements.’</li>
+</ul>
+<p>An example that you will see in your analysis module is the definition of continuity. The following are all read out allowed in exactly the same way:</p>
+<ol style="list-style-type: decimal">
+<li><p>Let <span class="math inline">\(f\)</span> be a function from the reals to the reals and let <span class="math inline">\(a\)</span> be a real number. We say that <span class="math inline">\(f\)</span> is <strong>continuous at the point <span class="math inline">\(a\)</span></strong> if, for all <span class="math inline">\(\epsilon\)</span> greater than <span class="math inline">\(0\)</span>, there exists <span class="math inline">\(\delta\)</span> greater than <span class="math inline">\(0\)</span> such that, for all <span class="math inline">\(x\)</span> in <span class="math inline">\(\mathbb R\)</span>, the distance from <span class="math inline">\(f\)</span> of <span class="math inline">\(x\)</span> to <span class="math inline">\(f\)</span> of <span class="math inline">\(a\)</span> is less than <span class="math inline">\(\epsilon\)</span> whenever the distance from <span class="math inline">\(x\)</span> to <span class="math inline">\(a\)</span> is less than delta. (Note we might say ‘mod <span class="math inline">\(f\)</span> <span class="math inline">\(x\)</span> minus <span class="math inline">\(f\)</span> <span class="math inline">\(a\)</span>’ instead of ‘distance from <span class="math inline">\(f\)</span> of <span class="math inline">\(x\)</span> to <span class="math inline">\(f\)</span> of <span class="math inline">\(a\)</span>’.)</p></li>
+<li><p>Let <span class="math inline">\(f:\mathbb R\to \mathbb R\)</span> and let <span class="math inline">\(a\in \mathbb R\)</span>. We say that <span class="math inline">\(f\)</span> is <strong>continuous at the point <span class="math inline">\(a\)</span></strong> if, for all <span class="math inline">\(\epsilon&gt;0\)</span>, there exists <span class="math inline">\(\delta&gt;0\)</span> such that, for all <span class="math inline">\(x \in \mathbb R\)</span>,
+<span class="math display">\[|f(x)-f(a)|&lt;\epsilon \qquad\text{whenever}\qquad |x-a|&lt;\delta.\]</span></p></li>
+<li><p>Let <span class="math inline">\(f : \mathbb R \to \mathbb R\)</span> and let <span class="math inline">\(a \in \mathbb R\)</span>.
+We say that <span class="math inline">\(f\)</span> is <em>continuous at the point <span class="math inline">\(a\)</span></em> if,
+<span class="math display">\[(\forall \epsilon&gt;0) (\exists \delta&gt;0) (\forall x\in\mathbb R)\,
+\left(|f(x)-f(a)| &lt; \epsilon \quad\Leftarrow\quad |x-a| &lt; \delta\right).\]</span></p></li>
+</ol>
+<p>However, to my mind 2) is the clearest one to look at and remember.</p>
+<p>You will be introduced to new notation throughout your modules. <strong>Remember that notation is just short hand for words, so when you see new notation, always try to find out how to say it.</strong> It is much, much easier to learn what something says if you know how to pronounce the words in the first place! An example of this is the (classical) Greek alphabet, which is used a lot in maths (we have already used <span class="math inline">\(\epsilon\)</span> and <span class="math inline">\(\delta\)</span>). It is easier to talk about the Riemann <span class="math inline">\(\zeta\)</span> function if you know that <span class="math inline">\(\zeta\)</span> is the Greek letter ‘zeta’ (however you pronounce ‘zeta’), rather than the Riemann ‘weird squiggle’ function.</p>
+<p>Sometimes the same notation is used to mean different things, for example we might use <span class="math inline">\(A\)</span> to represent a matrix or a set. In this case, things should be clear from the context (or be made clear by the author). A very common example of this is the use of <span class="math inline">\(\mathbb N\)</span> to represent the natural numbers. Some people include <span class="math inline">\(0\)</span> as a natural number, so that they use <span class="math inline">\(\mathbb N\)</span> to represent the set <span class="math inline">\(\{0,1,2,3,\dots\}\)</span>. Others use <span class="math inline">\(\mathbb N\)</span> to represent the set of positive integers <span class="math inline">\(\{1,2,3,\dots\}\)</span> and <span class="math inline">\(\mathbb N_0\)</span> to represent the non-negative integers <span class="math inline">\(\{0,1,2,3,\dots\}\)</span>.</p>
+<p>On the other hand, some notation can be read using different words that mean exactly the same thing, for example we might read <span class="math inline">\(\forall\)</span> as ‘for all’, ‘for every’ or ‘for any’ and we might say ‘<span class="math inline">\(d\)</span> <span class="math inline">\(f\)</span> by <span class="math inline">\(d\)</span> <span class="math inline">\(x\)</span>’ or ‘the derivative of <span class="math inline">\(f\)</span> with respect to <span class="math inline">\(x\)</span>’ when we see <span class="math inline">\(\dfrac{df}{dx}\)</span>.</p>
+<p>Below are two lists of some key notation that might be unfamiliar to you. We will introduce more new notation in the sections that follow as well.</p>
+</div>
+<div id="alphabeta" class="section level3" number="1.2.2">
+<h3><span class="header-section-number">1.2.2</span> The Greek Alphabet</h3>
+<p><span class="math display">\[
+\begin{array}{|c|c|c|c|c|c|c|c|}
+\hline\hline
+\text{Notation} &amp; \text{Read} &amp;  &amp; \text{Notation} &amp; \text{Read} &amp;&amp; \text{Notation} &amp; \text{Read}\\
+\hline
+A, \alpha &amp; \text{alpha} &amp;  &amp; \iota &amp; \text{iota} &amp;&amp; P, \rho&amp;\text{rho}\\
+\hline
+B, \beta &amp; \text{beta} &amp; &amp; K, \kappa &amp; \text{kappa} &amp;&amp;\Sigma, \sigma, \varsigma &amp;\text{sigma}\\
+\hline
+\Gamma, \gamma &amp; \text{gamma} &amp; &amp; \Lambda, \lambda &amp; \text{lambda} &amp;&amp;T, \tau &amp;\text{tau} \\
+\hline
+\Delta, \delta &amp; \text{delta} &amp; &amp; M, \mu &amp; \text{mu} &amp;&amp;\Upsilon, \upsilon &amp;\text{upsilon}\\
+\hline
+E, \epsilon &amp; \text{epsilon} &amp; &amp; N, \nu &amp; \text{nu} &amp;&amp;\Phi, \phi, \varphi &amp;\text{phi}\\
+\hline
+Z, \zeta &amp; \text{zeta} &amp; &amp; \Xi, \xi &amp; \text{xi} &amp;&amp;X, \chi &amp;\text{chi}\\
+\hline
+H, \eta &amp; \text{eta} &amp; &amp; O, o &amp; \text{omicron} &amp;&amp;\Psi, \psi &amp;\text{psi}\\
+\hline
+\Theta, \theta &amp; \text{theta} &amp; &amp; \Pi, \pi &amp; \text{pi} &amp;&amp;\Omega, \omega &amp;\text{omega}\\
+\hline
+\end{array}
+\]</span></p>
+</div>
+<div id="othernotation" class="section level3" number="1.2.3">
+<h3><span class="header-section-number">1.2.3</span> Some Other Common Symbols</h3>
+<p><span class="math display">\[
+\begin{array}{|c|c|c|c|c|}
+\hline\hline
+\text{Notation} &amp; \text{Read} &amp;  &amp; \text{Notation} &amp; \text{Read} \\
+\hline
+\mathbb N, \mathbb N_0&amp; \text{the natural numbers} &amp;  &amp; \forall &amp; \text{for all, for any, for every} \\
+\hline
+\mathbb Z&amp; \text{the integers} &amp; &amp; \exists &amp; \text{there exist}\\
+\hline
+\mathbb Q &amp; \text{the rationals} &amp; &amp; \exists! &amp; \text{there exists a unique}\\
+\hline
+\mathbb R &amp; \text{the reals} &amp; &amp; \nexists &amp; \text{there does not exist} \\
+\hline
+\mathbb C &amp; \text{the complex numbers} &amp; &amp; \neg &amp; \text{not} \\
+\hline
+\sum&amp; \text{the sum of} &amp; &amp; \vee &amp; \text{or}\\
+\hline
+\prod &amp; \text{the product of} &amp; &amp; \wedge &amp; \text{and} \\
+\hline
+\Rightarrow &amp; \text{implies} &amp;&amp; \Leftarrow &amp; \text{is implied by} \\
+\hline
+\text{iff}, \Leftrightarrow &amp; \text{if and only if} &amp;  &amp;  :=&amp; \text{is defined to be} \\
+\hline
+\therefore &amp; \text{therefore} &amp; &amp; \because &amp; \text{because}\\
+\hline
+\end{array}
+\]</span></p>
+<p>The symbol <span class="math inline">\(\Rightarrow\)</span> is used to join two statements when <strong>statement 1</strong> implies <strong>statement 2</strong>. So <strong>statement 1</strong> <span class="math inline">\(\Rightarrow\)</span> <strong>statement 2</strong> reads ‘<strong>statement 1</strong> implies <strong>statement 2</strong>’ or ‘if <strong>statement 1</strong>, then <strong>statement 2</strong>’. But notice that <span class="math inline">\(A\Rightarrow (B\Rightarrow C)\)</span> says something different from <span class="math inline">\((A\Rightarrow B)\Rightarrow C\)</span> (can you think of an example?).</p>
+<p>We usually write the word iff when writing mathematical text, instead of using the symbol <span class="math inline">\(\Leftrightarrow\)</span>.</p>
+<p>You need to be a little bit careful with some of these symbols. For example, <span class="math inline">\(=\)</span> means ‘equals’ and <span class="math inline">\(\Rightarrow\)</span> means ‘implies’.
+Consider the following example. In Solution 1, <span class="math inline">\(=\)</span> has been used to mean something like ‘which is equivalent to saying that.’ You certainly cant read out this out loud simply by saying ‘equals’ wherever you see <span class="math inline">\(=\)</span>. Solution 1 is just wrong. In Solution 2, <span class="math inline">\(\Rightarrow\)</span> has been used to mean something like ‘which in turn implies that.’ This is not great but lots of people do this. My advice is not to, but it is a personal choice. No one can really argue with Solution 3.</p>
+
+<div id="exm:implies" class="bookdown-example" custom-style="ExampleStyle">
+<span class="exm:implies" custom-style="NameStyle"><strong>Example 1.1:  </strong></span>
+<div>
+<p>Let <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span> and <span class="math inline">\(c\)</span> be real numbers. Suppose that <span class="math inline">\(b^2-4ac=0\)</span>. Show that <span class="math inline">\(ax^2+bx+c=0\)</span> has only one solution.</p>
+<p><strong>Solution 1:</strong></p>
+<p><span class="math display">\[ax^2+bx+c=0 \qquad=\qquad x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a} \qquad=\qquad x=\dfrac{-b}{2a}.\]</span></p>
+<p><strong>Solution 2:</strong></p>
+<p><span class="math display">\[ax^2+bx+c=0 \qquad\Longrightarrow\qquad x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a} \qquad\Longrightarrow\qquad x=\dfrac{-b}{2a}.\]</span></p>
+<p><strong>Solution 3:</strong><br />
+If <span class="math inline">\(ax^2+bx+c=0\)</span>, then <span class="math inline">\(x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a}\)</span>. Since <span class="math inline">\(b^2-4ac=0\)</span>, it follows that there is only one solution, <span class="math inline">\(x=\dfrac{-b}{2a}\)</span>.</p>
+</div>
+</div>
+</div>
+<div id="sets1" class="section level3" number="1.2.4">
+<h3><span class="header-section-number">1.2.4</span> Set Notation</h3>
+<p>We make the naive convention that a set is any collection of objects that are called the elements of the set. Typically the element of a set will be mathematical in nature, so we might have sets of numbers, sets of points in the plane, sets of functions, even sets of sets.</p>
+<ul>
+<li><p>If <span class="math inline">\(A\)</span> is a set and <span class="math inline">\(a\)</span> is an element of <span class="math inline">\(A\)</span> we write <span class="math inline">\(a\in A\)</span> and read this as ‘<span class="math inline">\(a\)</span> is an element of <span class="math inline">\(A\)</span>’ or ‘<span class="math inline">\(a\)</span> is in <span class="math inline">\(A\)</span>’</p></li>
+<li><p>We can specify a set by listing its elements, for example,
+<span class="math display">\[
+A=\{2,5,9,16\}\qquad\text{or}\qquad P=\{2,3,5,7,11,\dots\},
+\]</span>
+where there is enough information to infer that <span class="math inline">\(P\)</span> is meant to be the set of all prime numbers.</p></li>
+<li><p>We can also specify a set using set builder notation, for example,
+<span class="math display">\[
+P=\{x\in\mathbb N: x\text{ is prime}\},
+\]</span>
+which reads ‘<span class="math inline">\(P\)</span> is the set of all <span class="math inline">\(x\)</span> in <span class="math inline">\(\mathbb N\)</span> such that <span class="math inline">\(x\)</span> is prime.’</p></li>
+<li><p>The <strong>union</strong> of two sets <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> is the set
+<span class="math display">\[
+A\cup B:=\{x:x\in A\text{ or }x\in B\},
+\]</span>
+that is ‘<span class="math inline">\(A\)</span> union <span class="math inline">\(B\)</span> is defined to be the set of all <span class="math inline">\(x\)</span> such that <span class="math inline">\(x\)</span> is in <span class="math inline">\(A\)</span> or <span class="math inline">\(x\)</span> is in <span class="math inline">\(B\)</span>.’</p></li>
+<li><p>The <strong>intersection</strong> of two sets <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> is the set
+<span class="math display">\[
+A\cap B:=\{x:x\in A\text{ and }x\in B\},
+\]</span>
+that is ‘<span class="math inline">\(A\)</span> intersect <span class="math inline">\(B\)</span> is the set of all <span class="math inline">\(x\)</span> such that <span class="math inline">\(x\)</span> is in <span class="math inline">\(A\)</span> and <span class="math inline">\(x\)</span> is in <span class="math inline">\(B\)</span>.’</p></li>
+</ul>
+</div>
+<div id="intervals" class="section level3" number="1.2.5">
+<h3><span class="header-section-number">1.2.5</span> Intervals in the Real Line</h3>
+<p>Certain subsets, called <strong>intervals</strong>, of the real line, <span class="math inline">\(\mathbb R\)</span>, are important enough to have their own special notation.</p>
+<p>Let <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> be real numbers such that <span class="math inline">\(-\infty&lt;a&lt;b&lt;\infty\)</span>.
+<span class="math display">\[
+\begin{array}{|c|c|c|}
+\hline
+\text{Terminology} &amp; \text{Notation} &amp; \text{Definition}\\
+\hline
+\text{open interval} &amp; (a,b) &amp; (a,b):=\{x\in\mathbb R:a&lt;x&lt;b\}\\
+\hline
+\text{closed interval} &amp; [a,b] &amp; [a,b]:=\{x\in\mathbb R:a\le x\le b\}\\
+\hline
+\text{half-open intervals} &amp; (a,b] &amp; {(a,b]} := \{ x \in \mathbb R: a &lt; x \le b \},\\
+&amp; [a,b) &amp; {[a,b)} := \{ x \in \mathbb R: a &lt; x \le b \},\\
+\hline
+\text{open half-lines} &amp; (a,\infty) &amp; (a,\infty):= \{ x \in \mathbb R: x &gt; a \} \\
+&amp; (-\infty,a) &amp; (-\infty,a):= \{ x \in \mathbb R:x &lt; a \}\\
+\hline
+\text{closed half-lines} &amp; [a,\infty) &amp; [a,\infty):= \{ x \in \mathbb R: x \ge a \} \\
+&amp; (-\infty,a] &amp; (-\infty,a]:= \{ x \in \mathbb R:x \le a \}\\
+\hline
+\end{array}
+\]</span></p>
+<ul>
+<li><p>We read, for example, <span class="math inline">\((a,b)\)</span> as ‘the open interval <span class="math inline">\(a\)</span> to <span class="math inline">\(b\)</span>’ and <span class="math inline">\((-\infty,a]\)</span> as ‘the closed interval minus infinity to <span class="math inline">\(a\)</span>.’</p></li>
+<li><p>In this notation, the real line <span class="math inline">\(\mathbb R\)</span> could be written as the interval <span class="math inline">\((-\infty,\infty)\)</span></p></li>
+<li><p>The intervals <span class="math inline">\((a,b)\)</span>, <span class="math inline">\([a,b]\)</span>, <span class="math inline">\((a,b]\)</span> and <span class="math inline">\([a,b)\)</span> are said to be <strong>bounded intervals</strong>. The points <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> are called the <strong>endpoints</strong> of the interval.</p></li>
+<li><p>The intervals <span class="math inline">\((a,\infty)\)</span>, <span class="math inline">\((-\infty,a)\)</span>, <span class="math inline">\([a,\infty)\)</span>, <span class="math inline">\((-\infty,a]\)</span>, and <span class="math inline">\((-\infty,\infty)\)</span> are said to be <strong>unbounded intervals</strong>.</p></li>
+</ul>
+<p>The symbols <span class="math inline">\(\infty\)</span> and <span class="math inline">\(-\infty\)</span> read ‘infinity’ and ‘minus infinity’ respectively. These are not real numbers and we cannot treat them as if they are. However, they are useful notation. One can think of them as the endpoints of the real line <span class="math inline">\(\mathbb R\)</span> and we define the <strong>extended real line</strong> <span class="math inline">\(\overline{\mathbb R}:\mathbb R \cup \{-\infty, \infty\}\)</span>, extending the usual order on <span class="math inline">\(\mathbb R\)</span> by stipulating that <span class="math inline">\(-\infty&lt;x&lt;\infty\)</span> for all <span class="math inline">\(x\in \mathbb R\)</span>.</p>
+</div>
+</div>
+<div id="writingrules" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> Chris’s Golden Rules for Writing Maths</h2>
+<ol style="list-style-type: decimal">
+<li><p>Write in properly punctuated sentences, in English. What you have written has to make sense as a piece of English, even if the maths is not right.</p></li>
+<li><p>You should be able to read out exactly what you have written without adding any additional words.</p></li>
+<li><p>Make things as easy as possible for your reader (including future you). Maths is hard enough without making it harder still by not explaining things clearly.</p></li>
+<li><p>Connect your statements together so that they follow logically. You should have lots of words and phrases like ‘therefore,’ ‘hence,’ ‘because,’ and ‘it follows that’ in what you write.</p></li>
+<li><p>Don’t write in columns, don’t connect different parts of the page with squiggles and arrows.</p></li>
+<li><p>Try to write in the way that your best lecturers write. What would you like to see as an explanation?</p></li>
+<li><p>If your sentences are starting to get long and complicated, break them down in to simpler ones.</p></li>
+<li><p>If you have to say ‘You know what I mean’ then it is not a proper explanation! Don’t make your reader try to guess what you mean. Write it out clearly!</p></li>
+</ol>
+<p>For more on this see Kevin Houston’s book ‘How to think like a mathematician’ (www.kevinhouston.net) and the extract on writing maths that you can see here: <a href="https://www.kevinhouston.net/pdf/htwm.pdf" class="uri">https://www.kevinhouston.net/pdf/htwm.pdf</a></p>
+</div>
+</div>
+<div id="proof" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Proof</h1>
+<p>The power of mathematics lies in its ability to deduce logically guaranteed conclusions from stated assumptions through rigorous argument. Nowhere is this more apparent than in the idea of proof. The deductive argument of a proof allows us to be absolutely certain that the conclusions are true given the assumptions. We can be logically certain of the statement of a theorem. By contrast, no matter how powerful and effective, the empirical or inductive arguments of science only establish reasonable expectations. Mathematics has theorems; science has theories.</p>
+<p>Proof is not the only important idea in mathematics; physical and statistical modelling, optimization, data analysis, and computation are just as fundamental to the role mathematics plays. But rigorous logical argument is what allows you and others to be certain that your conclusions follow from your assumptions (assuming you didn’t make a mistake, of course).</p>
+<p>You will encounter many proofs in your degree and you will learn how to prove a number of powerful facts through a number of different proof techniques.</p>
+<div id="proofs" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Methods of Proof</h2>
+<div id="seelater" class="section level3" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> Mathematical Induction</h3>
+<p>See the section below. Note that despite its name, mathematical induction is a form of deductive reasoning and, as such it is not a form of inductive reasoning.</p>
+</div>
+<div id="directproof" class="section level3" number="2.1.2">
+<h3><span class="header-section-number">2.1.2</span> Direct Proof</h3>
+<p>Sometimes called ‘definition chasing,’ in a direct proof you start with your assumptions and directly deduce your conclusions. The following is a simple example.</p>
+
+<div id="thm:direct" class="bookdown-theorem" custom-style="TheoremStyle">
+<span class="thm:direct" custom-style="NameStyle"><strong>Theorem 2.1:  </strong></span>
+<p>
+If <span class="math inline">\(m\)</span> and <span class="math inline">\(n\)</span> are odd integrers, then <span class="math inline">\(mn\)</span> is also odd.
+</p>
+</div>
+
+<div  class="Proof" custom-style="ProofStyle">
+<span class="Proof" custom-style="NameStyle"><strong> Proof: </strong></span>
+<div>
+Since <span class="math inline">\(m\)</span> and <span class="math inline">\(n\)</span> are odd integers, there are integers <span class="math inline">\(j\)</span> and <span class="math inline">\(k\)</span> such that <span class="math inline">\(m=2j+1\)</span> and <span class="math inline">\(n=2k+1\)</span>. But then <span class="math inline">\(mn=(2j+1)(2k+1)=2(2jk+j+k)+1\)</span>. Since <span class="math inline">\((2jk+j+k)\)</span> is an integer, we see that <span class="math inline">\(mn\)</span> is odd.
+</div>
+<p>
+□
+</p>
+</div>
+</div>
+<div id="contrapositive" class="section level3" number="2.1.3">
+<h3><span class="header-section-number">2.1.3</span> Proof by Contraposition</h3>
+<p>The statement ‘if <span class="math inline">\(P\)</span>, then <span class="math inline">\(Q\)</span>’ is logically equivalent to the statement ‘if not <span class="math inline">\(Q\)</span>, then not <span class="math inline">\(P\)</span>.’ It is sometimes easier to prove the contrapositive.</p>
+
+<div id="thm:contrapositive" class="bookdown-theorem" custom-style="TheoremStyle">
+<span class="thm:contrapositive" custom-style="NameStyle"><strong>Theorem 2.2:  </strong></span>
+<p>
+Let <span class="math inline">\(n\)</span> be an integer. If <span class="math inline">\(n^2\)</span> is even, then <span class="math inline">\(n\)</span> is even.
+</p>
+</div>
+
+<div  class="Proof" custom-style="ProofStyle">
+<span class="Proof" custom-style="NameStyle"><strong> Proof: </strong></span>
+<div>
+Suppose that <span class="math inline">\(n\)</span> is not even. Then <span class="math inline">\(n\)</span> is odd. Letting <span class="math inline">\(n=m\)</span> in Theorem <a href="#thm:direct">2.1</a>, we see that <span class="math inline">\(nm=n^2\)</span> is odd. Hence if <span class="math inline">\(n\)</span> is not even, <span class="math inline">\(n^2\)</span> is not even. Thus if <span class="math inline">\(n^2\)</span> is even, <span class="math inline">\(n\)</span> is even.
+</div>
+<p>
+□
+</p>
+</div>
+</div>
+<div id="contradict" class="section level3" number="2.1.4">
+<h3><span class="header-section-number">2.1.4</span> Proof by Contradiction</h3>
+<p>Sometimes called ‘reductio ad absurdum,’ in a proof by contradiction we assume some statement to be true and then show that this implies a contradiction or absurdity, which implies that the statement must be false.</p>
+
+<div id="thm:root2" class="bookdown-theorem" custom-style="TheoremStyle">
+<span class="thm:root2" custom-style="NameStyle"><strong>Theorem 2.3:  </strong></span>
+<p>
+The square root of 2 is irrational.
+</p>
+</div>
+
+<div  class="Proof" custom-style="ProofStyle">
+<span class="Proof" custom-style="NameStyle"><strong> Proof: </strong></span>
+<div>
+Suppose that <span class="math inline">\(\sqrt2\)</span> is rational. Then there are integers <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> such that <span class="math inline">\(\sqrt2=p/q\)</span>. By cancelling common factors, we may assume that <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> have no common factors. Since <span class="math inline">\(q\sqrt2=p\)</span>, we see that <span class="math inline">\(p^2=2q^2\)</span> is even. By Theorem <a href="#thm:contrapositive">2.2</a>, it follows that <span class="math inline">\(p\)</span> is even and there is some integer <span class="math inline">\(r\)</span> such that <span class="math inline">\(p=2r\)</span>. But then <span class="math inline">\(2q^2=p^2=(2r)^2=4r^2\)</span>, so that <span class="math inline">\(q^2=2r^2\)</span> is even. However, if <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> are both even, then they have a common factor of 2. This contradicts the fact that they have no common factor. Hence, <span class="math inline">\(\sqrt2\)</span> is not rational.
+</div>
+<p>
+□
+</p>
+</div>
+</div>
+<div id="nonconstrictive" class="section level3" number="2.1.5">
+<h3><span class="header-section-number">2.1.5</span> Non-constructive Proof</h3>
+<p>In a non-constructive proof, we conclude that something must be true by showing that a particular thing must exist, without being able to give an explicit instance of that thing. The most famous (and controversial) example is Cantor’s proof that the real numbers are uncountably infinite. Here we present an example due to Dov Jarden from the 1950s.</p>
+
+<div id="thm:root2toroot2" class="bookdown-theorem" custom-style="TheoremStyle">
+<span class="thm:root2toroot2" custom-style="NameStyle"><strong>Theorem 2.4:  </strong></span>
+<p>
+An irrational number to an irrational power can be rational.
+</p>
+</div>
+
+<div  class="Proof" custom-style="ProofStyle">
+<span class="Proof" custom-style="NameStyle"><strong> Proof: </strong></span>
+<div>
+By Theorem <a href="#thm:root2">2.3</a>, <span class="math inline">\(\sqrt2\)</span> is irrational. If <span class="math inline">\(\sqrt2^{\sqrt2}\)</span> is rational then we are done. If <span class="math inline">\(\sqrt2^{\sqrt2}\)</span> is irrational, then <span class="math inline">\((\sqrt2^{\sqrt2})^{\sqrt2}=\sqrt2^{\sqrt2.\sqrt2}=\sqrt2^2=2\)</span> is rational.
+</div>
+<p>
+□
+</p>
+</div>
+<p>Notice that in this proof we do not know whether the example of an irrational power of an irrational being rational is <span class="math inline">\(\sqrt2^{\sqrt2}\)</span> or <span class="math inline">\((\sqrt2^{\sqrt2})^{\sqrt2}\)</span>.</p>
+</div>
+<div id="constructive" class="section level3" number="2.1.6">
+<h3><span class="header-section-number">2.1.6</span> Constructive Proof</h3>
+<p>In a constrictive proof, we explicitly come up with instance showing that something is true. For example, <span class="math inline">\(e\)</span> and <span class="math inline">\(\log2\)</span> are both irrational (indeed transcendental) and by definition <span class="math inline">\(e^{\log2}=2\)</span>, which proves Theorem <a href="#thm:root2toroot2">2.4</a>. However, proving that <span class="math inline">\(e\)</span> is irrational is non=trivial. Here is an alternative constructive proof. First we need a lemma.</p>
+
+<div id="lem:log9" class="bookdown-lemma" custom-style="TheoremStyle">
+<span class="lem:log9" custom-style="NameStyle"><strong>Lemma 2.5:  </strong></span>
+<p>
+The number <span class="math inline">\(\log_29\)</span> is irrational.
+</p>
+</div>
+
+<div  class="Proof" custom-style="ProofStyle">
+<span class="Proof" custom-style="NameStyle"><strong> Proof: </strong></span>
+<div>
+Suppose that <span class="math inline">\(\log_29\)</span> is rational, so that there are non-zero integers <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> such that <span class="math inline">\(\log_29=p/q\)</span>. By the definition of <span class="math inline">\(\log_2\)</span>,
+<span class="math inline">\(2^{p/q}=2^{\log_29}=9\)</span>. This implies that <span class="math inline">\(2^p=9^q\)</span>. However, a similar proof to that of Theorem <a href="#thm:direct">2.1</a> shows that <span class="math inline">\(9^q\)</span> is odd, where as <span class="math inline">\(2^p\)</span> is even. This contradiction implies that <span class="math inline">\(\log_29\)</span> must be irrational
+</div>
+<p>
+□
+</p>
+</div>
+<p>We now have a constructive proof of Theorem <a href="#thm:root2toroot2">2.4</a>:</p>
+
+<div  class="Proof" custom-style="ProofStyle">
+<span class="Proof" custom-style="NameStyle"><strong> Proof: </strong></span>
+<div>
+<p>From the above, <span class="math inline">\(\sqrt2\)</span> and <span class="math inline">\(\log_29\)</span> are both irrational, but
+<span class="math display">\[
+  \sqrt2^{\log_29}=\sqrt2^{\log_2(3^2)}=\sqrt2^{2\log_23}2^{\log_23}=3
+  \]</span></p>
+</div>
+<p>
+□
+</p>
+</div>
+</div>
+<div id="proofcases" class="section level3" number="2.1.7">
+<h3><span class="header-section-number">2.1.7</span> Proof by Cases</h3>
+<p>Also called proof by exhaustion. Sometimes you just have to work through every case.</p>
+
+<div id="thm:exhaust" class="bookdown-theorem" custom-style="TheoremStyle">
+<span class="thm:exhaust" custom-style="NameStyle"><strong>Theorem 2.6:  </strong></span>
+<p>
+If <span class="math inline">\(n\)</span> is an integer, then the last digit of <span class="math inline">\(n^2\)</span> is not 2, 3, 7 or 8.
+</p>
+</div>
+
+<div  class="Proof" custom-style="ProofStyle">
+<span class="Proof" custom-style="NameStyle"><strong> Proof: </strong></span>
+<div>
+<p>Let <span class="math inline">\(n\)</span> be an integer. Then the last digit of <span class="math inline">\(n^2\)</span> is determined by the last digit of <span class="math inline">\(n\)</span>.</p>
+<ul>
+<li><p>If the last digit of <span class="math inline">\(n\)</span> is 0, then the last digit of <span class="math inline">\(n^2\)</span> is 0.</p></li>
+<li><p>If the last digit of <span class="math inline">\(n\)</span> is 1, then the last digit of <span class="math inline">\(n^2\)</span> is 1.</p></li>
+<li><p>If the last digit of <span class="math inline">\(n\)</span> is 2, then the last digit of <span class="math inline">\(n^2\)</span> is 4.</p></li>
+<li><p>If the last digit of <span class="math inline">\(n\)</span> is 3, then the last digit of <span class="math inline">\(n^2\)</span> is 9.</p></li>
+<li><p>If the last digit of <span class="math inline">\(n\)</span> is 4, then the last digit of <span class="math inline">\(n^2\)</span> is 6.</p></li>
+<li><p>If the last digit of <span class="math inline">\(n\)</span> is 5, then the last digit of <span class="math inline">\(n^2\)</span> is 5.</p></li>
+<li><p>If the last digit of <span class="math inline">\(n\)</span> is 6, then the last digit of <span class="math inline">\(n^2\)</span> is 6.</p></li>
+<li><p>If the last digit of <span class="math inline">\(n\)</span> is 7, then the last digit of <span class="math inline">\(n^2\)</span> is 9.</p></li>
+<li><p>If the last digit of <span class="math inline">\(n\)</span> is 8, then the last digit of <span class="math inline">\(n^2\)</span> is 4.</p></li>
+<li><p>If the last digit of <span class="math inline">\(n\)</span> is 9, then the last digit of <span class="math inline">\(n^2\)</span> is 1.</p></li>
+</ul>
+The result follows.
+</div>
+<p>
+□
+</p>
+</div>
+</div>
+</div>
+<div id="induction" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> The Principle of Mathematical Induction</h2>
+<p>Suppose that we want to know whether something is true for every natural number <span class="math inline">\(n\in\mathbb N\)</span>. For example we might want to know whether or not the following are true.</p>
+<ol style="list-style-type: decimal">
+<li><p>For every <span class="math inline">\(n\in\mathbb N\)</span>, <span class="math inline">\(n\)</span> is prime.</p></li>
+<li><p>Every natural number has a unique prime factorization.</p></li>
+<li><p>For every <span class="math inline">\(n\ge1\)</span>, <span class="math inline">\(\sum_{i=1}^n i=1+2+\dots+n={\dfrac12}n(n+1)\)</span>.</p></li>
+<li><p>For any <span class="math inline">\(n\in \mathbb N\)</span>, <span class="math inline">\(n\)</span> straight lines divide the plane in to at most <span class="math inline">\(\dfrac{n^2+n+2}{2}\)</span> distinct regions.</p></li>
+<li><p>In any group of <span class="math inline">\(n\)</span> or more people, the probability of at least two people sharing the same birthday is greater than <span class="math inline">\(1/2\)</span>.</p></li>
+</ol>
+<p>All of these claims can be expressed in the form</p>
+<ul>
+<li>‘For every <span class="math inline">\(n\in \mathbb N\)</span>, <span class="math inline">\(P(n)\)</span>, where <span class="math inline">\(P(n)\)</span> is the statement …’</li>
+</ul>
+<p>In the case of 1) to 5), the corresponding statements <span class="math inline">\(P(n)\)</span> are:</p>
+<ol style="list-style-type: decimal">
+<li><p><span class="math inline">\(P(n)\)</span> is the statement ‘<span class="math inline">\(n\)</span> is prime’.</p></li>
+<li><p><span class="math inline">\(P(n)\)</span> is the statement ‘<span class="math inline">\(n\)</span> has a unique prime factorization.’</p></li>
+<li><p><span class="math inline">\(P(n)\)</span> is the statement ‘<span class="math inline">\(\sum_{i=1}^n i=1+2+\dots+n={\dfrac12}n(n+1)\)</span>.’</p></li>
+<li><p><span class="math inline">\(P(n)\)</span> is the statement ‘<span class="math inline">\(n\)</span> straight lines divide the plane in to at most <span class="math inline">\(\dfrac{n^2+n+2}{2}\)</span> distinct regions.’</p></li>
+<li><p><span class="math inline">\(P(n)\)</span> is the statement ‘in a group of <span class="math inline">\(n\)</span> people, the probability that at least two of them have the same birthday is greater than <span class="math inline">\(1/2\)</span>.’</p></li>
+</ol>
+<p>For any fixed <span class="math inline">\(n\)</span>, the statement <span class="math inline">\(P(n)\)</span> might be true or might be false, for example some natural numbers are prime and some are not. However, we are interested in whether <strong><span class="math inline">\(P(n)\)</span> is true for every <span class="math inline">\(n\in \mathbb N\)</span></strong>. Of the above, 1) is not true for all <span class="math inline">\(n\)</span>, 2), 3) and 4) are true for every <span class="math inline">\(n\)</span> and 5) is true for every <span class="math inline">\(n\ge23\)</span>.</p>
+<p>How do we prove that something holds for every natural number? One approach is to use a domino effect: if we can deduce the second case from the first case, the third case from the second case, the fourth case from the third case and so on, then as long as the first case is true, we will eventually see that every case is true. This is the idea behind mathematical induction.</p>
+<p>Let us start with an example (we will recast this proof in a bit using mathematical induction):</p>
+
+<div id="thm:sum1ton" class="bookdown-theorem" custom-style="TheoremStyle">
+<span class="thm:sum1ton" custom-style="NameStyle"><strong>Theorem 2.7:  </strong></span>
+<p>
+If <span class="math inline">\(n&gt;0\)</span> is a natural number, then <span class="math inline">\(\sum_{i=1}^n i=1+2+\dots+n={\dfrac12}n(n+1)\)</span>
+</p>
+</div>
+
+<div  class="Proof" custom-style="ProofStyle">
+<span class="Proof" custom-style="NameStyle"><strong> Proof: </strong></span>
+<div>
+<p>It is certainly true that <span class="math inline">\(\sum_{i=1}^1i=1\)</span>.</p>
+<p>Now suppose that <span class="math display">\[\sum_{i=1}^k i=1+2+\dots+k={\dfrac12}k(k+1).\]</span> Notice that
+<span class="math display">\[
+  \sum_{i=1}^{k+1} i =(1+2+\dots+k)+(k+1).
+  \]</span> But we are supposing that <span class="math inline">\(1+\dots+k={\dfrac12}k(k+1)\)</span>, so that
+<span class="math display">\[
+  \sum_{i=1}^{k+1}i=(1+2+\dots+k)+(k+1)={\dfrac12}k(k+1) + (k+1)=\dfrac12(k^2+3k+2)=\dfrac12(k+1)\left[(k+1)+1\right].
+  \]</span></p>
+<p>We have shown that <span class="math inline">\(\sum_{i=1}^n i={\dfrac12}n(n+1)\)</span> is true when <span class="math inline">\(n=1\)</span> and <strong>if it is true for <span class="math inline">\(n=k\)</span>,</strong> then it is also true for <span class="math inline">\(n=k+1\)</span>.</p>
+<p>Since it is true for <span class="math inline">\(n=1\)</span>, it is also true for <span class="math inline">\(n=1+1=2\)</span>, and therefore for <span class="math inline">\(n=2+1=3\)</span>, and for <span class="math inline">\(n=3+1=4\)</span>, and so on. Hence it <span class="math inline">\(1+\dots+n=\dfrac12 n(n+1)\)</span> for all <span class="math inline">\(n\)</span>.</p>
+</div>
+<p>
+□
+</p>
+</div>
+<p>We can use the Principle of Mathematical Induction to formalise this and other arguments</p>
+
+<div  class="Induction" custom-style="DefinitionStyle">
+<span class="Induction" custom-style="NameStyle"><strong> Induction: (The Principle of Mathematical Induction) </strong></span>
+<p>
+<p>Let <span class="math inline">\(n\)</span> be a natural number and let <span class="math inline">\(P(n)\)</span> be a statement that depends on <span class="math inline">\(n\)</span>.</p>
+<p>Suppose that</p>
+<p><strong>Base Step:</strong> <span class="math inline">\(P(1)\)</span> is true, and</p>
+<p><strong>Inductive Step:</strong> if <span class="math inline">\(P(k)\)</span> is true, then <span class="math inline">\(P(k+1)\)</span> is also true.</p>
+Then <span class="math inline">\(P(n)\)</span> is true for all <span class="math inline">\(n\ge1\)</span>.
+</p>
+</div>
+<p>Let’s re-do the previous theorem using the Principle of Mathematical Induction (induction, for short).</p>
+
+<div class="bookdown-proof" custom-style="ProofStyle">
+<span class="proof" custom-style="NameStyleItalics">Proof (Proof of Theorem <a href="#thm:sum1ton">2.7</a>). </span>
+<p>
+<p>Let <span class="math inline">\(P(n)\)</span> be the statement
+<span class="math display">\[
+  \sum_{i=1}^n i=\dfrac12 n(n+1).
+\]</span></p>
+<p><strong>Base step:</strong> Let <span class="math inline">\(n=1\)</span>. Notice that
+<span class="math display">\[
+  \dfrac12 1(1+1)=\dfrac 12.2=1=\sum_{i=1}^1i,
+\]</span>
+so that <span class="math inline">\(P(1)\)</span> is true.</p>
+<p><strong>Inductive Step:</strong> Let <span class="math inline">\(k\)</span> be a natural number and assume that <span class="math inline">\(P(k)\)</span> is true, so that
+<span class="math display">\[
+  \sum_{i=1}^k i=\dfrac12 k(k+1).
+\]</span> (We often call this the inductive hypothesis.)
+We want to show that <span class="math inline">\(P(k+1)\)</span> is true. Notice that by the inductive hypothesis,
+<span class="math display">\[
+  \sum_{i=1}^{k+1} i =\big[1+2+\dots+k\big]+(k+1)={\dfrac12}k(k+1)+(k+1)=\dfrac12(k^2+3k+2)=\dfrac12(k+1)\left[(k+1)+1\right],
+  \]</span>
+so that <span class="math inline">\(P(k+1)\)</span> is indeed true.</p>
+Hence by the Principle of Mathematical Induction, <span class="math inline">\(P(n)\)</span> is true for all <span class="math inline">\(n\in \mathbb N\)</span>.
+</p>
+<p>
+□
+</p>
+</div>
+It is useful to stick to a standard format for your induction arguments. This allows you to concentrate on the difficult bit, letting the induction take care of itself. We will see this in some more examples.
+
+<div id="thm:sum4nminus1" class="bookdown-theorem" custom-style="TheoremStyle">
+<span class="thm:sum4nminus1" custom-style="NameStyle"><strong>Theorem 2.8:  </strong></span>
+<p>
+For any natural number <span class="math inline">\(n&gt;0\)</span>, <span class="math inline">\(\sum_{i=1}^n (4i-1)=3+7+11+\dots+(4n-1)=n(2n+1)\)</span>.
+</p>
+</div>
+
+<div  class="Proof" custom-style="ProofStyle">
+<span class="Proof" custom-style="NameStyle"><strong> Proof: </strong></span>
+<div>
+<p>Let <span class="math inline">\(P(n)\)</span> be the statement
+<span class="math inline">\(\sum_{i=1}^n (4i-1)=3+7+11+\dots+4n-1=n(2n+1)\)</span>.</p>
+<p><strong>Base Step:</strong> If <span class="math inline">\(n=1\)</span>, then
+<span class="math display">\[
+  \sum_{i=1}^n (4i-1)=\sum_{i=1}^1 (4i-1)=4.1-1=3=1(2.1+1)=n(2n+1),
+\]</span>
+which shows that <span class="math inline">\(P(1)\)</span> is true.</p>
+<p><strong>Inductive Step:</strong> Suppose that <span class="math inline">\(P(k)\)</span> is true. We want to show that this implies that <span class="math inline">\(P(k+1)\)</span> is true. But
+<span class="math display">\[
+\begin{aligned}
+  \sum_{i=1}^{k+1} (4i-1)&amp;=\Big(\sum_{i=1}^k(4i-1)\Big)+(4(k+1)-1)\\
+&amp;=\big[k(2k+1)\big]+(4(k+1)-1)\qquad\qquad\text{by the inductive hypothesis}\\
+&amp;=2k^2+5k+3=(k+1)(2(k+1)+1),
+\end{aligned}
+\]</span>
+so that <span class="math inline">\(P(k+1)\)</span> is true.</p>
+Hence, by induction, <span class="math inline">\(P(n)\)</span> is true for all <span class="math inline">\(n\in\mathbb N\)</span>.
+</div>
+<p>
+□
+</p>
+</div>
+<p>The induction does not have to start at <span class="math inline">\(n=1\)</span>.</p>
+
+<div id="thm:basestep3" class="bookdown-theorem" custom-style="TheoremStyle">
+<span class="thm:basestep3" custom-style="NameStyle"><strong>Theorem 2.9:  </strong></span>
+<p>
+For all <span class="math inline">\(n\ge4\)</span>, <span class="math inline">\(n!&gt;2^n\)</span>.
+</p>
+</div>
+
+<div  class="Proof" custom-style="ProofStyle">
+<span class="Proof" custom-style="NameStyle"><strong> Proof: </strong></span>
+<div>
+<p>Let <span class="math inline">\(P(n)\)</span> be the statement <span class="math inline">\(n!&gt;2^n\)</span>.</p>
+<p>Notice that <span class="math inline">\(1!=1&lt;2=2^1\)</span>, <span class="math inline">\(2!=2&lt;4=2^2\)</span>, <span class="math inline">\(3!=6&lt;8=2^3\)</span>, so <span class="math inline">\(n\)</span> must be at least 4 for this to hold.</p>
+<p><strong>Base Step:</strong> If <span class="math inline">\(n=4\)</span>, then <span class="math inline">\(n!=4!=24&gt;16=2^4\)</span>, so <span class="math inline">\(P(4)\)</span> is true.</p>
+<p><strong>Inductive Step:</strong> Suppose that <span class="math inline">\(P(k)\)</span> is true, so that <span class="math inline">\(k!&gt;2^k\)</span>. Then <span class="math inline">\((k+1)!=k!(k+1)&gt;2^k(k+1)\)</span>, by hypothesis, but <span class="math inline">\(k+1&gt;2\)</span>, so that <span class="math inline">\((k+1)!=k!(k+1)&gt;2^k(k+1)&gt;2^{k+1}\)</span>, and we see that <span class="math inline">\(P(k+1)\)</span> is true.</p>
+<p>Hence, by induction, <span class="math inline">\(P(n)\)</span> is true for all <span class="math inline">\(n\in\mathbb N\)</span>.</p>
+</div>
+<p>
+□
+</p>
+</div>
+<p>Usually the base step is the easier step, but this is not always true. Recall statement 5) above that <span class="math inline">\(P(n)\)</span> is the statement ‘in a group of <span class="math inline">\(n\)</span> people, the probability that at least two of them have the same birthday is greater than <span class="math inline">\(1/2\)</span>.’ This induction starts at <span class="math inline">\(n=23\)</span>, which is a little tricky to prove (you might come across this in a probability module). The inductive step is trivial though: if there are more people in the group it is even more likely that two will share a birthday.</p>
+<p>A slightly more complicated looking version, Complete Induction, is actually equivalent to induction but is sometimes useful.</p>
+
+<div  class="Induction" custom-style="DefinitionStyle">
+<span class="Induction" custom-style="NameStyle"><strong> Induction: (Complete Induction) </strong></span>
+<p>
+<p>Let <span class="math inline">\(n\)</span> be a natural number and let <span class="math inline">\(P(n)\)</span> be a statement that depends on <span class="math inline">\(n\)</span>.</p>
+<p>Suppose that</p>
+<p><strong>Base Step:</strong> <span class="math inline">\(P(1)\)</span> is true, and</p>
+<p><strong>Inductive Step:</strong> if <span class="math inline">\(P(1)\)</span>, <span class="math inline">\(P(2)\)</span>, , <span class="math inline">\(P(k)\)</span> are all true, then <span class="math inline">\(P(k+1)\)</span> is also true.</p>
+Then <span class="math inline">\(P(n)\)</span> is true for all <span class="math inline">\(n\ge1\)</span>.
+</p>
+</div>
+<p>The Fibonacci sequence is the sequence
+<span class="math display">\[
+f_0=0, \quad f_1=1, \quad f_2=f_0+f_1=1, \quad f_3=f_1+f_2=2, \quad f_4=f_2+f_3=3, \quad \dots,\quad f_{k+1}=f_{k-1}+f_k, \quad\dots.
+\]</span></p>
+
+<div id="thm:fibon" class="bookdown-theorem" custom-style="TheoremStyle">
+<span class="thm:fibon" custom-style="NameStyle"><strong>Theorem 2.10:  </strong></span>
+<p>
+Let <span class="math inline">\(f_n\)</span> be the <span class="math inline">\(n^{th}\)</span> Fibonacci number. Then
+<span class="math display">\[
+  f_n = \frac{A^n-B^n}{A-B},
+\]</span>
+where <span class="math inline">\(A = \frac{1+\sqrt{5}}{2}\)</span> and <span class="math inline">\(B = \frac{1-\sqrt{5}}{2}\)</span>.
+</p>
+</div>
+<p>Notice that we could have written <span class="math display">\[f_n=\dfrac{(1+\sqrt5)^n-(1-\sqrt5)^n}{2^n\sqrt5}\]</span> and not used <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>, but writing it in this way is neater and draws out the symmetry, which makes the proof a little easier.</p>
+
+<div  class="Proof" custom-style="ProofStyle">
+<span class="Proof" custom-style="NameStyle"><strong> Proof: </strong></span>
+<div>
+<p>Let <span class="math inline">\(P(n)\)</span> be the statement
+<span class="math display">\[
+  f_n = \frac{A^n-B^n}{A-B},
+\]</span>
+where <span class="math inline">\(A = \frac{1+\sqrt{5}}{2}\)</span> and <span class="math inline">\(B = \frac{1-\sqrt{5}}{2}\)</span>.</p>
+<p><strong>Base Step:</strong> If <span class="math inline">\(n=0\)</span>, then
+<span class="math display">\[
+\frac{A^n-B^n}{A-B}=\frac{A^0-B^0}{A-B} = \frac{1-1}{A-B} = 0=f_0,
+\]</span>
+so that <span class="math inline">\(P(0)\)</span> holds.</p>
+<p>If <span class="math inline">\(n=1\)</span>, then
+<span class="math display">\[
+\frac{A^n-B^n}{A-B}=\frac{A^1-B^1}{A-B} = \frac{A-B}{A-B} = 1=f_1,
+\]</span> so <span class="math inline">\(P(1)\)</span> is also true.</p>
+<p><strong>Inductive Step:</strong> Assume that <span class="math inline">\(P(0),\dots,P(k)\)</span> are true. We want to prove that <span class="math inline">\(P(k+1)\)</span> is true.
+<span class="math display">\[
+\begin{aligned}
+f_{k+1}
+&amp;= f_k + f_{k-1} &amp;{\small\text{(by definition)}}\\
+&amp;= \frac{A^k-B^k}{A-B} + \frac{A^{k-1}-B^{k-1}}{A-B}  &amp;{\small\text{(by the induction hypothesis)}}\\
+&amp;= \frac{A^{k-1}(A+1)-B^{k-1}(B+1)}{A-B}
+\end{aligned}
+\]</span>
+(note that we used both <span class="math inline">\(P(k)\)</span> and <span class="math inline">\(P(k-1)\)</span> in applying the induction hypothesis). On the other hand,
+<span class="math display">\[
+\frac{A^{k+1}-B^{k+1}}{A-B} = \frac{A^{k-1} \cdot A^2 -B^{k-1} \cdot B^2}{A-B}.
+\]</span>
+By comparing the two formulas, we see that they are equal if and only if
+<span class="math display">\[
+A^2 = A+1 \qquad\text{and}\qquad B^2 = B+1.
+\]</span>
+However, this is easily checked by recalling that <span class="math inline">\(A = \frac{1+\sqrt{5}}{2}\)</span> and <span class="math inline">\(B = \frac{1-\sqrt{5}}{2}\)</span>. Indeed
+<span class="math display">\[
+A^2 = \left(\frac{1+\sqrt{5}}{2}\right)^2 = \frac{1+5+2\sqrt{5}}{4} = \frac{1+\sqrt{5}}{2}+1 = A+1
+\]</span>
+and
+<span class="math display">\[
+B^2 = \left(\frac{1-\sqrt{5}}{2}\right)^2 = \frac{1+5-2\sqrt{5}}{4} = \frac{1-\sqrt{5}}{2}+1 = B+1,
+\]</span>
+as required.</p>
+<p>Hence, by complete induction, <span class="math inline">\(P(n)\)</span> holds for all <span class="math inline">\(n\ge0\)</span></p>
+</div>
+<p>
+□
+</p>
+</div>
+</div>
+</div>
+<div id="inequalities" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Inequalities and the Modulus</h1>
+<div id="the-modulus" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> The Modulus</h2>
+
+<div id="def:modulus" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:modulus" custom-style="NameStyle"><strong>Definition 3.1:  </strong></span>
+<div>
+<p>The <strong>modulus</strong> or <strong>absolute value</strong> of <span class="math inline">\(x\in \mathbb R\)</span> is defined by
+<span class="math display">\[\begin{equation}\label{eq:modulus}
+|x| := \begin{cases}
+x &amp;\text{if } x \geq 0,\\
+-x &amp;\text{if } x &lt; 0.
+\end{cases}
+\end{equation}\]</span></p>
+</div>
+</div>
+<p>We read <span class="math inline">\(|x|\)</span> as the ‘modulus’ or ‘absolute value of <span class="math inline">\(x\)</span>’ or sometimes simply as ‘mod <span class="math inline">\(x\)</span>’. It is often very useful to think of <span class="math inline">\(|x-y|\)</span> as the distance from <span class="math inline">\(x\)</span> to <span class="math inline">\(y\)</span>, so that <span class="math inline">\(|x|\)</span> is the distance of <span class="math inline">\(x\)</span> from the origin. This notation is so useful that we often use it in other, similar, contexts, for example to indicate the size of a set, the length of a vector or the distance between two point in 2 or 3 (or higher) dimensional Euclidean space.</p>
+<p>The following theorem captures some basic, yet important, properties of the modulus</p>
+
+<div class="bookdown-theorem" custom-style="TheoremStyle" id="thm:modproperties">
+<span class="thm:modproperties" custom-style="NameStyle"><strong>Theorem 3.1:  </strong></span>
+<p>
+<p>Let <span class="math inline">\(x,y\in\mathbb R\)</span>.</p>
+<ol style="list-style-type: decimal">
+<li><p><span class="math inline">\(0\le |-x|=|x|\)</span>.</p></li>
+<li><p><span class="math inline">\(-|x|\le x\le |x|\)</span>.</p></li>
+<li><p><span class="math inline">\(|x|\le y\)</span> iff <span class="math inline">\(-y\le|x|\le y\)</span>.</p></li>
+<li><p><span class="math inline">\(|xy|=|x||y|\)</span>.</p></li>
+<li><p><strong>(The Triangle Inequality)</strong> <span class="math display">\[|x+y|\le|x|+|y|.\]</span></p></li>
+<li><p><strong>(The Reverse Triangle Inequality)</strong>
+<span class="math display">\[\bigg||x|-|y|\bigg|\le |x - y|.\]</span></p>
+</p>
+</div></li>
+</ol>
+<p>The triangle inequality says ‘mod <span class="math inline">\(x\)</span> plus <span class="math inline">\(y\)</span> is less than or equal to mod <span class="math inline">\(x\)</span> plus mod <span class="math inline">\(y\)</span>’.</p>
+<p>Because <span class="math inline">\(|.|\)</span> (we read this as ‘mod of something’, the <span class="math inline">\(.\)</span> stands for a blank we can fill in later) is defined in terms of cases, using case by case analysis is often useful in analysing or proving things about the modulus.</p>
+
+<div  class="Proof" custom-style="ProofStyle">
+<span class="Proof" custom-style="NameStyle"><strong> Proof: </strong></span>
+<div>
+<p>The statements are all proved by considering cases.</p>
+<p>For example, to prove <span class="math inline">\(|xy|=|x|y|\)</span> there are four cases to consider, depending on the sign of <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>. To keep things tidy we might also deal with the case that <span class="math inline">\(x\)</span> or <span class="math inline">\(y\)</span> is 0 separately. For example, suppose that <span class="math inline">\(x&lt;0\)</span> and <span class="math inline">\(y\ge0\)</span>. If <span class="math inline">\(y=0\)</span>, then <span class="math inline">\(|xy|=|0|=0=|x||y|\)</span>. So we can assume that <span class="math inline">\(y&gt;0\)</span>. Note that <span class="math inline">\(xy&lt;0\)</span>. By definition, <span class="math inline">\(|x|=-x\)</span>, <span class="math inline">\(|xy|=-xy\)</span> and <span class="math inline">\(|y|=y\)</span>. Hence <span class="math inline">\(|xy|=-xy=(-x)y=|x||y|\)</span> as required.</p>
+<p>Statements 1), 2), 3) and 4) all follow in a similar way.</p>
+<p>To prove the triangle inequality suppose first that <span class="math inline">\(x+y\ge0\)</span>. Then
+<span class="math display">\[
+|x+y|=x+y\le |x|+|y|,
+\]</span>
+since we know that <span class="math inline">\(x\le|x|\)</span> and <span class="math inline">\(y\le|y|\)</span> by 2). On the other hand if <span class="math inline">\(x+y&lt;0\)</span>, then
+<span class="math display">\[
+|x+y|=-(x+y)=(-x)+(-y)\le |-x|+|-y|\le|x|+|y|,
+\]</span> again because <span class="math inline">\(-x\le|-x|=|x|\)</span> and <span class="math inline">\(-y\le|-y|=|y|\)</span> by 1) and 2).</p>
+<p>We can prove the reverse triangle inequality in the same way but a slicker method is the following.
+By the triangle inequality,
+<span class="math display">\[
+|x|+|y-x|\ge|x+y-x|=|y| \qquad\text{and}\qquad |y|+|x-y|\ge|y+x-y|=|x|,
+\]</span>
+so that
+<span class="math display">\[
+|y-x|\ge|y|-|x|\qquad\text{and}\qquad |x-y|\ge|x|-|y|
+\]</span>
+Since <span class="math inline">\(|x-y|=|y-x|\)</span>, this implies that
+<span class="math display">\[
+  |x-y|\ge \pm\big(|x|-|y|\big),
+\]</span> from which the result is immediate.</p>
+</div>
+<p>
+□
+</p>
+</div>
+<p>Note that a very natural way to start to try to prove the triangle inequality would be to consider whether the sign of <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> separately rather than the sign of <span class="math inline">\(x+y\)</span>. This works but end up being very tedious.</p>
+<p>The triangle inequality is fundamental to analysis and it is often useful to think about it in the forms
+<span class="math display">\[
+\begin{aligned}
+|x-y|&amp;\le|x|+|y|\text{ and}\\
+|x-y|&amp;\le|x-z|+|y-z|.
+\end{aligned}
+\]</span>
+The first of these follows by writing <span class="math inline">\(x+y=x-(-y)\)</span>. The second uses a common trick in analysis: introduce the term you want by adding it, taking it away again, and seeing what happens.
+<span class="math display">\[
+|x-y|=|x-z+z-y|=|(x-z)-(y-z)|\le |x-z|+|y-z|.
+\]</span></p>
+<p>If we now think about <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span> and <span class="math inline">\(z\)</span> as the vertices of a triangle and <span class="math inline">\(|a-b|\)</span> as the distance from <span class="math inline">\(a\)</span> to <span class="math inline">\(b\)</span>, it is clear why it is called the triangle inequality: it is shorter to go from <span class="math inline">\(x\)</span> to <span class="math inline">\(y\)</span> then it is to go from <span class="math inline">\(x\)</span> to <span class="math inline">\(z\)</span> and then from <span class="math inline">\(z\)</span> to <span class="math inline">\(y\)</span>.</p>
+</div>
+<div id="solveineq" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> Solving Inequalities</h2>
+<p>Typically the best systematic way to solve inequalities is through case by case, sign analysis.</p>
+
+<div id="exm:ineq1" class="bookdown-example" custom-style="ExampleStyle">
+<span class="exm:ineq1" custom-style="NameStyle"><strong>Example 3.1:  </strong></span>
+<div>
+<p>Determine the values of <span class="math inline">\(x\)</span> for which <span class="math display">\[x^3 \geq 2x-1.\]</span></p>
+<p><strong>Solution:</strong> Rearranging, this is equivalent to
+<span class="math display">\[
+  x^3 -2x+1 \geq 0.
+\]</span> Spotting that 1 is a root, we can factorise
+<span class="math display">\[
+  0\le x^3-2x+1=(x-1)(x^2+x-1)=(x-1)(x-a)(x-b),
+\]</span>
+where <span class="math inline">\(a=-(1+\sqrt{5})/2\)</span> and <span class="math inline">\(b = (\sqrt{5}-1)/2\)</span> and <span class="math inline">\(a&lt;b&lt;1\)</span>. (We don’t need to call these roots <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span>, but it makes writing things down a little easier.) The sign of <span class="math inline">\(x^3 -2x+1\)</span> therefore depends on the signs of <span class="math inline">\((x-1)\)</span>, <span class="math inline">\((x-a)\)</span> and <span class="math inline">\((x-b)\)</span>. We can put this into a sign analysis table.
+<span class="math display">\[
+\begin{array}{c|c|c|c|c|c|c|c}
+          &amp; x&lt;a &amp; x=a &amp; a&lt;x&lt;b &amp; x=b &amp; b&lt;x&lt;1 &amp; x=1 &amp; 1&lt;x \\\hline
+x-a       &amp;  -  &amp;  0  &amp;   +   &amp;  +  &amp;   +   &amp;  +  &amp;  +  \\
+x-b       &amp;  -  &amp;  -  &amp;   -   &amp;  0  &amp;   +   &amp;  +  &amp;  +  \\
+x-1       &amp;  -  &amp;  -  &amp;   -   &amp;  -  &amp;   -   &amp;  0  &amp;  +  \\
+x^3 -2x+1 &amp; -   &amp;  0  &amp;   +   &amp;  0  &amp;   -   &amp;  0  &amp;  +
+\end{array}
+\]</span>
+From the table, it is clear that <span class="math inline">\(x^3-2x+1 \ge 0\)</span> if and only if <span class="math inline">\(a \le x \le b\)</span> or <span class="math inline">\(x \ge 1\)</span>. In other words, the solution set <span class="math inline">\(\{ x \in \mathbb R : x^3 \ge 2x-1 \} =[a,b] \cup [1,\infty)\)</span>.</p>
+</div>
+</div>
+
+<div id="exm:ineq2" class="bookdown-example" custom-style="ExampleStyle">
+<span class="exm:ineq2" custom-style="NameStyle"><strong>Example 3.2:  </strong></span>
+<div>
+<p>Determine the values of <span class="math inline">\(x\in\mathbb R\)</span> for which <span class="math display">\[|x-1|&gt;x^2-2x.\]</span></p>
+<p><strong>Solution:</strong>
+The definition of <span class="math inline">\(|.|\)</span> means that there are two cases to consider, namely <span class="math inline">\(x-1&lt;0\)</span> and <span class="math inline">\(x-1\ge0\)</span>.</p>
+<p><strong>Case 1:</strong> <span class="math inline">\(x-1&lt;0\)</span>, i.e. <span class="math inline">\(x&lt;1\)</span>, so that <span class="math inline">\(|x-1|=-(x-1)\)</span>. This implies that <span class="math inline">\(|x-1|&gt;x^2-2x\)</span> iff <span class="math inline">\(1-x&gt;x^2-2x\)</span>,
+or <span class="math inline">\(0&gt;x^2-x-1\)</span>. This quadratic has roots <span class="math inline">\(x=\dfrac{1\pm\sqrt5}{2}\)</span>. Hence, when <span class="math inline">\(x&lt;1\)</span>,
+<span class="math inline">\(|x-1|&gt;x^2-2x\)</span> when <span class="math inline">\(x\in\bigg(\dfrac{1-\sqrt5}{2},\dfrac{1+\sqrt5}{2}\bigg)\)</span>. We need to be a bit careful here! Note that both <span class="math inline">\(x&lt;1\)</span> and <span class="math inline">\(x\in\bigg(\dfrac{1-\sqrt5}{2},\dfrac{1+\sqrt5}{2}\bigg)\)</span>, have to hold. But
+<span class="math inline">\(\dfrac{1-\sqrt5}{2}&lt;1&lt;\dfrac{1+\sqrt5}{2}\)</span>, so in fact the solution set in this case is
+<span class="math display">\[
+\bigg(\dfrac{1-\sqrt5}{2},1\bigg).
+\]</span> (Note that <span class="math inline">\(x&lt;1\)</span>, so <span class="math inline">\(x=1\)</span> is not in this solution set.)</p>
+<p><strong>Case 2:</strong> <span class="math inline">\(x-1\ge0\)</span>, so that <span class="math inline">\(|x-1|=x-1\)</span>. This implies that <span class="math inline">\(|x-1|&gt;x^2-2x\)</span> iff <span class="math inline">\(x-1&gt;x^2-2x\)</span>,
+or <span class="math inline">\(0&gt;x^2-2x+1\)</span>. This quadratic has roots <span class="math inline">\(x=\dfrac{3\pm\sqrt5}{2}\)</span>. Hence, when <span class="math inline">\(x\ge1\)</span>,
+<span class="math inline">\(|x-1|&gt;x^2-2x\)</span> when <span class="math inline">\(x\in\bigg(\dfrac{3-\sqrt5}{2},\dfrac{3+\sqrt5}{2}\bigg)\)</span>. Since
+<span class="math inline">\(\dfrac{3-\sqrt5}{2}&lt;1&lt;\dfrac{3+\sqrt5}{2}\)</span>, the solution set is
+<span class="math display">\[
+  \bigg[1,\dfrac{3+\sqrt5}{2}\bigg).
+\]</span> (Note that here <span class="math inline">\(x\ge1\)</span>, so <span class="math inline">\(x=1\)</span> is in the solution set.)</p>
+Putting these together we see that the solution set is
+<span class="math display">\[\bigg(\dfrac{1-\sqrt5}{2},1\bigg)\cup \bigg[1,\dfrac{3+\sqrt5}{2}\bigg)
+=\bigg(\dfrac{1-\sqrt5}{2},\dfrac{3+\sqrt5}{2}\bigg).\]</span>
+</div>
+</div>
+
+<div id="exm:ineq3" class="bookdown-example" custom-style="ExampleStyle">
+<span class="exm:ineq3" custom-style="NameStyle"><strong>Example 3.3:  </strong></span>
+<div>
+<p>Solve the inequality
+<span class="math display">\[
+\dfrac{x^2-3x+2}{x^3+x} \ge 0.
+\]</span></p>
+<p><strong>Solution</strong> Factorising we see that
+<span class="math display">\[
+   x^2-3x+2=(x-1)(x-2)\qquad\text{and}\qquad x^3+x=x(x^2+1).   \]</span>
+Since <span class="math inline">\(x^2+1\ge1&gt;0\)</span> for all <span class="math inline">\(x\)</span>, the sign of <span class="math inline">\(\dfrac{x^2-3x+2}{x^3+x}\)</span> depends on the signs of <span class="math inline">\(x\)</span>, <span class="math inline">\((x-1)\)</span> and <span class="math inline">\((x-2)\)</span>. The sign analysis table is therefore</p>
+<p><span class="math display">\[
+\begin{array}{c|c|c|c|c|c|c|c}
+                        &amp; x&lt;0 &amp; x=0 &amp; 0&lt;x&lt;1 &amp; x=1 &amp; 1&lt;x&lt;2 &amp; x=2 &amp; 2&lt;x \\
+\hline
+x-2                    &amp;  -  &amp;  -  &amp;   -   &amp;  -  &amp;   -   &amp;  0  &amp;  +  \\
+x-1                    &amp;  -  &amp;  -  &amp;   -   &amp;  0  &amp;   +   &amp;  +  &amp;  +  \\
+x                      &amp;  -  &amp;  0  &amp;   +   &amp;  +  &amp;   +   &amp;  +  &amp;  +  \\
+x^2+1                  &amp;  +  &amp;  +  &amp;   +   &amp;  +  &amp;   +   &amp;  +  &amp;  +  \\
+\frac{x^2-3x+2}{x^3+x} &amp;  -  &amp; \text{n.d.}  &amp;   +   &amp;  0  &amp;   -   &amp;  0  &amp;  +
+\end{array}
+\]</span>
+where ‘n.d.’ stands for ‘not defined.’</p>
+<p>From the table we see that <span class="math inline">\(\dfrac{x^2-3x+2}{x^3+x} \ge 0\)</span> iff <span class="math inline">\(x\in (0,1]\cup [2, \infty)\)</span></p>
+</div>
+</div>
+<p>Sometimes inequalities involve more complicated functions, and some knowledge of the properties of these functions is needed.</p>
+
+<div id="exm:ineq4" class="bookdown-example" custom-style="ExampleStyle">
+<span class="exm:ineq4" custom-style="NameStyle"><strong>Example 3.4:  </strong></span>
+<div>
+<p>Find the solution set to the inequality
+<span class="math display">\[
+(x-2) \log(x^2-16) &gt; 0.
+\]</span></p>
+<p><strong>Solution:</strong>
+As a real valued function, the natural logarithm <span class="math inline">\(\log x\)</span> is only defined for <span class="math inline">\(x&gt;0\)</span>. So for <span class="math inline">\((x-2) \log(x^2-16)\)</span> to be defined,
+<span class="math display">\[
+x^2-16 &gt; 0.
+\]</span>
+Moreover, <span class="math inline">\(\log x&gt;0\)</span> iff <span class="math inline">\(x&gt;1\)</span>, so that
+<span class="math inline">\(\log(x^2-16)&gt;0\)</span> iff <span class="math inline">\(x^2-16&gt;1\)</span>, i.e iff <span class="math inline">\(x^2 - 17&gt;0\)</span>.</p>
+Therefore, we need to analyse the signs of the three polynomials <span class="math inline">\(x-2\)</span>, <span class="math inline">\(x^2-16=(x-4)(x+4)\)</span>, <span class="math inline">\(x^2-17=(x-\sqrt{17})(x+\sqrt{17})\)</span>, giving a sign analysis table<br />
+<span class="math display">\[
+\small\begin{array}{c|c|c|c|c|c|c|c|c|c|c|c}
+                       &amp; &amp; -\sqrt{17} &amp; &amp; -4 &amp; &amp; 2 &amp; &amp; 4 &amp; &amp; \sqrt{17} &amp; \\\hline
+x-4                    &amp;  -  &amp;  -  &amp;   -   &amp;  -  &amp;   -   &amp;  -  &amp;  - &amp; 0 &amp; + &amp; + &amp; +  \\
+x+4                  &amp;  -  &amp;  -  &amp;   -   &amp;  0  &amp;   +   &amp;  +  &amp;  +  &amp; + &amp; + &amp; + &amp;+\\
+x^2-16       &amp;  +  &amp;  +  &amp;   +   &amp;  0  &amp;   -   &amp;  - &amp; -  &amp;  0  &amp; + &amp; + &amp; +\\\hline
+x-\sqrt{17}                    &amp;  -  &amp;  -  &amp;   -   &amp;  -  &amp;   -   &amp; -  &amp;  - &amp; - &amp; - &amp; 0 &amp; +  \\
+x+\sqrt{17}                  &amp;  -  &amp;  0  &amp;   +   &amp;  +  &amp;   +   &amp;  +  &amp;  +  &amp; + &amp; + &amp; + &amp; +\\
+x^2-17             &amp; + &amp; 0 &amp; - &amp; - &amp; - &amp; - &amp; - &amp; - &amp; - &amp; 0 &amp; + \\\hline
+\log(x^2-16)       &amp; + &amp; 0  &amp; -  &amp; \text{n.d.} &amp; \text{n.d.} &amp; \text{n.d.} &amp; \text{n.d.} &amp; \text{n.d.} &amp; - &amp; 0 &amp; +\\\hline
+x-2                      &amp;  -  &amp;  -  &amp;   -   &amp;  -  &amp;   -   &amp;  0  &amp;  + &amp; + &amp; + &amp; + &amp; + \\\hline
+(x-2)\log(x^2-16) &amp;  -  &amp; 0  &amp;   +   &amp;  \text{n.d.} &amp;   \text{n.d.}   &amp;  \text{n.d.}  &amp; \text{n.d.} &amp; \text{n.d.} &amp; - &amp; 0 &amp; +
+\end{array}
+\]</span>
+From which we can see that the inequality is satisfied if and only if <span class="math inline">\(x\)</span> belongs to the set
+<span class="math display">\[
+(-\sqrt{17},-4) \cup (\sqrt{17},\infty).
+\]</span>
+</div>
+</div>
+</div>
+</div>
+<div id="sets" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> Naive Set Theory</h1>
+<div id="setdefn" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> Sets, Elements and Subsets</h2>
+<p>Set theory is an advanced branch of pure mathematics. It seeks to derive all of mathematics by expressing mathematical objects in terms of objects called sets that are defined in terms of a small set of axioms. However, for the purposes of what we want to do here we make the following naive definition.</p>
+
+<div id="def:set" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:set" custom-style="NameStyle"><strong>Definition 4.1:  </strong></span>
+<div>
+A <strong>set</strong> is a collection of objects that are called the <strong>elements</strong> of the set.
+</div>
+</div>
+<p>The elements of a set are typically mathematical in nature. They might be numbers, functions, points in the plane, or even other sets. We usually use capital letters to denote sets and lower case letters to denote the elements of a set.</p>
+
+<div id="Not:in" class="Notation" custom-style="DefinitionStyle">
+<span class="Notation" custom-style="NameStyle"><strong> Notation 4.1:  </strong></span>
+<p>
+If <span class="math inline">\(A\)</span> is a set and <span class="math inline">\(a\)</span> is an element of <span class="math inline">\(A\)</span> and <span class="math inline">\(b\)</span> is not an element of <span class="math inline">\(A\)</span>, then we write <span class="math inline">\(a\in A\)</span> and <span class="math inline">\(b\notin A\)</span>. We read this as ‘<span class="math inline">\(a\)</span> is an element of <span class="math inline">\(A\)</span>’ or ‘<span class="math inline">\(a\)</span> is in <span class="math inline">\(A\)</span>’ or <span class="math inline">\(a\)</span> in <span class="math inline">\(A\)</span> and ‘<span class="math inline">\(b\)</span> is not in <span class="math inline">\(A\)</span>’ or ‘<span class="math inline">\(b\)</span> is not an element of <span class="math inline">\(A\)</span>’.
+</p>
+</div>
+<p>We can specify a set by:</p>
+<ul>
+<li>defining it directly, for example, by defining <span class="math inline">\(P\)</span> to be the set of prime numbers;</li>
+<li>explicitly listing its element, for example, letting <span class="math inline">\(A:=\{1,2,3,6\}\)</span>, which says ‘<span class="math inline">\(A\)</span> is defined to be the set containing 1, 2,3, and 6’;</li>
+<li>implicitly listing its elements, for example, seeing <span class="math inline">\(P=\{2,3,5,7,11,13,\dots\}\)</span>, which says <span class="math inline">\(P\)</span> is defined to be the set containing 2, 3, 5, 7, 11, 13, and so on, we can reasonably infer that <span class="math inline">\(P\)</span> is the set of primes’;</li>
+<li>using <strong>set-builder</strong> notation, so that we define a set by some property, for example
+<span class="math display">\[P:=\{n\in\mathbb N: n\text{ is prime}\},\]</span> which says ‘P is defined to be the set of <span class="math inline">\(n\)</span> in <span class="math inline">\(\mathbb N\)</span> such that <span class="math inline">\(n\)</span> is prime.’</li>
+</ul>
+
+<div id="def:empty" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:empty" custom-style="NameStyle"><strong>Definition 4.2:  </strong></span>
+<div>
+The <strong>empty set</strong>, <span class="math inline">\(\emptyset\)</span>, is the set with no elements.
+</div>
+</div>
+
+<div id="def:subset" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:subset" custom-style="NameStyle"><strong>Definition 4.3:  </strong></span>
+<div>
+<p>Let <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> be sets. We say that:</p>
+<ul>
+<li><p><span class="math inline">\(A\)</span> is a <strong>subset</strong> of <span class="math inline">\(B\)</span>, denoted <span class="math inline">\(A\subseteq B\)</span> or <span class="math inline">\(B\supseteq A\)</span>, if every element of <span class="math inline">\(A\)</span> is an element of <span class="math inline">\(B\)</span>;</p></li>
+<li><p><span class="math inline">\(A\)</span> <strong>equals</strong> <span class="math inline">\(B\)</span>, denoted <span class="math inline">\(A=B\)</span>, if <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> have exctly the same elements;</p></li>
+<li><p><span class="math inline">\(A\)</span> is a <strong>proper subset</strong> of <span class="math inline">\(B\)</span>, denoted <span class="math inline">\(A\subsetneq B\)</span>, if <span class="math inline">\(A\subseteq B\)</span> but <span class="math inline">\(A\neq B\)</span>.</p></li>
+</ul>
+</div>
+</div>
+<p>If <span class="math inline">\(A\subseteq B\)</span> we sometime say that <span class="math inline">\(B\)</span> is a <strong>superset</strong> of <span class="math inline">\(B\)</span>.</p>
+<p>Note that some people use <span class="math inline">\(\subset\)</span> instead of <span class="math inline">\(\subseteq\)</span> and some people use <span class="math inline">\(\subset\)</span> instead of <span class="math inline">\(\subsetneq\)</span>.</p>
+<p>The definition of set equality means that <span class="math inline">\(A=B\)</span> iff <span class="math inline">\(A\subseteq B\)</span> and <span class="math inline">\(B\subseteq A\)</span>. It also means that it does not matter which order the elements of a set are written in or how many times that they are listed, so that
+<span class="math display">\[
+\{1,2,3,6\}=\{3,6,2,1\}=\{10/5,6/3,3,6/2,1,4/2, 12/2\}.
+\]</span>
+If we take the integers, <span class="math inline">\(\mathbb Z\)</span>, and the real numbers, <span class="math inline">\(\mathbb R\)</span>, as given, then we might write
+<span class="math display">\[
+\begin{aligned}
+\mathbb N_0 &amp;= \{n\in\mathbb Z:n\ge0\},\\
+\mathbb N &amp;=\{n\in \mathbb Z:n&gt;0\},\\
+\mathbb Q &amp;=\{p/q:p,q\in\mathbb Z, q\neq0\},\\
+\mathbb C &amp;=\{x+iy:x,y\in\mathbb R\},\\
+\end{aligned}
+\]</span></p>
+<p>and we have
+<span class="math display">\[
+\emptyset\subseteq \mathbb N\subseteq \mathbb N_0\subseteq \mathbb Z\subseteq \mathbb Q\subseteq \mathbb R\subseteq \mathbb C.
+\]</span></p>
+</div>
+<div id="unions" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> The Algebra of Sets</h2>
+<p>Just as with numbers, we can combine sets to create new ones.</p>
+
+<div class="bookdown-definition" custom-style="DefinitionStyle" id="def:unionsetc">
+<span class="def:unionsetc" custom-style="NameStyle"><strong>Definition 4.4:  </strong></span>
+<div>
+<p>Let <span class="math inline">\(X\)</span> be a set and let <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> be subsets of <span class="math inline">\(X\)</span>.</p>
+<ul>
+<li><p>The union of <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> is the set
+<span class="math display">\[
+A\cup B:=\{x\in X:x\in A\text{ or }x\in B\}.
+\]</span></p></li>
+<li><p>The intersection of <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> is the set
+<span class="math display">\[
+A\cap B:=\{x\in X:x\in A\text{ and }x\in B\}.
+\]</span></p></li>
+<li><p><span class="math inline">\(A\)</span> minus <span class="math inline">\(B\)</span> is the set
+<span class="math display">\[
+A- B:=\{x\in X: x\in A\text{ but }x\notin B\}.
+\]</span></p></li>
+<li><p>The complement of <span class="math inline">\(A\)</span> (in <span class="math inline">\(X\)</span>) is the set
+<span class="math display">\[
+A^c:=\{x\in X:x\notin A\}.
+\]</span></p>
+</div>
+</div></li>
+</ul>
+<p>Some people write <span class="math inline">\(A\setminus B\)</span> for <span class="math inline">\(A-B\)</span>. We sometimes call <span class="math inline">\(A-B\)</span> the ‘the complement of <span class="math inline">\(A\)</span> in <span class="math inline">\(B\)</span>’. <span class="math inline">\(A^c\)</span> is also written <span class="math inline">\(A&#39;\)</span>. Clearly <span class="math inline">\(A^c=X-A\)</span>.</p>
+<p>Notice that we can define <span class="math inline">\(A\cup B\)</span>, <span class="math inline">\(A\cap B\)</span> and <span class="math inline">\(A\setminus B\)</span> without reference to a ‘universal’ set <span class="math inline">\(X\)</span> containing both <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>. However the complement of <span class="math inline">\(A\)</span> is not well-defined without reference to the superset we are considering. For example, if <span class="math inline">\(A=\{1,2\}\)</span>, <span class="math inline">\(X=\{1,2,3\}\)</span> and <span class="math inline">\(Y=\{0,1,2\}\)</span>, then <span class="math inline">\(A\)</span> is a subset of both <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> and the complement of <span class="math inline">\(A\)</span> in <span class="math inline">\(X\)</span> is <span class="math inline">\(\{3\}\)</span> whereas the complement of <span class="math inline">\(A\)</span> in <span class="math inline">\(Y\)</span> is <span class="math inline">\(\{0\}\)</span>.</p>
+
+<div id="thm:demorgan" class="bookdown-theorem" custom-style="TheoremStyle">
+<span class="thm:demorgan" custom-style="NameStyle"><strong>Theorem 4.1:  </strong></span>
+<p>
+<p>Let <span class="math inline">\(A\)</span>, <span class="math inline">\(B\)</span> and <span class="math inline">\(C\)</span> be sets.</p>
+<ol style="list-style-type: decimal">
+<li><p>(Transitivity of <span class="math inline">\(\subseteq\)</span>) If <span class="math inline">\(A\subseteq B\)</span> and <span class="math inline">\(B\subseteq C\)</span>, then <span class="math inline">\(A\subseteq C\)</span>.</p></li>
+<li><p>(Associativity)
+<span class="math display">\[
+\begin{aligned}
+(A\cup B)\cup C &amp;= A\cup( B\cup C),\text{ and}\\
+(A\cap B)\cap C &amp;= A\cap (B\cap C).
+\end{aligned}
+\]</span></p></li>
+<li><p>(Distributivity)
+<span class="math display">\[
+\begin{aligned}
+A\cup(B\cap C) &amp;= (A\cup B)\cap(A\cup C),\text{ and}\\
+A\cap(B\cup C) &amp;= (A\cap B)\cup(A\cap C).
+\end{aligned}
+\]</span></p></li>
+<li><p>(De Morgan’s Laws)
+<span class="math display">\[
+\begin{aligned}
+A-(B\cup C) &amp;= (A- B)\cap(A- C),\text{ and}\\
+A-(B\cap C) &amp;= (A- B)\cup(A- C).
+\end{aligned}
+\]</span></p></li>
+</ol>
+</p>
+</div>
+<p>Note that associativity means that we can write <span class="math inline">\(A\cup B\cup C\)</span> or <span class="math inline">\(A\cap B\cap C\)</span> without confusion.</p>
+<p>We leave the proof of this as an exercise, but give an example of how to approach things like this here.</p>
+
+<div id="exm:demorgproof" class="bookdown-example" custom-style="ExampleStyle">
+<span class="exm:demorgproof" custom-style="NameStyle"><strong>Example 4.1:  </strong></span>
+<div>
+<p>Let us show that <span class="math inline">\(A-(B\cup C)=(A-B)\cap (A-C)\)</span>. To show that two sets are equal we need to show that they have the same elements.</p>
+<p>Suppose that <span class="math inline">\(x\in A-(B\cup C)\)</span>.</p>
+<p>This is equivalent to saying that <span class="math inline">\(x\in A\)</span> and <span class="math inline">\(x\notin B\cap C\)</span>.</p>
+<p>Now for an element to be in <span class="math inline">\(B\cap C\)</span> it must be in both <span class="math inline">\(B\)</span> and <span class="math inline">\(C\)</span>, so <span class="math inline">\(x\notin B\cap C\)</span> iff either <span class="math inline">\(x\notin B\)</span> or <span class="math inline">\(c\notin C\)</span>.</p>
+<p>Hence <span class="math inline">\(x\in A-(B\cup C)\)</span> iff <span class="math inline">\(x\in A\)</span> and either <span class="math inline">\(x\notin B\)</span> or <span class="math inline">\(c\notin C\)</span>.</p>
+<p>This is equivalent to saying that either <span class="math inline">\(x\in A\)</span> but <span class="math inline">\(x\notin B\)</span> or <span class="math inline">\(x\in A\)</span> but <span class="math inline">\(x\notin C\)</span>, i.e.
+either <span class="math inline">\(x\in A-B\)</span> or <span class="math inline">\(x\in A-C\)</span>, which is true iff <span class="math inline">\(x\in (A-B)\cup (A-C)\)</span>.</p>
+</div>
+</div>
+<p>Notice that if <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are subsets of the set <span class="math inline">\(X\)</span>, then De Morgan’s Laws imply that
+<span class="math display">\[
+(A\cup B)^c=A^c\cap B^c\qquad\text{and}\qquad (A\cap B)^c=A^c\cup B^c.
+\]</span></p>
+<p>Suppose that <span class="math inline">\(a\in A\)</span> and <span class="math inline">\(b\in B\)</span>. Then the set <span class="math inline">\(\{a,b\}\)</span> is the same as the set <span class="math inline">\(\{b,a\}\)</span>. We would like a notion of an ordered pair, so that, for example, we can have a first and second coordinate. We are familiar with the the Euclidean or <span class="math inline">\(x\)</span>-<span class="math inline">\(y\)</span> plane <span class="math inline">\(\mathbb R^2\)</span>. This is an example of a Cartesian product of sets.</p>
+
+<div id="def:cartesianprod" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:cartesianprod" custom-style="NameStyle"><strong>Definition 4.5:  </strong></span>
+<div>
+<p>Let <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> be sets.</p>
+<ul>
+<li><p>For <span class="math inline">\(a\in A\)</span> and <span class="math inline">\(b\in B\)</span>, we say that <span class="math inline">\((a,b)\)</span> is an <strong>ordered pair</strong> if whenever <span class="math inline">\(a, a&#39;\in A\)</span>, <span class="math inline">\(b,b&#39;\in B\)</span> and <span class="math inline">\((a,b)=(a&#39;,b&#39;)\)</span>, then <span class="math inline">\(a=a&#39;\)</span> and <span class="math inline">\(b=b&#39;\)</span>.</p></li>
+<li><p>The <strong>Cartesian product</strong>
+<span class="math display">\[
+A\times B:=\{(a,b):a\in A, b\in B\},
+\]</span>
+the set of all order pairs whose first coordinate is in <span class="math inline">\(A\)</span> and second coordinate is in <span class="math inline">\(B\)</span>.</p></li>
+</ul>
+</div>
+</div>
+<p>Note that there is a clash of notation for open intervals and ordered pairs. However, context usually make the meaning clear.</p>
+</div>
+<div id="bigcap" class="section level2" number="4.3">
+<h2><span class="header-section-number">4.3</span> Arbitrary Unions and Intersections</h2>
+<p><strong>You are unlikely to need the ideas in this section unless you study some of the more advanced pure mathematics modules in later years.</strong></p>
+<p>From what we have seen, we can write <span class="math inline">\(A\cup B\cup C\)</span> and <span class="math inline">\(A\cap B\cap C\)</span> without ambiguity. What if we want to talk about the union or intersection of a larger, possibly infinite, collection of sets. numbers of sets. For example, for each prime <span class="math inline">\(p\)</span>, define <span class="math inline">\(N_p\)</span> to be the set of all natural numbers divisible by <span class="math inline">\(p\)</span>. What is the union of all the sets <span class="math inline">\(N_p\)</span>? What is the intersection?</p>
+<p>The following is a more general defintion of union and intersection.</p>
+
+<div id="def:arbcup" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:arbcup" custom-style="NameStyle"><strong>Definition 4.6:  </strong></span>
+<div>
+<p>Let <span class="math inline">\(\mathcal C\)</span> be a collection of sets.</p>
+<ul>
+<li><p>We define the union of the sets in <span class="math inline">\(\mathcal C\)</span> to be the set
+<span class="math display">\[
+\bigcup\mathcal C=\bigcup_{C\in\mathcal C}C=\{x:x\in C\text{ for some }C\in\mathcal C\}
+\]</span></p></li>
+<li><p>We define the intersection of the sets in <span class="math inline">\(\mathcal C\)</span> to be the set
+<span class="math display">\[
+\bigcap\mathcal C=\bigcap_{C\in\mathcal C}C=\{x:x\in C\text{ for all }C\in\mathcal C\}
+\]</span></p></li>
+</ul>
+</div>
+</div>
+<p>For example, if <span class="math inline">\(\mathcal C=\{A,B,C\}\)</span>, then <span class="math inline">\(A\cap B\cap C=\bigcap\mathcal C\)</span> and, with <span class="math inline">\(\mathbb N_p\)</span> as above,</p>
+<p><span class="math display">\[
+\begin{aligned}
+\bigcup\{N_p:p\text{ is prime}\}&amp;=\{n:n\in N_p\text{ for some prime }p\}\\
+&amp;=\{n\in\mathbb N:n\text{ is divisible by $p$ for some prime }p\}\\
+&amp;=\{n\in\mathbb N:n&gt;1\}.
+\end{aligned}
+\]</span></p>
+<p>A very similar proof to that of Theorem <a href="#thm:demorgan">4.1</a> shows the following also holds.</p>
+
+<div id="thm:arbdemorgan" class="bookdown-theorem" custom-style="TheoremStyle">
+<span class="thm:arbdemorgan" custom-style="NameStyle"><strong>Theorem 4.2:  </strong></span>
+<p>
+<p>Let <span class="math inline">\(A\)</span> and <span class="math inline">\(\mathcal C\)</span> be a collection of sets.</p>
+<ol style="list-style-type: decimal">
+<li><p>(Distributivity)
+<span class="math display">\[
+\begin{aligned}
+A\cup\bigcap\mathcal C &amp;= \bigcap\{(A\cup C):C\in\mathcal C\}\\
+A\cap\bigcup\mathcal C &amp;= \bigcup\{(A\cap C):C\in\mathcal C\}.
+\end{aligned}
+\]</span></p></li>
+<li><p>(De Morgan’s Laws)
+<span class="math display">\[
+\begin{aligned}
+A-\bigcup\mathcal C&amp;= \bigcap\{(A- C):C\in\mathcal C\},\\
+A-\bigcap\mathcal C&amp;= \bigcup\{(A- C):C\in\mathcal C\}.
+\end{aligned}
+\]</span></p></li>
+</ol>
+</p>
+</div>
+</div>
+</div>
+<div id="functions" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Functions</h1>
+<div id="deffn" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> The Defintion of a Function</h2>
+
+<div id="def:function" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:function" custom-style="NameStyle"><strong>Definition 5.1:  </strong></span>
+<div>
+<p>A <strong>function</strong> <span class="math inline">\(f\)</span> from <span class="math inline">\(X\)</span> to <span class="math inline">\(Y\)</span> consist of three things:</p>
+<ol style="list-style-type: decimal">
+<li><p>a set <span class="math inline">\(X=\operatorname{dom}(f)\)</span> called the <strong>domain</strong> of <span class="math inline">\(f\)</span>;</p></li>
+<li><p>a set <span class="math inline">\(Y=\operatorname{codom}(f)\)</span> called the <strong>co-domain</strong> of <span class="math inline">\(f\)</span>;</p></li>
+<li><p>a <strong>well-defined rule</strong> that assigns a <strong>unique element</strong> <span class="math inline">\(f(x)\in Y\)</span> to each element <span class="math inline">\(x\in X\)</span>.</p></li>
+</ol>
+</div>
+</div>
+<p>When talking about functions, we often call the elements of <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> <strong>points</strong>.</p>
+
+<div id="def:welldefined" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:welldefined" custom-style="NameStyle"><strong>Definition 5.2:  </strong></span>
+<div>
+<p>We say that a rule <span class="math inline">\(f\)</span> assigning elements of <span class="math inline">\(X\)</span> to elements of <span class="math inline">\(Y\)</span> is <strong>well-defined</strong> or <strong>unambiguous</strong> provided whenever <span class="math inline">\(x_1=x_2\)</span>, we have <span class="math inline">\(f(x_1)=f(x_2)\)</span>.</p>
+</div>
+</div>
+<p>So we want a function from <span class="math inline">\(X\)</span> to <span class="math inline">\(Y\)</span> to give an output for each element of <span class="math inline">\(x\)</span>. That output should be in <span class="math inline">\(Y\)</span>, it should be unique and its value should be unambiguously defined.</p>
+
+<div id="Not:fns" class="Notation" custom-style="DefinitionStyle">
+<span class="Notation" custom-style="NameStyle"><strong> Notation 5.1:  </strong></span>
+<p>
+<p>If <span class="math inline">\(f\)</span> is a function from <span class="math inline">\(X\)</span> to <span class="math inline">\(Y\)</span>, we write
+<span class="math display">\[
+f:X\to Y, \]</span> which says ‘<span class="math inline">\(f\)</span> is a function from <span class="math inline">\(X\)</span> to <span class="math inline">\(Y\)</span>.’</p>
+<p>If <span class="math inline">\(f(x)=y\)</span>, then we often write
+<span class="math display">\[
+  f:x\mapsto y.
+\]</span> which says ‘<span class="math inline">\(f\)</span> maps <span class="math inline">\(x\)</span> to <span class="math inline">\(y\)</span>.’ We say that <span class="math inline">\(y\)</span> is the <strong>image</strong> of <span class="math inline">\(x\)</span> under <span class="math inline">\(f\)</span> or the <strong>value</strong> of <span class="math inline">\(f\)</span> at <span class="math inline">\(x\)</span>.</p>
+We call <span class="math inline">\(x\)</span> the <strong>independent variable</strong> and <span class="math inline">\(y\)</span> the <strong>dependent variable</strong>.
+</p>
+</div>
+<p>The domain of <span class="math inline">\(f\)</span> is the set of input values for <span class="math inline">\(f\)</span> and the co-domain is the set of possible outputs. Notice that not every element of the co-domain needs to be an output of the function. For example, if <span class="math display">\[f:\mathbb R\to\mathbb R; x\mapsto x^2,\]</span> <span class="math inline">\(-1\)</span> is not equal to <span class="math inline">\(f(x)\)</span> for any <span class="math inline">\(x\)</span>. So we define another set called the range or image of <span class="math inline">\(f\)</span>.</p>
+
+<div id="def:range" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:range" custom-style="NameStyle"><strong>Definition 5.3:  </strong></span>
+<div>
+<p>Let <span class="math inline">\(f:X\to Y\)</span>. The <strong>range</strong> or <strong>image</strong> of <span class="math inline">\(f\)</span> is the set
+<span class="math display">\[
+  \operatorname{ran}(f):=\operatorname{im}(f):=\{f(x):x\in X\}.
+\]</span></p>
+<p>More generally if <span class="math inline">\(A\subseteq X\)</span>, the <strong>image</strong> of <span class="math inline">\(A\)</span> is the set
+<span class="math display">\[
+  f(A)=\{f(x):x\in A\}.
+\]</span></p>
+<p>If <span class="math inline">\(B\subseteq Y\)</span>, the <strong>pre-image</strong> of <span class="math inline">\(B\)</span> is the set
+<span class="math display">\[
+  f^{-1}(B)=\{x\in X:f(x)\in B\}.
+\]</span></p>
+</div>
+</div>
+<p>In particular, if <span class="math inline">\(y\in Y\)</span>, then <span class="math inline">\(f^{-1}(\{y\})\)</span> is the set of points in <span class="math inline">\(X\)</span> that are mapped to the point <span class="math inline">\(y\)</span>. We often abuse notation by writing <span class="math inline">\(f^{-1}(y)\)</span> (but be a little careful not to confuse this with the inverse function <span class="math inline">\(f^{-1}\)</span>, if it exists).</p>
+
+<div id="exm:fnsexm" class="bookdown-example" custom-style="ExampleStyle">
+<span class="exm:fnsexm" custom-style="NameStyle"><strong>Example 5.1:  </strong></span>
+<div>
+<p>Do the following represent functions?</p>
+<ol style="list-style-type: decimal">
+<li><p><span class="math display">\[\begin{aligned}
+f:\mathbb R&amp;\to\mathbb R,\\
+x&amp;\mapsto x+x^2+x^3.
+\end{aligned}
+\]</span></p></li>
+<li><p><span class="math display">\[\begin{aligned}
+f:\mathbb R&amp;\to\mathbb R,\\
+x&amp;\mapsto \sin x.
+\end{aligned}
+\]</span></p></li>
+<li><p><span class="math display">\[\begin{aligned}
+f:\mathbb R&amp;\to[-1,1],\\
+x&amp;\mapsto \sin x.
+\end{aligned}
+\]</span></p></li>
+<li><p><span class="math display">\[\begin{aligned}
+f:\mathbb R&amp;\to[0,1],\\
+x&amp;\mapsto \sin x.
+\end{aligned}
+\]</span></p></li>
+<li><p><span class="math display">\[\begin{aligned}
+f:[0,1]&amp;\to\mathbb R,\\
+x&amp;\mapsto \sin x.
+\end{aligned}
+\]</span></p></li>
+<li><p><span class="math display">\[\begin{aligned}
+f:\mathbb R&amp;\to\mathbb R,\\
+x&amp;\mapsto 1/x.
+\end{aligned}
+\]</span></p></li>
+<li><p><span class="math display">\[
+\begin{aligned}
+f:\{1,2,3,4\}&amp;\to \{1,2,3,4\},\\
+1&amp;\mapsto2,\\
+2&amp;\mapsto2,\\
+3&amp;\mapsto2,\\
+4&amp;\mapsto2.
+\end{aligned}
+\]</span></p></li>
+<li><p><span class="math display">\[\begin{aligned}f:\mathbb Q&amp;\to\mathbb Z,\\
+                   p/q&amp;\mapsto p+q.
+\end{aligned}
+\]</span></p></li>
+<li><p><span class="math inline">\(f:\mathbb [0,\infty)\to\mathbb R\)</span> with <span class="math inline">\(f\)</span> defined by the rule <span class="math inline">\(f(x)^2=x\)</span>.</p></li>
+</ol>
+</div>
+</div>
+
+<div id="def:fnseq" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:fnseq" custom-style="NameStyle"><strong>Definition 5.4:  </strong></span>
+<div>
+<p>Two functions <span class="math inline">\(f\)</span> and <span class="math inline">\(g\)</span> are said to be <strong>equal</strong> if</p>
+<ol style="list-style-type: decimal">
+<li><p><span class="math inline">\(\operatorname{dom}(f)= \operatorname{dom}(g)\)</span>,</p></li>
+<li><p><span class="math inline">\(\operatorname{codom}(f)=\operatorname{codom}(g)\)</span>, and</p></li>
+<li><p><span class="math inline">\(f(x)=g(x)\)</span> for all <span class="math inline">\(x\in \operatorname{dom}(f)\)</span>.</p></li>
+</ol>
+</div>
+</div>
+
+<div id="exm:fnsequ" class="bookdown-example" custom-style="ExampleStyle">
+<span class="exm:fnsequ" custom-style="NameStyle"><strong>Example 5.2:  </strong></span>
+<div>
+<ol style="list-style-type: decimal">
+<li><p>Technically <span class="math inline">\(f:\mathbb R\to \mathbb R; x\mapsto \sin x\)</span> and
+<span class="math inline">\(f:\mathbb R\to [-1,1]; x\mapsto \sin x\)</span> are different functions (although we usually do not worry about this).</p></li>
+<li><p>The functions <span class="math inline">\(f:\mathbb R\to \mathbb R; x\mapsto x^2-2x-3\)</span> and <span class="math inline">\(g:\mathbb R\to \mathbb R; x\mapsto (x+1)(x-3)\)</span> are equal.</p></li>
+<li><p>The functions <span class="math inline">\(\zeta:[1,\infty)\to\mathbb R;s\mapsto \sum_{n=1}\dfrac1{n^s}\)</span>
+and <span class="math inline">\(\overline{\zeta}:[1,\infty)\to\mathbb R;s\mapsto \prod_{p\text{ is prime}}\dfrac1{1-p^{-s}}\)</span> are also equal, although it is not obvious.</p></li>
+</ol>
+</div>
+</div>
+
+<div id="def:compostion" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:compostion" custom-style="NameStyle"><strong>Definition 5.5:  </strong></span>
+<div>
+<p>Let <span class="math inline">\(f:X\to Y\)</span> and <span class="math inline">\(g:Y\to Z\)</span>. The <strong>composition</strong> of <span class="math inline">\(g\)</span> with <span class="math inline">\(f\)</span> is the function
+<span class="math display">\[
+  \begin{aligned}
+g\circ f:X&amp;\to Z\\
+x&amp;\mapsto g(f(x)).
+\end{aligned}
+\]</span></p>
+</div>
+</div>
+
+<div id="def:restriction" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:restriction" custom-style="NameStyle"><strong>Definition 5.6:  </strong></span>
+<div>
+<p>Let <span class="math inline">\(f:X\to Y\)</span>. If <span class="math inline">\(A\subseteq X\)</span>, the <strong>restriction</strong> of <span class="math inline">\(f\)</span> to <span class="math inline">\(A\)</span> is the function
+<span class="math display">\[
+  \begin{aligned}
+  f|_A:A&amp;\to Y\\
+  x&amp;\mapsto f(x).
+  \end{aligned}
+\]</span></p>
+</div>
+</div>
+
+<div id="def:identity" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:identity" custom-style="NameStyle"><strong>Definition 5.7:  </strong></span>
+<div>
+<p>Let <span class="math inline">\(X\)</span> be a set. The <strong>identity function</strong> on <span class="math inline">\(X\)</span> is the function
+<span class="math display">\[
+  \begin{aligned}
+  \operatorname{id}_X:X&amp;\to X
+x&amp;\mapsto x.
+\end{aligned}
+\]</span></p>
+</div>
+</div>
+
+<div id="def:constant" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:constant" custom-style="NameStyle"><strong>Definition 5.8:  </strong></span>
+<div>
+<p>The function <span class="math inline">\(f:X\to Y\)</span> is said to be a <strong>constant</strong> iff there is some <span class="math inline">\(c\in Y\)</span> such that
+<span class="math inline">\(f(x)=c\)</span> for all <span class="math inline">\(x\in X\)</span>.</p>
+</div>
+</div>
+</div>
+<div id="injections-surjections-and-bijections" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Injections, Surjections and Bijections</h2>
+<p>Suppose that <span class="math inline">\(f:X\to Y\)</span>. A reasonable question might be to ask what values in <span class="math inline">\(X\)</span> give a particular value <span class="math inline">\(y\)</span> in <span class="math inline">\(Y\)</span>. We saw above that these values are the points in the pre-image set <span class="math inline">\(f^{-1}(\{y\})\)</span>. We can then ask whether there is a function that undoes what <span class="math inline">\(f\)</span> does, and inverse function.</p>
+
+<div id="def:inversefn" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:inversefn" custom-style="NameStyle"><strong>Definition 5.9:  </strong></span>
+<div>
+<p>Let <span class="math inline">\(f:X\to Y\)</span>. The <strong>inverse</strong> of <span class="math inline">\(f\)</span>, if it exists, is the function <span class="math inline">\(f^{-1}:Y\to X\)</span> defined by the rule <span class="math inline">\(f^{-1}(y)=x\)</span> iff <span class="math inline">\(f(x)=y\)</span>.</p>
+</div>
+</div>
+<p>Note that we use the notation <span class="math inline">\(f^{-1}\)</span> in two different ways: <span class="math inline">\(f^{-1}(B)\)</span> is always defined when <span class="math inline">\(B\)</span> is a subset of <span class="math inline">\(Y\)</span>; the function <span class="math inline">\(f^{-1}\)</span> need not always be defined.
+The question then is whether <span class="math inline">\(f^{-1}\)</span> exists as a function from <span class="math inline">\(Y\)</span> to <span class="math inline">\(X\)</span>.</p>
+<ul>
+<li>For <span class="math inline">\(f\)</span> to be a function we need it to be defined for every <span class="math inline">\(x\in X\)</span>. If <span class="math inline">\(f^{-1}\)</span> is going to be a function, it needs to be defined for every <span class="math inline">\(y\)</span> in <span class="math inline">\(Y\)</span>. From the definition of <span class="math inline">\(f^{-1}\)</span>, this means that for every <span class="math inline">\(y\in Y\)</span> there has to be an <span class="math inline">\(x\in X\)</span> such that <span class="math inline">\(f(x)=y\)</span>.</li>
+</ul>
+
+<div id="def:onto" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:onto" custom-style="NameStyle"><strong>Definition 5.10:  </strong></span>
+<div>
+<p>Let <span class="math inline">\(f:X\to Y\)</span>. We say that <span class="math inline">\(f\)</span> is <strong>onto</strong> (or <strong>surjective</strong> or that <span class="math inline">\(f\)</span> is a surjection) iff for every <span class="math inline">\(y\in Y\)</span>, there is at least one <span class="math inline">\(x\in X\)</span> such that <span class="math inline">\(f(x)=y\)</span>.</p>
+</div>
+</div>
+<p>The following is obvious.</p>
+
+<div id="thm:ontoiff" class="bookdown-theorem" custom-style="TheoremStyle">
+<span class="thm:ontoiff" custom-style="NameStyle"><strong>Theorem 5.1:  </strong></span>
+<p>
+Let <span class="math inline">\(f:X\to Y\)</span>. Then <span class="math inline">\(f\)</span> is onto iff <span class="math inline">\(\operatorname{ran}(f)=\operatorname{codom}(f)\)</span> iff <span class="math inline">\(f(X)=Y\)</span>.
+</p>
+</div>
+<ul>
+<li>The other condition we require for <span class="math inline">\(f\)</span> to be a function is that the rule assigning points in <span class="math inline">\(Y\)</span> to points in <span class="math inline">\(X\)</span> should be well-defined and that for each <span class="math inline">\(x\)</span> there should be a unique <span class="math inline">\(y\)</span> in <span class="math inline">\(Y\)</span> such that <span class="math inline">\(f(x)=y\)</span>. For this to be true of <span class="math inline">\(f^{-1}\)</span>, we require that if <span class="math inline">\(y_1=y_2\)</span>, then <span class="math inline">\(f^{-1}(y_1)=f^{-1}(y_2)\)</span>. From the definition of <span class="math inline">\(f^{-1}\)</span>, if it is defined, and <span class="math inline">\(f(x_1)=y_1\)</span> and <span class="math inline">\(f(x_2)=y_2\)</span>, then <span class="math inline">\(f^{-1}\)</span> is well-defined, iff whenever <span class="math inline">\(f(x_1)=f(x_2)\)</span>, then <span class="math inline">\(x_1=x_2\)</span>. This is the same as saying that for all <span class="math inline">\(y\in Y\)</span>, there is at most one <span class="math inline">\(xin X\)</span> such that <span class="math inline">\(f(x)=y\)</span>.</li>
+</ul>
+
+<div id="def:121" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:121" custom-style="NameStyle"><strong>Definition 5.11:  </strong></span>
+<div>
+<p>Let <span class="math inline">\(f:X\to Y\)</span>. We say that <span class="math inline">\(f\)</span> is <strong>one-to-one</strong> (or <strong>injective</strong> or that <span class="math inline">\(f\)</span> is an injection) iff for every <span class="math inline">\(y\in Y\)</span>, there is at `most one <span class="math inline">\(x\in X\)</span> such that <span class="math inline">\(f(x)=y\)</span>.</p>
+</div>
+</div>
+
+<div id="thm:121equivs" class="bookdown-theorem" custom-style="TheoremStyle">
+<span class="thm:121equivs" custom-style="NameStyle"><strong>Theorem 5.2:  </strong></span>
+<p>
+<p>Let <span class="math inline">\(f:X\to Y\)</span>. The following are equivalent:</p>
+<ol style="list-style-type: decimal">
+<li><p><span class="math inline">\(f\)</span> is one-to-one;</p></li>
+<li><p>if <span class="math inline">\(x_1\neq x_2\)</span>, then <span class="math inline">\(f(x_1)\neq f(x_2)\)</span>;</p></li>
+<li><p>if <span class="math inline">\(f(x_1)=f(x_2)\)</span>, then <span class="math inline">\(x_1=x_2\)</span>.</p></li>
+</ol>
+</p>
+</div>
+<p>So for a well-defined inverse of <span class="math inline">\(f:X\to Y\)</span> to exist <span class="math inline">\(f\)</span> must be both one-to-one and onto.</p>
+
+<div id="def:bij" class="bookdown-definition" custom-style="DefinitionStyle">
+<span class="def:bij" custom-style="NameStyle"><strong>Definition 5.12:  </strong></span>
+<div>
+<p>Let <span class="math inline">\(f:X\to Y\)</span>. We say that <span class="math inline">\(f\)</span> is bijective (or that <span class="math inline">\(f\)</span> is an bijection) iff it is both an injection and a surjection.</p>
+</div>
+</div>
+<p>From the definition of <span class="math inline">\(f^{-1}\)</span>, <span class="math inline">\(f^{-1}(y)=x\)</span> if and only if <span class="math inline">\(f(x)=y\)</span>. So <span class="math inline">\(f(f^{-1}(y))=f(x)=y\)</span> and
+<span class="math inline">\(f^{-1}(f(x))=f^{-1}(y)=x\)</span>. So we have the following theorem.</p>
+
+<div id="thm:bijinv" class="bookdown-theorem" custom-style="TheoremStyle">
+<span class="thm:bijinv" custom-style="NameStyle"><strong>Theorem 5.3:  </strong></span>
+<p>
+<p>Let <span class="math inline">\(f:X\to Y\)</span>. The inverse of <span class="math inline">\(f\)</span>, <span class="math inline">\(f^{-1}:Y\to X\)</span> exists iff <span class="math inline">\(f\)</span> is a bijection.</p>
+In this case,
+<span class="math display">\[
+  f^{-1}\circ f(x)=f^{-1}(f(x))=x\qquad\text{and}\qquad f\circ f^{-1}(y)=f(f^{-1}(y))=y.
+\]</span>
+</p>
+</div>
+
+<div id="exm:121example" class="bookdown-example" custom-style="ExampleStyle">
+<span class="exm:121example" custom-style="NameStyle"><strong>Example 5.3:  </strong></span>
+<div>
+<p>Let <span class="math inline">\(f:\mathbb R-\{2\}\to\mathbb R-\{1\}\)</span> be defined by the rule <span class="math display">\[f(x)=\dfrac{x-1}{x-2}.\]</span>
+Prove that <span class="math inline">\(f\)</span> is one-to-one and onto and determine the inverse of <span class="math inline">\(f\)</span>.</p>
+<p>**Solution:*
+To see that <span class="math inline">\(f\)</span> is one-to-one, suppose that <span class="math inline">\(f(x_1)=f(x_2)\)</span>, so that <span class="math inline">\(\dfrac{x_1-1}{x_1-2}=\dfrac{x_2-1}{x_2-2}\)</span>. Rearranging we have <span class="math inline">\((x_1-1)(x_2-2)=(x_2-1)(x_1-2)\)</span>, which simplifies to show that <span class="math inline">\(x_1=x_2\)</span>. Hence <span class="math inline">\(f\)</span> is one-to-one.</p>
+<p>To see that <span class="math inline">\(f\)</span> is onto, let <span class="math inline">\(1\neq y=f(x)=\dfrac{x-1}{x-2}\)</span>. Rearranging to solve for <span class="math inline">\(x\)</span> in terms of <span class="math inline">\(y\)</span>, we see that <span class="math inline">\(xy-2y=x-1\)</span> or <span class="math inline">\(xy-x=2y-1\)</span> so that <span class="math inline">\(x=\dfrac{2y-1}{y-1}\)</span>. This implies that for any <span class="math inline">\(y\neq1\)</span>, there is an <span class="math inline">\(x\)</span> such that <span class="math inline">\(f(x)=y\)</span>. Hence <span class="math inline">\(f\)</span> is onto.</p>
+Since <span class="math inline">\(f\)</span> is a bijection it has an inverse, the formula for which is given by <span class="math inline">\(f^{-1}(y)= \dfrac{2y-1}{y-1}\)</span>. So <span class="math inline">\(f^{-1}:\mathbb R-\{1\}\to\mathbb R-\{2\};x\mapsto \dfrac{2x-1}{x-1}\)</span>.
+</div>
+</div>
+</div>
+</div>
+<!--bookdown:body:end-->
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+</script>
+
+</body>
+</html>

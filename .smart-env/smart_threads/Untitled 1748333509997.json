@@ -1,0 +1,131 @@
+{
+  "path": ".smart-env/smart_threads/Untitled 1748333509997.json",
+  "last_embed": {
+    "hash": null
+  },
+  "embeddings": {},
+  "last_read": {
+    "hash": null,
+    "mtime": 0
+  },
+  "created_at": 1748333509997,
+  "responses": {
+    "gemini-1748333601386": {
+      "id": "gemini-1748333601386",
+      "object": "chat.completion",
+      "created": 1748333601877,
+      "model": "gemini-2.5-flash-preview-05-20",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "No, I cannot \"see\" or open that link.\n\nThat's an `obsidian://` URI, which is a special type of link designed to open files directly within the Obsidian application on *your* computer.\n\nAs an AI, I don't have access to your local file system, nor do I have Obsidian installed or the ability to run applications.\n\nHowever, I can tell you what the link is trying to do! It's attempting to open a PDF file named `CHAOS (A) 2022.pdf` located in the path `Year 1/Formative Problems/Problem sheet/Exam papers/2022/Paper/` within your Obsidian vault called `tpam stuff`.\n\nIs there something about the content of that PDF or the problem itself that you'd like to discuss or ask about? If you can copy and paste the text or describe the problem, I'd be happy to help!"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 85,
+        "completion_tokens": 198,
+        "total_tokens": 1177
+      }
+    }
+  },
+  "messages": {
+    "user-1-1748333567605-1": 1,
+    "user-2-1748333595587-1": 2,
+    "assistant-3-1748333601386-1": 3
+  },
+  "branches": {},
+  "class_name": "SmartThread2",
+  "key": "Untitled 1748333509997",
+  "blocks": [
+    {
+      "path": null,
+      "last_embed": {
+        "hash": null
+      },
+      "embeddings": {},
+      "text": null,
+      "length": 0,
+      "last_read": {
+        "hash": null,
+        "at": 0
+      },
+      "thread_key": "Untitled 1748333509997",
+      "content": [
+        {
+          "type": "text",
+          "text": "obsidian://open?vault=tpam%20stuff&file=Year%201%2FFormative%20Problems%2FProblem%20sheet%2FExam%20papers%2F2022%2FPaper%2FCHAOS%20(A)%202022.pdf\ncan you see this?"
+        }
+      ],
+      "role": "user",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 1,
+      "id": "user-1-1748333567605-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "branch_i": "1748333567605-1",
+      "key": "Untitled 1748333509997#user-1-1748333567605-1"
+    },
+    {
+      "path": null,
+      "last_embed": {
+        "hash": null
+      },
+      "embeddings": {},
+      "text": null,
+      "length": 0,
+      "last_read": {
+        "hash": null,
+        "at": 0
+      },
+      "thread_key": "Untitled 1748333509997",
+      "content": [
+        {
+          "type": "text",
+          "text": "hi"
+        }
+      ],
+      "role": "user",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 2,
+      "id": "user-2-1748333595587-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "branch_i": "1748333595587-1",
+      "key": "Untitled 1748333509997#user-2-1748333595587-1"
+    },
+    {
+      "path": null,
+      "last_embed": {
+        "hash": null
+      },
+      "embeddings": {},
+      "text": null,
+      "length": 0,
+      "last_read": {
+        "hash": null,
+        "at": 0
+      },
+      "thread_key": "Untitled 1748333509997",
+      "content": "No, I cannot \"see\" or open that link.\n\nThat's an `obsidian://` URI, which is a special type of link designed to open files directly within the Obsidian application on *your* computer.\n\nAs an AI, I don't have access to your local file system, nor do I have Obsidian installed or the ability to run applications.\n\nHowever, I can tell you what the link is trying to do! It's attempting to open a PDF file named `CHAOS (A) 2022.pdf` located in the path `Year 1/Formative Problems/Problem sheet/Exam papers/2022/Paper/` within your Obsidian vault called `tpam stuff`.\n\nIs there something about the content of that PDF or the problem itself that you'd like to discuss or ask about? If you can copy and paste the text or describe the problem, I'd be happy to help!",
+      "role": "assistant",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 3,
+      "id": "assistant-3-1748333601386-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "response_id": "gemini-1748333601386",
+      "branch_i": "1748333601386-1",
+      "key": "Untitled 1748333509997#assistant-3-1748333601386-1"
+    }
+  ]
+}

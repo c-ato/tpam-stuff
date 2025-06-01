@@ -1,0 +1,318 @@
+{
+  "main": {
+    "id": "8d2a2d15cbd13f54",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e6ac2cf34d70848",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0fdd4eb319350109",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "186e92917fdcddd1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      },
+      {
+        "id": "54d7cb8ce5224b4a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "390847bcad7444c5",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://hal.science/hal-03104870v1",
+                "title": "Regularization, renormalization, and renormalization groups - Archive ouverte HAL",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Regularization, renormalization, and renormalization groups - Archive ouverte HAL"
+            }
+          },
+          {
+            "id": "68ce1cb60202e2c0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Year 1/Essay prep/Renormalization From Lorentz to Landau.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 73,
+                "zoom": 1.609898882384247
+              },
+              "icon": "lucide-file-text",
+              "title": "Renormalization From Lorentz to Landau"
+            }
+          },
+          {
+            "id": "561af35c07cfb8e4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Year 1/Essay prep/Regularization, renormalisation and renormalisation group.pdf",
+                "page": 1,
+                "left": -25,
+                "top": 845,
+                "zoom": 0.8897058823529412
+              },
+              "icon": "lucide-file-text",
+              "title": "Regularization, renormalisation and renormalisation group"
+            }
+          },
+          {
+            "id": "b3d373015c7cb171",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://hal.science/",
+                "title": "Home - Archive ouverte HAL",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Home - Archive ouverte HAL"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9f3f9ee7b32a39c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "1839376d950e0755",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a88cbd3316f49191",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bb56949daa6006dc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3a5e40a13b080568",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "91c08e46b39f8218",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "fa325a863e3241af",
+    "type": "split",
+    "children": [
+      {
+        "id": "87d5f87c72802259",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3c737e6ad3a0a52",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for sas assessed problems 3"
+            }
+          },
+          {
+            "id": "66fb400312d30714",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from sas assessed problems 3"
+            }
+          },
+          {
+            "id": "216eb2f638907dbf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "84024db2b41a63b8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of sas assessed problems 3"
+            }
+          },
+          {
+            "id": "85fb6fe661b42dbe",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "remotely-save:Remotely Save": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "b3d373015c7cb171",
+  "lastOpenFiles": [
+    "Year 1/Essay prep/Regularization, renormalisation and renormalisation group.pdf",
+    "Year 1/Essay prep/Essay.md",
+    "Year 1/Summative Assessed Problem/My solutions/Solved/Week 9 qm.md",
+    "Year 1/Essay prep/Renormalization From Lorentz to Landau.pdf",
+    "Year 1/Essay prep/Claude Itzykson_ Jean Bernard Zuber - Quantum field theory.pdf",
+    "Year 1/VGLA/Notes/vgla note 7.md",
+    "Year 1/VGLA/Lecture/1VGLA_AU.pdf",
+    "Year 1/Summative Assessed Problem/My solutions/Solved/ec summative 6.md",
+    "ec summative 6.pdf",
+    "Untitled.md",
+    "Year 1/Summative Assessed Problem/Problem sheet/Year 1 Assessed Problems 6.pdf",
+    "Year 1/VGLA/Notes/vgla note 6.md",
+    "Year 1/[International series in pure and applied physics] Claude Itzykson_ Jean Bernard Zuber - Quantum field theory (1980, McGraw-Hill International Book Co ) - libgen.li.pdf",
+    "[International series in pure and applied physics] Claude Itzykson_ Jean Bernard Zuber - Quantum field theory (1980, McGraw-Hill International Book Co ) - libgen.li.pdf",
+    "Year 1/Formative Problems/Problem sheet/Subjects/Chaos/example1.pdf",
+    "Year 1/Formative Problems/Problem sheet/Subjects/Mech/Mechsheet1qn.pdf",
+    "{3EC11749-F92D-43DA-8184-08111DA5A730}.png",
+    "Year 1/Summative Assessed Problem/My solutions/Solved/Mech 2 sumative.md",
+    "Year 1/Summative Assessed Problem/My solutions/Solved/ra6 assessed questions.md",
+    "Year 1/Summative Assessed Problem/My solutions/Solved/tm assessed sum.md",
+    "Year 1/Summative Assessed Problem/My solutions/Solved/EM summative.md",
+    "Year 1/RA/Notes/ra note 5.md",
+    "Year 1/RA/Notes/ra note 4.md",
+    "Year 1/Summative Assessed Problem/My solutions/My solutions.md",
+    "Images/{0BF39147-AD3C-48AE-A839-FA7F10DEB482}.png",
+    "Excalidraw/Untitled 2025-01-09 23.25.31.excalidraw.md",
+    "Year 1/Chaos/Notes/chaos note 1.md",
+    "Year 1/TM/Notes/tm note 1.md",
+    "Year 1/EM/Notes/EM note 1.md",
+    "Untitled-Deca.md",
+    "Year 1/Summative Assessed Problem/My solutions/Solved/vgla assessed week 4.md",
+    "Year 1/Formative Problems/My solutions/chaos 1 formative.md",
+    "Year 1/Summative Assessed Problem/My solutions/Solved/chaos assessed 1.md",
+    "Year 1/Summative Assessed Problem/My solutions/Solved/chaos week 3 assessed.md",
+    "Year 1/Summative Assessed Problem/My solutions/Solved/EC assessed week 4.md",
+    "{0BF39147-AD3C-48AE-A839-FA7F10DEB482}.png",
+    "Year 1/Summative Assessed Problem/My solutions/Solved/EM assessed week 3.md",
+    "Year 1/Formative Problems/My solutions/Mech formative 1.md",
+    "Year 1/Pasted image 20241010091502.png",
+    "Year 1/Pasted image 20241014104007.png",
+    "Pasted image 20241121112409.png",
+    "New folder/Pasted image 20241010091502.png",
+    "New folder/Pasted image 20241014104007.png"
+  ]
+}

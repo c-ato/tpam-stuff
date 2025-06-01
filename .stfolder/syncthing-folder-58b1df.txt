@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: jesusChrist
+created: 2025-05-28T11:54:04+01:00

@@ -1,0 +1,10 @@
+{
+  "templates": [],
+  "excludedPaths": [
+    "Theorems, definitions and other callouts.md"
+  ],
+  "blockPrefix": "^",
+  "enableFileNameBlockLinks": true,
+  "enableInSourceMode": false,
+  "renderOutline": true
+}

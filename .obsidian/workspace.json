@@ -1,0 +1,384 @@
+{
+  "main": {
+    "id": "17bcb7776f02a803",
+    "type": "split",
+    "children": [
+      {
+        "id": "abcf22b2137d76ad",
+        "type": "tabs",
+        "dimension": 53.094629156010235,
+        "children": [
+          {
+            "id": "9339458a639ae595",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://forum.obsidian.md/t/templater-cheat-sheet/33518",
+                "title": "Templater Cheat-Sheet - Share & showcase - Obsidian Forum",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Templater Cheat-Sheet - Share & showcase - Obsidian Forum"
+            }
+          },
+          {
+            "id": "94d1bd84f760cc39",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://silentvoid13.github.io/Templater/commands/execution-command.html",
+                "title": "Execution Commands - Templater",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Execution Commands - Templater"
+            }
+          },
+          {
+            "id": "c138f650126f505a",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://forum.obsidian.md/t/templater-tp-system-prompt-to-select-link-existing-file/57176/3",
+                "title": "Templater tp.system.prompt to select/link existing file - Help - Obsidian Forum",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Templater tp.system.prompt to select/link existing file - Help - Obsidian Forum"
+            }
+          },
+          {
+            "id": "f71ad6dde0bde4c6",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://forum.obsidian.md/t/template-that-titles-new-note-using-previous-note/83793",
+                "title": "Template that titles new note using previous note - Help - Obsidian Forum",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Template that titles new note using previous note - Help - Obsidian Forum"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "387e960b2842b75d",
+        "type": "tabs",
+        "dimension": 46.905370843989765,
+        "children": [
+          {
+            "id": "81217afaadcb5d62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Utility/Templates/ano note.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ano note"
+            }
+          },
+          {
+            "id": "7571e79530eed87f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Utility/Templates/New Successive Note.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "New Successive Note"
+            }
+          },
+          {
+            "id": "40d076e519969c61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Topology note 3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Topology note 3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2d274d7b3c225723",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e63072c4c33a564",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b11573e71d3c4468",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5ea501e83b8a10a9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "32e030ac87d0b5d4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f8f6d84d1165094d",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfc6280df4c2bcb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c99828b6fd4ae0e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Year 1/Formative Problems/My solutions/vgla 2024 exam.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for vgla 2024 exam"
+            }
+          },
+          {
+            "id": "169451b74e10397d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Year 1/Formative Problems/My solutions/vgla 2024 exam.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from vgla 2024 exam"
+            }
+          },
+          {
+            "id": "403f603ddeeaaf0e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "16f32d2d52905a1b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "25f2f2347c694b25",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Year 1/Formative Problems/Problem sheet/Exam papers/2022/Paper/CHAOS (A) 2022.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CHAOS (A) 2022"
+            }
+          },
+          {
+            "id": "257bc188c2d0a54b",
+            "type": "leaf",
+            "state": {
+              "type": "smart-chat-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1ce47dbf2d3785ea",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 324.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "copilot:Open Copilot Chat": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "remotely-save:Remotely Save": false,
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "c138f650126f505a",
+  "lastOpenFiles": [
+    "Utility/Templates/ano note.md",
+    "sync.tmp.ffs_db",
+    "sync.ffs_lock",
+    "Utility/Templates/reeee 1 4.md",
+    "Utility/Templates/reeee 1 3.md",
+    "Utility/Templates/reeee 1 2.md",
+    "Utility/Templates/reeee 1 1.md",
+    "Utility/Templates/reeee 1.md",
+    "Utility/Templates/New Note Chain.md",
+    "Utility/Templates/testp note 1.md",
+    "Utility/Templates/New Successive Note.md",
+    "Utility/Templates/pop note.md",
+    "Utility/Templates/fdsfds note.md",
+    "Utility/Templates/lo note.md",
+    "Utility/Templates/moo note.md",
+    "Utility/Templates/sdasd note.md",
+    "Utility/Templates/dsa note.md",
+    "Utility/Templates/test note.md",
+    "Utility/Templates/nah note.md",
+    "Independent Learning/TQFT/Notes/Topology note 3.md",
+    "Independent Learning/TQFT/Notes/Topology note 4.md",
+    "Independent Learning/TQFT/Notes/Topology note 5.md",
+    "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
+    "Independent Learning/TQFT/Notes/Topology note 34.md",
+    "Utility/Templates/Topology 2.md",
+    "Utility/Templates/Topology2.md",
+    "Utility/Templates/Create New Successive Note2 2.md",
+    "Utility/Templates/Create New Successive Note2 1.md",
+    "Utility",
+    "Utility/Templates",
+    "Utility/Images/Pasted image 20250530102441.png",
+    "Independent Learning/TQFT/Material/3. TQFT Notes (project start).pdf",
+    "Independent Learning/TQFT/Material/4. Intro TQFT (upto page 10).pdf",
+    "Independent Learning/TQFT/Material/5. TQFT UG notes.pdf",
+    "Independent Learning/TQFT/Material/7. Topological phase with parafermions theory.pdf",
+    "Independent Learning/TQFT/Material/TQFT (very Advance).pdf",
+    "Utility/Images/{CE29CD0B-27E5-4737-BC4D-EBAE35F38AE6}.png",
+    "Utility/Images/Pasted Image 20250513090900_628.png"
+  ]
+}
