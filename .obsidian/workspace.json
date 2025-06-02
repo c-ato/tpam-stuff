@@ -4,147 +4,140 @@
     "type": "split",
     "children": [
       {
-        "id": "abcf22b2137d76ad",
+        "id": "5841b98cb0d8279a",
         "type": "tabs",
-        "dimension": 53.094629156010235,
         "children": [
           {
-            "id": "9339458a639ae595",
+            "id": "1372b0add36f556d",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "pdf",
               "state": {
-                "url": "https://forum.obsidian.md/t/templater-cheat-sheet/33518",
-                "title": "Templater Cheat-Sheet - Share & showcase - Obsidian Forum",
-                "mode": "webview"
+                "file": "Year 1/Formative Problems/Problem sheet/Exam papers/2024/Paper/A34930_LCRealAnalysis_QP_Main2024.pdf",
+                "page": 5,
+                "left": -227,
+                "top": 366,
+                "zoom": 1.1162889147219106
               },
-              "icon": "globe-2",
-              "title": "Templater Cheat-Sheet - Share & showcase - Obsidian Forum"
+              "icon": "lucide-file-text",
+              "title": "A34930_LCRealAnalysis_QP_Main2024"
             }
           },
           {
-            "id": "94d1bd84f760cc39",
+            "id": "0d9d2db4e938c9e4",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://silentvoid13.github.io/Templater/commands/execution-command.html",
-                "title": "Execution Commands - Templater",
-                "mode": "webview"
+                "file": "Year 1/Formative Problems/My solutions/Solved/ra 2022 exam.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "globe-2",
-              "title": "Execution Commands - Templater"
+              "icon": "lucide-file",
+              "title": "ra 2022 exam"
             }
           },
           {
-            "id": "c138f650126f505a",
+            "id": "d0d796c422c82a8c",
             "type": "leaf",
+            "dimension": 50,
             "state": {
-              "type": "webviewer",
+              "type": "pdf",
               "state": {
-                "url": "https://forum.obsidian.md/t/templater-tp-system-prompt-to-select-link-existing-file/57176/3",
-                "title": "Templater tp.system.prompt to select/link existing file - Help - Obsidian Forum",
-                "mode": "webview"
+                "file": "Year 1/Formative Problems/Problem sheet/Solved/1RA_Online.pdf",
+                "page": 1,
+                "left": -153,
+                "top": 13,
+                "zoom": 1.3
               },
-              "icon": "globe-2",
-              "title": "Templater tp.system.prompt to select/link existing file - Help - Obsidian Forum"
+              "icon": "lucide-file-text",
+              "title": "1RA_Online"
             }
           },
           {
-            "id": "f71ad6dde0bde4c6",
+            "id": "5b2dee0a0184f0b7",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "pdf",
               "state": {
-                "url": "https://forum.obsidian.md/t/template-that-titles-new-note-using-previous-note/83793",
-                "title": "Template that titles new note using previous note - Help - Obsidian Forum",
-                "mode": "webview"
+                "file": "Year 1/Formative Problems/Problem sheet/Subjects/RA/RA9.pdf",
+                "page": 1,
+                "left": -153,
+                "top": 769,
+                "zoom": 1.3
               },
-              "icon": "globe-2",
-              "title": "Template that titles new note using previous note - Help - Obsidian Forum"
+              "icon": "lucide-file-text",
+              "title": "RA9"
+            }
+          },
+          {
+            "id": "84af024cbba42061",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Year 1/Formative Problems/Problem sheet/Subjects/RA/Practice Questions 3 - 2024.pdf",
+                "page": 1,
+                "left": -16,
+                "top": 810,
+                "zoom": 0.9260410297072282
+              },
+              "icon": "lucide-file-text",
+              "title": "Practice Questions 3 - 2024"
+            }
+          },
+          {
+            "id": "7a072e33f1b94d7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 1/Formative Problems/My solutions/Solved/ra 2022 exam.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ra 2022 exam"
+            }
+          },
+          {
+            "id": "2b1db6f990ab2c96",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Year 1/Formative Problems/Problem sheet/Solved/1RA_Online.pdf",
+                "page": 1,
+                "left": -3,
+                "top": 845,
+                "zoom": 1.1162889147219106
+              },
+              "icon": "lucide-file-text",
+              "title": "1RA_Online"
             }
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "387e960b2842b75d",
-        "type": "tabs",
-        "dimension": 46.905370843989765,
-        "children": [
-          {
-            "id": "81217afaadcb5d62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Utility/Templates/ano note.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ano note"
-            }
-          },
-          {
-            "id": "7571e79530eed87f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Utility/Templates/New Successive Note.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "New Successive Note"
-            }
-          },
-          {
-            "id": "40d076e519969c61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Topology note 3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Topology note 3"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +194,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 302.5
   },
   "right": {
     "id": "f8f6d84d1165094d",
@@ -304,8 +297,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -318,9 +311,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "copilot:Open Copilot Chat": false,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:New drawing": false,
@@ -337,11 +327,26 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "c138f650126f505a",
+  "active": "d0d796c422c82a8c",
   "lastOpenFiles": [
+    "Year 1/Formative Problems/My solutions/Solved/ra 2022 exam.md",
+    "Year 1/Formative Problems/Problem sheet/Exam papers/2024/Paper/A34930_LCRealAnalysis_QP_Main2024.pdf",
+    "Year 1/Formative Problems/Problem sheet/Solved/1RA_Online.pdf",
+    "Year 1/Formative Problems/My solutions/Solved/ra 2024 paper.md",
+    "Year 1/Formative Problems/Problem sheet/Subjects/RA/Practice Questions 3 - 2024.pdf",
+    "Year 1/Formative Problems/Problem sheet/Subjects/RA/RA9.pdf",
+    "Year 1/Formative Problems/My solutions/Solved/ra 2023 paper.md",
+    "Untitled.md",
+    "Year 1/Formative Problems/Problem sheet/Exam papers/2024/Paper/ra 2022 paper.md",
+    "Year 1/Formative Problems/Problem sheet/Exam papers/2023/Paper/1RA.pdf",
+    "Independent Learning/TQFT/Notes/Topology note 3.md",
+    "Utility/Templates/New Successive Note.md",
     "Utility/Templates/ano note.md",
     "sync.tmp.ffs_db",
     "sync.ffs_lock",
@@ -352,7 +357,6 @@
     "Utility/Templates/reeee 1.md",
     "Utility/Templates/New Note Chain.md",
     "Utility/Templates/testp note 1.md",
-    "Utility/Templates/New Successive Note.md",
     "Utility/Templates/pop note.md",
     "Utility/Templates/fdsfds note.md",
     "Utility/Templates/lo note.md",
@@ -361,23 +365,12 @@
     "Utility/Templates/dsa note.md",
     "Utility/Templates/test note.md",
     "Utility/Templates/nah note.md",
-    "Independent Learning/TQFT/Notes/Topology note 3.md",
     "Independent Learning/TQFT/Notes/Topology note 4.md",
     "Independent Learning/TQFT/Notes/Topology note 5.md",
     "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
-    "Independent Learning/TQFT/Notes/Topology note 34.md",
-    "Utility/Templates/Topology 2.md",
-    "Utility/Templates/Topology2.md",
-    "Utility/Templates/Create New Successive Note2 2.md",
-    "Utility/Templates/Create New Successive Note2 1.md",
     "Utility",
     "Utility/Templates",
     "Utility/Images/Pasted image 20250530102441.png",
-    "Independent Learning/TQFT/Material/3. TQFT Notes (project start).pdf",
-    "Independent Learning/TQFT/Material/4. Intro TQFT (upto page 10).pdf",
-    "Independent Learning/TQFT/Material/5. TQFT UG notes.pdf",
-    "Independent Learning/TQFT/Material/7. Topological phase with parafermions theory.pdf",
-    "Independent Learning/TQFT/Material/TQFT (very Advance).pdf",
     "Utility/Images/{CE29CD0B-27E5-4737-BC4D-EBAE35F38AE6}.png",
     "Utility/Images/Pasted Image 20250513090900_628.png"
   ]
