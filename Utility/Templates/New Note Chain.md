@@ -1,33 +1,33 @@
-<%*
-tp.app.vault.getall
-const titleStem = await tp.system.prompt("Please enter Title Stem ([Title Stem] note 3)")
-const newTitle = titleStem  + " note";
-await tp.file.create_new("",newTitle, true);
-const uri = await tp.app.commands.executeCommandById("workspace:copy-url") + "%20";
+<%* 
+// Making new stem and note chain
 
-const files = app.vault.getMarkdownFiles()
-const PDFlink = (await tp.system.suggester((files) => files.basename, files)).basename;
+const titleStem = await tp.system.prompt("Choose a title stem ([Title Stem] note 3)")
+await tp.file.create_new("",titleStem + " note",true)
+await tp.app.commands.executeCommandById("workspace:copy-url");
+const uri = await tp.system.clipboard() + "%20"
 
+// Makes PDFlink
 
-const cont = `---
+const Files = app.vault.getFiles(); 
+const encodedFileName = encodeURIComponent(
+	(await tp.system.suggester( 
+		(file) => file.basename, Files )).path.replace(".md", "")); 
+const vaultName = app.vault.getName();
+const encodedVaultName = encodeURIComponent(vaultName);
+const PDFlink = `obsidian://open?vault=${encodedVaultName}&file=${encodedFileName}`;
+tp.file.rename((titleStem + " note 1"), true);
+tp.app.commands.executeCommandById("automatic-tags:add-tags")
+%>---
 Note number: 1
-PDF URI: ${PDFlink}
-Title Stem: ${tp.frontmatter["Title Stem"]}
-URI base: ${uri}
+PDF URI: <% PDFlink %>
+Title Stem: <% titleStem %>
+URI base: <% uri %>
 ---
 <div style="display: flex; justify-content: center; gap: 10px;">
 	<a 
-	href="${uri + parseInt(noteNum + 1)}" class="button">Next
+	href="<%uri%>2" class="button">Next
 	</a> 
 	<a 
-	href="${PDFlink + "#page=" + pageNum}" class="button">Go to PDF Page ${pageNum}
-	</a> 
-	<a 
-	href="${uri + parseInt(noteNum - 1)}" class="button">Previous
+	href="<%PDFlink%>#page=1" class="button">Go to PDF beginning
 	</a> 
 </div>
-${files}
-`;
-tp.file.rename(newTitle + " 1")
-tp.app.commands.executeCommandById("automatic-tags:add-tags")
-%>
