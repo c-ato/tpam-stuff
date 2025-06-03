@@ -61,16 +61,26 @@
               "state": {
                 "file": "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
                 "page": 1,
-                "left": -20,
-                "top": 845,
-                "zoom": 0.7383129842291644
+                "left": -16,
+                "top": 846,
+                "zoom": 0.9121819122558277
               },
               "icon": "lucide-file-text",
               "title": "0. Topology Notes (pre project)"
             }
+          },
+          {
+            "id": "ea830b22fc604e62",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -243,10 +253,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "remotely-save:Remotely Save": false,
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -265,8 +271,9 @@
       "smart-connections:Open: View Smart Connections": false
     }
   },
-  "active": "7713a0605a7628a4",
+  "active": "ea830b22fc604e62",
   "lastOpenFiles": [
+    "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
     "Year 1/Formative Problems/My solutions/ra 2024 paper.md",
     "Year 1/Formative Problems/Problem sheet/Exam papers/2024/Paper/A34930_LCRealAnalysis_QP_Main2024.pdf",
     "Independent Learning/TQFT/Notes/Topology note 3.md",
@@ -292,7 +299,6 @@
     "Utility/Templates/sad note.md",
     "Tets note.md",
     "Utility/Templates/foo.md",
-    "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
     "Utility/Templates/Untitled 1.md",
     "Year 1/Formative Problems/Problem sheet/Solved/1RA_Online.pdf",
     "Year 1/Formative Problems/Problem sheet/Subjects/RA/Practice Questions 3 - 2024.pdf",
