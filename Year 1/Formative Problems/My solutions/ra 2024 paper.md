@@ -68,3 +68,79 @@ $$
 $$
 =\left[ -\csc u \right] ^{a}_{b}=\left[ -\csc \left( \tan ^{-1} \frac{x}{3} \right)  \right] ^{2}_{1}=1.359\dots
 $$
+- (f) Find a solution $y:[1,\infty)\to \mathbb{R}$ of the differential equation $y''+2y'+5y=4x$
+$$
+y_{c}=Ae^{ \lambda x }\implies \lambda^{2}+2\lambda+5=0 \implies \lambda=-1 \pm \frac{\sqrt[  ]{ 4-20 }}{2}=-1\pm 2i
+$$
+$$
+\therefore y_{c}= e^{ (-1\pm 2i)x }=Ae^{ -x }\cos 2x +Be^{ -x }\sin x\qquad y_{p}= \frac{4}{5}x-\frac{8}{25}
+$$
+$$
+y=Ae^{ -x }\cos 2x +Be^{ -x }\sin x+ \frac{4}{5}x-\frac{8}{25}
+$$
+3. 
+- (a) Use L’Hopital’s rule to find the following limits when it applies:
+	- (i) $\lim_{ x \to 0 } \frac{1-\cos x}{x^{2}}$
+$$
+\lim_{ x \to 0 } \frac{1-\cos x}{x^{2}}\to \frac{0}{0}\therefore\lim_{ x \to 0 } \frac{1-\cos x}{x^{2}}=\lim_{ x \to 0 }  \frac{\sin x}{2x}=\lim_{ x \to 0 }  \frac{\cos x}{2}\to \frac{1}{2}
+$$
+- 
+	- (ii) $\lim_{ x \to 0^{+} }x^{0.001}\ln x$
+$$
+\lim_{ x \to 0^{+} }x^{0.001}\ln x\to 0\cdot -\infty \therefore \lim_{ x \to 0^{+} }x^{0.001}\ln x=\lim_{ x \to 0^{+} } \frac{\ln x}{x^{-0.001}}=\lim_{ x \to 0^{+} } \frac{\frac{1}{x}}{-0.001\cdot x^{-1.001}}=\lim_{ x \to 0^{+} }- \frac{x^{0.001}}{0.001}=0
+$$
+- 
+	- (iiI) $\lim_{ x \to \infty }\left( \frac{4^{1/x}+9^{1/x}}{2} \right)^{x}$
+$$
+\lim_{ x \to \infty }\left( \frac{4^{1/x}+9^{1/x}}{2} \right)^{x}=\lim_{ x \to \infty } e^{ x\ln\left(  \frac{4^{1/x}+9^{1/x}}{2} \right)  }= e^{ \lim_{ x \to \infty } x\ln\left(  \frac{4^{1/x}+9^{1/x}}{2} \right)  }
+$$
+$$
+\lim_{ x \to \infty } x\ln\left(  \frac{4^{1/x}+9^{1/x}}{2} \right)=\lim_{ x \to \infty } \frac{\ln\left(  \frac{4^{1/x}+9^{1/x}}{2} \right)}{x^{-1}}\to \frac{0}{0}\therefore \lim_{ x \to \infty } \frac{\left( - \frac{1}{x^{2}} \right)(4^{1/x}\ln 4+9^{1/x}\ln 9)\left( \frac{2}{4^{1/x}+9^{1/x}} \right)}{-\frac{1}{x^{2}}}
+$$
+$$
+=\lim_{ x \to \infty } (4^{1/x}\ln 4+9^{1/x}\ln 9)\left( \frac{2}{4^{1/x}+9^{1/x}} \right)\to 2\ln 2+2\ln 3
+$$
+- (b) Let $f : [1, 3] → \mathbb{R}$ be a function such that $$\left| f(x)-f(y) \right|\leq 100\left| x-y \right|^{1.001}$$
+for all $x,y\in [1,3]$. Provice that $f$ is a constant function. (Hint: first show $f'(x)=0$).
+$$
+f'(x)=\lim_{ \alpha \to x } \frac{f(x)-f(\alpha)}{x-\alpha}\qquad y=\alpha\implies \left| f'(x) \right|= \left|\lim_{ y \to x } \frac{f(x)-f(y)}{x-y} \right|
+$$
+$$
+\lim_{ y \to x} \left| f(x)-f(y) \right|=\left| f'(x) \right| \lim_{ y \to x } \left| x-y \right|\leq \lim_{ y \to x } 100 \left| x-y \right|^{1.001}\to0
+$$
+$$
+\therefore 0\leq \left| f'(x) \right|\leq 0 \therefore f'(x)=0
+$$
+- (c) Let $f : \mathbb{R} \setminus \{0\} → \mathbb{R}$ be the function defined by $$f(x)=\frac{1-2x}{x^{2}}+1$$for all $x \in \mathbb{R}\setminus \{ 0 \}$. Find and determine the nature (i.e. local minima or local maxima) of the stationary points of $f$ . Justify any assertions that you make. 
+$$
+f'(x)=\frac{-2x^{2}-2x(1-2x)}{x^{4}}=\frac{2x-2}{x^{3}}=0 \iff x=1
+$$
+$$
+f''(x)=\frac{2x^{3}-3x^{2}(2x-2)}{x^{6}}=\frac{6-4x}{x^{4}}\qquad f''(1)=2>0 \therefore \text{minima}
+$$
+- (d) Given $c ∈ \mathbb{R}$, prove that there is at most one solution to the equation$$x^{3}-4x+c=0$$on the interval [0, 1]. 
+$$
+f(x)=x^{3}-4x+c=0\qquad f'(x)=3x^{2}-4 =0 \qquad f':[0,1]\to[-4,-1]<0\forall x \in[0,1]
+$$
+$\therefore$ strictly monotonic on interval. So if the curve does not pass the $x$-axis in the interval then there is no solution and this is $\leq1$ solution. If there is a solution (passes $x$-axis )in this interval then as it is a monotonic and cannot have another solution (pass the $x$-axis again as this requires increasing).
+
+4. 
+- (a) Find $\int ^{}_{}  \frac{4x^{2}+x+10}{x^{3}-x^{2}+4x-4} \, dx$ in terms of elementary functions.
+$$
+\int ^{}_{}  \frac{4x^{2}+x+10}{x^{3}-x^{2}+4x-4} \, dx=\int ^{}_{} \frac{Ax+B}{x^{2}+4}+ \frac{C}{x-1} \, dx 
+$$
+$$
+4x^{2}+x+10=(Ax+B)(x-1)+C(x^{2}+4)\qquad C=3\qquad B=2\qquad A=1
+$$
+$$
+\int ^{}_{} \frac{x+2}{x^{2}+4}+ \frac{3}{x-1} \, dx =\frac{1}{2}\ln(x^{2}+4)+\tan ^{-1} \frac{x}{2}+3\ln(x-1)
+$$
+- (d) Suppose that $g : [0, π] → \mathbb{R}$ is given by$$g(x):=\int ^{2x\cos ^{2}(3x)}_{0} \sin(t^{2}) \, dt\qquad\text{for all }x\in[0,\pi] $$Prove that $g$ is differentiable and find its derivative $g'$ in terms of elementary functions.
+
+Let $H(x)=\int ^{x}_{} \sin(t^{2}) \, dt,\,h(x)=H'(x)=\sin(x^{2}),\,f(x)=2x\cos ^{2}(3x)$ and $g(x)=H(f(x))$. $h(x)$ is composed of continuous functions and is thus continuous so $H'$ exists and $H$. $f$ is also composed of elementary continuous functions, this then means that $g$ exists as it is a composition of them. We may then use chain rule:
+$$
+g'(x)=(H(f(x)))'=H'(f(x))f'(x)=\sin((2x\cos ^{2}(3x))^{2})(2\cos ^{2}(3x)-6\cos(3x)\sin(3x))
+$$
+$$
+=\sin(4x^{2}\cos ^{4}(3x))(2\cos ^{2}(3x)-6\cos(3x)\sin(3x)
+$$
