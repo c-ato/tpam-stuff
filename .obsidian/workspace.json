@@ -225,6 +225,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "soundscapes:Soundscapes: My Music": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "copilot:Open Copilot Chat": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
