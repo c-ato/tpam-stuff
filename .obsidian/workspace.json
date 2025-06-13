@@ -4,16 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "5841b98cb0d8279a",
+        "id": "abcf22b2137d76ad",
         "type": "tabs",
+        "dimension": 53.12925170068027,
         "children": [
           {
-            "id": "16131a284139d270",
+            "id": "cd7eaa80c3f0c05f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "0. Topology Notes (pre project)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "387e960b2842b75d",
+        "type": "tabs",
+        "dimension": 46.87074829931973,
+        "children": [
+          {
+            "id": "41a640f90ce287a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/Formative Problems/My solutions/SR and P 2024.md",
+                "file": "Independent Learning/TQFT/Notes/Topology note 3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,41 +48,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SR and P 2024"
-            }
-          },
-          {
-            "id": "48f770d46641d19c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Utility/Images/SR and P 2024 2025-06-05 12.18.01.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "SR and P 2024 2025-06-05 12.18.01.excalidraw"
-            }
-          }
-        ]
-      },
-      {
-        "id": "f60be160b37b9e32",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7713a0605a7628a4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Year 1/Formative Problems/Problem sheet/Exam papers/2024/Paper/SR,P 2024.pdf",
-                "page": 6,
-                "left": 51,
-                "top": 586,
-                "zoom": 1.1
-              },
-              "icon": "lucide-file-text",
-              "title": "SR,P 2024"
+              "title": "Topology note 3"
             }
           }
         ]
@@ -122,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
+    "width": 364.5,
     "collapsed": true
   },
   "right": {
@@ -235,10 +221,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 405.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "copilot:Open Copilot Chat": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -247,32 +242,17 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "copilot:Open Copilot Chat": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "remotely-save:Remotely Save": false,
-      "templater-obsidian:Templater": false,
-      "soundscapes:Soundscapes: My Music": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "16131a284139d270",
+  "active": "cd7eaa80c3f0c05f",
   "lastOpenFiles": [
-    "Year 1/Formative Problems/Problem sheet/Exam papers/2024/Paper/SR,P 2024.pdf",
-    "Year 1/Formative Problems/My solutions/SR and P 2024.md",
+    "Independent Learning/TQFT/Notes/Topology note 3.md",
     "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
-    "Utility/Images/SR and P 2024 2025-06-05 12.18.01.excalidraw.md",
-    "Utility/Templates/New Successive Note.md",
-    "Utility/Templates/New Note Chain.md",
     "Year 1/Formative Problems/My solutions/ra 2024 paper.md",
     "Year 1/Formative Problems/Problem sheet/Exam papers/2024/Paper/A34930_LCRealAnalysis_QP_Main2024.pdf",
-    "Independent Learning/TQFT/Notes/Topology note 3.md",
+    "Utility/Templates/New Note Chain.md",
+    "Utility/Templates/New Successive Note.md",
     "Independent Learning/TQFT/Notes/TQFT note 1.md",
     "Utility/Templates/note 1.md",
     "Utility/Templates/lop note.md",
@@ -292,6 +272,8 @@
     "Untitled.md",
     "Utility/Templates/sad note.md",
     "Tets note.md",
+    "Utility/Templates/foo.md",
+    "Utility/Templates/Untitled 1.md",
     "Year 1/Formative Problems/Problem sheet/Solved/1RA_Online.pdf",
     "Year 1/Formative Problems/Problem sheet/Subjects/RA/Practice Questions 3 - 2024.pdf",
     "Year 1/Formative Problems/Problem sheet/Subjects/RA/RA9.pdf",
@@ -299,6 +281,7 @@
     "sync.tmp.ffs_db",
     "sync.ffs_lock",
     "Utility",
+    "Utility/Templates",
     "Utility/Images/Pasted image 20250530102441.png",
     "Utility/Images/{CE29CD0B-27E5-4737-BC4D-EBAE35F38AE6}.png",
     "Utility/Images/Pasted Image 20250513090900_628.png"

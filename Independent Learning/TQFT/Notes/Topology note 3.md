@@ -75,4 +75,6 @@ URI base: obsidian://open?vault=tpam%20stuff&file=Independent%20Learning%2FTQFT%
 | Q                      | 1     | 0          | 1          |
  ^cor-top-let-alp
 
-   
+   > [!remark|*]- Homeomorphism of $Q\to$
+> 
+ ^rmk-

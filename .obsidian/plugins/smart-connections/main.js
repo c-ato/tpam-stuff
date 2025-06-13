@@ -136,7 +136,7 @@ __export(src_exports, {
   default: () => SmartConnectionsPlugin
 });
 module.exports = __toCommonJS(src_exports);
-var import_obsidian47 = __toESM(require("obsidian"), 1);
+var import_obsidian48 = __toESM(require("obsidian"), 1);
 
 // node_modules/obsidian-smart-env/smart_env.js
 var import_obsidian12 = require("obsidian");
@@ -464,7 +464,7 @@ var SmartEnv = class {
    * If a newer version is loaded into a runtime that already has an older environment,
    * an automatic reload of all existing mains will occur.
    */
-  static version = 2.139211;
+  static version = 2.139212;
   scope_name = "smart_env";
   static global_ref = ROOT_SCOPE;
   global_ref = this.constructor.global_ref;
@@ -1084,8 +1084,13 @@ function glob_to_regex_pattern(pattern, extended_glob) {
         break;
       case "{":
         if (!in_class) {
-          in_brace++;
-          result += "(";
+          const closingIndex = pattern.indexOf("}", i + 1);
+          if (closingIndex === -1) {
+            result += "\\{";
+          } else {
+            in_brace++;
+            result += "(";
+          }
         } else {
           result += "\\{";
         }
@@ -4287,6 +4292,7 @@ var SmartEntities = class extends Collection {
     if (params.filter?.limit) delete params.filter.limit;
     const filter = {
       ...this.env.chats?.current?.scope || {},
+      // DEPRECATED: since Smart Chat v1 (remove after removing legacy Smart Chat v0 from obsidian-smart-connections)
       ...params.filter || {}
     };
     const results = await hyp_vecs.reduce(async (acc_promise, embedding, i) => {
@@ -10368,12 +10374,25 @@ var smart_env_config2 = {
         }
       }
     },
+    excluded_headings: "",
     file_exclusions: "Untitled",
     folder_exclusions: "",
+    language: "en",
+    new_user: true,
+    // DEPRECATED: 2025-06-05 (use localStorage instead)
+    smart_chat_threads: {
+      chat_model: {
+        adapter: "ollama",
+        ollama: {}
+      }
+    },
+    smart_notices: {},
     smart_view_filter: {
+      expanded_view: false,
       render_markdown: true,
       show_full_path: false
-    }
+    },
+    version: ""
   }
 };
 merge_env_config(smart_env_config2, smart_env_config);
@@ -11342,8 +11361,13 @@ function glob_to_regex_pattern2(pattern, extended_glob) {
         break;
       case "{":
         if (!in_class) {
-          in_brace++;
-          result += "(";
+          const closingIndex = pattern.indexOf("}", i + 1);
+          if (closingIndex === -1) {
+            result += "\\{";
+          } else {
+            in_brace++;
+            result += "(";
+          }
         } else {
           result += "\\{";
         }
@@ -12784,22 +12808,26 @@ async function post_process9(scope, frag, opts = {}) {
 }
 
 // src/components/connections.js
-async function build_html7(view, opts = {}) {
-  const top_bar_buttons = [
+function build_top_bar_buttons(view) {
+  const expanded_view = view.env.settings.smart_view_filter.expanded_view ?? view.env.settings.expanded_view;
+  const buttons = [
     { title: "Refresh", icon: "refresh-cw" },
-    { title: "Fold all toggle", icon: view.env.settings.expanded_view ? "fold-vertical" : "unfold-vertical" },
+    { title: "Fold all toggle", icon: expanded_view ? "fold-vertical" : "unfold-vertical" },
     { title: "Lookup", icon: "search" },
     { title: "Settings", icon: "settings" },
     { title: "Help", icon: "help-circle" }
-  ].map((btn) => `
+  ];
+  return buttons.map((btn) => `
     <button
       title="${btn.title}"
       aria-label="${btn.title} button"
-      ${btn.style ? `style="${btn.style}"` : ""}
     >
       ${this.get_icon_html(btn.icon)}
     </button>
   `).join("");
+}
+async function build_html7(view, opts = {}) {
+  const top_bar_buttons = build_top_bar_buttons.call(this, view);
   const html = `<div class="sc-connections-view">
     <div class="sc-top-bar">
       <p class="sc-context" data-key="">
@@ -12819,7 +12847,7 @@ async function build_html7(view, opts = {}) {
   return html;
 }
 async function render11(view, opts = {}) {
-  let html = await build_html7.call(this, view, opts);
+  const html = await build_html7.call(this, view, opts);
   const frag = this.create_doc_fragment(html);
   return await post_process10.call(this, view, frag, opts);
 }
@@ -12827,8 +12855,9 @@ async function post_process10(view, frag, opts = {}) {
   const container = frag.querySelector(".sc-list");
   const toggle_button = frag.querySelector("[title='Fold all toggle']");
   toggle_button.addEventListener("click", () => {
-    const expanded = view.env.settings.expanded_view;
-    view.env.settings.expanded_view = !expanded;
+    const expanded = view.env.settings.smart_view_filter.expanded_view ?? view.env.settings.expanded_view;
+    if (!view.env.settings.smart_view_filter) view.env.settings.smart_view_filter = {};
+    view.env.settings.smart_view_filter.expanded_view = !expanded;
     container.querySelectorAll(".sc-result").forEach(async (elm) => {
       if (expanded) {
         elm.classList.add("sc-collapsed");
@@ -12836,8 +12865,9 @@ async function post_process10(view, frag, opts = {}) {
         elm.classList.remove("sc-collapsed");
       }
     });
-    this.safe_inner_html(toggle_button, this.get_icon_html(view.env.settings.expanded_view ? "fold-vertical" : "unfold-vertical"));
-    toggle_button.setAttribute("aria-label", view.env.settings.expanded_view ? "Fold all" : "Unfold all");
+    const updated_expanded_view = view.env.settings.smart_view_filter.expanded_view;
+    this.safe_inner_html(toggle_button, this.get_icon_html(updated_expanded_view ? "fold-vertical" : "unfold-vertical"));
+    toggle_button.setAttribute("aria-label", updated_expanded_view ? "Fold all" : "Unfold all");
   });
   const refresh_button = frag.querySelector("[title='Refresh']");
   refresh_button.addEventListener("click", () => {
@@ -12849,7 +12879,7 @@ async function post_process10(view, frag, opts = {}) {
   });
   const help_button = frag.querySelector("[title='Help']");
   help_button?.addEventListener("click", () => {
-    window.open("https://docs.smartconnections.app/connections-pane", "_blank");
+    open_url_externally(view.plugin, "https://smartconnections.app/story/smart-connections-getting-started/?utm_source=connections-view-help");
   });
   const settings_button = frag.querySelector("[title='Settings']");
   settings_button?.addEventListener("click", () => {
@@ -12863,9 +12893,10 @@ async function post_process10(view, frag, opts = {}) {
 
 // src/components/lookup.js
 async function build_html8(collection, opts = {}) {
+  const expanded_view = collection.env.settings.smart_view_filter?.expanded_view ?? collection.env.settings.expanded_view;
   return `<div id="sc-lookup-view">
     <div class="sc-top-bar">
-      <button class="sc-fold-toggle">${this.get_icon_html(collection.settings.expanded_view ? "fold-vertical" : "unfold-vertical")}</button>
+      <button class="sc-fold-toggle">${this.get_icon_html(expanded_view ? "fold-vertical" : "unfold-vertical")}</button>
     </div>
     <div class="sc-container">
       <h2>Smart Lookup</h2>
@@ -12927,7 +12958,7 @@ async function post_process11(collection, frag, opts = {}) {
   const fold_toggle = frag.querySelector(".sc-fold-toggle");
   fold_toggle.addEventListener("click", async (event) => {
     const container = event.target.closest("#sc-lookup-view");
-    const expanded = collection.settings.expanded_view;
+    const expanded = collection.env.settings.smart_view_filter?.expanded_view ?? collection.env.settings.expanded_view;
     const results = container.querySelectorAll(".sc-result");
     for (const elm of results) {
       if (expanded) {
@@ -12936,9 +12967,11 @@ async function post_process11(collection, frag, opts = {}) {
         elm.click();
       }
     }
-    collection.settings.expanded_view = !expanded;
-    this.safe_inner_html(fold_toggle, this.get_icon_html(collection.settings.expanded_view ? "fold-vertical" : "unfold-vertical"));
-    fold_toggle.setAttribute("aria-label", collection.settings.expanded_view ? "Fold all" : "Unfold all");
+    if (!collection.settings.smart_view_filter) collection.settings.smart_view_filter = {};
+    collection.settings.smart_view_filter.expanded_view = !expanded;
+    const updated_expanded_view = collection.settings.smart_view_filter.expanded_view;
+    this.safe_inner_html(fold_toggle, this.get_icon_html(updated_expanded_view ? "fold-vertical" : "unfold-vertical"));
+    fold_toggle.setAttribute("aria-label", updated_expanded_view ? "Fold all" : "Unfold all");
   });
   return frag;
 }
@@ -12976,7 +13009,6 @@ function register_block_hover_popover(parent, target, env, block_key, plugin) {
 async function build_html9(result, opts = {}) {
   const item = result.item;
   const score = result.score;
-  const expanded_view = item.env.settings.expanded_view;
   return `<div class="temp-container">
     <div
       class="sc-result sc-collapsed"
@@ -13087,7 +13119,8 @@ ${await entity.read()}`;
     attributeFilter: ["class"]
     // Only observe class changes
   });
-  if (!env.settings.expanded_view) return result_elm;
+  const expanded_view = env.settings.smart_view_filter.expanded_view ?? env.settings.expanded_view;
+  if (!expanded_view) return result_elm;
   toggle_result(result_elm);
   return result_elm;
 }
@@ -18498,6 +18531,7 @@ var SmartEntities2 = class extends Collection2 {
     if (params.filter?.limit) delete params.filter.limit;
     const filter = {
       ...this.env.chats?.current?.scope || {},
+      // DEPRECATED: since Smart Chat v1 (remove after removing legacy Smart Chat v0 from obsidian-smart-connections)
       ...params.filter || {}
     };
     const results = await hyp_vecs.reduce(async (acc_promise, embedding, i) => {
@@ -22641,11 +22675,53 @@ var smart_env_config3 = {
   }
 };
 
+// src/modals/story.js
+var import_obsidian20 = require("obsidian");
+var StoryModal = class _StoryModal extends import_obsidian20.Modal {
+  constructor(plugin, { title, url }) {
+    super(plugin.app);
+    this.plugin = plugin;
+    this.title = title;
+    this.url = url;
+  }
+  static open(plugin, story_url) {
+    const modal = new _StoryModal(plugin, story_url);
+    modal.open();
+  }
+  onOpen() {
+    this.titleEl.setText(this.title);
+    this.modalEl.addClass("sc-story-modal");
+    const container = this.contentEl.createEl("div", {
+      cls: "sc-story-container"
+    });
+    if (import_obsidian20.Platform.isMobile) {
+      const btn = container.createEl("button", { text: "Open in browser" });
+      btn.addEventListener("click", () => {
+        open_url_externally(this.plugin, this.url);
+        this.close();
+      });
+      return;
+    } else {
+      const webview = container.createEl("webview", {
+        attr: { src: this.url, allowpopups: "" }
+      });
+      webview.style.width = "100%";
+      webview.style.height = "100%";
+    }
+  }
+  onClose() {
+    this.contentEl.empty();
+  }
+};
+
 // src/components/main_settings.js
 async function build_html19(scope_plugin) {
   const html = `
     <div id="smart-connections-settings">
       ${render_header_callout()}
+      <div id="smart-connections-getting-started-container">
+        <button class="sc-getting-started-button">Getting started guide</button>
+      </div>
       <div data-connections-settings-container>
         <h2>Connections view</h2>
       </div>
@@ -22695,11 +22771,20 @@ async function post_process22(scope_plugin, frag) {
   if (header_btn) {
     header_btn.addEventListener("click", (e) => {
       e.preventDefault();
-      scope_plugin.open_url_externally(header_btn.href);
+      open_url_externally(scope_plugin, header_btn.href);
     });
   }
   const supporter_callout = await scope_plugin.env.render_component("supporter_callout", scope_plugin);
   frag.appendChild(supporter_callout);
+  const getting_started_button = frag.querySelector(".sc-getting-started-button");
+  if (getting_started_button) {
+    getting_started_button.addEventListener("click", (e) => {
+      StoryModal.open(scope_plugin, {
+        title: "Getting Started With Smart Connections",
+        url: "https://smartconnections.app/story/smart-connections-getting-started/?utm_source=sc-op-settings"
+      });
+    });
+  }
   return frag;
 }
 function render_header_callout() {
@@ -22789,44 +22874,17 @@ var smart_env_config4 = {
   }
 };
 
-// src/default_settings.js
-function default_settings() {
-  return {
-    settings: {
-      new_user: true,
-      // v2.2
-      legacy_transformers: false,
-      actions: {
-        "lookup": true
-      },
-      smart_notices: {},
-      // v2.1
-      system_prompts_folder: "smart prompts",
-      chat_model_platform_key: "open_router",
-      open_router: {},
-      // V1
-      api_key: "",
-      excluded_headings: "",
-      folder_exclusions: "",
-      show_full_path: false,
-      expanded_view: true,
-      language: "en",
-      version: ""
-    }
-  };
-}
-
 // src/views/smart_view.obsidian.js
-var import_obsidian21 = require("obsidian");
+var import_obsidian22 = require("obsidian");
 
 // node_modules/obsidian-smart-env/utils/wait_for_env_to_load.js
-var import_obsidian20 = require("obsidian");
+var import_obsidian21 = require("obsidian");
 async function wait_for_env_to_load(scope, opts = {}) {
   const { wait_for_states = ["loaded"] } = opts;
   const container = scope.container || scope.containerEl;
   if (!wait_for_states.includes(scope.env?.state)) {
     let clicked_load_env = false;
-    while (scope.env.state === "init" && import_obsidian20.Platform.isMobile && !clicked_load_env) {
+    while (scope.env.state === "init" && import_obsidian21.Platform.isMobile && !clicked_load_env) {
       if (container) {
         container.empty();
         scope.env.smart_view.safe_inner_html(container, "<button>Load Smart Environment</button>");
@@ -22853,7 +22911,7 @@ async function wait_for_env_to_load(scope, opts = {}) {
 }
 
 // src/views/smart_view.obsidian.js
-var SmartObsidianView = class extends import_obsidian21.ItemView {
+var SmartObsidianView = class extends import_obsidian22.ItemView {
   /**
    * Creates an instance of SmartObsidianView.
    * @param {any} leaf
@@ -22989,7 +23047,7 @@ var SmartObsidianView = class extends import_obsidian21.ItemView {
 };
 
 // src/views/sc_connections.obsidian.js
-var import_obsidian22 = require("obsidian");
+var import_obsidian23 = require("obsidian");
 var ScConnectionsView = class extends SmartObsidianView {
   static get view_type() {
     return "smart-connections-view";
@@ -23144,7 +23202,7 @@ function post_process_note_inspect_opener(view, frag, opts = {}) {
   });
   return frag;
 }
-var SmartNoteInspectModal = class extends import_obsidian22.Modal {
+var SmartNoteInspectModal = class extends import_obsidian23.Modal {
   constructor(smart_connections_plugin, entity) {
     super(smart_connections_plugin.app);
     this.smart_connections_plugin = smart_connections_plugin;
@@ -23162,6 +23220,10 @@ var SmartNoteInspectModal = class extends import_obsidian22.Modal {
     const frag = await this.env.render_component("source_inspector", this.entity);
     this.contentEl.appendChild(frag);
   }
+};
+
+// src/views/connections_view.js
+var ConnectionsView = class extends ScConnectionsView {
 };
 
 // src/views/sc_lookup.obsidian.js
@@ -23190,7 +23252,7 @@ var ScLookupView = class extends SmartObsidianView {
 };
 
 // src/views/smart_chat.obsidian.js
-var import_obsidian23 = require("obsidian");
+var import_obsidian24 = require("obsidian");
 var SmartChatsView = class extends SmartObsidianView {
   static get view_type() {
     return "smart-chat-v0";
@@ -23349,7 +23411,7 @@ var SmartChatsView = class extends SmartObsidianView {
     if (this.textarea.value.endsWith("[[")) this.textarea.value = this.textarea.value.slice(0, -2);
   }
 };
-var ScChatHistoryModal = class extends import_obsidian23.FuzzySuggestModal {
+var ScChatHistoryModal = class extends import_obsidian24.FuzzySuggestModal {
   constructor(app, view) {
     super(app);
     this.app = app;
@@ -23369,7 +23431,7 @@ var ScChatHistoryModal = class extends import_obsidian23.FuzzySuggestModal {
     this.view.open_thread(thread_name);
   }
 };
-var ScOmniModal = class extends import_obsidian23.FuzzySuggestModal {
+var ScOmniModal = class extends import_obsidian24.FuzzySuggestModal {
   constructor(app, view) {
     super(app);
     this.app = app;
@@ -23401,7 +23463,7 @@ var ScOmniModal = class extends import_obsidian23.FuzzySuggestModal {
     this.view.open_modal(item);
   }
 };
-var ContextSelectModal = class extends import_obsidian23.FuzzySuggestModal {
+var ContextSelectModal = class extends import_obsidian24.FuzzySuggestModal {
   constructor(app, view) {
     super(app);
     this.app = app;
@@ -23419,7 +23481,7 @@ var ContextSelectModal = class extends import_obsidian23.FuzzySuggestModal {
 var ScFileSelectModal = class extends ContextSelectModal {
   constructor(app, view) {
     super(app, view);
-    const mod_key = import_obsidian23.Platform.isMacOS ? `\u2318` : `ctrl`;
+    const mod_key = import_obsidian24.Platform.isMacOS ? `\u2318` : `ctrl`;
     this.setInstructions([
       {
         command: `\u2190`,
@@ -23447,7 +23509,7 @@ var ScFileSelectModal = class extends ContextSelectModal {
     return item.basename;
   }
   selectSuggestion(item, evt) {
-    if (import_obsidian23.Keymap.isModEvent(evt)) this.view.insert_system_prompt(item.item);
+    if (import_obsidian24.Keymap.isModEvent(evt)) this.view.insert_system_prompt(item.item);
     else {
       const link = `[[${item.item.path}]] `;
       if (evt.shiftKey) this.view.insert_selection("!" + link);
@@ -23580,8 +23642,8 @@ var SmartChatGPTView = class extends SmartObsidianView {
 };
 
 // src/views/sc_private_chat.obsidian.js
-var import_obsidian24 = require("obsidian");
-var SmartPrivateChatView = class extends import_obsidian24.ItemView {
+var import_obsidian25 = require("obsidian");
+var SmartPrivateChatView = class extends import_obsidian25.ItemView {
   static get view_type() {
     return "smart-private-chat";
   }
@@ -23635,16 +23697,16 @@ var SmartPrivateChatView = class extends import_obsidian24.ItemView {
 };
 
 // node_modules/smart-chat-obsidian/src/smart_chat.obsidian.js
-var import_obsidian26 = require("obsidian");
+var import_obsidian27 = require("obsidian");
 
 // node_modules/smart-chat-obsidian/node_modules/obsidian-smart-env/utils/wait_for_env_to_load.js
-var import_obsidian25 = require("obsidian");
+var import_obsidian26 = require("obsidian");
 async function wait_for_env_to_load2(scope, opts = {}) {
   const { wait_for_states = ["loaded"] } = opts;
   const container = scope.container || scope.containerEl;
   if (!wait_for_states.includes(scope.env?.state)) {
     let clicked_load_env = false;
-    while (scope.env.state === "init" && import_obsidian25.Platform.isMobile && !clicked_load_env) {
+    while (scope.env.state === "init" && import_obsidian26.Platform.isMobile && !clicked_load_env) {
       if (container) {
         container.empty();
         scope.env.smart_view.safe_inner_html(container, "<button>Load Smart Environment</button>");
@@ -23671,7 +23733,7 @@ async function wait_for_env_to_load2(scope, opts = {}) {
 }
 
 // node_modules/smart-chat-obsidian/src/smart_chat.obsidian.js
-var SmartChatView = class extends import_obsidian26.ItemView {
+var SmartChatView = class extends import_obsidian27.ItemView {
   /**
    * @param {WorkspaceLeaf} leaf
    * @param {Plugin} plugin
@@ -25389,14 +25451,19 @@ var ajson_single_file_default = {
 // node_modules/smart-chat-obsidian/src/actions/lookup_context.js
 var lookup_context_exports = {};
 __export(lookup_context_exports, {
-  get_nearest_until_next_dev_exceeds_std_dev: () => get_nearest_until_next_dev_exceeds_std_dev,
   lookup_context: () => lookup_context,
-  sort_by_len_adjusted_similarity: () => sort_by_len_adjusted_similarity,
   tool: () => tool
 });
 async function lookup_context(params = {}) {
   const env = this.env;
-  let { hypotheticals = [], hypothetical_1, hypothetical_2, hypothetical_3, ...other_params } = params;
+  let {
+    hypotheticals = [],
+    hypothetical_1,
+    hypothetical_2,
+    hypothetical_3,
+    in_folder,
+    ...other_params
+  } = params;
   if (typeof hypotheticals === "string") {
     if (hypotheticals.startsWith("[") && hypotheticals.endsWith("]")) {
       hypotheticals = JSON.parse(hypotheticals);
@@ -25409,9 +25476,16 @@ async function lookup_context(params = {}) {
   if (hypothetical_1) hypotheticals.push(hypothetical_1);
   if (hypothetical_2) hypotheticals.push(hypothetical_2);
   if (hypothetical_3) hypotheticals.push(hypothetical_3);
-  if (!hypotheticals) return { error: "hypotheticals is required" };
-  const collection = env.smart_blocks?.smart_embed ? env.smart_blocks : env.smart_sources;
-  const results = await collection.lookup({ ...other_params || {}, hypotheticals });
+  if (!hypotheticals?.length) return { error: "hypotheticals is required" };
+  if (in_folder && in_folder !== "/") {
+    if (!other_params.filter) other_params.filter = {};
+    if (!other_params.filter.key_starts_with) {
+      const folder_prefix = in_folder.endsWith("/") ? in_folder : `${in_folder}/`;
+      other_params.filter.key_starts_with = folder_prefix;
+    }
+  }
+  const collection = env.smart_blocks?.settings?.embed_blocks ? env.smart_blocks : env.smart_sources;
+  const results = await collection.lookup({ ...other_params, hypotheticals });
   const context = env.smart_contexts.new_context({
     context_items: results.reduce((acc, result) => {
       acc[result.key] = { d: 0, score: result.score };
@@ -25420,60 +25494,32 @@ async function lookup_context(params = {}) {
   });
   return context.key;
 }
-function get_nearest_until_next_dev_exceeds_std_dev(nearest) {
-  if (nearest.length === 0) return [];
-  const sims = nearest.map((n) => n.score);
-  const mean = sims.reduce((a, b) => a + b) / sims.length;
-  let std_dev = Math.sqrt(sims.map((x) => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / sims.length);
-  let slice_i = 0;
-  while (slice_i < nearest.length) {
-    const next = nearest[slice_i + 1];
-    if (next) {
-      const next_dev = Math.abs(next.score - nearest[slice_i].score);
-      if (next_dev > std_dev) {
-        if (slice_i < 3) std_dev = std_dev * 1.5;
-        else break;
-      }
-    }
-    slice_i++;
-  }
-  nearest = nearest.slice(0, slice_i + 1);
-  return nearest;
-}
-function sort_by_len_adjusted_similarity(nearest) {
-  nearest = nearest.sort((a, b) => {
-    const a_score = a.score / a.tokens;
-    const b_score = b.score / b.tokens;
-    if (a_score > b_score)
-      return -1;
-    if (a_score < b_score)
-      return 1;
-    return 0;
-  });
-  return nearest;
-}
 var tool = {
-  "type": "function",
-  "function": {
-    "name": "lookup_context",
-    "description": "Common, frequently used. Performs a semantic search of the user's data. Use to respond to 'Based on my notes...' or any other query that might require surfacing unspecified content. Minimum 3 hypothetical notes predicted to be semantically similar to the notes necessary to fulfill the user's request. Each hypothetical is a semantic representation of content that's likely relevant to the user's request. Hypothetical notes always begin with breadcrumbs containing the hypothetical folder(s) and file name (separated by ' > '). Example: HYPOTHETICAL FOLDER NAME > CHILD FOLDER NAME > FILE NAME: HYPOTHETICAL NOTE CONTENTS. Important: minimum 3.",
-    "parameters": {
-      "type": "object",
-      "properties": {
-        "hypothetical_1": {
-          "type": "string",
-          "description": "Always begin with breadcrumbs containing the hypothetical folder(s) and file name (separated by ' > '). Example: HYPOTHETICAL FOLDER NAME > CHILD FOLDER NAME > FILE NAME: HYPOTHETICAL NOTE CONTENTS. Important: minimum 3."
+  type: "function",
+  function: {
+    name: "lookup_context",
+    description: "Common, frequently used. Performs a semantic search of the user's data. Use to respond to 'Based on my notes...' or any other query that might require surfacing unspecified content. Minimum 3 hypothetical notes predicted to be semantically similar to the notes necessary to fulfill the user's request. Each hypothetical is a semantic representation of content that's likely relevant to the user's request. Hypothetical notes always begin with breadcrumbs containing the hypothetical folder(s) and file name (separated by ' > '). Example: HYPOTHETICAL FOLDER NAME > CHILD FOLDER NAME > FILE NAME: HYPOTHETICAL NOTE CONTENTS. Important: minimum 3.",
+    parameters: {
+      type: "object",
+      properties: {
+        hypothetical_1: {
+          type: "string",
+          description: "Always begin with breadcrumbs containing the hypothetical folder(s) and file name (separated by ' > '). Example: HYPOTHETICAL FOLDER NAME > CHILD FOLDER NAME > FILE NAME: HYPOTHETICAL NOTE CONTENTS. Important: minimum 3."
         },
-        "hypothetical_2": {
-          "type": "string",
-          "description": "Must be distinct from and not share any breadcrumbs with hypothetical_1."
+        hypothetical_2: {
+          type: "string",
+          description: "Must be distinct from and not share any breadcrumbs with hypothetical_1."
         },
-        "hypothetical_3": {
-          "type": "string",
-          "description": "Must be distinct from and not share any breadcrumbs with hypothetical_1 and hypothetical_2."
+        hypothetical_3: {
+          type: "string",
+          description: "Must be distinct from hypothetical_1 and hypothetical_2."
+        },
+        in_folder: {
+          type: "string",
+          description: "Optional. Only use if requested by the user. Limit the lookup to items in this folder."
         }
       },
-      "required": ["hypothetical_1", "hypothetical_2"]
+      required: ["hypothetical_1", "hypothetical_2"]
     }
   }
 };
@@ -25747,6 +25793,80 @@ function get_initial_message2(language) {
   return language_settings.initial_message;
 }
 
+// node_modules/smart-chat-obsidian/node_modules/smart-utils/file_tree.js
+function build_file_tree_string(paths = []) {
+  if (!Array.isArray(paths) || paths.length === 0) return "";
+  const root = {};
+  for (const path2 of paths) {
+    const isFolder = is_folder_path(path2);
+    const parts = path2.split("/").filter(Boolean);
+    let node = root;
+    for (let i = 0; i < parts.length; i++) {
+      const part = parts[i];
+      const isLast = i === parts.length - 1;
+      if (isLast) {
+        if (isFolder) {
+          node[part] = node[part] ?? { __isExplicitFolder: true };
+        } else {
+          node[part] = null;
+        }
+      } else {
+        node = node[part] ??= {};
+      }
+    }
+  }
+  compress_single_child_dirs(root);
+  return build_tree_string(root).trimEnd();
+}
+function is_folder_path(path2) {
+  return typeof path2 === "string" && path2.endsWith("/");
+}
+function compress_single_child_dirs(node) {
+  if (!node || typeof node !== "object") return;
+  for (const key of Object.keys(node)) {
+    const child = node[key];
+    if (child && typeof child === "object") {
+      if (child.__isExplicitFolder) {
+        delete child.__isExplicitFolder;
+        compress_single_child_dirs(child);
+        continue;
+      }
+      const childKeys = Object.keys(child);
+      if (childKeys.length === 1 && child[childKeys[0]] !== null && !child[childKeys[0]].__isExplicitFolder) {
+        const mergedKey = `${key}/${childKeys[0]}`;
+        node[mergedKey] = child[childKeys[0]];
+        delete node[key];
+        compress_single_child_dirs(node[mergedKey]);
+      } else {
+        compress_single_child_dirs(child);
+      }
+    }
+  }
+}
+function build_tree_string(node, prefix = "") {
+  let output = "";
+  const entries = Object.entries(node).sort((a, b) => {
+    const aIsDir = a[1] !== null;
+    const bIsDir = b[1] !== null;
+    if (aIsDir && !bIsDir) return -1;
+    if (!aIsDir && bIsDir) return 1;
+    return a[0].localeCompare(b[0]);
+  });
+  entries.forEach(([name, child], idx) => {
+    const isLast = idx === entries.length - 1;
+    const connector = isLast ? "\u2514\u2500\u2500 " : "\u251C\u2500\u2500 ";
+    if (child === null) {
+      output += `${prefix}${connector}${name}
+`;
+    } else {
+      output += `${prefix}${connector}${name}/
+`;
+      output += build_tree_string(child, prefix + (isLast ? "    " : "\u2502   "));
+    }
+  });
+  return output;
+}
+
 // node_modules/smart-chat-obsidian/src/items/smart_chat_thread.js
 var SmartChatThread = class extends CollectionItem3 {
   static get defaults() {
@@ -25770,10 +25890,8 @@ var SmartChatThread = class extends CollectionItem3 {
       stream: this.collection.settings.stream,
       ...opts
     };
-    if (this.default_system_prompt && !this.completions[0]?.data?.system_message) {
-      completion_opts.system_message = this.default_system_prompt + (completion_opts.system_message ? `
-
-${completion_opts.system_message}` : "");
+    if (this.has_default_system_prompt && !this.completions[0]?.data?.system_message) {
+      completion_opts.system_message = this.get_system_prompt(completion_opts);
     }
     const completion = new this.env.smart_completions.item_type(this.env, completion_opts);
     this.env.smart_completions.set(completion);
@@ -25836,8 +25954,28 @@ ${completion_opts.system_message}` : "");
   get completions() {
     return this.completion_keys.map((key) => this.env.smart_completions.get(key)).filter(Boolean);
   }
-  get default_system_prompt() {
-    return this.settings.system_prompt.trim().length > 0 ? this.settings.system_prompt : null;
+  get has_default_system_prompt() {
+    return this.settings.system_prompt.trim().length > 0;
+  }
+  /**
+   * Build system-prompt text, expanding {{folder_tree}} if present.
+   * @param {object} [opts={}]  optional { system_message }
+   * @returns {string}
+   */
+  get_system_prompt(opts = {}) {
+    let prompt = this.settings.system_prompt || "";
+    if (opts.system_message) {
+      prompt = prompt ? `${prompt}
+
+${opts.system_message}` : opts.system_message;
+    }
+    if (prompt.includes("{{folder_tree}}")) {
+      let paths = this.env.smart_sources?.fs?.folder_paths ?? [];
+      paths = paths.map((p) => p.endsWith("/") ? p : p + "/");
+      const tree = build_file_tree_string([...new Set(paths)]);
+      prompt = prompt.replace(/{{\s*folder_tree\s*}}/gi, tree);
+    }
+    return prompt;
   }
   get messages() {
     return this.completions.map((completion) => completion.messages).flat();
@@ -25899,7 +26037,7 @@ var SmartChatThreads = class extends Collection3 {
     return {
       active_thread_key: "",
       chat_model: {
-        platform_key: "openai"
+        adapter: "ollama"
       },
       system_prompt: "",
       detect_self_referential: true,
@@ -25932,7 +26070,7 @@ var SmartChatThreads = class extends Collection3 {
       "system_prompt": {
         name: "System Prompt",
         type: "textarea",
-        description: "Prepended to every thread as the system role message."
+        description: "Prepended to every thread as the system role message. You can include {{folder_tree}} to embed your vault's folder structure."
       },
       "stream": {
         name: "Stream",
@@ -27510,8 +27648,13 @@ function glob_to_regex_pattern3(pattern, extended_glob) {
         break;
       case "{":
         if (!in_class) {
-          in_brace++;
-          result += "(";
+          const closingIndex = pattern.indexOf("}", i + 1);
+          if (closingIndex === -1) {
+            result += "\\{";
+          } else {
+            in_brace++;
+            result += "(";
+          }
         } else {
           result += "\\{";
         }
@@ -28046,10 +28189,10 @@ function create_file_tree_string(all_paths) {
       }
     }
   }
-  compress_single_child_dirs(root);
-  return build_tree_string(root);
+  compress_single_child_dirs2(root);
+  return build_tree_string2(root);
 }
-function compress_single_child_dirs(node) {
+function compress_single_child_dirs2(node) {
   if (!node || typeof node !== "object") return;
   const keys = Object.keys(node);
   for (const k of keys) {
@@ -28063,16 +28206,16 @@ function compress_single_child_dirs(node) {
           const combined = k + "/" + subKey;
           node[combined] = subChild;
           delete node[k];
-          compress_single_child_dirs(node[combined]);
+          compress_single_child_dirs2(node[combined]);
         } else {
         }
       } else {
-        compress_single_child_dirs(child);
+        compress_single_child_dirs2(child);
       }
     }
   }
 }
-function build_tree_string(node, prefix = "") {
+function build_tree_string2(node, prefix = "") {
   let res = "";
   const entries = Object.entries(node).sort((a, b) => {
     const a_is_dir = a[1] !== null;
@@ -28089,7 +28232,7 @@ function build_tree_string(node, prefix = "") {
     } else {
       res += prefix + connector + name + "/\n";
       const next_prefix = prefix + (is_last ? "    " : "\u2502   ");
-      res += build_tree_string(subnode, next_prefix);
+      res += build_tree_string2(subnode, next_prefix);
     }
   });
   return res;
@@ -28245,8 +28388,8 @@ css_sheet3.replaceSync(`/**
 var chat_default = css_sheet3;
 
 // node_modules/smart-chat-obsidian/src/chat_history_modal.js
-var import_obsidian27 = require("obsidian");
-var ChatHistoryModal = class extends import_obsidian27.FuzzySuggestModal {
+var import_obsidian28 = require("obsidian");
+var ChatHistoryModal = class extends import_obsidian28.FuzzySuggestModal {
   /**
    * @param {Object} plugin - Main plugin instance with `app` and `env`.
    */
@@ -28464,8 +28607,8 @@ function thread_has_user_message(thread) {
 }
 
 // node_modules/smart-chat-obsidian/node_modules/smart-context-obsidian/src/views/context_selector_modal.js
-var import_obsidian28 = require("obsidian");
-var ContextSelectorModal = class _ContextSelectorModal extends import_obsidian28.FuzzySuggestModal {
+var import_obsidian29 = require("obsidian");
+var ContextSelectorModal = class _ContextSelectorModal extends import_obsidian29.FuzzySuggestModal {
   static open(env, opts) {
     const plugin = env.smart_contexts_plugin || env.smart_chat_plugin || env.smart_connections_plugin;
     if (!env.context_selector_modal) {
@@ -28496,12 +28639,12 @@ var ContextSelectorModal = class _ContextSelectorModal extends import_obsidian28
     this.plugin.env.create_env_getter(this);
     this.mod_key_was_held = false;
     this.modalEl.addEventListener("keydown", (e) => {
-      this.mod_key_was_held = import_obsidian28.Keymap.isModifier(e, "Mod");
+      this.mod_key_was_held = import_obsidian29.Keymap.isModifier(e, "Mod");
       if (e.key === "Enter") this.selectActiveSuggestion(e);
       if (e.key === "Escape") this.close(true);
     });
     this.resultContainerEl.addEventListener("click", (e) => {
-      this.mod_key_was_held = import_obsidian28.Keymap.isModifier(e, "Mod");
+      this.mod_key_was_held = import_obsidian29.Keymap.isModifier(e, "Mod");
     });
   }
   ensure_ctx() {
@@ -28609,35 +28752,14 @@ var ContextSelectorModal = class _ContextSelectorModal extends import_obsidian28
         ...suggestions
       ];
     }
-    const special_items = this.opts.special_items ?? [];
-    if (!special_items.length) {
-      if (typeof this.plugin.get_visible_open_files === "function") {
-        const visible_open_files = Array.from(this.plugin.get_visible_open_files()).map((f) => {
-          return { item: this.env.smart_sources.get(f.path) };
-        }).filter((i) => {
-          if (!i.item) return false;
-          if (this.ctx?.data?.context_items[i.item.key]) return false;
-          return true;
-        });
-        if (visible_open_files.length) special_items.push({
-          name: "Visible open files" + (visible_open_files.length ? ` (+${visible_open_files.length})` : ""),
-          items: visible_open_files
-        });
+    let special_items = this.opts.special_items ?? [];
+    special_items = special_items.filter((i) => {
+      if (i.items) {
+        i.items = i.items.filter((item) => !this.ctx?.data?.context_items[item.item.key]);
+        return i.items.length > 0;
       }
-      if (typeof this.plugin.get_all_open_file_paths === "function") {
-        const all_open_files = Array.from(this.plugin.get_all_open_file_paths()).map((f) => {
-          return { item: this.env.smart_sources.get(f) };
-        }).filter((i) => {
-          if (!i.item) return false;
-          if (this.ctx?.data?.context_items[i.item.key]) return false;
-          return true;
-        });
-        if (all_open_files.length) special_items.push({
-          name: "All open files" + (all_open_files.length ? ` (+${all_open_files.length})` : ""),
-          items: all_open_files
-        });
-      }
-    }
+      return true;
+    });
     const unselected = Object.values(this.env.smart_sources.items).filter((src) => !this.ctx?.data?.context_items[src.key]);
     return [
       ...special_items,
@@ -29293,7 +29415,7 @@ function post_process28(completion, frag, opts = {}) {
 }
 
 // node_modules/smart-chat-obsidian/src/components/message_assistant.js
-var import_obsidian29 = require("obsidian");
+var import_obsidian30 = require("obsidian");
 async function build_html26(completion, opts = {}) {
   const text = completion.response_text || "";
   return `
@@ -29329,12 +29451,12 @@ async function post_process29(completion, frag, opts = {}) {
   const copyButton = frag.querySelector(".smart-chat-message-copy-button");
   this.empty(content);
   const plugin = completion.env.smart_chat_plugin || completion.env.smart_connections_plugin;
-  await import_obsidian29.MarkdownRenderer.render(
+  await import_obsidian30.MarkdownRenderer.render(
     plugin.app,
     completion.response_text,
     content,
     "",
-    new import_obsidian29.Component()
+    new import_obsidian30.Component()
   );
   copyButton?.addEventListener("click", async () => {
     try {
@@ -29343,7 +29465,7 @@ async function post_process29(completion, frag, opts = {}) {
         return;
       }
       await navigator.clipboard.writeText(completion.response_text || "");
-      new import_obsidian29.Notice("Copied to clipboard");
+      new import_obsidian30.Notice("Copied to clipboard");
     } catch (err) {
       console.error("Failed to copy raw markdown:", err);
     }
@@ -29389,27 +29511,132 @@ function should_show_model_info(completion) {
   return cm_prev.platform_key !== cm_curr.platform_key || cm_prev.model_key !== cm_curr.model_key;
 }
 
+// node_modules/smart-chat-obsidian/src/components/message_system.css
+var css_sheet6 = new CSSStyleSheet();
+css_sheet6.replaceSync(`.expandable-system-message {
+  transition: max-height 0.2s cubic-bezier(.4,0,.2,1), background 0.15s;
+}
+.expandable-system-message.collapsed {
+  cursor: pointer;
+}
+.expandable-system-message.collapsed:hover,
+.expandable-system-message.collapsed:focus {
+  background: var(--background-modifier-hover);
+  /* Removed outline/border */
+}
+.expandable-system-message:focus {
+  outline: 1.5px solid var(--background-modifier-border-focus, #888);
+}
+
+/* Gradient overlay and indicator bar for collapsed state */
+.expand-indicator-bar {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2.5em;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    /* Use background-primary with alpha for both stops */
+    rgba(var(--background-primary), 0) 0%,
+    rgba(var(--background-primary), 0.95) 80%
+  );
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 1;
+}
+
+.expand-indicator-bar .expand-indicator {
+  pointer-events: auto;
+  background: var(--background-primary, #fff);
+  border-radius: 0.7em;
+  font-size: 0.95em;
+  padding: 0.1em 0.7em;
+  margin-bottom: 0.3em;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  cursor: pointer;
+  border: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.expandable-system-message.collapsed + .expand-indicator-bar .expand-indicator:hover,
+.expandable-system-message.collapsed + .expand-indicator-bar .expand-indicator:focus {
+  background: var(--background-modifier-hover, #f0f0f0);
+  color: var(--text-normal, #333);
+}
+`);
+var message_system_default = css_sheet6;
+
 // node_modules/smart-chat-obsidian/src/components/message_system.js
 function build_html28(completion, opts = {}) {
-  const text = completion.data.system_message || "(No system prompt set)";
+  const text = (completion.data.system_message || "(No system prompt set)").trim();
+  const line_count = (text.match(/\n/g) || []).length + 1;
+  const needs_collapse = line_count > 10;
   return `
     <div class="smart-chat-message system">
-      <div class="smart-chat-message-content">${text}</div>
+      <div class="smart-chat-message-content" style="position:relative;">
+        <pre class="expandable-system-message"${needs_collapse ? ' tabindex="0"' : ' style="max-height:none;overflow:visible;cursor:auto;"'}>
+${text}
+        </pre>
+        ${needs_collapse ? `<div class="expand-indicator-bar"><span class="expand-indicator" style="user-select:none;">\u25BC More</span></div>` : ""}
+      </div>
     </div>
   `;
 }
+function set_collapsed(pre, indicator_bar, collapsed) {
+  if (collapsed) {
+    pre.classList.add("collapsed");
+    pre.style.display = "-webkit-box";
+    pre.style.webkitBoxOrient = "vertical";
+    pre.style.webkitLineClamp = "10";
+    pre.style.maxHeight = "calc(10 * 1.4em)";
+    pre.style.overflow = "hidden";
+    pre.style.cursor = "pointer";
+    pre.title = "Click or press Enter/Space to expand";
+    pre.style.lineHeight = "1.4em";
+    if (indicator_bar) indicator_bar.style.display = "";
+  } else {
+    pre.classList.remove("collapsed");
+    pre.style.display = "block";
+    pre.style.webkitLineClamp = "";
+    pre.style.maxHeight = "none";
+    pre.style.overflow = "visible";
+    pre.style.cursor = "auto";
+    pre.title = "Click or press Enter/Space to collapse";
+    pre.style.lineHeight = "1.4em";
+    if (indicator_bar) indicator_bar.style.display = "none";
+  }
+}
 async function render36(completion, opts = {}) {
   const html = build_html28(completion, opts);
+  this.apply_style_sheet(message_system_default);
   const frag = this.create_doc_fragment(html);
   post_process30.call(this, completion, frag, opts);
   return frag;
 }
 function post_process30(completion, frag, opts = {}) {
+  const pre = frag.querySelector(".expandable-system-message");
+  const indicator_bar = frag.querySelector(".expand-indicator-bar");
+  if (pre && indicator_bar) {
+    set_collapsed(pre, indicator_bar, true);
+    pre.addEventListener("click", function() {
+      const collapsed = pre.style.maxHeight !== "none";
+      set_collapsed(pre, indicator_bar, !collapsed);
+    });
+    pre.addEventListener("keydown", function(e) {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        const collapsed = pre.style.maxHeight !== "none";
+        set_collapsed(pre, indicator_bar, !collapsed);
+      }
+    });
+  }
   return frag;
 }
 
 // node_modules/smart-chat-obsidian/src/components/message_user.js
-var import_obsidian30 = require("obsidian");
+var import_obsidian31 = require("obsidian");
 function build_html29(completion, opts = {}) {
   const text = completion.data.user_message || "";
   return `
@@ -29430,12 +29657,12 @@ async function post_process31(completion, frag, opts = {}) {
   const content = frag.querySelector(".smart-chat-message-content");
   this.empty(content);
   const plugin = completion.env.smart_chat_plugin || completion.env.smart_connections_plugin;
-  await import_obsidian30.MarkdownRenderer.render(
+  await import_obsidian31.MarkdownRenderer.render(
     plugin.app,
     completion.data.user_message,
     content,
     "",
-    new import_obsidian30.Component()
+    new import_obsidian31.Component()
   );
   return frag;
 }
@@ -29492,8 +29719,8 @@ function post_process32(chat_thread, frag, opts = {}) {
 }
 
 // node_modules/smart-chat-obsidian/src/components/thread.css
-var css_sheet6 = new CSSStyleSheet();
-css_sheet6.replaceSync(`.smart-chat-thread {
+var css_sheet7 = new CSSStyleSheet();
+css_sheet7.replaceSync(`.smart-chat-thread {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -29709,10 +29936,10 @@ css_sheet6.replaceSync(`.smart-chat-thread {
     transform: scale(1);
   }
 }`);
-var thread_default = css_sheet6;
+var thread_default = css_sheet7;
 
 // node_modules/smart-chat-obsidian/src/components/thread.js
-var import_obsidian31 = require("obsidian");
+var import_obsidian32 = require("obsidian");
 
 // node_modules/smart-chat-obsidian/src/utils/insert_text_in_chunks.js
 function split_into_chunks(text, size = 1024) {
@@ -29758,10 +29985,10 @@ function text_to_nodes(txt) {
 
 // node_modules/smart-chat-obsidian/src/components/thread.js
 function should_send_message(e, requiredModifier) {
-  const pressed_shift = import_obsidian31.Keymap.isModifier(e, "Shift");
-  const pressed_mod = import_obsidian31.Keymap.isModifier(e, "Mod");
-  const pressed_alt = import_obsidian31.Keymap.isModifier(e, "Alt");
-  const pressed_meta = import_obsidian31.Keymap.isModifier(e, "Meta");
+  const pressed_shift = import_obsidian32.Keymap.isModifier(e, "Shift");
+  const pressed_mod = import_obsidian32.Keymap.isModifier(e, "Mod");
+  const pressed_alt = import_obsidian32.Keymap.isModifier(e, "Alt");
+  const pressed_meta = import_obsidian32.Keymap.isModifier(e, "Meta");
   if (requiredModifier === "none") {
     return !pressed_shift && !pressed_mod && !pressed_alt && !pressed_meta;
   }
@@ -29853,7 +30080,7 @@ async function post_process33(chat_thread, frag, opts = {}) {
     if (!user_text) return;
     const sys_msg = system_editor.textContent.trim();
     const data = { user_message: user_text, new_user_message: true };
-    if (sys_msg) data.system_message = sys_msg;
+    if (sys_msg) data.system_message = chat_thread.get_system_prompt({ system_message: sys_msg });
     if (chat_thread.has_self_referential_pronoun(user_text)) {
       if (chat_thread.collection.settings.use_tool_calls) {
         data.action_key = "lookup_context";
@@ -30027,8 +30254,8 @@ var smart_env_config5 = {
 };
 
 // node_modules/smart-context-obsidian/src/components/context_builder.css
-var css_sheet7 = new CSSStyleSheet();
-css_sheet7.replaceSync(`.sc-context-builder {
+var css_sheet8 = new CSSStyleSheet();
+css_sheet8.replaceSync(`.sc-context-builder {
   padding: 6px 8px;
   display: flex;
   flex: 0 1 auto;
@@ -30097,7 +30324,7 @@ css_sheet7.replaceSync(`.sc-context-builder {
 .sc-context-tree .sc-tree-links:hover {
   opacity: 1;
 }`);
-var context_builder_default2 = css_sheet7;
+var context_builder_default2 = css_sheet8;
 
 // node_modules/smart-context-obsidian/src/components/context_builder.js
 function build_html32(ctx, opts = {}) {
@@ -30254,8 +30481,8 @@ function tree_to_html(node, selected_paths) {
 }
 
 // node_modules/smart-context-obsidian/src/components/context_tree.css
-var css_sheet8 = new CSSStyleSheet();
-css_sheet8.replaceSync(`.sc-context-tree ul {
+var css_sheet9 = new CSSStyleSheet();
+css_sheet9.replaceSync(`.sc-context-tree ul {
   list-style: none;
   margin: 0 0 0 .8em;
   padding: 0;
@@ -30289,7 +30516,7 @@ css_sheet8.replaceSync(`.sc-context-tree ul {
 .smart-block-popover {
   z-index: 999999;
 }`);
-var context_tree_default = css_sheet8;
+var context_tree_default = css_sheet9;
 
 // node_modules/smart-context-obsidian/node_modules/smart-sources/actions/get_links_to_depth.js
 var LINK_DIRECTIONS = (
@@ -30343,7 +30570,7 @@ function get_links_to_depth(target_source, max_depth = 1, {
 }
 
 // node_modules/smart-context-obsidian/node_modules/obsidian-smart-env/utils/open_note.js
-var import_obsidian32 = require("obsidian");
+var import_obsidian33 = require("obsidian");
 async function open_note(plugin, target_path, event = null, opts = {}) {
   const { new_tab = false } = opts;
   const env = plugin.env;
@@ -30366,8 +30593,8 @@ async function open_note(plugin, target_path, event = null, opts = {}) {
   }
   let leaf;
   if (event) {
-    const is_mod = import_obsidian32.Keymap.isModEvent(event);
-    const is_alt = import_obsidian32.Keymap.isModifier(event, "Alt");
+    const is_mod = import_obsidian33.Keymap.isModEvent(event);
+    const is_alt = import_obsidian33.Keymap.isModifier(event, "Alt");
     if (is_mod && is_alt) {
       leaf = plugin.app.workspace.splitActiveLeaf("vertical");
     } else if (is_mod || new_tab) {
@@ -30388,11 +30615,11 @@ async function open_note(plugin, target_path, event = null, opts = {}) {
 }
 
 // node_modules/smart-context-obsidian/src/components/context_tree.js
-var import_obsidian35 = require("obsidian");
+var import_obsidian36 = require("obsidian");
 
 // node_modules/smart-context-obsidian/src/views/context_selector_modal.js
-var import_obsidian33 = require("obsidian");
-var ContextSelectorModal2 = class _ContextSelectorModal extends import_obsidian33.FuzzySuggestModal {
+var import_obsidian34 = require("obsidian");
+var ContextSelectorModal2 = class _ContextSelectorModal extends import_obsidian34.FuzzySuggestModal {
   static open(env, opts) {
     const plugin = env.smart_contexts_plugin || env.smart_chat_plugin || env.smart_connections_plugin;
     if (!env.context_selector_modal) {
@@ -30423,12 +30650,12 @@ var ContextSelectorModal2 = class _ContextSelectorModal extends import_obsidian3
     this.plugin.env.create_env_getter(this);
     this.mod_key_was_held = false;
     this.modalEl.addEventListener("keydown", (e) => {
-      this.mod_key_was_held = import_obsidian33.Keymap.isModifier(e, "Mod");
+      this.mod_key_was_held = import_obsidian34.Keymap.isModifier(e, "Mod");
       if (e.key === "Enter") this.selectActiveSuggestion(e);
       if (e.key === "Escape") this.close(true);
     });
     this.resultContainerEl.addEventListener("click", (e) => {
-      this.mod_key_was_held = import_obsidian33.Keymap.isModifier(e, "Mod");
+      this.mod_key_was_held = import_obsidian34.Keymap.isModifier(e, "Mod");
     });
   }
   ensure_ctx() {
@@ -30536,35 +30763,14 @@ var ContextSelectorModal2 = class _ContextSelectorModal extends import_obsidian3
         ...suggestions
       ];
     }
-    const special_items = this.opts.special_items ?? [];
-    if (!special_items.length) {
-      if (typeof this.plugin.get_visible_open_files === "function") {
-        const visible_open_files = Array.from(this.plugin.get_visible_open_files()).map((f) => {
-          return { item: this.env.smart_sources.get(f.path) };
-        }).filter((i) => {
-          if (!i.item) return false;
-          if (this.ctx?.data?.context_items[i.item.key]) return false;
-          return true;
-        });
-        if (visible_open_files.length) special_items.push({
-          name: "Visible open files" + (visible_open_files.length ? ` (+${visible_open_files.length})` : ""),
-          items: visible_open_files
-        });
+    let special_items = this.opts.special_items ?? [];
+    special_items = special_items.filter((i) => {
+      if (i.items) {
+        i.items = i.items.filter((item) => !this.ctx?.data?.context_items[item.item.key]);
+        return i.items.length > 0;
       }
-      if (typeof this.plugin.get_all_open_file_paths === "function") {
-        const all_open_files = Array.from(this.plugin.get_all_open_file_paths()).map((f) => {
-          return { item: this.env.smart_sources.get(f) };
-        }).filter((i) => {
-          if (!i.item) return false;
-          if (this.ctx?.data?.context_items[i.item.key]) return false;
-          return true;
-        });
-        if (all_open_files.length) special_items.push({
-          name: "All open files" + (all_open_files.length ? ` (+${all_open_files.length})` : ""),
-          items: all_open_files
-        });
-      }
-    }
+      return true;
+    });
     const unselected = Object.values(this.env.smart_sources.items).filter((src) => !this.ctx?.data?.context_items[src.key]);
     return [
       ...special_items,
@@ -30624,14 +30830,14 @@ var ContextSelectorModal2 = class _ContextSelectorModal extends import_obsidian3
 };
 
 // node_modules/smart-context-obsidian/node_modules/obsidian-smart-env/utils/register_block_hover_popover.js
-var import_obsidian34 = require("obsidian");
+var import_obsidian35 = require("obsidian");
 function register_block_hover_popover2(parent, target, env, block_key, plugin) {
   target.addEventListener("mouseover", async (ev) => {
-    if (import_obsidian34.Keymap.isModEvent(ev)) {
+    if (import_obsidian35.Keymap.isModEvent(ev)) {
       const block = env.smart_blocks.get(block_key);
       const markdown = await block?.read();
       if (markdown) {
-        const popover = new import_obsidian34.HoverPopover(parent, target);
+        const popover = new import_obsidian35.HoverPopover(parent, target);
         const frag = env.smart_view.create_doc_fragment(`<div class="markdown-embed is-loaded">
                 <div class="markdown-embed-content node-insert-event">
                   <div class="markdown-preview-view markdown-rendered node-insert-event show-indentation-guide allow-fold-headings allow-fold-lists">
@@ -30643,7 +30849,7 @@ function register_block_hover_popover2(parent, target, env, block_key, plugin) {
         popover.hoverEl.classList.add("smart-block-popover");
         popover.hoverEl.appendChild(frag);
         const sizer = popover.hoverEl.querySelector(".markdown-preview-sizer");
-        import_obsidian34.MarkdownRenderer.render(plugin.app, markdown, sizer, "/", popover);
+        import_obsidian35.MarkdownRenderer.render(plugin.app, markdown, sizer, "/", popover);
       }
     }
   });
@@ -30692,7 +30898,7 @@ async function post_process36(ctx, container, opts = {}) {
         });
       });
       container.querySelectorAll(".sc-tree-connections").forEach((btn) => {
-        const icon = (0, import_obsidian35.getIcon)("smart-connections");
+        const icon = (0, import_obsidian36.getIcon)("smart-connections");
         btn.appendChild(icon);
         btn.addEventListener("click", async (e) => {
           const p = e.currentTarget.dataset.path;
@@ -30712,7 +30918,7 @@ async function post_process36(ctx, container, opts = {}) {
         if (!target) return;
         const links = get_links_to_depth(target, 3);
         if (!links.length) return;
-        const icon = (0, import_obsidian35.getIcon)("link");
+        const icon = (0, import_obsidian36.getIcon)("link");
         btn.appendChild(icon);
         btn.addEventListener("click", (e) => {
           const p = e.currentTarget.dataset.path;
@@ -30767,7 +30973,7 @@ async function post_process36(ctx, container, opts = {}) {
 }
 
 // node_modules/smart-context-obsidian/src/utils/show_stats_notice.js
-var import_obsidian36 = require("obsidian");
+var import_obsidian37 = require("obsidian");
 function show_stats_notice(stats, contextMsg) {
   let noticeMsg = `Copied to clipboard! (${contextMsg})`;
   if (stats) {
@@ -30783,24 +30989,24 @@ function show_stats_notice(stats, contextMsg) {
       }
     }
   }
-  new import_obsidian36.Notice(noticeMsg);
+  new import_obsidian37.Notice(noticeMsg);
 }
 
 // node_modules/smart-context-obsidian/src/utils/copy_to_clipboard.js
-var import_obsidian37 = require("obsidian");
+var import_obsidian38 = require("obsidian");
 async function copy_to_clipboard(text) {
   try {
     if (navigator?.clipboard?.writeText) {
       await navigator.clipboard.writeText(text);
-    } else if (!import_obsidian37.Platform.isMobile) {
+    } else if (!import_obsidian38.Platform.isMobile) {
       const { clipboard } = require("electron");
       clipboard.writeText(text);
     } else {
-      new import_obsidian37.Notice("Unable to copy text: no valid method found.");
+      new import_obsidian38.Notice("Unable to copy text: no valid method found.");
     }
   } catch (err) {
     console.error("Failed to copy text:", err);
-    new import_obsidian37.Notice("Failed to copy.");
+    new import_obsidian38.Notice("Failed to copy.");
   }
 }
 
@@ -30833,8 +31039,8 @@ var smart_env_config6 = {
 };
 
 // src/sc_settings_tab.js
-var import_obsidian38 = require("obsidian");
-var ScSettingsTab = class extends import_obsidian38.PluginSettingTab {
+var import_obsidian39 = require("obsidian");
+var ScSettingsTab = class extends import_obsidian39.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -30869,7 +31075,7 @@ var ScSettingsTab = class extends import_obsidian38.PluginSettingTab {
 };
 
 // node_modules/obsidian-smart-env/utils/open_note.js
-var import_obsidian39 = require("obsidian");
+var import_obsidian40 = require("obsidian");
 async function open_note2(plugin, target_path, event = null, opts = {}) {
   const { new_tab = false } = opts;
   const env = plugin.env;
@@ -30892,8 +31098,8 @@ async function open_note2(plugin, target_path, event = null, opts = {}) {
   }
   let leaf;
   if (event) {
-    const is_mod = import_obsidian39.Keymap.isModEvent(event);
-    const is_alt = import_obsidian39.Keymap.isModifier(event, "Alt");
+    const is_mod = import_obsidian40.Keymap.isModEvent(event);
+    const is_alt = import_obsidian40.Keymap.isModifier(event, "Alt");
     if (is_mod && is_alt) {
       leaf = plugin.app.workspace.splitActiveLeaf("vertical");
     } else if (is_mod || new_tab) {
@@ -30914,10 +31120,10 @@ async function open_note2(plugin, target_path, event = null, opts = {}) {
 }
 
 // src/sc_oauth.js
-var import_obsidian41 = require("obsidian");
+var import_obsidian42 = require("obsidian");
 
 // ../smart-plugins-obsidian/utils.js
-var import_obsidian40 = require("obsidian");
+var import_obsidian41 = require("obsidian");
 function get_smart_server_url() {
   if (typeof window !== "undefined" && window.SMART_SERVER_URL_OVERRIDE) {
     return window.SMART_SERVER_URL_OVERRIDE;
@@ -31047,7 +31253,7 @@ async function write_files_with_adapter(adapter, baseFolder, files) {
   }
 }
 async function fetch_plugin_zip(repoName, token) {
-  const resp = await (0, import_obsidian40.requestUrl)({
+  const resp = await (0, import_obsidian41.requestUrl)({
     url: `${get_smart_server_url()}/plugin_download`,
     method: "POST",
     headers: {
@@ -31096,7 +31302,7 @@ function set_local_storage_token({ access_token, refresh_token }, oauth_storage_
 async function exchange_code_for_tokens(code, plugin) {
   const oauth_storage_prefix = plugin.app.vault.getName().toLowerCase().replace(/[^a-z0-9]/g, "_") + "_smart_plugins_oauth_";
   const url = `${get_smart_server_url()}/auth/oauth_exchange2`;
-  const resp = await (0, import_obsidian41.requestUrl)({
+  const resp = await (0, import_obsidian42.requestUrl)({
     url,
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -31133,7 +31339,7 @@ async function install_smart_plugins_plugin(plugin) {
 }
 
 // node_modules/smart-notices/smart_notices.js
-var import_obsidian42 = require("obsidian");
+var import_obsidian43 = require("obsidian");
 
 // node_modules/smart-notices/notices.js
 var NOTICES2 = {
@@ -31449,7 +31655,7 @@ var SmartNotices2 = class {
    */
   _add_mute_button(id, container) {
     const btn = document.createElement("button");
-    (0, import_obsidian42.setIcon)(btn, "bell-off");
+    (0, import_obsidian43.setIcon)(btn, "bell-off");
     btn.addEventListener("click", () => {
       if (!this.settings.muted) this.settings.muted = {};
       this.settings.muted[id] = true;
@@ -31478,8 +31684,8 @@ var SmartNotices2 = class {
 };
 
 // src/modals/connections.js
-var import_obsidian43 = require("obsidian");
-var ConnectionsModal = class extends import_obsidian43.FuzzySuggestModal {
+var import_obsidian44 = require("obsidian");
+var ConnectionsModal = class extends import_obsidian44.FuzzySuggestModal {
   constructor(plugin) {
     super(plugin.app);
     this.plugin = plugin;
@@ -31528,18 +31734,18 @@ var ConnectionsModal = class extends import_obsidian43.FuzzySuggestModal {
   onChooseItem(connection, evt) {
     const target_path = connection.item.path;
     this.plugin.open_note(target_path, evt);
-    if (import_obsidian43.Keymap.isModifier(evt, "Mod")) {
+    if (import_obsidian44.Keymap.isModifier(evt, "Mod")) {
       this.open();
     }
   }
 };
 
 // node_modules/smart-chat-obsidian/src/settings_tab.js
-var import_obsidian44 = require("obsidian");
+var import_obsidian45 = require("obsidian");
 
 // node_modules/smart-chat-obsidian/src/settings_tab.css
-var css_sheet9 = new CSSStyleSheet();
-css_sheet9.replaceSync(`@media (max-width: 768px) {
+var css_sheet10 = new CSSStyleSheet();
+css_sheet10.replaceSync(`@media (max-width: 768px) {
   .smart-chat-model-settings-container {
     .setting-item{
       flex-direction: column;
@@ -31549,10 +31755,10 @@ css_sheet9.replaceSync(`@media (max-width: 768px) {
 }
 
 `);
-var settings_tab_default = css_sheet9;
+var settings_tab_default = css_sheet10;
 
 // node_modules/smart-chat-obsidian/src/settings_tab.js
-var SmartChatSettingTab = class extends import_obsidian44.PluginSettingTab {
+var SmartChatSettingTab = class extends import_obsidian45.PluginSettingTab {
   /**
    * @param {import('obsidian').App} app - The current Obsidian app instance
    * @param {import('./main.js').default} plugin - The main plugin object
@@ -31620,188 +31826,15 @@ var SmartChatSettingTab = class extends import_obsidian44.PluginSettingTab {
   }
 };
 
-// src/bases/cos_sim.js
-var SmartCosSim = class {
-  constructor(app) {
-    this.app = app;
-  }
-  isOperator = false;
-  returnType = "number";
-  name = "cos_sim";
-  args = [
-    {
-      name: "file",
-      type: ["this_file"]
-    },
-    {
-      name: "compared_to",
-      type: ["file"]
-    }
-  ];
-  getDisplayName() {
-    return "embedding similarity";
-  }
-  apply(a, b) {
-    try {
-      if (!smart_env || smart_env.state !== "loaded") return "Loading...";
-      const a_key = a?.path ?? a;
-      const b_key = b?.path ?? b;
-      if (!a_key || !b_key) return 0;
-      const item_a = smart_env.smart_sources.get(a_key);
-      let item_b = smart_env.smart_sources.get(b_key);
-      if (!item_b) {
-        const tfile_b = this.app.metadataCache.getFirstLinkpathDest(b_key, a_key);
-        item_b = smart_env.smart_sources.get(tfile_b.path);
-      }
-      if (!item_a?.vec || !item_b?.vec) {
-        return 0;
-      }
-      return Math.round(cos_sim2(item_a.vec, item_b.vec) * 1e3) / 1e3;
-    } catch (e) {
-      console.error(e);
-      return 0;
-    }
-  }
-};
-
 // src/bases/connections_score_column_modal.js
-var import_obsidian45 = require("obsidian");
-
-// src/bases/connections_score_column.js
-function insert_connections_score_column(base_str = "", selected_key, property_name = "") {
-  if (!selected_key) return base_str ?? "";
-  const prop = property_name || selected_key.split("/").pop().replace(/\.md$/i, "");
-  const compare_to = selected_key === "this.file.file" ? "this.file.file" : `"${selected_key}"`;
-  const formula_ln = `  ${prop}: cos_sim(file.file, ${compare_to})`;
-  const display_ln = `  formula.${prop}: ${prop}`;
-  const order_ln = `      - formula.${prop}`;
-  const lines = (base_str ?? "").split(/\r?\n/);
-  let idx = lines.findIndex((l) => /^formulas:\s*$/i.test(l));
-  if (idx === -1) {
-    lines.unshift("formulas:", formula_ln);
-  } else if (!lines.some((l) => l.trimStart() === formula_ln.trimStart())) {
-    idx = find_block_end(lines, idx, /^\s{2}\S/);
-    lines.splice(idx + 1, 0, formula_ln);
-  }
-  idx = lines.findIndex((l) => /^display:\s*$/i.test(l));
-  if (idx === -1) {
-    const formulas_end = lines.findIndex((l) => /^formulas:\s*$/i.test(l));
-    const insert_at = find_block_end(lines, formulas_end, /^\s{2}\S/) + 1;
-    lines.splice(insert_at, 0, "display:", display_ln);
-  } else if (!lines.some((l) => l.trimStart() === display_ln.trimStart())) {
-    idx = find_block_end(lines, idx, /^\s{2}\S/);
-    lines.splice(idx + 1, 0, display_ln);
-  }
-  idx = lines.findIndex((l) => /^views:\s*$/i.test(l));
-  if (idx === -1) {
-    lines.push(
-      "views:",
-      "  - type: table",
-      "    name: Table",
-      "    order:",
-      "      - file.name",
-      order_ln
-    );
-  } else {
-    let order_idx = -1;
-    for (let i = idx + 1; i < lines.length; i++) {
-      if (/^\s*-\s+type:\s+table/i.test(lines[i])) {
-        order_idx = lines.findIndex(
-          (l, j) => j > i && /^\s*order:\s*$/i.test(l)
-        );
-        if (order_idx === -1) {
-          const name_ln = lines.findIndex(
-            (l, j) => j > i && /^\s*name:\s+/i.test(l)
-          );
-          const insert_at = name_ln !== -1 ? name_ln + 1 : i + 1;
-          lines.splice(
-            insert_at,
-            0,
-            "    order:",
-            `      - file.name`,
-            order_ln
-          );
-        }
-        break;
-      }
-    }
-    if (order_idx !== -1 && !lines.some((l) => l.trimStart() === order_ln.trimStart())) {
-      lines.splice(order_idx + 1, 0, order_ln);
-    }
-  }
-  return lines.filter((l) => l.trim()).join("\n").trim();
-}
-var find_block_end = (arr, start, indent_rx) => {
-  let i = start + 1;
-  while (i < arr.length && indent_rx.test(arr[i])) i++;
-  return i - 1;
-};
-var is_base_file = (f) => !!f && f.extension === "base";
-
-// src/bases/connections_score_column_modal.js
-var ConnectionsScoreColumnModal = class extends import_obsidian45.FuzzySuggestModal {
-  constructor(app) {
-    super(app);
-    this.items = [
-      "Current/active file (dynamic)",
-      ...Object.keys(window.smart_env?.smart_sources?.items || {})
-    ];
-    this.setPlaceholder("Select note for similarity\u2026");
-  }
-  getItems() {
-    return this.items;
-  }
-  getItemText(item) {
-    return item;
-  }
-  onChooseItem(i) {
-    this.#apply(i);
-  }
-  async #apply(selected_key) {
-    const file = this.app.workspace.getActiveFile();
-    if (!is_base_file(file)) {
-      new import_obsidian45.Notice("No active .base file");
-      return;
-    }
-    let property_name;
-    if (selected_key === "Current/active file (dynamic)") {
-      selected_key = "this.file.file";
-      property_name = "score";
-    }
-    const original = await this.app.vault.read(file);
-    const updated = insert_connections_score_column(original, selected_key, property_name);
-    if (original === updated) {
-      new import_obsidian45.Notice("Connections score column already present");
-      return;
-    }
-    await this.app.vault.modify(file, updated);
-    this.#reload_base();
-    new import_obsidian45.Notice(`Added cos_sim column for ${selected_key}`);
-  }
-  #reload_base() {
-    this.app.workspace.getLeavesOfType("bases").forEach((leaf) => leaf.isVisible() && leaf.rebuildView());
-  }
-};
-function register_connections_score_command(plugin) {
-  plugin.addCommand({
-    id: "sc-add-connections-score-column",
-    name: "Add: Connections score base column",
-    checkCallback: (checking) => {
-      const ok = is_base_file(plugin.app.workspace.getActiveFile());
-      if (checking) return ok;
-      if (!ok) return false;
-      new ConnectionsScoreColumnModal(plugin.app).open();
-      return true;
-    }
-  });
-}
+var import_obsidian46 = require("obsidian");
 
 // releases/3.0.0.md
-var __default = '# Smart Connections `v3`\r\n## New Features\r\n### Bases integration\r\n- Introduces new command `Add: Connections score base column` and modal for selecting note that should be used in the comparison\r\n	- A `base` file must be open and active for the command to appear\r\n- Adds a new column to the current that display the connections score (semantic similarity) between each note and a specified file\r\n	- makes `cos_sim(file.file, TARGET)` available as a bases function\r\n### Smart Chat v1\r\n- Effectively utilizes the Smart Environment architecture to facilitate deeper integration and new features.\r\n#### Improved Smart Chat UI\r\n- New context builder\r\n	- makes managing conversation context easier\r\n- Drag images and notes into the chat window to add as context\r\n- Separate settings tab specifically for chat features\r\n#### *Improved Smart Chat compatibility with Local Models*\r\n- Note lookup (RAG) now compatible with models that don\'t support tool calling\r\n	- Disable tool calling in the settings\r\n### Ollama embedding adapter\r\n- use Ollama to create embeddings\r\n\r\n## Fixed\r\n- renders content in connections results when all result items are expanded by default\r\n## Housekeeping\r\n- Updated README\r\n	- Improved Getting Started section\r\n	- Removed extraneous details\r\n- Improved version release process\r\n- Smart Chat `v0` (legacy)\r\n	- Smart Chat `v0` will continue to be available for a short time and will be removed in `v3.1` unless unforeseen issues arise in which case it will be removed sooner.\r\n	- Smart Chat `v0` code was moved from `brianpetro/jsbrains` to the Smart Connections repo\r\n\r\n## patch `v3.0.1`\r\n\r\nImproved Mobile UX and cleaned up extraneous code.\r\n\r\n## patch `v3.0.3`\r\n\r\nFixed issue where connections results would not render if expand-all results was toggled on.\r\n\r\n## patch `v3.0.4`\r\n\r\nPrevented frontmatter blocks from being included in connections results. Fixed toggle-fold-all logic.\r\n\r\n## patch `v3.0.5`\r\n\r\nFixes Ollama Embedding model loading issue in the settings.\r\n\r\n## patch `v3.0.6`\r\n\r\nFixed release notes should only show once after update.\r\n\r\n## patch `v3.0.7`\r\n\r\nAdded "current/dynamic" option in bases connection score modal to add score based on current file. Fixed issue causing Ollama to seemingly embed at 0 tokens/sec. Fixed bases integration modal failing on new bases.\r\n\r\n## patch `v3.0.8`\r\n\r\n- Improved bases integration UX\r\n	- prevent throwing error on erroroneous input in `cos_sim` base function\r\n	- gracefully handle when smart_env is not loaded yet\r\n- Reduced max size of markdown file that will be imported from 1MB to 300KB (prevent long initial import)\r\n	- advanced configuration available via `smart_sources.obsidian_markdown_source_content_adapter.max_import_size` in `smart_env.json`\r\n- Removed deprecated Smart Search API registered to window since `smart_env` object is now globally accessible\r\n- Fixed bug causing expanded connections results to render twice\r\n\r\n## patch `v3.0.9`\r\n\r\n- Reworked the context builder UX in Smart Chat to prevent confusion\r\n	- Context is now added to the chat regardless of how the context selector modal is closed\r\n	- Removed "Back" button in favor of "Back" suggestion item\r\n- Fixed using `@` to open context selector in Smart Chat\r\n	- "Done" button now appears in the context selector modal when it is opened from the keyboard\r\n\r\n## patch `v3.0.10`\r\n\r\nFixed Google Gemini integration in the new Smart Chat\r\n\r\n## patch `v3.0.11`\r\n\r\nFixes unexpected scroll issue when dragging file from connections view (issue #1073)\r\n\r\n## patch `v3.0.12`\r\n\r\nFixes pasted text: should paste lines in correct order (no longer reversed)\r\n\r\n## patch `v3.0.13`\r\n\r\n- Prevents trying to process embed queue if embed model is not loaded\r\n	- Particularly for Ollama which may not be turned on when Obsidian starts\r\n	- Re-checks for Ollama server in intervals of a minute\r\n	- Embed queue can be restarted by clicking "Reload sources" in the Smart Environment settings\r\n\r\n## patch `v3.0.14`\r\n\r\n- Improved hover popover for blocks in connections results and context builder\r\n- Refactored `context_builder` component to extract `context_tree` component and prevent passing UI components\r\n  - these components are frequently re-used, the updated architecture should make it easier to maintain and extend\r\n- Fixed: should not embed blocks with size less than `min_chars`\r\n- Fixed: Smart Chat completion requests should have a properly ordered `messages` array\r\n\r\n## patch `v3.0.15`\r\n\r\n- Fixed: some Ollama embedding models triggering re-embedding every restart\r\n\r\n## patch `v3.0.16`\r\n\r\n- Fixed: no models available in Ollama should no longer cause issues in the settings\r\n\r\n## patch `v3.0.17`\r\n\r\n- Improved embedding processing UX\r\n	- show notification immediately to allow pausing sooner\r\n	- show notification every 30 seconds in addition to every 100 embeddings\r\n- Fixed: Smart Environment settings tab should be visible during "loading" state\r\n	- prevents "Loading Obsidian Smart Environment..." message from appearing indefinitely in instances where the environment fails to load from errors related to specific embedding models\r\n\r\n## patch `v3.0.18`\r\n\r\n- Fixed: Smart Connections view rendering on mobile\r\n	- should render when opening the view from the sidebar\r\n	- should update the results to the currently active file\r\n\r\n## patch `v3.0.19`\r\n\r\n- Added: model info to Smart Chat view\r\n	- shows before the first message and anytime the model changes since the last message\r\n- Fixed: ChatGPT sign-in with Google account\r\n	- should now work as expected\r\n	- will require re-signing in to ChatGPT after update\r\n- Fixed: Smart Chat thread adapter should better handle past completions to prevent unexpected behavior\r\n	- prevented `build_request` from outputting certain request content unless the completion is the current completion\r\n		- logic is specific to completion adapters (actions, actions_xml, thread)\r\n\r\n## patch `v3.0.20`\r\n\r\n- Fixed: Smart Environment settings tab should be visible during "loading" and "loaded" states\r\n- Fixed: Open URL externally should use window.open with "_external" if webviewer plugin is installed\r\n\r\n## patch `v3.0.21`\r\n\r\n- Implemented Smart Completions fallback to Smart Chat configuration\r\n	- WHY: enables use via global `smart_env` instance without requiring `chat_model` parameters in every request\r\n\r\n## patch `v3.0.22`\n\r\n- Improved connections view event handling\r\n	- prevent throwing error when no view container is present on iOS';
+var __default = '# Smart Connections `v3`\n## New Features\n### Bases integration\n- Introduces new command `Add: Connections score base column` and modal for selecting note that should be used in the comparison\n	- A `base` file must be open and active for the command to appear\n- Adds a new column to the current that display the connections score (semantic similarity) between each note and a specified file\n	- makes `cos_sim(file.file, TARGET)` available as a bases function\n### Smart Chat v1\n- Effectively utilizes the Smart Environment architecture to facilitate deeper integration and new features.\n#### Improved Smart Chat UI\n- New context builder\n	- makes managing conversation context easier\n- Drag images and notes into the chat window to add as context\n- Separate settings tab specifically for chat features\n#### *Improved Smart Chat compatibility with Local Models*\n- Note lookup (RAG) now compatible with models that don\'t support tool calling\n	- Disable tool calling in the settings\n### Ollama embedding adapter\n- use Ollama to create embeddings\n\n## Fixed\n- renders content in connections results when all result items are expanded by default\n## Housekeeping\n- Updated README\n	- Improved Getting Started section\n	- Removed extraneous details\n- Improved version release process\n- Smart Chat `v0` (legacy)\n	- Smart Chat `v0` will continue to be available for a short time and will be removed in `v3.1` unless unforeseen issues arise in which case it will be removed sooner.\n	- Smart Chat `v0` code was moved from `brianpetro/jsbrains` to the Smart Connections repo\n\n## patch `v3.0.1`\n\nImproved Mobile UX and cleaned up extraneous code.\n\n## patch `v3.0.3`\n\nFixed issue where connections results would not render if expand-all results was toggled on.\n\n## patch `v3.0.4`\n\nPrevented frontmatter blocks from being included in connections results. Fixed toggle-fold-all logic.\n\n## patch `v3.0.5`\n\nFixes Ollama Embedding model loading issue in the settings.\n\n## patch `v3.0.6`\n\nFixed release notes should only show once after update.\n\n## patch `v3.0.7`\n\nAdded "current/dynamic" option in bases connection score modal to add score based on current file. Fixed issue causing Ollama to seemingly embed at 0 tokens/sec. Fixed bases integration modal failing on new bases.\n\n## patch `v3.0.8`\n\n- Improved bases integration UX\n	- prevent throwing error on erroroneous input in `cos_sim` base function\n	- gracefully handle when smart_env is not loaded yet\n- Reduced max size of markdown file that will be imported from 1MB to 300KB (prevent long initial import)\n	- advanced configuration available via `smart_sources.obsidian_markdown_source_content_adapter.max_import_size` in `smart_env.json`\n- Removed deprecated Smart Search API registered to window since `smart_env` object is now globally accessible\n- Fixed bug causing expanded connections results to render twice\n\n## patch `v3.0.9`\n\n- Reworked the context builder UX in Smart Chat to prevent confusion\n	- Context is now added to the chat regardless of how the context selector modal is closed\n	- Removed "Back" button in favor of "Back" suggestion item\n- Fixed using `@` to open context selector in Smart Chat\n	- "Done" button now appears in the context selector modal when it is opened from the keyboard\n\n## patch `v3.0.10`\n\nFixed Google Gemini integration in the new Smart Chat\n\n## patch `v3.0.11`\n\nFixes unexpected scroll issue when dragging file from connections view (issue #1073)\n\n## patch `v3.0.12`\n\nFixes pasted text: should paste lines in correct order (no longer reversed)\n\n## patch `v3.0.13`\n\n- Prevents trying to process embed queue if embed model is not loaded\n	- Particularly for Ollama which may not be turned on when Obsidian starts\n	- Re-checks for Ollama server in intervals of a minute\n	- Embed queue can be restarted by clicking "Reload sources" in the Smart Environment settings\n\n## patch `v3.0.14`\n\n- Improved hover popover for blocks in connections results and context builder\n- Refactored `context_builder` component to extract `context_tree` component and prevent passing UI components\n  - these components are frequently re-used, the updated architecture should make it easier to maintain and extend\n- Fixed: should not embed blocks with size less than `min_chars`\n- Fixed: Smart Chat completion requests should have a properly ordered `messages` array\n\n## patch `v3.0.15`\n\n- Fixed: some Ollama embedding models triggering re-embedding every restart\n\n## patch `v3.0.16`\n\n- Fixed: no models available in Ollama should no longer cause issues in the settings\n\n## patch `v3.0.17`\n\n- Improved embedding processing UX\n	- show notification immediately to allow pausing sooner\n	- show notification every 30 seconds in addition to every 100 embeddings\n- Fixed: Smart Environment settings tab should be visible during "loading" state\n	- prevents "Loading Obsidian Smart Environment..." message from appearing indefinitely in instances where the environment fails to load from errors related to specific embedding models\n\n## patch `v3.0.18`\n\n- Fixed: Smart Connections view rendering on mobile\n	- should render when opening the view from the sidebar\n	- should update the results to the currently active file\n\n## patch `v3.0.19`\n\n- Added: model info to Smart Chat view\n	- shows before the first message and anytime the model changes since the last message\n- Fixed: ChatGPT sign-in with Google account\n	- should now work as expected\n	- will require re-signing in to ChatGPT after update\n- Fixed: Smart Chat thread adapter should better handle past completions to prevent unexpected behavior\n	- prevented `build_request` from outputting certain request content unless the completion is the current completion\n		- logic is specific to completion adapters (actions, actions_xml, thread)\n\n## patch `v3.0.20`\n\n- Fixed: Smart Environment settings tab should be visible during "loading" and "loaded" states\n- Fixed: Open URL externally should use window.open with "_external" if webviewer plugin is installed\n\n## patch `v3.0.21`\n\n- Implemented Smart Completions fallback to Smart Chat configuration\n	- WHY: enables use via global `smart_env` instance without requiring `chat_model` parameters in every request\n\n## patch `v3.0.22`\n\n- Improved connections view event handling\n	- prevent throwing error when no view container is present on iOS\n\n## patch `v3.0.23`\n\n- Added Getting Started guide\n	- opens automatically for new users\n	- can be opened manually via command `Show getting started`\n	- can be opened from the connections view "Help" icon\n	- can be opened from the main settings "Open getting started guide" button\n\n## patch `v3.0.24`\n\nFix Lookup tab not displaying.\n\n## patch `v3.0.25`\n\nFixed connections view help button failing to open\n\n## patch `v3.0.26`\n\nTemp disable bases integration since Obsidian changed how the integration works and there is currently no clear path to updating.\n\n## patch `v3.0.27`\n\n- Added: Smart Chat lookup now supports folder-based filtering\n	- mention a folder when requesting a lookup using self-referential pronoun (no special folder syntax required)\n		- ex. "Summarize my thoughts on this topic based on notes in my Content folder"\n- Added: Smart Chat system prompt now allows `{{folder_tree}}` variable\n	- this variable will be replaced with the folder tree of the current vault\n	- useful for providing context about the vault structure to the model\n- Improved: Smart Chat system message UI\n	- now collapses when longer than 10 lines\n\n## patch `v3.0.28`\n\nFixed: Getting Started slideshow UX on mobile.\n\n## patch `v3.0.29`\n\n- Fixed: prevented regex special characters from throwing error when excluded file/folder contains them\n- Fixed: Smart Chat should return lookup context results when Smart Blocks are disabled';
 
 // src/modals/release_notes.js
-var import_obsidian46 = require("obsidian");
-var ReleaseNotesModal = class extends import_obsidian46.Modal {
+var import_obsidian47 = require("obsidian");
+var ReleaseNotesModal = class extends import_obsidian47.Modal {
   constructor(plugin, version) {
     super(plugin.app);
     this.plugin = plugin;
@@ -31809,7 +31842,7 @@ var ReleaseNotesModal = class extends import_obsidian46.Modal {
   }
   async onOpen() {
     this.titleEl.setText(`What's new in v${this.version}`);
-    await import_obsidian46.MarkdownRenderer.renderMarkdown(
+    await import_obsidian47.MarkdownRenderer.renderMarkdown(
       __default,
       this.contentEl,
       this.plugin.app.workspace.getActiveFile()?.path ?? "",
@@ -31818,31 +31851,17 @@ var ReleaseNotesModal = class extends import_obsidian46.Modal {
   }
 };
 
-// src/utils/release_notes.js
-function get_last_known_version() {
-  return localStorage.getItem("smart_connections_last_version") || "";
-}
-function set_last_known_version(version) {
-  localStorage.setItem("smart_connections_last_version", version);
-}
-function should_show_release_notes(current_version) {
-  return get_last_known_version() !== current_version;
-}
-
 // src/index.js
 var {
   Notice: Notice6,
   Plugin,
   requestUrl: requestUrl4,
-  Platform: Platform6
-} = import_obsidian47.default;
+  Platform: Platform7
+} = import_obsidian48.default;
 var SmartConnectionsPlugin = class extends Plugin {
-  static get defaults() {
-    return default_settings();
-  }
   get item_views() {
     return {
-      ScConnectionsView,
+      ConnectionsView,
       ScLookupView,
       SmartChatsView,
       SmartChatGPTView,
@@ -31851,7 +31870,7 @@ var SmartConnectionsPlugin = class extends Plugin {
   }
   // GETTERS
   get obsidian() {
-    return import_obsidian47.default;
+    return import_obsidian48.default;
   }
   get smart_env_config() {
     if (!this._smart_env_config) {
@@ -31871,7 +31890,7 @@ var SmartConnectionsPlugin = class extends Plugin {
         request_adapter: this.obsidian.requestUrl
         // NEEDS BETTER HANDLING
       };
-      if (Platform6.isMobile) {
+      if (Platform7.isMobile) {
         merge_env_config(this._smart_env_config, {
           collections: {
             smart_sources: { prevent_load_on_init: true }
@@ -31895,7 +31914,7 @@ var SmartConnectionsPlugin = class extends Plugin {
     this.addSettingTab(new ScSettingsTab(this.app, this));
     this.add_commands();
     this.register_code_blocks();
-    this.register_bases_integration();
+    this.load_new_user_state();
   }
   // async onload() { this.app.workspace.onLayoutReady(this.initialize.bind(this)); } // initialize when layout is ready
   onunload() {
@@ -31905,13 +31924,22 @@ var SmartConnectionsPlugin = class extends Plugin {
   }
   async initialize() {
     this.smart_connections_view = null;
-    if (!Platform6.isMobile) {
+    if (!Platform7.isMobile) {
       this.registerObsidianProtocolHandler("sc-op/callback", async (params) => {
         await this.handle_sc_op_oauth_callback(params);
       });
     }
     console.log("Smart Connections v2 loaded");
+    if (this.is_new_user()) {
+      setTimeout(() => {
+        StoryModal.open(this, {
+          title: "Getting Started With Smart Connections",
+          url: "https://smartconnections.app/story/smart-connections-getting-started/?utm_source=sc-op-new-user"
+        });
+      }, 1e3);
+    }
     await SmartEnv2.wait_for({ loaded: true });
+    await this.migrate_last_version_from_localStorage();
     await this.check_for_updates();
     this.new_user();
     this.addSettingTab(new SmartChatSettingTab(this.app, this));
@@ -31920,16 +31948,6 @@ var SmartConnectionsPlugin = class extends Plugin {
       this.app.setting.removeSettingTab("smart-chat");
     });
     console.log("Smart Chat is registered");
-  }
-  register_bases_integration() {
-    if (this.app.internalPlugins.plugins.bases?.instance) {
-      this.app.internalPlugins.plugins.bases?.instance?.registerFunction(new SmartCosSim(this.app));
-      this.register(() => {
-        console.log("unregistering Smart Cos Sim");
-        this.app.internalPlugins.plugins.bases?.instance?.deregisterFunction("cos_sim");
-      });
-      register_connections_score_command(this);
-    }
   }
   register_code_blocks() {
     this.register_code_block("smart-connections", "render_code_block");
@@ -31948,13 +31966,12 @@ var SmartConnectionsPlugin = class extends Plugin {
   get settings() {
     return this.env?.settings || {};
   }
-  new_user() {
-    if (!this.settings.new_user) return;
-    this.settings.new_user = false;
+  async new_user() {
+    if (!this.is_new_user()) return;
+    await this.save_installed_at(Date.now());
     set_last_known_version(this.manifest.version);
     setTimeout(() => {
       this.open_connections_view();
-      this.open_chat_view();
     }, 1e3);
     if (this.app.workspace.rightSplit.collapsed) this.app.workspace.rightSplit.toggle();
     this.add_to_gitignore("\n\n# Ignore Smart Environment folder\n.smart-env");
@@ -31975,14 +31992,14 @@ var SmartConnectionsPlugin = class extends Plugin {
     });
   }
   async check_for_updates() {
-    if (should_show_release_notes(this.manifest.version)) {
+    if (await this.should_show_release_notes(this.manifest.version)) {
       console.log("opening release notes modal");
       try {
         new ReleaseNotesModal(this, this.manifest.version).open();
       } catch (e) {
         console.error("Failed to open ReleaseNotesModal", e);
       }
-      set_last_known_version(this.manifest.version);
+      await this.set_last_known_version(this.manifest.version);
     }
     setTimeout(this.check_for_update.bind(this), 3e3);
     setInterval(this.check_for_update.bind(this), 108e5);
@@ -32088,6 +32105,16 @@ var SmartConnectionsPlugin = class extends Plugin {
         new ReleaseNotesModal(this, this.manifest.version).open();
       }
     });
+    this.addCommand({
+      id: "show-getting-started",
+      name: "Show getting started",
+      callback: () => {
+        StoryModal.open(this, {
+          title: "Getting Started With Smart Connections",
+          url: "https://smartconnections.app/story/smart-connections-getting-started/?utm_source=sc-op-command"
+        });
+      }
+    });
   }
   // We keep the old code
   async add_to_gitignore(ignore, message = null) {
@@ -32168,37 +32195,6 @@ ${message ? "# " + message + "\n" : ""}${ignore}`);
     if (obsidian_sync_instance?.syncStatus.startsWith("Fully synced")) return false;
     return obsidian_sync_instance?.syncing;
   }
-  // FROM ScSettings
-  async force_refresh() {
-    this.env.smart_blocks.clear();
-    this.env.smart_sources.clear();
-    await this.env.smart_sources.init();
-    Object.values(this.env.smart_sources.items).forEach((item) => item.queue_import());
-    await this.env.smart_sources.process_source_import_queue();
-  }
-  async exclude_all_top_level_folders() {
-    const folders = (await this.app.vault.adapter.list("/")).folders;
-    const input = document.querySelector("#smart-connections-settings div[data-setting='folder_exclusions'] input");
-    input.value = folders.join(", ");
-    input.dispatchEvent(new Event("input"));
-    this.update_exclusions();
-  }
-  async update_exclusions() {
-    this.env.smart_sources.smart_fs = null;
-    console.log("render_file_counts");
-    const elm = document.querySelector("#smart-connections-settings #file-counts");
-    elm.setText(`Included files: ${this.included_files} / Total files: ${this.total_files}`);
-  }
-  async toggle_mobile(setting, value, elm) {
-    const manifest = JSON.parse(await this.app.vault.adapter.read(".obsidian/plugins/smart-connections/manifest.json"));
-    manifest.isDesktopOnly = !value;
-    await this.app.vault.adapter.write(".obsidian/plugins/smart-connections/manifest.json", JSON.stringify(manifest, null, 2));
-    console.log("Manifest written");
-    this.restart_plugin();
-  }
-  remove_setting_elm(path2, value, elm) {
-    elm.remove();
-  }
   /**
    * This is the function that is called by the new "Sign in with Smart Plugins" button.
    * It replicates the old 'initiate_oauth()' logic from sc_settings_tab.js
@@ -32208,20 +32204,6 @@ ${message ? "# " + message + "\n" : ""}${ignore}`);
     const state = Math.random().toString(36).slice(2);
     const redirect_uri = encodeURIComponent("obsidian://sc-op/callback");
     const url = `${get_smart_server_url()}/oauth?client_id=smart-plugins-op&redirect_uri=${redirect_uri}&state=${state}`;
-    if (typeof this.app.internalPlugins.plugins?.webviewer?.instance?.openUrlExternally === "function") {
-      this.app.internalPlugins.plugins.webviewer.instance.openUrlExternally(url);
-    } else {
-      window.open(url, "_blank");
-    }
-  }
-  /**
-   * Opens a URL externally, using the Obsidian webviewer plugin if possible,
-   * otherwise falling back to window.open().
-   *
-   * @deprecated use open_url_externally from obsidian-smart-env/utils/open_url_externally.js instead
-   * @param {string} url
-   */
-  open_url_externally(url) {
     open_url_externally(this, url);
   }
   /**
@@ -32275,6 +32257,76 @@ ${message ? "# " + message + "\n" : ""}${ignore}`);
     if (this.env?.notices) return this.env.notices;
     if (!this._notices) this._notices = new SmartNotices2(this.env, Notice6);
     return this._notices;
+  }
+  async load_new_user_state() {
+    this._installed_at = null;
+    const data = await this.loadData();
+    if (this.migrate_installed_at_from_localStorage()) {
+      return;
+    }
+    if (data && typeof data.installed_at !== "undefined") {
+      this._installed_at = data.installed_at;
+    }
+  }
+  migrate_installed_at_from_localStorage() {
+    const localStorageKey = "smart_connections_new_user";
+    if (typeof localStorage !== "undefined" && localStorage.getItem(localStorageKey) !== null) {
+      const oldValue = localStorage.getItem(localStorageKey) !== "false";
+      if (!oldValue) {
+        this._installed_at = Date.now();
+        this.save_installed_at(this._installed_at);
+      }
+      localStorage.removeItem(localStorageKey);
+      return true;
+    }
+    return false;
+  }
+  async save_installed_at(value) {
+    this._installed_at = value;
+    const data = await this.loadData() || {};
+    data.installed_at = value;
+    if ("new_user" in data) delete data.new_user;
+    await this.saveData(data);
+  }
+  is_new_user() {
+    return !this._installed_at;
+  }
+  /**
+   * MIGRATION: Move last_version from localStorage to plugin data.
+   */
+  async migrate_last_version_from_localStorage() {
+    const localStorageKey = "smart_connections_last_version";
+    if (typeof localStorage !== "undefined" && localStorage.getItem(localStorageKey)) {
+      const version = localStorage.getItem(localStorageKey);
+      await this.set_last_known_version(version);
+      localStorage.removeItem(localStorageKey);
+    }
+  }
+  /**
+   * Returns the last saved plugin version or an empty string.
+   * @returns {Promise<string>}
+   */
+  async get_last_known_version() {
+    const data = await this.loadData() || {};
+    return data.last_version || "";
+  }
+  /**
+   * Persists the provided plugin version as last shown.
+   * @param {string} version
+   * @returns {Promise<void>}
+   */
+  async set_last_known_version(version) {
+    const data = await this.loadData() || {};
+    data.last_version = version;
+    await this.saveData(data);
+  }
+  /**
+   * Determines if release notes should be shown for `current_version`.
+   * @param {string} current_version
+   * @returns {Promise<boolean>}
+   */
+  async should_show_release_notes(current_version) {
+    return await this.get_last_known_version() !== current_version;
   }
 };
 
