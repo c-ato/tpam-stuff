@@ -4,16 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "5841b98cb0d8279a",
+        "id": "abcf22b2137d76ad",
         "type": "tabs",
+        "dimension": 53.12925170068027,
         "children": [
           {
-            "id": "16131a284139d270",
+            "id": "cd7eaa80c3f0c05f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "0. Topology Notes (pre project)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "387e960b2842b75d",
+        "type": "tabs",
+        "dimension": 46.87074829931973,
+        "children": [
+          {
+            "id": "41a640f90ce287a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/Formative Problems/My solutions/ra 2024 paper.md",
+                "file": "Independent Learning/TQFT/Notes/Topology note 3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +48,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ra 2024 paper"
+              "title": "Topology note 3"
             }
           }
         ]
-      },
-      {
-        "id": "f60be160b37b9e32",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "af2ae99659ac19dc",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Year 1/Formative Problems/Problem sheet/Exam papers/2024/Paper/A34930_LCRealAnalysis_QP_Main2024.pdf",
-                "page": 3,
-                "left": -16,
-                "top": 618,
-                "zoom": 0.9121819122558276
-              },
-              "icon": "lucide-file-text",
-              "title": "A34930_LCRealAnalysis_QP_Main2024"
-            }
-          },
-          {
-            "id": "7713a0605a7628a4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
-                "page": 1,
-                "left": -16,
-                "top": 846,
-                "zoom": 0.9121819122558277
-              },
-              "icon": "lucide-file-text",
-              "title": "0. Topology Notes (pre project)"
-            }
-          },
-          {
-            "id": "ea830b22fc604e62",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ],
-        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 364.5,
+    "collapsed": true
   },
   "right": {
     "id": "f8f6d84d1165094d",
@@ -230,8 +202,8 @@
             "state": {
               "type": "smart-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "smart-chat",
+              "title": "Smart Chat"
             }
           },
           {
@@ -249,10 +221,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 405.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "copilot:Open Copilot Chat": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -261,22 +242,15 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "copilot:Open Copilot Chat": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Open: View Smart Connections": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "ea830b22fc604e62",
+  "active": "cd7eaa80c3f0c05f",
   "lastOpenFiles": [
+    "Independent Learning/TQFT/Notes/Topology note 3.md",
     "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
     "Year 1/Formative Problems/My solutions/ra 2024 paper.md",
     "Year 1/Formative Problems/Problem sheet/Exam papers/2024/Paper/A34930_LCRealAnalysis_QP_Main2024.pdf",
-    "Independent Learning/TQFT/Notes/Topology note 3.md",
     "Utility/Templates/New Note Chain.md",
     "Utility/Templates/New Successive Note.md",
     "Independent Learning/TQFT/Notes/TQFT note 1.md",
