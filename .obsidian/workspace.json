@@ -6,7 +6,7 @@
       {
         "id": "abcf22b2137d76ad",
         "type": "tabs",
-        "dimension": 53.12925170068027,
+        "dimension": 58.90191897654584,
         "children": [
           {
             "id": "cd7eaa80c3f0c05f",
@@ -14,7 +14,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf"
+                "file": "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
+                "page": 20,
+                "left": -15,
+                "top": 579,
+                "zoom": 1.0558127658430712
               },
               "icon": "lucide-file-text",
               "title": "0. Topology Notes (pre project)"
@@ -23,18 +27,32 @@
         ]
       },
       {
-        "id": "387e960b2842b75d",
+        "id": "ba47baae699684a0",
         "type": "tabs",
-        "dimension": 46.87074829931973,
+        "dimension": 41.09808102345416,
         "children": [
           {
-            "id": "41a640f90ce287a5",
+            "id": "475edd2420145f4c",
             "type": "leaf",
             "state": {
-              "type": "smart-release-notes-view",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Topology note 3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "Topology note 3"
             }
           }
         ]
@@ -94,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5,
-    "collapsed": true
+    "width": 364.5
   },
   "right": {
     "id": "f8f6d84d1165094d",
@@ -219,10 +236,20 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "copilot:Open Copilot Chat": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "41a640f90ce287a5",
+  "active": "475edd2420145f4c",
   "lastOpenFiles": [
     "Year 1/Formative Problems/My solutions/SR and P 2024.md",
     "Utility/Images/SR and P 2024 2025-06-05 12.18.01.excalidraw.md",
