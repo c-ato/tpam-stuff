@@ -31,24 +31,10 @@
             "id": "41a640f90ce287a5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Topology note 3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "smart-release-notes-view",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Topology note 3"
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -202,8 +188,8 @@
             "state": {
               "type": "smart-chat-view",
               "state": {},
-              "icon": "smart-chat",
-              "title": "Smart Chat"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -212,8 +198,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -221,20 +207,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 405.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "soundscapes:Soundscapes: My Music": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "copilot:Open Copilot Chat": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -242,12 +219,13 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
-      "templater-obsidian:Templater": false
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "cd7eaa80c3f0c05f",
+  "active": "41a640f90ce287a5",
   "lastOpenFiles": [
+    "Year 1/Formative Problems/My solutions/SR and P 2024.md",
+    "Utility/Images/SR and P 2024 2025-06-05 12.18.01.excalidraw.md",
     "Independent Learning/TQFT/Notes/Topology note 3.md",
     "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
     "Year 1/Formative Problems/My solutions/ra 2024 paper.md",
@@ -274,7 +252,6 @@
     "Utility/Templates/sad note.md",
     "Tets note.md",
     "Utility/Templates/foo.md",
-    "Utility/Templates/Untitled 1.md",
     "Year 1/Formative Problems/Problem sheet/Solved/1RA_Online.pdf",
     "Year 1/Formative Problems/Problem sheet/Subjects/RA/Practice Questions 3 - 2024.pdf",
     "Year 1/Formative Problems/Problem sheet/Subjects/RA/RA9.pdf",
