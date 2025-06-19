@@ -29,6 +29,6 @@ tags:
 > Any closed subset $C$ of a compact space $K$ is also compact.
  ^thm-top-trans-clos-subset
 
-> [!theorem|*]- come back later with title
+> [!theorem|*]- One-point
 > For any non-compact space $X$ the one-point compactification of $X$ is obtained by adding one extra point $∞$ and defining the open sets of the new space to be the open sets of $X$ together with the sets of the form $G ∪ ∞$, where $G$ is an open subset of $X$ such that $X \setminus G$ is compact.
  ^thm-
