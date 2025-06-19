@@ -75,6 +75,36 @@ URI base: obsidian://open?vault=tpam%20stuff&file=Independent%20Learning%2FTQFT%
 | Q                      | 1     | 0          | 1          |
  ^cor-top-let-alp
 
-   > [!remark|*]- Homeomorphism of $Q\to$
+> [!definition|*]- Topological Invariant
+> A topological invariant of a space $X$ is a property that depends solely on the topology of the space $X$. That is, a property shared by any other space that are homomorphic to $X$. 
 > 
- ^rmk-
+> Intuitively, a homeomorphism between $X$ and $Y$ maps points in $X$ that are “close together” to points in $Y$ that are “close together”, and points in $X$ not “close together” to points in $Y$ that are not “close together”.
+ ^def-top-invar
+
+> [!definition|*]- Disjoint Neighbourhoods
+> Let $X$ be a topological space. Let $x,y \in X$. We say that $x$ and $y$ can be separated by neighbourhoods if there exists a neighbourhood $U$ of $x$ and a neighbourhood $V$ of $y$ such that $U$ and $V$ are disjoint i.e. $U ⋂ V = ∅$.
+ ^def-top-disj-neigh
+
+> [!definition|*]- Hausdorff
+> A space is Hausdorff if every two distinct points have disjoint neighbourhoods.
+ ^def-top-hausdorff
+
+> [!example|*]- $T1$
+> A  topological space is called $T1$ if for any pairs of point $x,y ∈ X$, there is an open set $O_{x}$ such that $x ∈ O_{x}$ and $y$ isn’t. Hausdorff are $T1$ but the vice versa is not always true. A simple example is an infinite set endowed with the cofinite topology.
+ ^exm-top-hausdorff
+
+> [!definition|*]- Compact Set
+> A space is compact if every open cover has a finite subcover. (This is equivalent to “closed” and “bounded” in an Euclidean Space).
+ ^def-top-comp
+
+> [!example|*]- Compact set
+> Suppose $X$ is a Hausdorff space, and we have a point $x$ in $X$ and a finite subset $A$ of $X$ not containing $x$. Then we can separate $x$ and $A$ by neighbourhoods: for each a in $A$, let $U(x)$ and $V(a)$ be disjoint neighbourhoods containing $x$ and $a$, respectively. Then the intersection of all the $U(x)$ and the union of all the $V(a)$ are the required neighbourhoods of $x$ and $A$.
+ ^exm-top-comp
+
+ > [!remark|*]- Infinite Subset in Compact Sets
+> Note that if $A$ is infinite, the proof fails, because the intersection of arbitrarily many neighbourhoods of $x$ might not be a neighbourhood of $x$. The proof can be ”rescued”, however, if $A$ is compact: we simply take a finite subcover of the cover $V (a)$ of $A$. In this way, we see that in a Hausdorff space, any point can be separated by neighbourhoods from any compact set not containing it. In fact, repeating the argument shows that any two disjoint compact sets in a Hausdorff space can be separated by neighbourhoods.
+ ^rmk-top-inf-A-comp
+
+> [!theorem|*]- Compactness is Invariant
+> If $f$ is a continuous function, then the image of the compact set under $f$ is also compact.
+ ^thm-top-inv-comp
