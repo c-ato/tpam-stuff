@@ -104,7 +104,3 @@ URI base: obsidian://open?vault=tpam%20stuff&file=Independent%20Learning%2FTQFT%
  > [!remark|*]- Infinite Subset in Compact Sets
 > Note that if $A$ is infinite, the proof fails, because the intersection of arbitrarily many neighbourhoods of $x$ might not be a neighbourhood of $x$. The proof can be ”rescued”, however, if $A$ is compact: we simply take a finite subcover of the cover $V (a)$ of $A$. In this way, we see that in a Hausdorff space, any point can be separated by neighbourhoods from any compact set not containing it. In fact, repeating the argument shows that any two disjoint compact sets in a Hausdorff space can be separated by neighbourhoods.
  ^rmk-top-inf-A-comp
-
-> [!theorem|*]- Compactness is Invariant
-> If $f$ is a continuous function, then the image of the compact set under $f$ is also compact.
- ^thm-top-inv-comp
