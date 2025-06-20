@@ -1,6 +1,6 @@
 {
-  "soundscape": "CUSTOM_9e04d2d7-723f-4444-9c48-8080f8996fff",
-  "volume": 66,
+  "soundscape": "MY_MUSIC",
+  "volume": 100,
   "autoplay": false,
   "scrollSongTitle": true,
   "customSoundscapes": [
@@ -5690,5 +5690,5 @@
   "myMusicFolderPath": "D:\\Documents\\Music\\Swarm FM",
   "reindexFrequency": "1440",
   "myMusicShuffle": false,
-  "currentTrackIndex": 0
+  "currentTrackIndex": 19
 }

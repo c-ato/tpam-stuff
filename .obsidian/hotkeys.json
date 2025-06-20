@@ -7,15 +7,6 @@
       "key": "S"
     }
   ],
-  "omnisearch:show-modal": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "O"
-    }
-  ],
   "obsidian-excalidraw-plugin:insert-LaTeX-symbol": [
     {
       "modifiers": [
@@ -24,5 +15,13 @@
       "key": "M"
     }
   ],
-  "switcher:open": []
+  "switcher:open": [],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ]
 }

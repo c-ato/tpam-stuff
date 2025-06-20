@@ -4,28 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "abcf22b2137d76ad",
-        "type": "tabs",
-        "dimension": 53.12925170068027,
-        "children": [
-          {
-            "id": "cd7eaa80c3f0c05f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "0. Topology Notes (pre project)"
-            }
-          }
-        ]
-      },
-      {
         "id": "387e960b2842b75d",
         "type": "tabs",
-        "dimension": 46.87074829931973,
+        "dimension": 40.65040650406504,
         "children": [
           {
             "id": "41a640f90ce287a5",
@@ -33,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Topology note 4.md",
+                "file": "Independent Learning/TQFT/Notes/Topology note 5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -48,7 +29,30 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Topology note 4"
+              "title": "Topology note 5"
+            }
+          }
+        ]
+      },
+      {
+        "id": "abcf22b2137d76ad",
+        "type": "tabs",
+        "dimension": 59.34959349593496,
+        "children": [
+          {
+            "id": "cd7eaa80c3f0c05f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
+                "page": 28,
+                "left": -20,
+                "top": 346,
+                "zoom": 1.3
+              },
+              "icon": "lucide-file-text",
+              "title": "0. Topology Notes (pre project)"
             }
           }
         ]
@@ -248,7 +252,11 @@
   "active": "41a640f90ce287a5",
   "lastOpenFiles": [
     "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
+    "Independent Learning/TQFT/Notes/Topology note 5.md",
     "Independent Learning/TQFT/Notes/Topology note 4.md",
-    "Independent Learning/TQFT/Notes/Topology note 3.md"
+    "Independent Learning/TQFT/Notes/Topology note 3.md",
+    "Independent Learning/TQFT/Notes/Topology note 2.md",
+    "Independent Learning/TQFT/Notes/Topology note 1.md",
+    "schedule.md"
   ]
 }

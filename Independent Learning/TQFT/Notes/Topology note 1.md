@@ -16,7 +16,7 @@ tags:
 </div>
 
 > [!definition|*]- Metric space
-> This is a set $X$ where a notion of distance exists. Specifically, if $x,y \in X$ then $d(x,y)$ is some function that determines the "distance" between $x$ and $y$. 
+> This is a set $X$ where a distance structure exists. Specifically, if $x,y \in X$ then $d(x,y)$ is some function that determines the "distance" between $x$ and $y$. 
 > 
 > This distance function must satisfy the following:
 > - $d(x,y)\geq 0\forall x,y \in X$
