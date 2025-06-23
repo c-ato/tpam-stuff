@@ -1,3 +1,10 @@
 {
-  "hover-editor@@he-title-bar-active-bg@@dark": "#000000"
+  "hover-editor@@he-title-bar-active-bg@@dark": "#000000",
+  "minimal-style@@pdf-blend-light": false,
+  "minimal-style@@pdf-dark-opacity": 1,
+  "minimal-style@@pdf-page-style": "pdf-seamless-on",
+  "minimal-style@@pdf-invert-dark": true,
+  "minimal-style@@ax1@@dark": "#71AAFF",
+  "minimal-style@@ax2@@dark": "#5BFF96",
+  "minimal-style@@ax3@@dark": "#BA72F7"
 }

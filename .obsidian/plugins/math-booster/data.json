@@ -27,7 +27,7 @@
       "eqRefSuffix": "",
       "labelPrefix": "",
       "lineByLine": true,
-      "theoremCalloutStyle": "Custom",
+      "theoremCalloutStyle": "Framed",
       "theoremCalloutFontInherit": false,
       "beginProof": "\\begin{proof}",
       "endProof": "\\end{proof}",
@@ -35,7 +35,7 @@
     }
   },
   "extraSettings": {
-    "foldDefault": "-",
+    "foldDefault": "",
     "noteTitleInTheoremLink": true,
     "noteTitleInEquationLink": true,
     "profiles": {
@@ -131,7 +131,7 @@
     "enableEquationSuggestDataview": true,
     "renderMathInSuggestion": true,
     "suggestNumber": 20,
-    "searchMethod": "Simple",
+    "searchMethod": "Fuzzy",
     "upWeightRecent": 0.1,
     "searchLabel": false,
     "modifierToJump": "Mod",
@@ -151,11 +151,5 @@
     "searchModalRange": "vault",
     "searchModalDvQuery": ""
   },
-  "excludedFiles": [
-    "SAS/Notes/sas note 4.md",
-    "SAS/Notes/sas note 3.md",
-    "Year 1/Summative Assessed Problem/My solutions/data analysis.md",
-    "Year 1/Summative Assessed Problem/My solutions/vgla problem sheet 4.md",
-    "Year 1/Summative Assessed Problem/My solutions/Solved/sas week 7.md"
-  ]
+  "excludedFiles": []
 }

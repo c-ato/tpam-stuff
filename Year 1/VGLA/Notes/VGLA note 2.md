@@ -41,8 +41,9 @@ tags:
 
 > [!definition|*]- Group
 > A set $V$ endowed with an internal binary operation $∗$ is called a group with respect to the binary operation $∗$ if and only if the following hold: 
-> - ∗ is associative; 
-> - ∗ has an identity $V$
+> - $V$ is closed under the operation $*$ 
+> - $*$ is associative; 
+> - $*$ has an identity $V$
 > - Every element of $V$ have an inverse element.
  ^def-group
 

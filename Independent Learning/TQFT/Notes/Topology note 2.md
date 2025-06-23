@@ -102,6 +102,13 @@ Now suppose that $z$ is a limit point of $C$ and for contradiction, assume that 
 > These are called homomorphism classes.
  ^lem-top-homo-equiv
 
+> [!definition|*]- Equivalence
+> Some mathematical objects $x,y$ of the same class satisfies the conditions of equivalence if:
+> - Symmetric $x\sim y\implies y\sim x$
+> - Reflexive: $x\sim x$
+> - Transitive: $x\sim y,y\sim z\implies x\sim z$
+ ^def-vgla-equiv
+ 
 > [!example|*]- Any open interval of $\mathbb{R}$ is homomorphic to any other open interval. 
 > Consider $X = (−1, 1)$ and $Y = (0, 5)$. Let $f : X → Y$ be $$f (x) = \frac{5}{2} (x + 1)$$
 > Observe that $f$ is bijective and continuous, being the compositions of addition and multiplication. Moreover, $f^{-1}$ exists and is continuous:$$f ^{-1}(x) = \frac{2}{5} x − 1$$
