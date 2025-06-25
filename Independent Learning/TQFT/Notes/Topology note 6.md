@@ -30,4 +30,14 @@ tags:
 > [!definition|*]- Orbits and Quotient Space
 > The effect of the group action is therefore to partition a space into orbits, which are sets of points that can be connected by elements of the group. That is, the points $x, y\in X$, a topological space, are in the same orbit if there is some $g ∈ G$, a group, such that $g · x = y$. Each orbit is therefore an equivalence class under the group operation, and the space of such orbits is called a quotient space.
  ^def-top-orb-quot-spa
- 
+
+![[0. Topology Notes (pre project).pdf#page=36&rect=61,218,536,601|0. Topology Notes (pre project), p.36]]
+
+> [!definition|*]- Open Cover
+> Let $X$ be a topological space, an open cover is then a family of subsets of $X$ whom union is $X$. 
+ ^def-top-open-cov
+
+> [!definition|*]- Subcover
+> If $\mathcal{F}$ is an open cover of $X$ and $\mathcal{F}'$ is a subfamily of $\mathcal{F}$ and $\bigcup \mathcal{F'}=X$, then $\mathcal{F'}$ is called a subcover of $X$
+ ^def-top-subcov
+

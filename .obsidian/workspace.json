@@ -46,10 +46,10 @@
               "type": "pdf",
               "state": {
                 "file": "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
-                "page": 32,
-                "left": -11,
-                "top": 378,
-                "zoom": 1.3367748741760128
+                "page": 38,
+                "left": -15,
+                "top": 504,
+                "zoom": 1.0343941297818156
               },
               "icon": "lucide-file-text",
               "title": "0. Topology Notes (pre project)"
@@ -241,8 +241,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5,
-    "collapsed": true
+    "width": 405.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,24 +253,24 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "copilot:Open Copilot Chat": false,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "soundscapes:Soundscapes: My Music": false
+      "soundscapes:Soundscapes: My Music": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e0bcb73c4ce8b07a",
+  "active": "cd7eaa80c3f0c05f",
   "lastOpenFiles": [
+    "Independent Learning/TQFT/Notes/Topology note 6.md",
+    "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
     "Independent Learning/TQFT/Notes/Topology note 2.md",
     "Independent Learning/TQFT/Notes/Topology note 3.md",
     "Independent Learning/TQFT/Notes/Topology note 4.md",
-    "Independent Learning/TQFT/Notes/Topology note 6.md",
-    "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
     "Independent Learning/TQFT/Notes/Topology note 5.md",
     "Year 1/VGLA/Notes/VGLA note 2.md",
     "Year 1/RA/Lecture/LectureNotes2024.pdf",
