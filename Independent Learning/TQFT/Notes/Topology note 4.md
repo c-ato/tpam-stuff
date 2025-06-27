@@ -22,8 +22,10 @@ tags:
 	</a> 
 </div>
 
-> [!definition|*]- Compact Set
-> A space is compact if every open cover has a finite subcover. (This is equivalent to “closed” and “bounded” in an Euclidean Space).
+> [!definition|*]- Compactness
+> There are 2 equivalent definitions:
+> 1. A space is compact if every open cover has a finite subcover. (This is equivalent to “closed” and “bounded” in an Euclidean Space).
+> 2. A topological space $X$ is compact if every collection of closed sets $\mathcal{C_{\alpha}}\in X$ such that $\bigcap \mathcal{C_{\alpha}}=\varnothing,\exists$ a finite collection of closed subsets $\mathcal{C}_{1},\mathcal{C}_{2},\dots,\mathcal{C}_{n}$ such that $\bigcap \mathcal{C_{n}}=\varnothing$.
  ^def-top-comp
 
 > [!example|*]- Compact set
@@ -52,9 +54,9 @@ tags:
 
 > [!definition|*]- Connectedness 
 > 2 definitions:
-> 1. A space $X$ is connected if it is not the union of a pair of disjoint non-empty open sets. Equivalently, a space is connected if the only sets that are simultaneously open and closes are the whole space and the empty set.
+> 3. A space $X$ is connected if it is not the union of a pair of disjoint non-empty open sets. Equivalently, a space is connected if the only sets that are simultaneously open and closes are the whole space and the empty set.
 > 
-> 2. A topological space $X$ is said to be disconnected if it is the union of two disjoint non-empty open sets. Otherwise, $X$ is said to be connected.
+> 4. A topological space $X$ is said to be disconnected if it is the union of two disjoint non-empty open sets. Otherwise, $X$ is said to be connected.
  ^def-top-connectedness
 
 > [!example|*]- Closed interval $[0,2]$ 
