@@ -44,6 +44,8 @@ tags:
 > Any closed subset $C$ of a compact space $K$ is also compact.
  ^thm-top-trans-clos-subset
 
+![[Topology note 6#^def-top-one-point-comp]] 
+
 > [!theorem|*]- One-Point Compactification (of Non-Compact Space) 
 > For any non-compact space $X$ the one-point compactification of $X$ is obtained by adding one extra point $∞$ and defining the open sets of the new space to be the open sets of $X$ together with the sets of the form $G ∪ ∞$, where $G$ is an open subset of $X$ such that $X \setminus G$ is compact.
  ^thm-top-comp-ification
@@ -53,10 +55,11 @@ tags:
  ^thm-top-comp-neigh-2-comp-spa
 
 > [!definition|*]- Connectedness 
-> 2 definitions:
-> 3. A space $X$ is connected if it is not the union of a pair of disjoint non-empty open sets. Equivalently, a space is connected if the only sets that are simultaneously open and closes are the whole space and the empty set.
-> 
-> 4. A topological space $X$ is said to be disconnected if it is the union of two disjoint non-empty open sets. Otherwise, $X$ is said to be connected.
+> There are 4 definitions:
+> 1. A space $X$ is connected if it is not the union of a pair of disjoint non-empty open sets. 
+> 2. A space is connected if the only sets that are simultaneously open and closes are the whole space and the empty set.
+> 3. A topological space $X$ is said to be disconnected if it is the union of two disjoint non-empty open sets. Otherwise, $X$ is said to be connected.
+> 4. A space $X$ is connected if whenever it is decomposed as the union $A ∪ B$ of two nonempty subsets then $\bar{A} ∩ B\neq \varnothing$ or $A ∩ \bar{B} \neq \varnothing$
  ^def-top-connectedness
 
 > [!example|*]- Closed interval $[0,2]$ 

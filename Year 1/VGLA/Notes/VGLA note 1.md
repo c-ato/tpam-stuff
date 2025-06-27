@@ -116,7 +116,7 @@ If $f:X\mapsto Y$ and $g: Y \mapsto Z$, then we can derive a function from $X \m
 > [!theorem|*] Bijective
 > Let $f:X\to Y$. The inverse of $f$, $f^{-1}:Y\to X$ exists $\iff f$ is a bijection.
 >
-> In this case, \[ f^{-1}\circ f(x)=f^{-1}(f(x))=x\qquad\text{and}\qquad f\circ f^{-1}(y)=f(f^{-1}(y))=y. \]
+> In this case, $$f^{-1}\circ f(x)=f^{-1}(f(x))=x\qquad\text{and}\qquad f\circ f^{-1}(y)=f(f^{-1}(y))=y$$
  >^thm-bijective
  
  $$

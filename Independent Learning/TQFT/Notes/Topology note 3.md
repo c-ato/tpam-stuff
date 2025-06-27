@@ -40,7 +40,7 @@ URI base: obsidian://open?vault=tpam%20stuff&file=Independent%20Learning%2FTQFT%
  ^exm-top-ann-2-cyl
 
 > [!theorem|*]- Invariant Homomorphic Properties
-> Let $X$ and $Y$ be homomorphic topological spaces. If $X$ is connected or compact or Hausdorff, then so is $Y$.
+> Let $X$ and $Y$ be homomorphic topological spaces such that $f:X\mapsto Y$, then if $X$ is connected or compact or Hausdorff so is $Y$, where $f$ is injective and continuous.
  ^thm-top-invar-homo-prop
 
 > [!definition|*]- Vertices
@@ -85,8 +85,8 @@ URI base: obsidian://open?vault=tpam%20stuff&file=Independent%20Learning%2FTQFT%
 > Let $X$ be a topological space. Let $x,y \in X$. We say that $x$ and $y$ can be separated by neighbourhoods if there exists a neighbourhood $U$ of $x$ and a neighbourhood $V$ of $y$ such that $U$ and $V$ are disjoint i.e. $U ⋂ V = ∅$.
  ^def-top-disj-neigh
 
-> [!definition|*]- Hausdorff
-> A space is Hausdorff if every two distinct points have disjoint neighbourhoods.
+> [!definition|*]- Hausdorff $(T_{2})$
+> A space is Hausdorff if every two distinct points, $x,y\in X$ have disjoint neighbourhoods - $\exists O_{x},O_{y}$, open sets, such that $x \in O_{x},y \in O_{y}$ and $O_{x}\cap O_{y}=\varnothing$.
  ^def-top-hausdorff
 
 > [!example|*]- $T1$

@@ -6,6 +6,7 @@
       {
         "id": "abcf22b2137d76ad",
         "type": "tabs",
+        "dimension": 52.345415778251606,
         "children": [
           {
             "id": "cd7eaa80c3f0c05f",
@@ -13,11 +14,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
-                "page": 40,
-                "left": -17,
-                "top": 235,
-                "zoom": 0.8605252017551523
+                "file": "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf"
               },
               "icon": "lucide-file-text",
               "title": "0. Topology Notes (pre project)"
@@ -38,20 +35,14 @@
               "icon": "lucide-file-text",
               "title": "LectureNotes2024"
             }
-          }
-        ]
-      },
-      {
-        "id": "387e960b2842b75d",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "e0bcb73c4ce8b07a",
+            "id": "86de59a0fa350714",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Topology note 6.md",
+                "file": "Independent Learning/TQFT/Notes/Topology note 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -66,7 +57,38 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Topology note 6"
+              "title": "Topology note 2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "387e960b2842b75d",
+        "type": "tabs",
+        "dimension": 47.6545842217484,
+        "children": [
+          {
+            "id": "9c2fdf893c2c21c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Topology note 8.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Topology note 8"
             }
           }
         ]
@@ -239,7 +261,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 470.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,16 +284,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e0bcb73c4ce8b07a",
+  "active": "cd7eaa80c3f0c05f",
   "lastOpenFiles": [
+    "Independent Learning/TQFT/Notes/Topology note 8.md",
     "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
+    "Independent Learning/TQFT/Notes/Topology note 7.md",
     "Independent Learning/TQFT/Notes/Topology note 6.md",
+    "Utility/Images/{3F1453D8-AE35-4D6D-807F-A059D6F9D923}.png",
+    "Utility/Images/{944E60C4-FA2E-4B83-B570-E9EFDD3E92C1}.png",
     "Independent Learning/TQFT/Notes/Topology note 4.md",
+    "Independent Learning/TQFT/Notes/Topology note 2.md",
+    "Utility/Images/{010A3910-9752-449C-9BC7-8B46AE25B215}.png",
+    "Independent Learning/TQFT/Notes/Topology note 5.md",
     "Independent Learning/TQFT/Notes/Topology note 3.md",
+    "Year 1/VGLA/Notes/VGLA note 1.md",
     "Independent Learning/TQFT/Notes/cofini.md",
     "Independent Learning/TQFT/Notes/Topology note 1.md",
-    "Independent Learning/TQFT/Notes/Topology note 2.md",
-    "Independent Learning/TQFT/Notes/Topology note 5.md",
     "Year 1/VGLA/Notes/VGLA note 2.md",
     "Year 1/RA/Lecture/LectureNotes2024.pdf",
     "schedule.md"
