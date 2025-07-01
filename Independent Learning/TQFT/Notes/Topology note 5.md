@@ -5,8 +5,8 @@ Title Stem: Topology
 URI base: obsidian://open?vault=tpam%20stuff&file=Independent%20Learning%2FTQFT%2FNotes%2FTopology%20note%20
 tags:
   - maths
-  - physics
   - topology
+  - physics
   - quantum
 ---
 

@@ -1,3 +1,8 @@
 .theme-dark .pdfViewer {
 	filter: invert(0.85);
 }
+.theme-dark .internal-embed.pdf-cropped-embed {
+	img {
+		filter: invert(0.85);
+	}
+}

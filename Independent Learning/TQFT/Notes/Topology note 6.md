@@ -5,10 +5,11 @@ Title Stem: Topology
 URI base: obsidian://open?vault=tpam%20stuff&file=Independent%20Learning%2FTQFT%2FNotes%2FTopology%20note%20
 tags:
   - maths
-  - physics
   - topology
+  - physics
   - quantum
 ---
+
 <div style="display: flex; justify-content: center; gap: 10px;">
 	<a 
 	href="obsidian://open?vault=tpam%20stuff&file=Independent%20Learning%2FTQFT%2FNotes%2FTopology%20note%207" class="button">Next
@@ -58,9 +59,9 @@ Union of purple and yellow is the open cover $\mathcal{F}$ and purple is subcove
 > A continuous, real-valued function defined on a compact space is bounded and attains its bounds.
  ^thm-top-re-funct-comp-spa-bound
 
-> [!definition|*]- Base
+> [!definition|*]- Basis of Product Space Topology
 > The base, $\beta$ of a product space topology $X\times Y$ is all sets $U\times V$ where $U$ is an open set $\in X$ and $V$ is an open set $\in Y$. 
- ^def-top-base
+ ^def-top-prod-spa-base
 
 ![[0. Topology Notes (pre project).pdf#page=46&rect=182,302,411,533|0. Topology Notes (pre project), p.46]]
 

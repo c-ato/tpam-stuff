@@ -5,8 +5,8 @@ Title Stem: Topology
 URI base: obsidian://open?vault=tpam%20stuff&file=Independent%20Learning%2FTQFT%2FNotes%2FTopology%20note%20
 tags:
   - maths
-  - physics
   - topology
+  - physics
   - quantum
 ---
 
@@ -72,7 +72,7 @@ tags:
 
 Note the above theorem implies that connectedness is a topological invariant. It can also be considered a generalization of the intermediate value theorem. Connectedness is one of the principal topological properties that is used to distinguish topological spaces. A stronger notion is that of a path-connected space, which is a space where any two points can be joined by a path
 
-> [!theorem|*]- Path-connected space
+> [!theorem|*]- Path-Connected is Connected
 > A path-connected space is connected.
  ^thm-top-path-connect-spa
 

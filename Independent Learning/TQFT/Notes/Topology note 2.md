@@ -1,8 +1,8 @@
 ---
 tags:
   - topology
-  - maths
   - physics
+  - maths
   - quantum
 ---
 
