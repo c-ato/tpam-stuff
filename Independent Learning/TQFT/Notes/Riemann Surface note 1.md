@@ -26,7 +26,7 @@ tags:
  ^def-top-1st-count-spa
 
 > [!definition|*]- Second Countable Spaces
-> Let $X$ be a topological space. It is second countable if there exists some countable collection $\mathcal{U} = \{ U_{i} \}^{\infty}_{i=1}$ of open subsets of $X$ such that any open subset of $T$ can be written as a union of elements of some subfamily of $\mathcal{U}$.
+> Let $X$ be a topological space. It is second countable if there exists some countable collection $\mathcal{U} = \{ U_{i} \}^{\infty}_{i=1}$ of open subsets of $X$ such that any open subset of $X$ can be written as a union of elements of some subfamily of $\mathcal{U}$.
  ^def-top-2nd-count-spa
 
 ![[vgla note 7#^def-vgla-def]]
@@ -49,7 +49,7 @@ tags:
  ^def-top-chart-atlas
 
 > [!definition|*]- Transition Maps
-> If $U_{\alpha_{1}} ∩ U_{\alpha_{2}} = \varnothing$ then $\phi_{\alpha_{2}} ◦ \phi ^{-1} _{\alpha_{1}} : \phi(U_{\alpha_{1}} ) → \phi(U_{\alpha_{2}} )$ is, by composition, a homomorphism. Such a map is called a transition map
+> If $U_{\alpha_{1}} ∩ U_{\alpha_{2}} \neq \varnothing$ then $\phi_{\alpha_{2}} ◦ \phi ^{-1} _{\alpha_{1}} : \phi(U_{\alpha_{1}} ) → \phi(U_{\alpha_{2}} )$ is, by composition, a homomorphism. Such a map is called a transition map
  ^def-top-trans
 
 > [!definition|*]- Riemann Surface
@@ -59,10 +59,6 @@ tags:
 > [!definition|*]- Analytic Atlas
 > The atlas of a Riemann Surface is an analytic atlas.
  ^def-top-riem-ana-atl
-
-> [!definition|*]- Complex Unit Disk
-> $$\Delta=\{ z \in \mathbb{C}:\left| z \right|<1 \}$$
- ^def-
 
 > [!definition|*]- Holomorphic
 > Let $R_{1}$ and $R_{2}$ be Riemann surfaces with atlases $A_{1} = \{(\phi_{\alpha}, U_{\alpha})\}$ and $A_{2} = \{(\psi_{\beta} , V_{\beta} )\}$ respectively. A function $f : R_{1} → R_{2}$ is called holomorphic if the composition $ψ_{\beta} ◦ f ◦ \phi ^{-1}_{\alpha} : \phi(U_{\alpha} ∩ f ^{-1}(V_{\beta} )) → ψ(V_{\beta} )$ is holomorphic for each $α$ and $β$.
@@ -111,4 +107,3 @@ $[\gamma]=\{ \mu:[0,1]\to S: \mu \sim \gamma \}$. This denotes the equivalence c
  ^def-top-riem-fund-group
 
 For the quotient space to be well defined we need $[\gamma]*[\mu]=[\gamma*\mu]$ and have that the null curve is the identity element, and the inverse element is simply the same curve traced in the opposite direction.
-

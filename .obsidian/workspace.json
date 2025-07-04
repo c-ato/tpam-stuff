@@ -28,13 +28,27 @@
               "type": "pdf",
               "state": {
                 "file": "Independent Learning/TQFT/Material/1. Riemann Surfaces (recommended).pdf",
-                "page": 1,
+                "page": 2,
                 "left": -17,
-                "top": 795,
+                "top": 380,
                 "zoom": 0.8651960784313726
               },
               "icon": "lucide-file-text",
               "title": "1. Riemann Surfaces (recommended)"
+            }
+          },
+          {
+            "id": "b9d81e3cbe98b863",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.google.com/search?q=projection+plane+surface+topology&sca_esv=c799b5a334c4a41a&ei=SJFnaMLvK5CEhbIPze23eA&oq=projection+plane+surface+top&gs_lp=Egxnd3Mtd2l6LXNlcnAiHHByb2plY3Rpb24gcGxhbmUgc3VyZmFjZSB0b3AqAggBMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRifBUidIlDvCFiOFXABeAGQAQCYAU-gAaICqgEBNLgBA8gBAPgBAZgCBaACswLCAgoQABiwAxjWBBhHwgIGEAAYFhgewgILEAAYgAQYhgMYigXCAggQABiABBiiBMICBRAAGO8FmAMAiAYBkAYIkgcBNaAH8BCyBwE0uAeuAsIHBTEuMy4xyAcL&sclient=gws-wiz-serp",
+                "title": "projection plane surface topology - Google Search",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "projection plane surface topology - Google Search"
             }
           }
         ],
@@ -50,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Riemann Surface note 1.md",
+                "file": "Independent Learning/TQFT/Notes/Riemann Surface note 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -65,7 +79,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Riemann Surface note 1"
+              "title": "Riemann Surface note 2"
+            }
+          },
+          {
+            "id": "e717ddef1adba853",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Topology note 8.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Topology note 8"
             }
           }
         ]
@@ -263,8 +301,10 @@
   },
   "active": "7965553ec88afe7a",
   "lastOpenFiles": [
-    "Independent Learning/TQFT/Material/1. Riemann Surfaces (recommended).pdf",
     "Independent Learning/TQFT/Notes/Riemann Surface note 1.md",
+    "Independent Learning/TQFT/Notes/Topology note 8.md",
+    "Independent Learning/TQFT/Material/1. Riemann Surfaces (recommended).pdf",
+    "Independent Learning/TQFT/Notes/Riemann Surface note 2.md",
     "Independent Learning/TQFT/Notes/Topology note 7.md",
     "Year 1/VGLA/Notes/vgla note 7.md",
     "copilot-custom-prompts/Rewrite as press release.md",
@@ -294,10 +334,8 @@
     "Independent Learning/TQFT/Material/4. TQFT UG notes.pdf",
     "Independent Learning/TQFT/Material/3. Intro TQFT (upto page 10).pdf",
     "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
-    "Independent Learning/TQFT/Notes/Topology note 8.md",
     "Independent Learning/TQFT/Notes/Topology note 8 1.md",
     "Independent Learning/TQFT/Notes/Topology note 2.md",
-    "Independent Learning/TQFT/Notes/Topology note 3.md",
     "Utility/Images/{D39D60E4-2697-4021-AA9D-37BEF2A7D664}.png",
     "Utility/Images/{3F1453D8-AE35-4D6D-807F-A059D6F9D923}.png",
     "Utility/Images/{944E60C4-FA2E-4B83-B570-E9EFDD3E92C1}.png",
