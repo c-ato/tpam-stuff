@@ -6,8 +6,21 @@
       {
         "id": "abcf22b2137d76ad",
         "type": "tabs",
-        "dimension": 54.37100213219617,
         "children": [
+          {
+            "id": "fe2020cba51b3816",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Homology_(mathematics)",
+                "title": "Homology (mathematics) - Wikipedia",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Homology (mathematics) - Wikipedia"
+            }
+          },
           {
             "id": "b210590eb9e3f57d",
             "type": "leaf",
@@ -16,20 +29,20 @@
               "state": {
                 "file": "Independent Learning/TQFT/Material/1. Riemann Surfaces (recommended).pdf",
                 "page": 1,
-                "left": -13,
-                "top": 7,
-                "zoom": 1.1862745098039216
+                "left": -17,
+                "top": 795,
+                "zoom": 0.8651960784313726
               },
               "icon": "lucide-file-text",
               "title": "1. Riemann Surfaces (recommended)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "387e960b2842b75d",
         "type": "tabs",
-        "dimension": 45.62899786780384,
         "children": [
           {
             "id": "7965553ec88afe7a",
@@ -53,30 +66,6 @@
               },
               "icon": "lucide-file",
               "title": "Riemann Surface note 1"
-            }
-          },
-          {
-            "id": "1862b35ad4fe8801",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Topology note 7.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Topology note 7"
             }
           }
         ]
@@ -249,8 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 470.5,
-    "collapsed": true
+    "width": 360.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -277,8 +265,24 @@
   "lastOpenFiles": [
     "Independent Learning/TQFT/Material/1. Riemann Surfaces (recommended).pdf",
     "Independent Learning/TQFT/Notes/Riemann Surface note 1.md",
-    "Independent Learning/TQFT/Notes/Topology note 6.md",
     "Independent Learning/TQFT/Notes/Topology note 7.md",
+    "Year 1/VGLA/Notes/vgla note 7.md",
+    "copilot-custom-prompts/Rewrite as press release.md",
+    "copilot-custom-prompts/Explain like I am 5.md",
+    "copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot-custom-prompts/Remove URLs.md",
+    "copilot-custom-prompts/Generate glossary.md",
+    "copilot-custom-prompts/Generate table of contents.md",
+    "copilot-custom-prompts/Make longer.md",
+    "copilot-custom-prompts/Make shorter.md",
+    "copilot-custom-prompts/Emojify.md",
+    "copilot-custom-prompts/Simplify.md",
+    "copilot-custom-prompts/Summarize.md",
+    "copilot-custom-prompts/Translate to Chinese.md",
+    "copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot-custom-prompts",
+    "Independent Learning/TQFT/Notes/Topology note 6.md",
     "Independent Learning/TQFT/Notes/Topology note 1.md",
     "Independent Learning/TQFT/Notes/TQFT note 1.md",
     "Year 1/RA/Lecture/LectureNotes2024.pdf",
@@ -294,15 +298,9 @@
     "Independent Learning/TQFT/Notes/Topology note 8 1.md",
     "Independent Learning/TQFT/Notes/Topology note 2.md",
     "Independent Learning/TQFT/Notes/Topology note 3.md",
-    "Independent Learning/TQFT/Notes/Topology note 4.md",
-    "Independent Learning/TQFT/Notes/Topology note 5.md",
     "Utility/Images/{D39D60E4-2697-4021-AA9D-37BEF2A7D664}.png",
     "Utility/Images/{3F1453D8-AE35-4D6D-807F-A059D6F9D923}.png",
     "Utility/Images/{944E60C4-FA2E-4B83-B570-E9EFDD3E92C1}.png",
-    "Utility/Images/{010A3910-9752-449C-9BC7-8B46AE25B215}.png",
-    "Year 1/VGLA/Notes/VGLA note 1.md",
-    "Independent Learning/TQFT/Notes/cofini.md",
-    "Year 1/VGLA/Notes/VGLA note 2.md",
-    "schedule.md"
+    "Utility/Images/{010A3910-9752-449C-9BC7-8B46AE25B215}.png"
   ]
 }

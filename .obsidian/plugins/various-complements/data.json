@@ -14,9 +14,9 @@
   "complementAutomatically": true,
   "delayMilliSeconds": 0,
   "disableSuggestionsDuringImeOn": false,
-  "disableSuggestionsInMathBlock": false,
+  "disableSuggestionsInMathBlock": true,
   "insertSpaceAfterCompletion": false,
-  "firstCharactersDisableSuggestions": ":/^$",
+  "firstCharactersDisableSuggestions": "{}[]\\:/^$",
   "patternsToSuppressTrigger": [
     "^~~~.*",
     "^```.*"
