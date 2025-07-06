@@ -20,7 +20,6 @@ tags:
 
 > [!definition|*]- Limit points
 > A point $z$ is a limit point for a set $A$ if every open set $U$ containing $z$ intersects $A$ in a point other than $z$.
-> 
 > The point $z$ may or may not be in $A$
  ^def-top-lim-point
 
@@ -87,13 +86,12 @@ Now suppose that $z$ is a limit point of $C$ and for contradiction, assume that 
 > There are 2 equivalent definitions:
 > 1. This is the notion of equality (invariance) in topology.
 > A homomorphism is a function $f : X → Y$ between two topological spaces $X$ and $Y$ that:
-> - 
-> 	- is continuous bijective 
-> 	- has a continuous inverse function $f^{-1}$
+> - is continuous bijective 
+> - has a continuous inverse function $f^{-1}$
 > 2. Two topological spaces $X$ and $Y$ are said to be homomorphic if there are continuous map $f : X → Y$ and $g : Y → X$ such that 
 > $$f ◦ g = I_{Y} \qquad \text{and}\qquad g ◦ f = I_{X}$$
 >  Moreover, the maps $f$ and $g$ are homeomorphisms and are inverses of each other, so we may write $f^{-1}$ in place of $g$ and $g^{-1}$ in place of $f$. Where $I_{X}$ and $I_{Y}$ denote the identity maps.
- ^def-top-homo-
+ ^def-top-homomo
 
 > [!lemma|*]- Equivalence relation of Homomorphisms on Topological Spaces
 > - Reflexivity: $X$ is homomorphic to $X$.

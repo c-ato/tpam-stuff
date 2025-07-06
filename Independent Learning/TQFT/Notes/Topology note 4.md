@@ -80,3 +80,4 @@ Note the above theorem implies that connectedness is a topological invariant. It
 > Consider the space defined as the graph of the function $\sin\left( \frac{1}{x} \right)$ over the interval $(0, 1]$ extended by the single point $(0,0)$. This set is then equipped with the topology induced from the Euclidean plane. It is connected but not path-connected. It is the continuous image of a locally compact space (namely, let $V$ be the space $-1 ∪ (0, 1]$, and use the map $f$ from $V$ to $T$ defined by $f(-1) = (0, 0)$ and $f(x) = \left( x, \sin\left( \frac{1}{x} \right) \right)$, but is not locally compact itself.
  ^exm-top-conn-nimpl-path-conn
 
+![[Topology note 7#^def-top-path-conn]] 

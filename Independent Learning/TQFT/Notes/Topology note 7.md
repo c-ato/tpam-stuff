@@ -83,7 +83,7 @@ tags:
 ![[0. Topology Notes (pre project).pdf#page=75&rect=122,182,464,305|0. Topology Notes (pre project), p.75]]
 
 > [!definition|*]- Genus
-> This is the number of holes a shape has according to the identification polygon of its surface: $\chi=$
+> This is the number of holes a shape has according to the identification polygon of its surface: $\chi=2g-2$
  ^def-top-genus
 
 ![[0. Topology Notes (pre project).pdf#page=76&rect=207,480,392,737|0. Topology Notes (pre project), p.76]]

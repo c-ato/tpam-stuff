@@ -6,6 +6,7 @@
       {
         "id": "abcf22b2137d76ad",
         "type": "tabs",
+        "dimension": 61.013513513513516,
         "children": [
           {
             "id": "fe2020cba51b3816",
@@ -13,12 +14,26 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://en.wikipedia.org/wiki/Homology_(mathematics)",
-                "title": "Homology (mathematics) - Wikipedia",
+                "url": "https://www.overleaf.com/project/6867ae7932fe6c9735e5fef6",
+                "title": "Summer Project Report - Online LaTeX Editor Overleaf",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Homology (mathematics) - Wikipedia"
+              "title": "Summer Project Report - Online LaTeX Editor Overleaf"
+            }
+          },
+          {
+            "id": "0344f11fe911f069",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.overleaf.com/project/671a2d716ae8966a7ad018bf",
+                "title": "sda - Online LaTeX Editor Overleaf",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "sda - Online LaTeX Editor Overleaf"
             }
           },
           {
@@ -28,9 +43,9 @@
               "type": "pdf",
               "state": {
                 "file": "Independent Learning/TQFT/Material/1. Riemann Surfaces (recommended).pdf",
-                "page": 2,
+                "page": 1,
                 "left": -17,
-                "top": 380,
+                "top": 795,
                 "zoom": 0.8651960784313726
               },
               "icon": "lucide-file-text",
@@ -43,7 +58,7 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.google.com/search?q=projection+plane+surface+topology&sca_esv=c799b5a334c4a41a&ei=SJFnaMLvK5CEhbIPze23eA&oq=projection+plane+surface+top&gs_lp=Egxnd3Mtd2l6LXNlcnAiHHByb2plY3Rpb24gcGxhbmUgc3VyZmFjZSB0b3AqAggBMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRifBUidIlDvCFiOFXABeAGQAQCYAU-gAaICqgEBNLgBA8gBAPgBAZgCBaACswLCAgoQABiwAxjWBBhHwgIGEAAYFhgewgILEAAYgAQYhgMYigXCAggQABiABBiiBMICBRAAGO8FmAMAiAYBkAYIkgcBNaAH8BCyBwE0uAeuAsIHBTEuMy4xyAcL&sclient=gws-wiz-serp",
+                "url": "https://www.google.com/search?q=projection+plane+surface+topology&sca_esv=c799b5a334c4a41a&ei=SJFnaMLvK5CEhbIPze23eA&oq=projection+plane+surface+top&gs_lp=Egxnd3Mtd2l6LXNlcnAiHHByb2plY3Rpb24gcGxhbmUgc3VyZmFjZSB0b3AqAggBMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRifBUidIlDvCFiOFXABeAGQAQCYAU-gAaICqgEBNLgBA8gBAPgBAZgCBaACswLCAgoQABiwAxjWBBhHwgIGEAAYFhgewgILEAAYgAQYhgMYigXCAggQABiABBiiBMICBRAAGO8FmAMAiAYBkAYIkgcBNaAH8BCyBwE0uAeuAsIHBTEuMy4xyAcL&sclient=gws-wiz-serp&sei=rIBpaNLoE7HQhbIPmabK0Ao",
                 "title": "projection plane surface topology - Google Search",
                 "mode": "webview"
               },
@@ -51,12 +66,12 @@
               "title": "projection plane surface topology - Google Search"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "387e960b2842b75d",
         "type": "tabs",
+        "dimension": 38.98648648648649,
         "children": [
           {
             "id": "7965553ec88afe7a",
@@ -88,7 +103,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Topology note 8.md",
+                "file": "Independent Learning/TQFT/Notes/Topology note 4.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -103,10 +118,45 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Topology note 8"
+              "title": "Topology note 4"
+            }
+          },
+          {
+            "id": "83c773d9d65967a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Topology note 7.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Topology note 7"
+            }
+          },
+          {
+            "id": "424ae14c2603b915",
+            "type": "leaf",
+            "state": {
+              "type": "soundscapes-react-view",
+              "state": {},
+              "icon": "music",
+              "title": "Soundscapes: My Music"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -276,7 +326,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 360.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -299,13 +350,23 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7965553ec88afe7a",
+  "active": "fe2020cba51b3816",
   "lastOpenFiles": [
-    "Independent Learning/TQFT/Notes/Riemann Surface note 1.md",
+    "Independent Learning/TQFT/Notes/Topology note 7.md",
+    "Independent Learning/TQFT/Notes/Topology note 4.md",
+    "Independent Learning/TQFT/Notes/Topology note 3.md",
+    "Independent Learning/TQFT/Notes/Topology note 2.md",
+    "Independent Learning/TQFT/Notes/Topology note 5.md",
+    "Independent Learning/TQFT/Notes/Topology note 6.md",
+    "Independent Learning/TQFT/Notes/Report.md",
+    "Independent Learning/TQFT/Notes/Riemann Surface note 2.md",
+    "Utility/Excalidraw/Drawing 2025-07-05 09.14.10.excalidraw.md",
+    "Independent Learning/TQFT/Notes/Untitled.md",
+    "Untitled.md",
+    "Independent Learning/TQFT/Notes/Topology note 1.md",
     "Independent Learning/TQFT/Notes/Topology note 8.md",
     "Independent Learning/TQFT/Material/1. Riemann Surfaces (recommended).pdf",
-    "Independent Learning/TQFT/Notes/Riemann Surface note 2.md",
-    "Independent Learning/TQFT/Notes/Topology note 7.md",
+    "Independent Learning/TQFT/Notes/Riemann Surface note 1.md",
     "Year 1/VGLA/Notes/vgla note 7.md",
     "copilot-custom-prompts/Rewrite as press release.md",
     "copilot-custom-prompts/Explain like I am 5.md",
@@ -318,15 +379,8 @@
     "copilot-custom-prompts/Make shorter.md",
     "copilot-custom-prompts/Emojify.md",
     "copilot-custom-prompts/Simplify.md",
-    "copilot-custom-prompts/Summarize.md",
-    "copilot-custom-prompts/Translate to Chinese.md",
-    "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts",
-    "Independent Learning/TQFT/Notes/Topology note 6.md",
-    "Independent Learning/TQFT/Notes/Topology note 1.md",
-    "Independent Learning/TQFT/Notes/TQFT note 1.md",
     "Year 1/RA/Lecture/LectureNotes2024.pdf",
-    "Independent Learning/TQFT/Notes/Topology note 9.md",
     "Independent Learning/TQFT/Notes/Topology",
     "Independent Learning/TQFT/Material/7. Parafermions.pdf",
     "Independent Learning/TQFT/Material/6. Topological phase with parafermions theory.pdf",
@@ -334,8 +388,6 @@
     "Independent Learning/TQFT/Material/4. TQFT UG notes.pdf",
     "Independent Learning/TQFT/Material/3. Intro TQFT (upto page 10).pdf",
     "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
-    "Independent Learning/TQFT/Notes/Topology note 8 1.md",
-    "Independent Learning/TQFT/Notes/Topology note 2.md",
     "Utility/Images/{D39D60E4-2697-4021-AA9D-37BEF2A7D664}.png",
     "Utility/Images/{3F1453D8-AE35-4D6D-807F-A059D6F9D923}.png",
     "Utility/Images/{944E60C4-FA2E-4B83-B570-E9EFDD3E92C1}.png",
