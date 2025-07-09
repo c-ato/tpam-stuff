@@ -93,3 +93,5 @@ URI base: obsidian://open?vault=tpam%20stuff&file=Independent%20Learning%2FTQFT%
 > A  topological space is called $T1$ if for any pairs of point $x,y ∈ X$, there is an open set $O_{x}$ such that $x ∈ O_{x}$ and $y$ isn’t. Hausdorff are $T1$ but the vice versa is not always true. A simple example is an infinite set endowed with the cofinite topology.
  ^exm-top-hausdorff
 
+![[Riemann Surface note 1#^def-top-homotogy]] 
+

@@ -64,7 +64,8 @@ tags:
 
 Let $C$ be closed. In the trivial case where $C$ does not have any limit points, this holds. $C'$ is the complement and hence open as $C$ is closed by definition $X-C'=C$
 
-Now suppose that $z$ is a limit point of $C$ and for contradiction, assume that $z\notin C$. This means that $z\in C'$ which is a contraction as by the definition of an open set there exists a subset $U\subseteq C'$ which would not intersect $C$ as $C'\cap C=\varnothing$ and by transitivity of a set $U\cap C=\varnothing$ and hence $z$ is not a limit point of $C$. $\therefore$ by contradiction $z \in C$ so all limit points $z$ are contained in $C$ a closed set.`\end{proof}`
+Now suppose that $z$ is a limit point of $C$ and for contradiction, assume that $z\notin C$. This means that $z\in C'$ which is a contraction as by the definition of an open set there exists a subset $U\subseteq C'$ which would not intersect $C$ as $C'\cap C=\varnothing$ and by transitivity of a set $U\cap C=\varnothing$ and hence $z$ is not a limit point of $C$. $\therefore$ by contradiction $z \in C$ so all limit points $z$ are contained in $C$ a closed set.
+`\end{proof}`
 
 > [!remark|*]- $X$ and $\varnothing$, are both open and closed
 > $\varnothing$ is open $\implies X$ is closed. 
