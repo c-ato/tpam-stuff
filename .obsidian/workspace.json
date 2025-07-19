@@ -4,117 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "abcf22b2137d76ad",
-        "type": "tabs",
-        "dimension": 40.0397088021178,
-        "children": [
-          {
-            "id": "fe2020cba51b3816",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.overleaf.com/project/6867ae7932fe6c9735e5fef6",
-                "title": "Summer Project Report - Online LaTeX Editor Overleaf",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Summer Project Report - Online LaTeX Editor Overleaf"
-            }
-          },
-          {
-            "id": "0a589e573f6115b1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Independent Learning/TQFT/Material/2. TQFT Notes (project start).pdf",
-                "page": 8,
-                "left": -22,
-                "top": 415,
-                "zoom": 0.6970588235294118
-              },
-              "icon": "lucide-file-text",
-              "title": "2. TQFT Notes (project start)"
-            }
-          },
-          {
-            "id": "0344f11fe911f069",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.overleaf.com/project/671a2d716ae8966a7ad018bf",
-                "title": "sda - Online LaTeX Editor Overleaf",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "sda - Online LaTeX Editor Overleaf"
-            }
-          },
-          {
-            "id": "b210590eb9e3f57d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Independent Learning/TQFT/Material/1. Riemann Surfaces (recommended).pdf",
-                "page": 1,
-                "left": -4,
-                "top": 796,
-                "zoom": 1.3394607843137254
-              },
-              "icon": "lucide-file-text",
-              "title": "1. Riemann Surfaces (recommended)"
-            }
-          },
-          {
-            "id": "09874ac05859ec1f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Independent Learning/TQFT/Material/2. TQFT Notes (project start).pdf",
-                "page": 4,
-                "left": -17,
-                "top": 332,
-                "zoom": 0.88109243697479
-              },
-              "icon": "lucide-file-text",
-              "title": "2. TQFT Notes (project start)"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "387e960b2842b75d",
         "type": "tabs",
-        "dimension": 59.9602911978822,
         "children": [
-          {
-            "id": "8f66fc42006b3b24",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
-                "page": 1,
-                "left": -38,
-                "top": 846,
-                "zoom": 1
-              },
-              "icon": "lucide-file-text",
-              "title": "0. Topology Notes (pre project)"
-            }
-          },
           {
             "id": "83c773d9d65967a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Categories note 1.md",
+                "file": "Independent Learning/TQFT/Notes/Categories note.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -129,7 +28,65 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Categories note 1"
+              "title": "Categories note"
+            }
+          },
+          {
+            "id": "48b68f0bb4084666",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Frobenius Algebra note.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Frobenius Algebra note"
+            }
+          },
+          {
+            "id": "8d9f7c749e8e7c09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Riemann Surface note 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Riemann Surface note 1"
+            }
+          },
+          {
+            "id": "7cf68f7b8cb21f76",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -190,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 364.5,
+    "collapsed": true
   },
   "right": {
     "id": "f8f6d84d1165094d",
@@ -293,8 +251,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -323,29 +281,41 @@
       "soundscapes:Soundscapes: My Music": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "edge-tts:Read note aloud": false
     }
   },
-  "active": "83c773d9d65967a5",
+  "active": "48b68f0bb4084666",
   "lastOpenFiles": [
-    "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
-    "Independent Learning/TQFT/Notes/Categories note 1.md",
+    "sync.ffs_lock",
+    "Utility/Excalidraw/Drawing 2025-07-18 12.34.43.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-18 12.33.56.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-18 12.57.42.excalidraw.md",
+    "Independent Learning/TQFT/Notes/Frobenius Algebra note.md",
+    "Utility/Excalidraw/Drawing 2025-07-18 12.48.44.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-18 11.55.27.excalidraw.md",
+    "Independent Learning/TQFT/Material/3. Intro TQFT (upto page 10).pdf",
+    "Independent Learning/TQFT/Notes/Categories note.md",
+    "Independent Learning/TQFT/Material/Google Gemini.htm",
+    "Independent Learning/TQFT/Material/4. TQFT UG notes.pdf",
     "Independent Learning/TQFT/Material/2. TQFT Notes (project start).pdf",
+    "Independent Learning/TQFT/Material/TQFT (very Advance).pdf",
+    "Independent Learning/TQFT/Material/TQFT Lectures (Advance).pdf",
+    "Independent Learning/TQFT/Notes/Riemann Surface note 1.md",
+    "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
+    "Utility/Excalidraw/Drawing 2025-07-11 11.16.43.excalidraw.md",
+    "Independent Learning/TQFT/Notes/Topology note 7.md",
+    "Independent Learning/TQFT/Notes/Topology note 6.md",
+    "Independent Learning/TQFT/Notes/Topology note 5.md",
+    "Independent Learning/TQFT/Notes/Topology note 4.md",
+    "Independent Learning/TQFT/Notes/Topology note 3.md",
+    "Independent Learning/TQFT/Material/Google Gemini_files/bscframe_data/inject.css",
+    "Independent Learning/TQFT/Material/Google Gemini_files/bscframe_data",
     "Utility/mus_paths.md",
     "Independent Learning/TQFT/Material/1. Riemann Surfaces (recommended).pdf",
     "Independent Learning/TQFT/Notes/Report.md",
-    "Independent Learning/TQFT/Notes/Untitled.md",
-    "Independent Learning/TQFT/Notes/Topology note 3.md",
     "Independent Learning/TQFT/Material/null note.md",
     "Independent Learning/TQFT/Material/Untitled.md",
-    "Independent Learning/TQFT/Material/Google Gemini.htm",
-    "Independent Learning/TQFT/Notes/Riemann Surface note 1.md",
-    "Independent Learning/TQFT/Material/Google Gemini_files/account.htm",
-    "Independent Learning/TQFT/Material/Google Gemini_files/RotateCookiesPage.htm",
-    "Independent Learning/TQFT/Material/Google Gemini_files/editor.main.js",
-    "Independent Learning/TQFT/Material/Google Gemini_files/bscframe.htm",
-    "Independent Learning/TQFT/Material/Google Gemini_files/rs=AA2YrTusVA-Eowv8fK0xzVrxpYPEgPMjcA.css",
-    "Independent Learning/TQFT/Material/Google Gemini_files/rs=AA2YrTvWxuYDcW6vrQp8GoZ7wMDZ1RvOBw",
     "Independent Learning/TQFT/Material/Google Gemini_files/gemini_sparkle_red_4ed1cbfcbc6c9e84c31b987da73fc4168aec8445.svg",
     "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed_002.jpg",
     "Independent Learning/TQFT/Material/Google Gemini_files/unnamed_003.jpg",
@@ -356,21 +326,11 @@
     "Independent Learning/TQFT/Material/Google Gemini_files/unnamed.png",
     "Independent Learning/TQFT/Notes/TQFT note.md",
     "Independent Learning/TQFT/Notes/Untitled 1.md",
-    "Independent Learning/TQFT/Notes/Topology note 4.md",
-    "Independent Learning/TQFT/Notes/Topology note 5.md",
-    "Independent Learning/TQFT/Notes/Topology note 6.md",
-    "Independent Learning/TQFT/Notes/Topology note 7.md",
     "Independent Learning/TQFT/Notes/Riemann Surface note 2.md",
     "Independent Learning/TQFT/Notes/Topology note 2.md",
     "Independent Learning/TQFT/Notes/Topology note 1.md",
     "Utility/Excalidraw/Drawing 2025-07-05 09.14.10.excalidraw.md",
     "Independent Learning/TQFT/Notes/Topology note 8.md",
-    "Year 1/VGLA/Notes/vgla note 7.md",
-    "copilot-custom-prompts/Rewrite as press release.md",
-    "copilot-custom-prompts/Explain like I am 5.md",
-    "copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot-custom-prompts/Remove URLs.md",
     "Utility/Images/{D39D60E4-2697-4021-AA9D-37BEF2A7D664}.png",
     "Utility/Images/{3F1453D8-AE35-4D6D-807F-A059D6F9D923}.png"
   ]

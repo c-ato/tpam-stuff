@@ -15,8 +15,9 @@
   "cmdr",
   "templater-obsidian",
   "soundscapes",
-  "pdf-plus",
   "math-in-callout",
   "various-complements",
-  "obsidian-html-plugin"
+  "obsidian-html-plugin",
+  "edge-tts",
+  "pdf-plus"
 ]
