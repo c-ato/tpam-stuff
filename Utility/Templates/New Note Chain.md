@@ -16,13 +16,13 @@ const vaultName = app.vault.getName();
 const encodedVaultName = encodeURIComponent(vaultName);
 const PDFlink = `obsidian://open?vault=${encodedVaultName}&file=${encodedFileName}`;
 tp.file.rename((titleStem + " note 1"), true);
-tp.app.commands.executeCommandById("automatic-tags:add-tags")
 %>---
 Note number: 1
 PDF URI: <% PDFlink %>
 Title Stem: <% titleStem %>
 URI base: <% uri %>
 ---
+
 <div style="display: flex; justify-content: center; gap: 10px;">
 	<a 
 	href="<%uri%>2" class="button">Next
@@ -31,3 +31,4 @@ URI base: <% uri %>
 	href="<%PDFlink%>#page=1" class="button">Go to PDF beginning
 	</a> 
 </div>
+

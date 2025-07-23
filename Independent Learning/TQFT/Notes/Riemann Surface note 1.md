@@ -19,7 +19,7 @@ tags:
 	</a> 
 </div>
 
-![[Topology note 7#^def-top-surf]]
+![[Surfaces#^def-top-surf]]
 
 > [!definition|*]- First Countable Spaces
 > Let $X$ be a topological space, and $x \in X$ such that there is a countable amount of neighbourhoods for each $x$.

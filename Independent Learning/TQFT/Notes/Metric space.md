@@ -2,8 +2,10 @@
 tags:
   - topology
   - maths
-  - physics
-  - quantum
+aliases:
+  - metric
+  - metric space
+  - metric spaces
 ---
 
 <div style="display: flex; justify-content: center; gap: 10px;">
@@ -50,3 +52,6 @@ tags:
 > Let $x \in O$. Lets choose $x=0$. To have this ball entirely contained in $O$ $r\leq 0$. Such a ball contains points $d(x,y)<r\leq 0$ so $d(x,y)<0$ and by the definition $d(x,y)\geq 0$. So no ball satisfies this $x$ and is not true $\forall x \in O$, hence it is not open
  ^exm-top-not-open
 
+> [!theorem|*]- Metric spaces are Hausdorff
+> If a topological space $(X, τ )$ is metrizable, then it is Hausdorff.
+ ^thm-top-metri-haus

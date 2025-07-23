@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "83c773d9d65967a5",
+            "id": "793afb707af81346",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Categories note.md",
+                "file": "Independent Learning/TQFT/Notes/Surfaces.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Categories note"
+              "title": "Surfaces"
             }
           },
           {
-            "id": "48b68f0bb4084666",
+            "id": "7d7ff9be0f2911f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Frobenius Algebra note.md",
+                "file": "Independent Learning/TQFT/Notes/Connected Sums.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Frobenius Algebra note"
+              "title": "Connected Sums"
             }
           },
           {
-            "id": "8d9f7c749e8e7c09",
+            "id": "b72d2dc608dd042e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Riemann Surface note 1.md",
+                "file": "Independent Learning/TQFT/Notes/Super Vector Space.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,21 +76,27 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Riemann Surface note 1"
+              "title": "Super Vector Space"
             }
           },
           {
-            "id": "7cf68f7b8cb21f76",
+            "id": "08992d8d5082cc94",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Independent Learning/TQFT/Material/11. Parafermions.pdf",
+                "page": 1,
+                "left": 114,
+                "top": 741,
+                "zoom": 1.418154790068357
+              },
+              "icon": "lucide-file-text",
+              "title": "11. Parafermions"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -147,8 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5,
-    "collapsed": true
+    "width": 364.5
   },
   "right": {
     "id": "f8f6d84d1165094d",
@@ -164,17 +169,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 1/Formative Problems/My solutions/vgla 2024 exam.md",
+                "file": "Independent Learning/TQFT/Notes/Super Vector Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for vgla 2024 exam"
+              "title": "Backlinks for Super Vector Space"
             }
           },
           {
@@ -183,12 +188,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year 1/Formative Problems/My solutions/vgla 2024 exam.md",
+                "file": "Independent Learning/TQFT/Notes/Super Vector Space.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from vgla 2024 exam"
+              "title": "Outgoing links from Super Vector Space"
             }
           },
           {
@@ -251,17 +256,16 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 360.5,
-    "collapsed": true
+    "width": 363.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -279,43 +283,50 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "soundscapes:Soundscapes: My Music": false,
+      "edge-tts:Read note aloud": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "edge-tts:Read note aloud": false
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "48b68f0bb4084666",
+  "active": "b72d2dc608dd042e",
   "lastOpenFiles": [
-    "sync.ffs_lock",
-    "Utility/Excalidraw/Drawing 2025-07-18 12.34.43.excalidraw.md",
-    "Utility/Excalidraw/Drawing 2025-07-18 12.33.56.excalidraw.md",
-    "Utility/Excalidraw/Drawing 2025-07-18 12.57.42.excalidraw.md",
-    "Independent Learning/TQFT/Notes/Frobenius Algebra note.md",
-    "Utility/Excalidraw/Drawing 2025-07-18 12.48.44.excalidraw.md",
-    "Utility/Excalidraw/Drawing 2025-07-18 11.55.27.excalidraw.md",
-    "Independent Learning/TQFT/Material/3. Intro TQFT (upto page 10).pdf",
-    "Independent Learning/TQFT/Notes/Categories note.md",
-    "Independent Learning/TQFT/Material/Google Gemini.htm",
+    "Independent Learning/TQFT/Notes/Frobenius Algebra.md",
+    "Independent Learning/TQFT/Notes/Bordisms.md",
+    "Independent Learning/TQFT/Notes/Super Vector Space.md",
+    "Independent Learning/TQFT/Notes/Connected Sums.md",
+    "Independent Learning/TQFT/Notes/Topology note 9.md",
+    "Independent Learning/TQFT/Notes/Connectedness.md",
+    "Independent Learning/TQFT/Notes/Compactness.md",
+    "Independent Learning/TQFT/Notes/Topology.md",
+    "Independent Learning/TQFT/Notes/Euler Characteristics.md",
+    "Independent Learning/TQFT/Notes/Surfaces.md",
+    "Independent Learning/TQFT/Notes/Product space.md",
+    "Independent Learning/TQFT/Notes/Quotient Space.md",
+    "Independent Learning/TQFT/Notes/Categories.md",
+    "Independent Learning/TQFT/Notes/Continuity.md",
+    "Independent Learning/TQFT/Notes/Equivalence.md",
+    "Independent Learning/TQFT/Notes/Functors.md",
+    "Independent Learning/TQFT/Notes/Hausdorff.md",
+    "Independent Learning/TQFT/Notes/Identification Space.md",
+    "Independent Learning/TQFT/Notes/Limit points.md",
+    "Independent Learning/TQFT/Notes/Metric space.md",
+    "Independent Learning/TQFT/Notes/Monoidal Category.md",
+    "Independent Learning/TQFT/Notes/Morphisms.md",
+    "Independent Learning/TQFT/Notes/Neighbourhoods.md",
+    "Independent Learning/TQFT/Notes/TQFT.md",
+    "Independent Learning/TQFT/Notes/Vertices.md",
+    "Year 1/Summative Assessed Problem/My solutions/Solved/Essay prep/Essay.md",
+    "Independent Learning/TQFT/Material/11. Parafermions.pdf",
+    "Independent Learning/TQFT/Material/5. D-branes and K-theory in 2D TFT.pdf",
+    "Independent Learning/TQFT/Material/10. Topological phase with parafermions theory.pdf",
+    "Independent Learning/TQFT/Material/9. Spin structures (parafermion background).pdf",
     "Independent Learning/TQFT/Material/4. TQFT UG notes.pdf",
+    "Independent Learning/TQFT/Material/3. Intro TQFT (upto page 10).pdf",
+    "sync.ffs_lock",
+    "Independent Learning/TQFT/Material/Google Gemini.htm",
     "Independent Learning/TQFT/Material/2. TQFT Notes (project start).pdf",
     "Independent Learning/TQFT/Material/TQFT (very Advance).pdf",
-    "Independent Learning/TQFT/Material/TQFT Lectures (Advance).pdf",
-    "Independent Learning/TQFT/Notes/Riemann Surface note 1.md",
-    "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
-    "Utility/Excalidraw/Drawing 2025-07-11 11.16.43.excalidraw.md",
-    "Independent Learning/TQFT/Notes/Topology note 7.md",
-    "Independent Learning/TQFT/Notes/Topology note 6.md",
-    "Independent Learning/TQFT/Notes/Topology note 5.md",
-    "Independent Learning/TQFT/Notes/Topology note 4.md",
-    "Independent Learning/TQFT/Notes/Topology note 3.md",
-    "Independent Learning/TQFT/Material/Google Gemini_files/bscframe_data/inject.css",
-    "Independent Learning/TQFT/Material/Google Gemini_files/bscframe_data",
-    "Utility/mus_paths.md",
-    "Independent Learning/TQFT/Material/1. Riemann Surfaces (recommended).pdf",
-    "Independent Learning/TQFT/Notes/Report.md",
-    "Independent Learning/TQFT/Material/null note.md",
-    "Independent Learning/TQFT/Material/Untitled.md",
     "Independent Learning/TQFT/Material/Google Gemini_files/gemini_sparkle_red_4ed1cbfcbc6c9e84c31b987da73fc4168aec8445.svg",
     "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed_002.jpg",
     "Independent Learning/TQFT/Material/Google Gemini_files/unnamed_003.jpg",
@@ -324,13 +335,6 @@
     "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed.jpg",
     "Independent Learning/TQFT/Material/Google Gemini_files/unnamed.jpg",
     "Independent Learning/TQFT/Material/Google Gemini_files/unnamed.png",
-    "Independent Learning/TQFT/Notes/TQFT note.md",
-    "Independent Learning/TQFT/Notes/Untitled 1.md",
-    "Independent Learning/TQFT/Notes/Riemann Surface note 2.md",
-    "Independent Learning/TQFT/Notes/Topology note 2.md",
-    "Independent Learning/TQFT/Notes/Topology note 1.md",
-    "Utility/Excalidraw/Drawing 2025-07-05 09.14.10.excalidraw.md",
-    "Independent Learning/TQFT/Notes/Topology note 8.md",
     "Utility/Images/{D39D60E4-2697-4021-AA9D-37BEF2A7D664}.png",
     "Utility/Images/{3F1453D8-AE35-4D6D-807F-A059D6F9D923}.png"
   ]

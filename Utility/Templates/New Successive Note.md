@@ -23,5 +23,4 @@ URI base: ${uri}
 </div>
 `;
 await tp.file.create_new(cont,newTitle, true);
-tp.app.commands.executeCommandById("automatic-tags:add-tags")
 %>
