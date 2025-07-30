@@ -1,7 +1,7 @@
 ---
 tags:
   - maths
-  - topology
+  - maths/topology
 ---
 > [!definition|*]- Partition
 > Let $X$ be a [[Topology|topological]] space such that there exists a family, $\mathcal{P}$, of disjoint non-empty subsets of $X$ satisfying $\bigcup P=X$. Any $P\in\mathcal{P}$ is then defined as a partition of $X$

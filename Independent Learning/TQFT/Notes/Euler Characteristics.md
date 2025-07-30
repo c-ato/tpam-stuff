@@ -1,7 +1,7 @@
 ---
 tags:
   - maths
-  - topology
+  - maths/topology
 aliases:
   - euler characteristic
   - good graph
@@ -26,7 +26,7 @@ aliases:
  ^thm-top-eul-char-good-gra
 
 > [!theorem|*]- Euler Characteristic is Topologically Invariant
-> The Euler characteristic is a [[Topology|topological]] invariant that allows us to distinguish whether or not two [[surfaces]] are homomorphic. [[Surfaces]] that have the same Euler characterisitic are not necessarily [[Morphisms|homeomorphic]], but if they are both [[Surfaces|orientable]] (or [[Surfaces|non-orientable]]), then they are. 
+> The Euler characteristic is a [[Topology|topological]] invariant that allows us to distinguish whether or not two [[surfaces]] are [[Morphisms|homomorphic]]. [[Surfaces]] that have the same Euler characterisitic are not necessarily [[Morphisms|homeomorphic]], but if they are both [[Surfaces|orientable]] (or [[Surfaces|non-orientable]]), then they are. 
  ^thm-eul-char-inv
 
 > [!theorem|*]- Identification Polygons are Good Graphs

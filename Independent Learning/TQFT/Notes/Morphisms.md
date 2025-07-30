@@ -1,18 +1,24 @@
 ---
 tags:
   - maths
-  - topology
+  - maths/topology
 aliases:
-  - homeomorphisms
-  - homeomorphic
+  - homomorphisms
+  - homomorphic
   - diffeomorphic
   - diffeomorphisms
   - diffeomorphism
   - morphism
-  - homoemorphism
+  - homomorphism
   - isomorphism
   - isomorphisms
   - isomorphic
+  - holomorphism
+  - holomorphisms
+  - holomorphic
+  - automorphism
+  - automorphisms
+  - automorphic
 ---
 > [!definition|*]- Homomorphisms
 > There are 2 [[Equivalence|equivalent]] definitions:
@@ -48,7 +54,7 @@ aliases:
 > Place the circle “on” the $x$-axis with the point omitted being directly opposite the real line. More precisely, let $S^{1} = \left\{ (x, y) ∈ R | x^{2} +\left( y -\frac{1}{2} \right)^{2} = \frac{1}{4} \right\}$ and suppose the North Pole is $N = (0, 1)$. Using geometry, we may construct $f : S^{1} \setminus N → \mathbb{R}$ by defining $$f (x, y) = \frac{2x}{1-y}$$ $f$ is well-defined and continuous as the domain of $f$ excludes $y = 1$, i.e. the North Pole. With the continuous inverse function $$f^{-1}(x)=\left( \frac{4x}{x^{2}+4}, \frac{x^{2}-4}{x^{2}+4} \right)$$ we have $f ◦ f^{-1} = f^{-1} ◦ f = I$, hence $f$ is a homeomorphism
  ^exm-top-circ-2-R
 
-> [!example|*]- Annulus to open cylinder surface.
+> [!example|*]- Annulus to open cylinder [[Surfaces|surface]].
 > The annulus $A = \{(x, y) ∈ \mathbb{R}^{2} | 1 ≤ x^{2} + y^{2} ≤ 4\}$ is homomorphic to the cylinder $C = \{(x, y, z) ∈ \mathbb{R}^{3} | x^{2} + y^{2} = 1, 0 ≤ z ≤ 1\}$ since there exists continuous function  $f: C → A$ and $g : A → C$ $$f (x, y, z) = ((1 + z)x, (1 + z)y)$$$$g(x, y) = \left( \frac{x}{\sqrt[  ]{ x^{2}+y^{2} }} , \frac{y}{\sqrt[  ]{ x^{2}+y^{2} }} , \sqrt[  ]{ x^{2}+y^{2} } − 1 \right) $$
 > such that $f ◦ g = g ◦ f = I$. Thus $f$ and $g$ homomorphisms. Recognise there is a preservation of a hole. 
  ^exm-top-ann-2-cyl
@@ -60,9 +66,17 @@ aliases:
  ^def-top-invar
 
 > [!theorem|*]- Invariant Homomorphic Properties
-> Let $X$ and $Y$ be homomorphic [[Topology|topological]] spaces such that $f:X\mapsto Y$, then if $X$ is connected or compact or [[Hausdorff]] so is $Y$, where $f$ is injective and continuous.
+> Let $X$ and $Y$ be homomorphic [[Topology|topological]] spaces such that $f:X\mapsto Y$, then if $X$ is [[Connectedness|connected]] or [[Compactness|compact]] or [[Hausdorff]] so is $Y$, where $f$ is injective and continuous.
  ^thm-top-invar-homo-prop
 
 > [!definition|*]- Diffeomorphism
-> A map is diffeomorphic if $f$ is bijective, $f:M\to N$ and $f^{-1}:N\to M$. It is also required that $f$ and $f^{-1}$ are both smooth.
+> A map is diffeomorphic if $f$ is bijective, $f:M\to N$ and $f^{-1}:N\to M$. It is also required that $f$ and $f^{-1}$ are both [[Manifolds|smooth]].
  ^def-cat-diffeo
+
+> [!definition|*]- Holomorphic
+> Let $R_{1}$ and $R_{2}$ be [[Riemann Surface|Riemann surfaces]] with atlases $A_{1} = \{(\phi_{\alpha}, U_{\alpha})\}$ and $A_{2} = \{(\psi_{\beta} , V_{\beta} )\}$ respectively. A function $f : R_{1} → R_{2}$ is called holomorphic if the composition $ψ_{\beta} ◦ f ◦ \phi ^{-1}_{\alpha} : \phi(U_{\alpha} ∩ f ^{-1}(V_{\beta} )) → ψ(V_{\beta} )$ is holomorphic for each $α$ and $β$.
+ ^def-top-riem-holomo
+
+> [!definition|*]- Automorphism
+> This is when we have $x,y \in X$ of some structure, satisfies $f:x\to y$ where $f:X\to X$ and $f^{-1}:X\to X$ (if $x=y$ gives the identity). Topologically this is also a homomorphism
+ ^def-top-automorphism

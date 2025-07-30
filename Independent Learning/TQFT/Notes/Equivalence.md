@@ -1,6 +1,6 @@
 ---
 tags:
-  - topology
+  - maths/topology
   - maths
 aliases:
   - equivalent
@@ -13,10 +13,10 @@ aliases:
 > - Transitive: $x\sim y,y\sim z\implies x\sim z$
  ^def-vgla-equiv
 
-> [!lemma|*]- Equivalence relation of Homomorphisms on [[Topology|Topological]] Spaces
-> - Reflexivity: $X$ is homomorphic to $X$.
-> - Symmetry: If $X$ is homomorphic to $Y$, then $Y$ is homomorphic to $X$.
-> - Transitivity: If $X$ is homomorphic to $Y$ , and $Y$ is homomorphic to $Z$, then $X$ is homomorphic to $Z$.
-> These are called homomorphism classes.
+> [!lemma|*]- Equivalence relation of [[Morphisms|Homomorphisms]] on [[Topology|Topological]] Spaces
+> - Reflexivity: $X$ is [[Morphisms|homomorphic]] to $X$.
+> - Symmetry: If $X$ is [[Morphisms|homomorphic]] to $Y$, then $Y$ is [[Morphisms|homomorphic]] to $X$.
+> - Transitivity: If $X$ is [[Morphisms|homomorphic]] to $Y$ , and $Y$ is [[Morphisms|homomorphic]] to $Z$, then $X$ is [[Morphisms|homomorphic]] to $Z$.
+> These are called [[Morphisms|homomorphism]] classes.
  ^lem-top-homo-equiv
  

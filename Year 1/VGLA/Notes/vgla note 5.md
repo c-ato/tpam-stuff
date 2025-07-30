@@ -1,7 +1,7 @@
 ---
 tags:
   - maths
-  - algebra
+  - maths/algebra
 ---
 > [!definition|*]- Permutation
 > A bijective function that takes a set and rearranges it:

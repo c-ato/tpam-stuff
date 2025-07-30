@@ -1,8 +1,8 @@
 ---
 tags:
   - maths
-  - geometry
-  - algebra
+  - maths/geometry
+  - maths/algebra
 ---
 > [!definition|*]- Conics
 > These are a family of curves defined by the intersection of a plain and a cone in $\mathbb{R}^{3}$. The standard conics are circles, parabola and hyperbola. Degenerate cases are obtained from signle point or a single line or pair of intersecting lines.

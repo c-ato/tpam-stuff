@@ -1,9 +1,13 @@
 ---
 tags:
   - maths
-  - topology
+  - maths/topology
 aliases:
   - product spaces
+  - projection
+  - projections
+  - project
+  - projected
 ---
 
 > [!definition|*]- Product space

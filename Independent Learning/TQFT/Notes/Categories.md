@@ -1,8 +1,8 @@
 ---
 tags:
   - maths
-  - topology
-  - category
+  - maths/topology
+  - maths/category
 aliases:
   - category
 ---
@@ -16,10 +16,6 @@ aliases:
 > - Associativity, where $h:C \to D$ - $(h\circ g)\circ f= h\circ (g\circ f)$
 > - An identity [[Morphisms|morphism]] for both $I_{A}\circ f=f$ and $f \circ I_{B}$
  ^def-cat
-
-> [!definition|*]- Smooth (Manifold)
-> This means that a manifold is infinitely differentiable after it is locally mapped by a chart to a Euclidean space.
- ^def-cat-mani-smoo
 
 
 

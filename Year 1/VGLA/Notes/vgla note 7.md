@@ -1,8 +1,8 @@
 ---
 tags:
   - maths
-  - vectors
-  - algebra
+  - maths/vectors
+  - maths/algebra
 ---
 [[1VGLA_AU.pdf#page=161|1VGLA_AU, p.152]]
 

@@ -1,7 +1,7 @@
 ---
 tags:
   - maths
-  - algebra
+  - maths/algebra
 ---
 > [!theorem|*] Dot product
 > Let $v,u \in E^{n},v=\begin{pmatrix}x_{1} \\ y_{1}\\\dots \\n_{1}\end{pmatrix},u=\begin{pmatrix}x_{2} \\ y_{2}\\\dots \\n_{2}\end{pmatrix}$ and $v\cdot u = x_{1}x_{2}+y_{1}y_{2}+\dots n_{1}n_{2}$

@@ -1,7 +1,7 @@
 ---
 tags:
   - maths
-  - algebra
+  - maths/algebra
 ---
 > [!definition|*]- Submatrix
 > A submatrix of $\mathbf{A}\in\mathcal{M_{mn}}(\mathbb{R})$ is obtained from $\mathbf{A}$ by deleting $\tilde{m}$ rows from $\mathbf{A}$ with $0\leq\tilde{m}\leq m-1,\,0\leq \tilde{n}\leq n-1$ and $\max\{ \tilde{m},\tilde{n} \}\geq 1$

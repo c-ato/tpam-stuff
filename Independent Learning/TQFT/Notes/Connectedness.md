@@ -1,7 +1,7 @@
 ---
 tags:
   - maths
-  - topology
+  - maths/topology
 aliases:
   - connected
   - path-connected

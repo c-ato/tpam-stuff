@@ -1,8 +1,8 @@
 ---
 tags:
   - maths
-  - algebra
-  - vectors
+  - maths/algebra
+  - maths/vectors
 ---
 > [!theorem|*]- Elementary row operations (EROs)
 > EROs do not alter the solutions of a system of simultaneous linear equations:

@@ -1,7 +1,7 @@
 ---
 tags:
   - maths
-  - algebra
+  - maths/algebra
 ---
 
 $$

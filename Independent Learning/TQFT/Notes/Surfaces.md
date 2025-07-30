@@ -1,7 +1,7 @@
 ---
 tags:
   - maths
-  - topology
+  - maths/topology
 aliases:
   - genus
   - geni
@@ -13,7 +13,7 @@ aliases:
 ---
 
 > [!definition|*]- Surface
-> A surface is a [[Topology|topological]] space $S$ such that every point $s ∈ S$ has a [[Neighbourhoods|neighbourhood]] homomorphic to $\mathbb{R}^{2}$.
+> A surface is a [[Topology|topological]] space $S$ such that every point $s ∈ S$ has a [[Neighbourhoods|neighbourhood]] [[Morphisms|homomorphic]] to $\mathbb{R}^{2}$.
  ^def-top-surf
 
 > [!definition|*]- Non-Orientable
@@ -26,7 +26,6 @@ aliases:
  ^thm-top-surf-polyg
 
 ![[0. Topology Notes (pre project).pdf#page=73&rect=142,280,467,442|0. Topology Notes (pre project), p.73]]
-
 > [!definition|*]- Cutting
 > Cutting a surface is breaking it down into more manageable pieces. Any cut can be repaired by gluing things back together. Cutting is not a homeomorphism, unless it is followed by gluing the edges of the cut as they were before the cut
  ^def-top-cut
@@ -66,3 +65,6 @@ aliases:
 
 The basic surfaces are the cylinder, sphere and torus belonging to the orientable, whereas the non-orientable basics are the Mobius band, the projection plane and the Klein bottle.
 
+> [!definition|*]- A more Complex Surface Definition.
+> A surface $S$ is a [[Connectedness|connected]], [[Countable Spaces|second countable]], [[Hausdorff]] [[Topology|topological]] space with a family of [[Morphisms|homomorphisms]] $\phi_{\alpha} : U_{\alpha} → D_{\alpha}$ from domains $U_{\alpha}$ that form an [[Compactness|open cover]] of $S$ to open subsets $D_{\alpha}$ in the complex plane. 
+ ^def-top-riem-surf

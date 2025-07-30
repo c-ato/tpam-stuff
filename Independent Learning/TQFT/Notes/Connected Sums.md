@@ -1,7 +1,7 @@
 ---
 tags:
   - maths
-  - topology
+  - maths/topology
 aliases:
   - connected sum
 ---
@@ -14,7 +14,7 @@ aliases:
 ![[0. Topology Notes (pre project).pdf#page=88&rect=165,442,434,740|0. Topology Notes (pre project), p.88]]
 
 > [!theorem|*]- Well Defined Connected Sum
-> To show that the operation of connected sums is well defined we must show that given two sets that are [[Connectedness|path connected]], regardless of where the discs were took out of in each set; you will obtain the same resulting [[Surfaces|surface]] (same in the sense of homomorphic of course).
+> To show that the operation of connected sums is well defined we must show that given two sets that are [[Connectedness|path connected]], regardless of where the discs were took out of in each set; you will obtain the same resulting [[Surfaces|surface]] (same in the sense of [[Morphisms|homomorphic]] of course).
  ^thm-top-wel-def-conn-sum
 
 > [!example|*]- $\mathbb{R} P^{2}\#T=\mathbb{R} P^{2}\#\mathbb{R} P^{2}\#\mathbb{R} P^{2}$
@@ -33,15 +33,15 @@ aliases:
 
 > [!theorem|*]- Classification Theorem
 > There are $3$ [[Equivalence|equivalent]] definitions:
-> 1. Any closed [[Surfaces|surface]] is homomorphic either to (No two of the following are homomorphic):
+> 1. Any closed [[Surfaces|surface]] is [[Morphisms|homomorphic]] either to (No two of the following are [[Morphisms|homomorphic]]):
 > - Sphere $(S^{2})$
 > - The sphere with a finite number of handles added
 > - The sphere with a finite number of disks replaced by Mobius strips.
-> 2. Any closed [[Surfaces|surface]] is homomorphic either to (No two of the following are homomorphic):
+> 2. Any closed [[Surfaces|surface]] is [[Morphisms|homomorphic]] either to (No two of the following are [[Morphisms|homomorphic]]):
 > - The sphere 
 > - A connected sum of tori 
 > - A connected sum of projective planes
-> 3. Any closed [[Surfaces|surface]] is homomorphic either to (No two of the following are homomorphic):
+> 3. Any closed [[Surfaces|surface]] is [[Morphisms|homomorphic]] either to (No two of the following are [[Morphisms|homomorphic]]):
 > - The sphere 
 > - A connected sum of tori 
 > - A connected sum of a tori and one projective plane 

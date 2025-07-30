@@ -1,7 +1,7 @@
 ---
 tags:
   - maths
-  - topology
+  - maths/topology
 aliases:
   - compact
   - compactification
@@ -70,18 +70,18 @@ Union of purple and yellow is the open cover $\mathcal{F}$ and purple is subcove
  ^thm-top-comp-ification
 
 > [!theorem|*]- Compact [[Neighbourhoods|Neighbourhood]] to Compact Space
-> Any locally compact (every point is contained in a compact [[Neighbourhoods|neighbourhood]]) [[Hausdorff]] space can be turned into a compact space by adding a single point to it, by means of one-point compactification. The one-point compactification of $\mathbb{R}$ is homomorphic to the circle $S^{1}$; the one-point compactification of $\mathbb{R}^{2}$ is homomorphic to the sphere $S^{2}$. Using the one-point compactification, one can also easily construct compact spaces which are not [[Hausdorff]], by starting with a non-[[Hausdorff]] space.
+> Any locally compact (every point is contained in a compact [[Neighbourhoods|neighbourhood]]) [[Hausdorff]] space can be turned into a compact space by adding a single point to it, by means of one-point compactification. The one-point compactification of $\mathbb{R}$ is [[Morphisms|homomorphic]] to the circle $S^{1}$; the one-point compactification of $\mathbb{R}^{2}$ is [[Morphisms|homomorphic]] to the sphere $S^{2}$. Using the one-point compactification, one can also easily construct compact spaces which are not [[Hausdorff]], by starting with a non-[[Hausdorff]] space.
  ^thm-top-comp-neigh-2-comp-spa
 
 > [!theorem|*]- Properties of One-Point Compactification
 > For any open set $U ⊂ \tilde{X}$, $U ∩ X$ is open in $X$.
 > ![[0. Topology Notes (pre project).pdf#page=52&rect=193,566,406,741|0. Topology Notes (pre project), p.52]]
-> If $X$ is not compact, then $X$ is homomorphic to an open dense set in $\tilde{X}$.
+> If $X$ is not compact, then $X$ is [[Morphisms|homomorphic]] to an open dense set in $\tilde{X}$.
 > $\tilde{X}$ is compact.
 > ![[0. Topology Notes (pre project).pdf#page=53&rect=175,567,425,740|0. Topology Notes (pre project), p.53]]
 > $\tilde{X}$ is [[Hausdorff]].
 > If none of the components of $X$ is compact, then $\tilde{X}$ is [[Connectedness|connected]].
 > ![[0. Topology Notes (pre project).pdf#page=53&rect=128,128,468,282|0. Topology Notes (pre project), p.53]]
-> If $X$ is homomorphic to $Y$ , $\implies\tilde{X}$ is homomorphic to $\tilde{Y}$.
+> If $X$ is [[Morphisms|homomorphic]] to $Y$ , $\implies\tilde{X}$ is [[Morphisms|homomorphic]] to $\tilde{Y}$.
 > ![[0. Topology Notes (pre project).pdf#page=55&rect=132,559,472,733|0. Topology Notes (pre project), p.55]]
  ^thm-top-prop-opc

@@ -1,8 +1,8 @@
 ---
 tags:
   - maths
-  - topology
-  - category
+  - maths/topology
+  - maths/category
 aliases:
   - monoidal
   - monoid

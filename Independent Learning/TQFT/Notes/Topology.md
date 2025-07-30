@@ -1,7 +1,7 @@
 ---
 tags:
   - maths
-  - topology
+  - maths/topology
 aliases:
   - topological
   - topologies
@@ -35,6 +35,6 @@ aliases:
 > $\varnothing$ and $X$ are both open and closed
  ^rmk-top-clopen-empty-X
 
-> [!lemma|*]- Relation of Clopen Subset on an Open Set of the Open Cover
-> Let $\mathfrak{F}$ be a family of subsets of $X$ whose union is all of $X$ and $A$ be a nonempty subset of $X$ which is both open and closed and not equal to all of $X$. If each member $\mathfrak{F}$ is connected, then for $Z \in \mathfrak{F}$ either $Z\cap A=\varnothing\lor=Z$.
+> [!lemma|*]- Relation of Clopen Subset on an Open Set of the [[Compactness|Open Cover]]
+> Let $\mathfrak{F}$ be a family of subsets of $X$ whose union is all of $X$ and $A$ be a nonempty subset of $X$ which is both open and closed and not equal to all of $X$. If each member $\mathfrak{F}$ is [[Connectedness|connected]], then for $Z \in \mathfrak{F}$ either $Z\cap A=\varnothing\lor=Z$.
  ^lem-top-rel-clop-op-set-op-cov

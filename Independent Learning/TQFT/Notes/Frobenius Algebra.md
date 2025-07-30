@@ -2,10 +2,10 @@
 tags:
   - maths
   - physics
-  - topology
+  - maths/topology
   - quantum
-  - category
-  - algebra
+  - maths/category
+  - maths/algebra
 aliases:
   - frobenius
   - Frobenius

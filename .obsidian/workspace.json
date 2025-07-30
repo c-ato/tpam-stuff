@@ -6,14 +6,39 @@
       {
         "id": "387e960b2842b75d",
         "type": "tabs",
+        "dimension": 48.56076759061834,
         "children": [
           {
-            "id": "793afb707af81346",
+            "id": "942cd95217adf03f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Surfaces.md",
+                "file": "Independent Learning/TQFT/Notes/Spin Structure.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Spin Structure"
+            }
+          },
+          {
+            "id": "104fa568452db44a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Product space.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +53,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Surfaces"
+              "title": "Product space"
             }
           },
           {
-            "id": "7d7ff9be0f2911f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Connected Sums.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Connected Sums"
-            }
-          },
-          {
-            "id": "b72d2dc608dd042e",
+            "id": "234e9355edad8e44",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,25 +79,172 @@
               "icon": "lucide-file",
               "title": "Super Vector Space"
             }
-          },
-          {
-            "id": "08992d8d5082cc94",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Independent Learning/TQFT/Material/11. Parafermions.pdf",
-                "page": 1,
-                "left": 114,
-                "top": 741,
-                "zoom": 1.418154790068357
-              },
-              "icon": "lucide-file-text",
-              "title": "11. Parafermions"
-            }
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "b58f6085bbafe4ca",
+        "type": "split",
+        "dimension": 51.43923240938166,
+        "children": [
+          {
+            "id": "8b7aa5196dfdee26",
+            "type": "tabs",
+            "dimension": 41.957364341085274,
+            "children": [
+              {
+                "id": "a0596d74eb850ea9",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://www.google.com/sorry/index?continue=https://gemini.google.com/app/4fe9e6fe60ddd44b&q=EgSTvO-sGMy2jsQGIjCPKDI0YL-CkAcBNAPvu1qNcXgLbhgnPFJc6CS7kH74q6t4dTBx3k50ZOKCtjPK2cEyAnJSWgFD",
+                    "title": "https://gemini.google.com/app/4fe9e6fe60ddd44b",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "https://gemini.google.com/app/4fe9e6fe60ddd44b"
+                }
+              }
+            ]
+          },
+          {
+            "id": "4c4c0fe102b11ff7",
+            "type": "tabs",
+            "dimension": 58.04263565891473,
+            "children": [
+              {
+                "id": "b0aa63471c98e951",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
+                    "title": "Spinor bundle - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Spinor bundle - Wikipedia"
+                }
+              },
+              {
+                "id": "821abfd9fcda7b35",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Spin_structure",
+                    "title": "Spin structure - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Spin structure - Wikipedia"
+                }
+              },
+              {
+                "id": "120eaf048f7bd193",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Orthogonal_group",
+                    "title": "Orthogonal group - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Orthogonal group - Wikipedia"
+                }
+              },
+              {
+                "id": "333996791021136c",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Vector_bundle",
+                    "title": "Vector bundle - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Vector bundle - Wikipedia"
+                }
+              },
+              {
+                "id": "a8d313b42e85dbbd",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Principal_bundle",
+                    "title": "Principal bundle - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Principal bundle - Wikipedia"
+                }
+              },
+              {
+                "id": "4dabbc50e6fababc",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
+                    "title": "Spinor bundle - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Spinor bundle - Wikipedia"
+                }
+              },
+              {
+                "id": "8d4c68f161014c9a",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Covering_group",
+                    "title": "Covering group - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Covering group - Wikipedia"
+                }
+              },
+              {
+                "id": "6226641c234f5306",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Covering_space",
+                    "title": "Covering space - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Covering space - Wikipedia"
+                }
+              },
+              {
+                "id": "9f8b9dfa1d9c6d94",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://commons.wikimedia.org/wiki/File:Spinor_on_the_circle.png",
+                    "title": "File:Spinor on the circle.png - Wikimedia Commons",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "File:Spinor on the circle.png - Wikimedia Commons"
+                }
+              }
+            ],
+            "currentTab": 6
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -128,7 +276,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#differentials",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,17 +317,16 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Super Vector Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Super Vector Space"
+              "title": "Backlinks"
             }
           },
           {
@@ -212,6 +359,16 @@
             }
           },
           {
+            "id": "257bc188c2d0a54b",
+            "type": "leaf",
+            "state": {
+              "type": "smart-chat-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
             "id": "16f32d2d52905a1b",
             "type": "leaf",
             "state": {
@@ -231,23 +388,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 1/Formative Problems/Problem sheet/Exam papers/2022/Paper/CHAOS (A) 2022.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CHAOS (A) 2022"
-            }
-          },
-          {
-            "id": "257bc188c2d0a54b",
-            "type": "leaf",
-            "state": {
-              "type": "smart-chat-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "Outline"
             }
           },
           {
@@ -256,8 +402,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -265,17 +411,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 363.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
+      "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
       "copilot:Open Copilot Chat": false,
       "omnisearch:Omnisearch": false,
@@ -289,44 +436,43 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b72d2dc608dd042e",
+  "active": "234e9355edad8e44",
   "lastOpenFiles": [
-    "Independent Learning/TQFT/Notes/Frobenius Algebra.md",
-    "Independent Learning/TQFT/Notes/Bordisms.md",
-    "Independent Learning/TQFT/Notes/Super Vector Space.md",
-    "Independent Learning/TQFT/Notes/Connected Sums.md",
-    "Independent Learning/TQFT/Notes/Topology note 9.md",
-    "Independent Learning/TQFT/Notes/Connectedness.md",
-    "Independent Learning/TQFT/Notes/Compactness.md",
-    "Independent Learning/TQFT/Notes/Topology.md",
-    "Independent Learning/TQFT/Notes/Euler Characteristics.md",
-    "Independent Learning/TQFT/Notes/Surfaces.md",
-    "Independent Learning/TQFT/Notes/Product space.md",
-    "Independent Learning/TQFT/Notes/Quotient Space.md",
-    "Independent Learning/TQFT/Notes/Categories.md",
-    "Independent Learning/TQFT/Notes/Continuity.md",
-    "Independent Learning/TQFT/Notes/Equivalence.md",
-    "Independent Learning/TQFT/Notes/Functors.md",
-    "Independent Learning/TQFT/Notes/Hausdorff.md",
-    "Independent Learning/TQFT/Notes/Identification Space.md",
-    "Independent Learning/TQFT/Notes/Limit points.md",
-    "Independent Learning/TQFT/Notes/Metric space.md",
-    "Independent Learning/TQFT/Notes/Monoidal Category.md",
-    "Independent Learning/TQFT/Notes/Morphisms.md",
-    "Independent Learning/TQFT/Notes/Neighbourhoods.md",
-    "Independent Learning/TQFT/Notes/TQFT.md",
-    "Independent Learning/TQFT/Notes/Vertices.md",
-    "Year 1/Summative Assessed Problem/My solutions/Solved/Essay prep/Essay.md",
-    "Independent Learning/TQFT/Material/11. Parafermions.pdf",
+    "Independent Learning/TQFT/Notes/Spin Structure.md",
     "Independent Learning/TQFT/Material/5. D-branes and K-theory in 2D TFT.pdf",
-    "Independent Learning/TQFT/Material/10. Topological phase with parafermions theory.pdf",
+    "Independent Learning/TQFT/Notes/Neighbourhoods.md",
+    "Independent Learning/TQFT/Notes/Topology.md",
     "Independent Learning/TQFT/Material/9. Spin structures (parafermion background).pdf",
+    "Independent Learning/TQFT/Notes/Morphisms.md",
+    "Independent Learning/TQFT/Notes/Product space.md",
+    "Independent Learning/TQFT/Material/7. Invariants of r-spin TQFT and non-semisimplicity.pdf",
+    "Independent Learning/TQFT/Material/6. Spin TQFTs and fermionic phases of matter.pdf",
+    "Independent Learning/TQFT/Material/8. 2-D defects (Project end).pdf",
+    "Independent Learning/TQFT/Notes/Vertices.md",
+    "Spin Structure.md",
+    "Independent Learning/TQFT/Material/11. Parafermions.pdf",
+    "Independent Learning/TQFT/Notes/Super Vector Space.md",
+    "Independent Learning/TQFT/Notes/Surfaces.md",
+    "Independent Learning/TQFT/Notes/Riemann Surface.md",
+    "Independent Learning/TQFT/Notes/Countable Spaces.md",
+    "Independent Learning/TQFT/Notes/Manifolds.md",
+    "Independent Learning/TQFT/Notes/TQFT.md",
+    "Independent Learning/TQFT/Notes/Report.md",
+    "Independent Learning/TQFT/Notes/Quotient Space.md",
+    "Independent Learning/TQFT/Notes/Monoidal Category.md",
+    "Independent Learning/TQFT/Notes/Metric space.md",
+    "Independent Learning/TQFT/Notes/Limit points.md",
+    "Independent Learning/TQFT/Notes/Identification Space.md",
+    "Independent Learning/TQFT/Notes/Homotogy.md",
+    "Independent Learning/TQFT/Notes/Hausdorff.md",
+    "Independent Learning/TQFT/Notes/Fundamental Group.md",
+    "Independent Learning/TQFT/Notes/Functors.md",
+    "Independent Learning/TQFT/Notes/Frobenius Algebra.md",
+    "Independent Learning/TQFT/Notes/Euler Characteristics.md",
+    "Independent Learning/TQFT/Material/10. Topological phase with parafermions theory.pdf",
     "Independent Learning/TQFT/Material/4. TQFT UG notes.pdf",
     "Independent Learning/TQFT/Material/3. Intro TQFT (upto page 10).pdf",
     "sync.ffs_lock",
-    "Independent Learning/TQFT/Material/Google Gemini.htm",
-    "Independent Learning/TQFT/Material/2. TQFT Notes (project start).pdf",
-    "Independent Learning/TQFT/Material/TQFT (very Advance).pdf",
     "Independent Learning/TQFT/Material/Google Gemini_files/gemini_sparkle_red_4ed1cbfcbc6c9e84c31b987da73fc4168aec8445.svg",
     "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed_002.jpg",
     "Independent Learning/TQFT/Material/Google Gemini_files/unnamed_003.jpg",

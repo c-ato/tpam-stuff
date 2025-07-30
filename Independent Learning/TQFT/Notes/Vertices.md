@@ -2,7 +2,7 @@
 tags:
   - maths
 
-  - topology
+  - maths/topology
 
 aliases:
   - vertex
@@ -10,12 +10,12 @@ aliases:
 
 > [!definition|*]- Vertices
 > An $n$-vertex in a subset $L$ of a [[Topology|topological]] space $S$ is an element $v ∈ L$ such that there exists some [[Neighbourhoods|neighbourhood]] $N_{0} ⊆ S$ of $v$ where all [[neighbourhoods]] $N ⊆ N_{0}$ of $v$ satisfy the following properties: 
-> - $N ∩ L$ is connected. 
-> - The set formed by removing $v$ from $N ∩ L$, i.e., $\{a ∈ N ∩ L | a \neq v\}$, is not connected, and is composed of exactly $n$ disjoint sets, each of which is connected
+> - $N ∩ L$ is [[Connectedness|connected]]. 
+> - The set formed by removing $v$ from $N ∩ L$, i.e., $\{a ∈ N ∩ L | a \neq v\}$, is not [[Connectedness|connected]], and is composed of exactly $n$ disjoint sets, each of which is [[Connectedness|connected]]
  ^def-top-verti
 
 > [!theorem|*]- Invariance of vertices
-> We can say that for a given $n ≥ 3$, the number of $n$-vertices is a [[Topology|topological]] invariant because [[Morphisms|homeomorphisms]] preserve connectedness. Thus, the connected set around a vertex must map to another connected set, and the set of $n$ disjoint, connected pieces must map to another set of $n$ disjoint connected pieces
+> We can say that for a given $n ≥ 3$, the number of $n$-vertices is a [[Topology|topological]] invariant because [[Morphisms|homeomorphisms]] preserve [[connectedness]]. Thus, the [[Connectedness|connected]] set around a vertex must map to another [[Connectedness|connected]] set, and the set of $n$ disjoint, [[Connectedness|connected]] pieces must map to another set of $n$ disjoint [[Connectedness|connected]] pieces
  ^thm-top-invar-verti
 
 > [!remark|*]- $2$-Vertices

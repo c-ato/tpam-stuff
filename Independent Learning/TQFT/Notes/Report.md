@@ -2,7 +2,7 @@
 tags:
   - maths
   - physics
-  - topology
+  - maths/topology
   - quantum
 ---
 \documentclass[a4paper,12pt]{article}
