@@ -1,8 +1,8 @@
 ---
 tags:
-  - maths
   - maths/topology
   - maths/vectors
+  - maths/algebra
 aliases:
   - spinor
   - spinors
@@ -11,23 +11,18 @@ aliases:
 > These are elements of a complex vector space, $v \in V$, which can be linearly mapped to Euclidean space, $F:V\to X$. By applying a infinitesimal rotation on $F(v)\in X$, the spinor is transformed linearly. What is required of this rotation is that a spinor transforms to its negative when it rotates $360°$.
  ^def-vec-spinor
 
-> [!definition|*]- Vector bundle
-> A vector bundle consists of:
-> - [[Topology|Topological]] spaces $X$ (base space) and $E$ a collection of vector spaces (total space)
-> - A continuous surjective $\pi :E\to X$ (bundle [[Product space|projection]])
-> - Fibres $\pi ^{-1}(x)\in E$ so that this forms a vector space itself and ${\pi ^{-1}(x)}$ is called the fibre over $x$. These are all [[Morphisms|isomorphic]] to a fixed fibre $V$, usually $\mathbb{R}^{k}$ or $\mathbb{C}^{k}$. The $k$-dimension is also the rank of the vector bundle.
-> - The local triviality condition so that $\forall x \in X \exists U \subseteq X$, which is a [[Neighbourhoods|neighbourhood]] of $x$, and a [[Morphisms|isomorphism]] $\phi_{U}: \pi ^{-1}(U) \to U\times V$ such that:
-> 	- $\phi$ preserves the [[Product space|projection]], so the diagram commutes
-> ```tikz 
-\usepackage{tikz-cd} \begin{document} \begin{tikzcd} \pi^{-1}(U) \arrow[rr, "\phi_U"] \arrow[rd, "\pi"] & & U \times V \arrow[ld, "p_1"] \\ & U & \end{tikzcd} \end{document}
-> ```
-> -
-> 	- For each $x\in U$, the restriction of $\phi$​ to the fibre over $x$, $x,\phi_{U}|_{\pi ^{-1}(x)}:\pi ^{-1}(x):\to \{ x \}\times V$, is a vector space [[Morphisms|isomorphism]].
- ^def-top-vec-bund
+> [!definition|*]- Spin Group
+> A spin group is a [[Lie group]] with the underlying [[Manifolds|manifold]] being a [[Fundamental Group|double cover]] of $\text{SO}(n)$. This is denoted as $\text{Spin}(n)$. 
+> 
+> For $n\geq 3,\,\text{Spin}(n)$ is [[Connectedness|simply connected]]. For $n=1,\,\text{Spin}(n)\cong\mathbb{Z}_{2}$, and (more importantly for us) $n=2,\,\text{Spin}(2)\cong S^{1}$. $\text{Spin}(2)$ is not [[Connectedness|simply connected]] ([[fundamental group]] is $\mathbb{Z}$, but it is the universal covering group of $\text{SO}(2)≅S^{1}$. The map $\rho:S^{1}\to S^{1}$ is given by $z\to z^{2}$ (squaring complex numbers on the unit circle), which is a 2-to-1 map.
+ ^def-alg-spin-group
 
-> [!definition|*]- Principle Bundle
-> Where $G$ denotes any [[Topology|topological]] groups,$P$ is equipped with:
-> - A [[Quotient Space|group action]] of $G$ on $P$ is analogous to $(x,g)h=(x,gh)$ for a [[product space]] as $P$ is locally [[Morphisms|isomorphic]] to $U\times G$ where $U\subseteq X$ is a [[Neighbourhoods|neighbourhood]] of $x$ (where $(x,g)\in P$ and $h\in G\therefore (x,gh)\in P$).
-> - A [[Product space|projection]] onto $X$. For a [[product space]], this is just the [[Product space|projection]] onto the first factor, $(x,g)\to x$.
- ^def-top-princ-bund
+> [!definition|*]- Spin Structure
+> We require a $n$-dimensional [[Surfaces|orientable]] Riemannian [[Manifolds|manifold]], $M$, with a [[Spinor Bundles|principle $\text{SO}(n)$-bundle]] of oriented orthonormal frames, $P_{\text{SO}}(M)$, over $M$.
+> 
+> A spin structure on $M$ is a pair $(P_{\text{Spin}}(M),f)$, where $P_{\text{Spin}}(M)$ is the [[Spinor Bundles|principle $\text{Spin}(n)$-bundle]] and $f:P_{\text{Spin}}(M)\to P_{\text{SO}}(M)$ is a bundle map that satisfies, the identity map on the base space $M$, $\pi_{\text{SO}}\circ f=\pi_{\text{Spin}}$, where $\pi$ is a projection map onto $M$. 
+> 
+> It is also equivariant with respect to the group action $f(p\cdot s)=f(p)\cdot \rho(s)$ $p \in P_{\text{Spin}}(M)$, $s\in \text{Spin}(n)$ and $\rho: \text{Spin}(n)\to \text{SO}(n)$
+ ^def-top-spin-struct
 
+ 

@@ -6,6 +6,7 @@ aliases:
   - connected
   - path-connected
   - path connected
+  - simply connected
 ---
 
 > [!definition|*]- Closure of a set
@@ -66,3 +67,7 @@ Note the above theorem implies that connectedness is a [[Topology|topological]] 
 > Let $X$ be a [[Topology|topological]] space and let $Z$ be a subset of $X$. If $Z$ is connected and dense in $X$, then $X$ is connected.
 > Let $\mathfrak{F}$ be a family of subsets of a space $X$ whose union is all of $X$. If each member of $F$ is connected, and if no two members of $\mathfrak{F}$ are separated from on another in $X$, then $X$ is connected.  
  ^thm-top-equiv-conn
+
+> [!definition|*]- Simply Connected
+> A [[Topology|topological]] space, $X$, is simply connected if it is path-connected and every loop can be continuously shrunk to a single $x \in X$ - its [[fundamental group]], $\pi_{1}(X,x)$, is trivial.
+ ^def-top-simp-conn

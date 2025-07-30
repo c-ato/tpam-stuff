@@ -1,13 +1,6 @@
 {
   "tags": {
-    "Independent Learning/TQFT": [
-      "maths",
-      "physics",
-      "topology",
-      "quantum"
-    ],
     "Year 1/Chaos": [
-      "maths",
       "physics",
       "chaos"
     ],
@@ -16,15 +9,13 @@
       "electromagnetism"
     ],
     "Year 1/Mech": [
-      "maths",
-      "mechanics"
+      "maths/mechanics"
     ],
     "Year 1/O&W": [
       "physics",
       "optics"
     ],
     "Year 1/Prob": [
-      "maths",
       "prob"
     ],
     "Year 1/QM": [
@@ -33,20 +24,18 @@
       "temperature"
     ],
     "Year 1/RA": [
-      "maths",
-      "analysis"
+      "maths/analysis"
     ],
     "Year 1/SAS": [
-      "maths",
-      "sequences",
-      "series"
+      "maths/sequences",
+      "maths/series"
     ],
     "Year 1/SR": [
       "physics",
       "relativity"
     ],
     "Year 1/VGLA": [
-      "maths"
+      ""
     ],
     "Year 1/EC": [
       "physics",

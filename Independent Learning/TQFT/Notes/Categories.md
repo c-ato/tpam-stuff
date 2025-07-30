@@ -1,6 +1,5 @@
 ---
 tags:
-  - maths
   - maths/topology
   - maths/category
 aliases:

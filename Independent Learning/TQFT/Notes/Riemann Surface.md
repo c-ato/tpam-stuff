@@ -20,7 +20,8 @@ aliases:
  ^def-top-trans
 
 > [!definition|*]- Riemann [[Surfaces|Surface]]
-> If $R$ is a [[Surfaces|surface]] with an atlas $A$, and if all transition maps determined by the atlas are [[Morphisms|holomorphic]], then $R$ is called a Riemann [[Surfaces|surface]]. 
+> A Riemann surface $R$ is a [[Connectedness|connected]], [[Countable Spaces|second countable]], [[Hausdorff]] [[Topology|topological]] space with a family of [[Morphisms|homomorphisms]] $\phi_{\alpha} : U_{\alpha} → D_{\alpha}$ from domains $U_{\alpha}$ that form an [[Compactness|open cover]] of $S$ to open subsets $D_{\alpha}$ in the complex plane. 
+> It also needs an atlas $A$, and if all transition maps determined by the atlas are [[Morphisms|holomorphic]], then $R$ is called a Riemann [[Surfaces|surface]]. 
  ^def-top-riem-surf
 
 > [!definition|*]- Analytic Atlas

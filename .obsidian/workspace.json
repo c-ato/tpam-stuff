@@ -6,7 +6,7 @@
       {
         "id": "387e960b2842b75d",
         "type": "tabs",
-        "dimension": 48.56076759061834,
+        "dimension": 51.85185185185185,
         "children": [
           {
             "id": "942cd95217adf03f",
@@ -30,6 +30,102 @@
               },
               "icon": "lucide-file",
               "title": "Spin Structure"
+            }
+          },
+          {
+            "id": "e398e2652ac8abba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Spinor Bundles.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Spinor Bundles"
+            }
+          },
+          {
+            "id": "6d72b099c5b03818",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Fundamental Group.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Fundamental Group"
+            }
+          },
+          {
+            "id": "e0880e74d3a4df8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Spinor Bundles.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Spinor Bundles"
+            }
+          },
+          {
+            "id": "6cd18e31860d7cd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Connectedness.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Connectedness"
             }
           },
           {
@@ -80,171 +176,169 @@
               "title": "Super Vector Space"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
-        "id": "b58f6085bbafe4ca",
-        "type": "split",
-        "dimension": 51.43923240938166,
+        "id": "4c4c0fe102b11ff7",
+        "type": "tabs",
+        "dimension": 48.148148148148145,
         "children": [
           {
-            "id": "8b7aa5196dfdee26",
-            "type": "tabs",
-            "dimension": 41.957364341085274,
-            "children": [
-              {
-                "id": "a0596d74eb850ea9",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://www.google.com/sorry/index?continue=https://gemini.google.com/app/4fe9e6fe60ddd44b&q=EgSTvO-sGMy2jsQGIjCPKDI0YL-CkAcBNAPvu1qNcXgLbhgnPFJc6CS7kH74q6t4dTBx3k50ZOKCtjPK2cEyAnJSWgFD",
-                    "title": "https://gemini.google.com/app/4fe9e6fe60ddd44b",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "https://gemini.google.com/app/4fe9e6fe60ddd44b"
-                }
-              }
-            ]
+            "id": "b0aa63471c98e951",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
+                "title": "Spinor bundle - Wikipedia",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Spinor bundle - Wikipedia"
+            }
           },
           {
-            "id": "4c4c0fe102b11ff7",
-            "type": "tabs",
-            "dimension": 58.04263565891473,
-            "children": [
-              {
-                "id": "b0aa63471c98e951",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
-                    "title": "Spinor bundle - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Spinor bundle - Wikipedia"
-                }
+            "id": "30805bf71593e3cf",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Covering_space#Universal_covering",
+                "title": "Covering space - Wikipedia",
+                "mode": "webview"
               },
-              {
-                "id": "821abfd9fcda7b35",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Spin_structure",
-                    "title": "Spin structure - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Spin structure - Wikipedia"
-                }
+              "icon": "globe-2",
+              "title": "Covering space - Wikipedia"
+            }
+          },
+          {
+            "id": "44ef827ae410d999",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Spin_representation",
+                "title": "Spin representation - Wikipedia",
+                "mode": "webview"
               },
-              {
-                "id": "120eaf048f7bd193",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Orthogonal_group",
-                    "title": "Orthogonal group - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Orthogonal group - Wikipedia"
-                }
+              "icon": "globe-2",
+              "title": "Spin representation - Wikipedia"
+            }
+          },
+          {
+            "id": "821abfd9fcda7b35",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Spin_structure",
+                "title": "Spin structure - Wikipedia",
+                "mode": "webview"
               },
-              {
-                "id": "333996791021136c",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Vector_bundle",
-                    "title": "Vector bundle - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Vector bundle - Wikipedia"
-                }
+              "icon": "globe-2",
+              "title": "Spin structure - Wikipedia"
+            }
+          },
+          {
+            "id": "120eaf048f7bd193",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Orthogonal_group",
+                "title": "Orthogonal group - Wikipedia",
+                "mode": "webview"
               },
-              {
-                "id": "a8d313b42e85dbbd",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Principal_bundle",
-                    "title": "Principal bundle - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Principal bundle - Wikipedia"
-                }
+              "icon": "globe-2",
+              "title": "Orthogonal group - Wikipedia"
+            }
+          },
+          {
+            "id": "333996791021136c",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Vector_bundle",
+                "title": "Vector bundle - Wikipedia",
+                "mode": "webview"
               },
-              {
-                "id": "4dabbc50e6fababc",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
-                    "title": "Spinor bundle - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Spinor bundle - Wikipedia"
-                }
+              "icon": "globe-2",
+              "title": "Vector bundle - Wikipedia"
+            }
+          },
+          {
+            "id": "a8d313b42e85dbbd",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Principal_bundle",
+                "title": "Principal bundle - Wikipedia",
+                "mode": "webview"
               },
-              {
-                "id": "8d4c68f161014c9a",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Covering_group",
-                    "title": "Covering group - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Covering group - Wikipedia"
-                }
+              "icon": "globe-2",
+              "title": "Principal bundle - Wikipedia"
+            }
+          },
+          {
+            "id": "4dabbc50e6fababc",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
+                "title": "Spinor bundle - Wikipedia",
+                "mode": "webview"
               },
-              {
-                "id": "6226641c234f5306",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Covering_space",
-                    "title": "Covering space - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Covering space - Wikipedia"
-                }
+              "icon": "globe-2",
+              "title": "Spinor bundle - Wikipedia"
+            }
+          },
+          {
+            "id": "8d4c68f161014c9a",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Covering_group",
+                "title": "Covering group - Wikipedia",
+                "mode": "webview"
               },
-              {
-                "id": "9f8b9dfa1d9c6d94",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://commons.wikimedia.org/wiki/File:Spinor_on_the_circle.png",
-                    "title": "File:Spinor on the circle.png - Wikimedia Commons",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "File:Spinor on the circle.png - Wikimedia Commons"
-                }
-              }
-            ],
-            "currentTab": 6
+              "icon": "globe-2",
+              "title": "Covering group - Wikipedia"
+            }
+          },
+          {
+            "id": "6226641c234f5306",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Covering_space",
+                "title": "Covering space - Wikipedia",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Covering space - Wikipedia"
+            }
+          },
+          {
+            "id": "9f8b9dfa1d9c6d94",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://commons.wikimedia.org/wiki/File:Spinor_on_the_circle.png",
+                "title": "File:Spinor on the circle.png - Wikimedia Commons",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "File:Spinor on the circle.png - Wikimedia Commons"
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -335,12 +429,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Super Vector Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Super Vector Space"
+              "title": "Outgoing links"
             }
           },
           {
@@ -402,17 +495,16 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 363.5,
-    "collapsed": true
+    "width": 363.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -436,39 +528,102 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "234e9355edad8e44",
+  "floating": {
+    "id": "1e3f61464b4fea79",
+    "type": "floating",
+    "children": [
+      {
+        "id": "78ebc28a2e6d2836",
+        "type": "window",
+        "children": [
+          {
+            "id": "9d358febb0cafce1",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "204b8cf617223c3f",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Utility/Excalidraw/Drawing 2025-07-30 14.25.32.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "Drawing 2025-07-30 14.25.32.excalidraw"
+                }
+              },
+              {
+                "id": "b09a3642ce85772b",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Utility/Excalidraw/Drawing 2025-07-18 12.48.44.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "Drawing 2025-07-18 12.48.44.excalidraw"
+                }
+              },
+              {
+                "id": "350f47f710f7df49",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Utility/Excalidraw/Drawing 2025-07-18 12.57.42.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "Drawing 2025-07-18 12.57.42.excalidraw"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical",
+        "x": 176,
+        "y": 150,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "942cd95217adf03f",
   "lastOpenFiles": [
-    "Independent Learning/TQFT/Notes/Spin Structure.md",
-    "Independent Learning/TQFT/Material/5. D-branes and K-theory in 2D TFT.pdf",
-    "Independent Learning/TQFT/Notes/Neighbourhoods.md",
+    "Independent Learning/TQFT/Notes/Super Vector Space.md",
+    "Independent Learning/TQFT/Notes/TQFT.md",
+    "Independent Learning/TQFT/Notes/Frobenius Algebra.md",
+    "Independent Learning/TQFT/Notes/Monoidal Category.md",
+    "Independent Learning/TQFT/Notes/Vertices.md",
     "Independent Learning/TQFT/Notes/Topology.md",
+    "Independent Learning/TQFT/Notes/Spinor Bundles.md",
+    "Independent Learning/TQFT/Notes/Spin Structure.md",
+    "Utility/Excalidraw/Drawing 2025-07-11 11.16.43.excalidraw.md",
+    "Independent Learning/TQFT/Notes/Riemann Surface.md",
+    "Independent Learning/TQFT/Notes/Surfaces.md",
+    "Independent Learning/TQFT/Notes/Countable Spaces.md",
+    "Independent Learning/TQFT/Notes/Fundamental Group.md",
+    "Independent Learning/TQFT/Notes/Identification Space.md",
+    "Independent Learning/TQFT/Notes/Homotogy.md",
+    "Independent Learning/TQFT/Notes/Quotient Space.md",
+    "Utility/Excalidraw/Drawing 2025-07-18 11.55.27.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-05 09.14.10.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-05-06 12.16.07.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-30 14.23.41.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-18 12.48.44.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-18 12.33.56.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-18 12.34.43.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-18 12.57.42.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-30 14.25.32.excalidraw.md",
+    "Independent Learning/TQFT/Notes/Lie Group.md",
+    "Independent Learning/TQFT/Material/5. D-branes and K-theory in 2D TFT.pdf",
     "Independent Learning/TQFT/Material/9. Spin structures (parafermion background).pdf",
-    "Independent Learning/TQFT/Notes/Morphisms.md",
-    "Independent Learning/TQFT/Notes/Product space.md",
     "Independent Learning/TQFT/Material/7. Invariants of r-spin TQFT and non-semisimplicity.pdf",
     "Independent Learning/TQFT/Material/6. Spin TQFTs and fermionic phases of matter.pdf",
     "Independent Learning/TQFT/Material/8. 2-D defects (Project end).pdf",
-    "Independent Learning/TQFT/Notes/Vertices.md",
-    "Spin Structure.md",
     "Independent Learning/TQFT/Material/11. Parafermions.pdf",
-    "Independent Learning/TQFT/Notes/Super Vector Space.md",
-    "Independent Learning/TQFT/Notes/Surfaces.md",
-    "Independent Learning/TQFT/Notes/Riemann Surface.md",
-    "Independent Learning/TQFT/Notes/Countable Spaces.md",
-    "Independent Learning/TQFT/Notes/Manifolds.md",
-    "Independent Learning/TQFT/Notes/TQFT.md",
-    "Independent Learning/TQFT/Notes/Report.md",
-    "Independent Learning/TQFT/Notes/Quotient Space.md",
-    "Independent Learning/TQFT/Notes/Monoidal Category.md",
-    "Independent Learning/TQFT/Notes/Metric space.md",
-    "Independent Learning/TQFT/Notes/Limit points.md",
-    "Independent Learning/TQFT/Notes/Identification Space.md",
-    "Independent Learning/TQFT/Notes/Homotogy.md",
-    "Independent Learning/TQFT/Notes/Hausdorff.md",
-    "Independent Learning/TQFT/Notes/Fundamental Group.md",
-    "Independent Learning/TQFT/Notes/Functors.md",
-    "Independent Learning/TQFT/Notes/Frobenius Algebra.md",
-    "Independent Learning/TQFT/Notes/Euler Characteristics.md",
     "Independent Learning/TQFT/Material/10. Topological phase with parafermions theory.pdf",
     "Independent Learning/TQFT/Material/4. TQFT UG notes.pdf",
     "Independent Learning/TQFT/Material/3. Intro TQFT (upto page 10).pdf",

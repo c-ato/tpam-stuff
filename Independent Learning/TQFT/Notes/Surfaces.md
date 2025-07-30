@@ -58,13 +58,11 @@ aliases:
 
 > [!definition|*]- Orientability
 > Orientability is a means of dividing [[Compactness|compact]] surfaces into two classes, orientable and non-orientable and is used to help us classify surfaces. 
+> 
 > A surface is considered orientable if a vector $Y$ perpendicular to the surface at point $P$ can be slid along the surface such that it always remains perpendicular to the surface and when it arrives back at $P$ it points in the same direction as when it started.
+> 
 > Informally, if a surface is orientable if it has a top and bottom or inside and outside which are distinguishable
 > ![[0. Topology Notes (pre project).pdf#page=77&rect=70,243,541,748|0. Topology Notes (pre project), p.77]]
  ^def-top-orient
 
-The basic surfaces are the cylinder, sphere and torus belonging to the orientable, whereas the non-orientable basics are the Mobius band, the projection plane and the Klein bottle.
-
-> [!definition|*]- A more Complex Surface Definition.
-> A surface $S$ is a [[Connectedness|connected]], [[Countable Spaces|second countable]], [[Hausdorff]] [[Topology|topological]] space with a family of [[Morphisms|homomorphisms]] $\phi_{\alpha} : U_{\alpha} → D_{\alpha}$ from domains $U_{\alpha}$ that form an [[Compactness|open cover]] of $S$ to open subsets $D_{\alpha}$ in the complex plane. 
- ^def-top-riem-surf
+The basic surfaces are the cylinder, sphere and torus belonging to the orientable, whereas the non-orientable basics are the Mobius band, the [[Product space|projection]] plane and the Klein bottle.

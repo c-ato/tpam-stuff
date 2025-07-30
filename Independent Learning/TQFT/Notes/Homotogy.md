@@ -1,10 +1,11 @@
 ---
 tags:
-  - maths
-  - physics
   - maths/topology
-  - quantum
 aliases:
+  - curve
+  - loop
+  - curves
+  - loops
 ---
 
 > [!definition|*]- Curve
