@@ -6,7 +6,7 @@
       {
         "id": "387e960b2842b75d",
         "type": "tabs",
-        "dimension": 51.85185185185185,
+        "dimension": 51.85185185185184,
         "children": [
           {
             "id": "942cd95217adf03f",
@@ -206,7 +206,7 @@
       {
         "id": "4c4c0fe102b11ff7",
         "type": "tabs",
-        "dimension": 48.14814814814815,
+        "dimension": 48.14814814814816,
         "children": [
           {
             "id": "b0aa63471c98e951",
@@ -580,8 +580,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
