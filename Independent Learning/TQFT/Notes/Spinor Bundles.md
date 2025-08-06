@@ -13,36 +13,38 @@ aliases:
   - principal bundles
 ---
 
+> [!definition|*]- Fibre Bundle
+> A fibre bundle consists of:
+> - The fibre $F$, a [[Topology|topological]] space attached at every point of the base
+> - The collection of fibres $E$, the total space of the bundle, and is a [[Topology|topological]] space
+> - The base space $X$, a [[Topology|topological]] space beneath the total space
+> - The [[Product space|projection]] $\pi: E\to X$ which is a continuous surjective map. For any $x \in X$, $\pi ^{-1}(x)$ is called the fibre over $x$ and is required to be [[Morphisms|homomorphic]] to some standard $F$
+> - A local triviality condition, where locally $E$ is [[Morphisms|homomorphic]] to a [[product space]] on a [[Neighbourhoods|neighbourhood]], $U$, of $X$, $\phi_{U}:\pi ^{-1}(U)\to U\times F$
+$$\begin{tikzcd} 
+\pi^{-1}(U) \arrow[rr, "\phi_{U}"] \arrow[rd, "\pi"] & & U \times F \arrow[ld, "p_1"] \\ & U & 
+\end{tikzcd}$$
+ ^def-top-fib-bund
+
 > [!definition|*]- Vector bundle
-> A vector bundle consists of:
-> - [[Topology|Topological]] spaces $X$ (base space) and $E$ a collection of vector spaces (total space)
-> - A continuous surjective $\pi :E\to X$ (bundle [[Product space|projection]])
-> - Fibres $\pi ^{-1}(x)\in E$ so that this forms a vector space itself and ${\pi ^{-1}(x)}$ is called the fibre over $x$. These are all [[Morphisms|isomorphic]] to a fixed fibre $V$, usually of $\mathbb{R}^{k}$ or $\mathbb{C}^{k}$.
-> - The local triviality condition so that $\forall x \in X \exists U \subseteq X$, which is a [[Neighbourhoods|neighbourhood]] of $x$, and a [[Morphisms|isomorphism]] $\phi_{U}: \pi ^{-1}(U) \to U\times V$ such that:
-> 	- $\phi$ preserves the [[Product space|projection]], so the diagram commutes
-> ```tikz 
-\usepackage{tikz-cd} \begin{document} \begin{tikzcd} \pi^{-1}(U) \arrow[rr, "\phi_U"] \arrow[rd, "\pi"] & & U \times V \arrow[ld, "p_1"] \\ & U & \end{tikzcd} \end{document}
-> ```
-> -
-> 	- For each $x\in U$, the restriction of $\phi$​ to the fibre over $x$, $x,\phi_{U}|_{\pi ^{-1}(x)}:\pi ^{-1}(x):\to \{ x \}\times V$, is a vector space [[Morphisms|isomorphism]].
+> A fibre bundle where the fibre is a vector space, and an additional restriction where we require for each $x\in U$, $\phi_{U}|_{\pi ^{-1}(x)}:\pi ^{-1}(x)\to \{ x \}\times F$ is a vector space [[Morphisms|isomorphism]].
  ^def-top-vec-bund
 
 > [!definition|*]- Tangent Bundle
-> This is a collection of tangent spaces, $TM$, (generalised tangent line for higher dimensions - tangent line for curve, tangent plane for surfaces, ect) on a differentiable manifold, $M$, and is defined as followed:
-> 
- ^def-
+> A fibre bundle where the fibre is a [[tangent space]], this requires the base space to be a differentiable [[Manifolds|manifold]].
+ ^def-top-tang-bund
 
 > [!definition|*]- Principal $G$-Bundle
-> Where $G$ denotes any [[Topology|topological]] groups, $P$ is equipped with:
-> - A [[Quotient Space|group action]] of $G$ on $P$ is analogous to $(x,g)h=(x,gh)$ for a [[product space]] as $P$ is locally [[Morphisms|isomorphic]] to $U\times G$ where $U\subseteq X$ is a [[Neighbourhoods|neighbourhood]] of $x$ (where $(x,g)\in P$ and $h\in G\therefore (x,gh)\in P$).
-> - A [[Product space|projection]] onto $X$. For a [[product space]], this is just the [[Product space|projection]] onto the first factor, $(x,g)\to x$.
-> - It is also a vector bundle and has where it has a base space $X$ and the total space is $P$.
+> A fibre bundle where the fibre is a [[Topology|topological]] group. In addition the total space $E$ is equipped with:
+> - The [[Quotient Space|group action]] is free if $pg=p$, where $p \in E$ and $g\in G\iff g$ is an identity element of $G$ 
+>  - A [[Quotient Space|group action]] is transitive on the fibres, that is for $x \in X$, $y_{1},y_{2} \in\pi ^{-1}(x)$, so that for $y_{1}g=y_{2}\exists ! g \in G$
+> - The local trivialisation maps are $G$-[[equivariant]]
  ^def-top-princ-bund
 
 > [!definition|*]- Frame Bundle
 > 
  ^def-top-fram-bundle
 
-> [!definition|*]- Spinor Bundle
-> We require a spin structure which naturally needs $n$-dimensional orientable Riemannian manifold $M$
+> [!definition|*]- [[Spin Structure|Spinor]] Bundle
+> We require a [[spin structure]] which naturally needs $n$-dimensional [[Surfaces|orientable]] Riemannian [[Manifolds|manifold]] $M$
  ^def-top-spin-bund
+

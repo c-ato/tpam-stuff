@@ -8,7 +8,7 @@ aliases:
   - spinors
 ---
 > [!definition|*]- Spinors
-> These are elements of a complex vector space, $v \in V$, which can be linearly mapped to Euclidean space, $F:V\to X$. By applying a infinitesimal rotation on $F(v)\in X$, the spinor is transformed linearly. What is required of this rotation is that a spinor transforms to its negative when it rotates $360°$.
+> These are elements of a complex vector space, $V$, which form a representation space of the spin group. $V$ can be linearly mapped to Euclidean space $X$, $F:V\to X$. By applying a rotation on the spinor in the spin representation, it is transformed linearly in $X$. What is required of the rotation of the spinor is it transforms the vector to their negative when it rotates $360°$.
  ^def-vec-spinor
 
 > [!definition|*]- Spin Group
@@ -22,7 +22,7 @@ aliases:
 > 
 > $M$ is required to be a $n$-dimensional [[Surfaces|orientable]] Riemannian [[Manifolds|manifold]], $M$, with a [[Spinor Bundles|principal $\text{SO}(n)$-bundle]] of oriented orthonormal frames, $P_{\text{SO}}$, over $M$.
 >  
-> It is also equivariant with respect to the group action, that is to say $f(p\cdot s)=f(p)\cdot \rho(s)$ $p \in P_{\text{Spin}}$, $s\in \text{Spin}(n)$ and $\rho: \text{Spin}(n)\to \text{SO}(n)$ is the double cover map.
+> It is also [[equivariant]] with respect to the [[Quotient Space|group action]], that is to say $f(p\cdot s)=f(p)\cdot \rho(s)$ $p \in P_{\text{Spin}}$, $s\in \text{Spin}(n)$ and $\rho: \text{Spin}(n)\to \text{SO}(n)$ is the [[Fundamental Group|double cover]] map.
  ^def-top-spin-struct
 
  

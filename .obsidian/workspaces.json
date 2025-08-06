@@ -1,1798 +1,46 @@
 {
   "workspaces": {
-    "sas": {
-      "main": {
-        "id": "8d2a2d15cbd13f54",
-        "type": "split",
-        "children": [
-          {
-            "id": "0a04cf0d03645dea",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2364c8300a378849",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Year 1/Formative Problems/Problem sheet/1SAS_Sheet 5_2024.pdf",
-                    "page": 3,
-                    "left": -13,
-                    "top": 703,
-                    "zoom": 1.1162889147219106
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "1SAS_Sheet 5_2024"
-                }
-              },
-              {
-                "id": "96f2fb330b458028",
-                "type": "leaf",
-                "state": {
-                  "type": "surfing-view",
-                  "state": {
-                    "url": "https://math.stackexchange.com/questions/3203279/taylor-series-expansion-of-sin2x"
-                  },
-                  "icon": "lucide-file",
-                  "title": "calculus - Taylor series expansion of $\\sin^2(x)$ - Mathematics Stack Exchange"
-                }
-              },
-              {
-                "id": "e8877733fa213fc7",
-                "type": "leaf",
-                "state": {
-                  "type": "surfing-view",
-                  "state": {
-                    "url": "https://www.wolframalpha.com/input?i2d=true&i=Sum%5BPower%5Bsin%2C2%5D%5C%2840%29Divide%5B1%2Cn%5D%5C%2841%29%2C%7Bn%2C1%2C%E2%88%9E%7D%5D"
-                  },
-                  "icon": "lucide-file",
-                  "title": "Sum[Power[sin,2](Divide[1,n]),{n,1,∞}] - Wolfram|Alpha"
-                }
-              },
-              {
-                "id": "f28bdf22dd9fc06d",
-                "type": "leaf",
-                "state": {
-                  "type": "surfing-view",
-                  "state": {
-                    "url": "https://www.desmos.com/calculator"
-                  },
-                  "icon": "lucide-file",
-                  "title": "Desmos | Graphing Calculator"
-                }
-              }
-            ]
-          },
-          {
-            "id": "eba8ef78b8acc3d6",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e52b0413f8a0c0a0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Year 1/Summative Assessed Problem/My solutions/data analysis 3.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "data analysis 3"
-                }
-              },
-              {
-                "id": "ab7204dfdaea1e8d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Year 1/Formative Problems/My solutions/sas form sheet 5.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "sas form sheet 5"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "9f3f9ee7b32a39c8",
-        "type": "split",
-        "children": [
-          {
-            "id": "1839376d950e0755",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a88cbd3316f49191",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "bb56949daa6006dc",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "3a5e40a13b080568",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "91c08e46b39f8218",
-                "type": "leaf",
-                "state": {
-                  "type": "mk-path-view",
-                  "state": {},
-                  "icon": "layout-grid",
-                  "title": "Spaces"
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "right": {
-        "id": "fa325a863e3241af",
-        "type": "split",
-        "children": [
-          {
-            "id": "87d5f87c72802259",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c3c737e6ad3a0a52",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Year 1/Summative Assessed Problem/My solutions/data analysis 3.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": true,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for data analysis 3"
-                }
-              },
-              {
-                "id": "66fb400312d30714",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Year 1/Summative Assessed Problem/My solutions/data analysis 3.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from data analysis 3"
-                }
-              },
-              {
-                "id": "216eb2f638907dbf",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "84024db2b41a63b8",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of sas assessed problems 3"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "workspaces:Manage workspace layouts": false,
-          "remotely-save:Remotely Save": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
-          "pdf-plus:PDF++: Toggle auto-copy": false,
-          "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false,
-          "omnisearch:Omnisearch": false
-        }
-      },
-      "active": "ab7204dfdaea1e8d",
-      "mtime": "2025-01-03T11:48:34+00:00"
-    },
-    "chaos": {
-      "main": {
-        "id": "8d2a2d15cbd13f54",
-        "type": "split",
-        "children": [
-          {
-            "id": "202ef3904c4237c8",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8ad6b1be5b314e55",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Year 1/Chaos/Lecture/chaos.pdf",
-                    "page": 1,
-                    "left": -15,
-                    "top": 846,
-                    "zoom": 0.9705882352941176
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "chaos"
-                }
-              }
-            ]
-          },
-          {
-            "id": "675f5a4d7d95a596",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "55b9ca12bdefdf61",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Year 1/Chaos/Notes/chaos note 1.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "chaos note 1"
-                }
-              },
-              {
-                "id": "99961bb34b8cefa0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Untitled.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Untitled"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "9f3f9ee7b32a39c8",
-        "type": "split",
-        "children": [
-          {
-            "id": "1839376d950e0755",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a88cbd3316f49191",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "bb56949daa6006dc",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "3a5e40a13b080568",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "4b91a76832f0fb82",
-                "type": "leaf",
-                "state": {
-                  "type": "mk-path-view",
-                  "state": {},
-                  "icon": "layout-grid",
-                  "title": "Navigator"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 231.5
-      },
-      "right": {
-        "id": "fa325a863e3241af",
-        "type": "split",
-        "children": [
-          {
-            "id": "87d5f87c72802259",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c3c737e6ad3a0a52",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Year 1/Summative Assessed Problem/My solutions/data analysis 3.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": true,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for data analysis 3"
-                }
-              },
-              {
-                "id": "66fb400312d30714",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Year 1/Summative Assessed Problem/My solutions/data analysis 3.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from data analysis 3"
-                }
-              },
-              {
-                "id": "216eb2f638907dbf",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "84024db2b41a63b8",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of sas assessed problems 3"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "workspaces:Manage workspace layouts": false,
-          "remotely-save:Remotely Save": false,
-          "pdf-plus:PDF++: Toggle auto-copy": false,
-          "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false,
-          "omnisearch:Omnisearch": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false
-        }
-      },
-      "active": "55b9ca12bdefdf61",
-      "mtime": "2025-01-20T07:45:11+00:00"
-    },
-    "chaos formative": {
-      "main": {
-        "id": "8d2a2d15cbd13f54",
-        "type": "split",
-        "children": [
-          {
-            "id": "716314a27542cca2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "6ea6886d3cc3e231",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Year 1/Formative Problems/Problem sheet/example.pdf",
-                    "page": 1,
-                    "left": -15,
-                    "top": 846,
-                    "zoom": 0.9705882352941176
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "example"
-                }
-              },
-              {
-                "id": "efd7f7bb946f3795",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Year 1/Chaos/Lecture/chaos.pdf",
-                    "page": 1,
-                    "left": -15,
-                    "top": 846,
-                    "zoom": 0.9705882352941178
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "chaos"
-                }
-              }
-            ]
-          },
-          {
-            "id": "70747edd3675f954",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0c010461edac64af",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Year 1/Formative Problems/My solutions/chaos 1 formative.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "chaos 1 formative"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "9f3f9ee7b32a39c8",
-        "type": "split",
-        "children": [
-          {
-            "id": "1839376d950e0755",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a88cbd3316f49191",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "bb56949daa6006dc",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "3a5e40a13b080568",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "e26ed8ac053a9261",
-                "type": "leaf",
-                "state": {
-                  "type": "mk-path-view",
-                  "state": {},
-                  "icon": "layout-grid",
-                  "title": "Navigator"
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "horizontal",
-        "width": 231.5
-      },
-      "right": {
-        "id": "fa325a863e3241af",
-        "type": "split",
-        "children": [
-          {
-            "id": "87d5f87c72802259",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c3c737e6ad3a0a52",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Year 1/Summative Assessed Problem/My solutions/data analysis 3.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": true,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for data analysis 3"
-                }
-              },
-              {
-                "id": "66fb400312d30714",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Year 1/Summative Assessed Problem/My solutions/data analysis 3.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from data analysis 3"
-                }
-              },
-              {
-                "id": "216eb2f638907dbf",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "84024db2b41a63b8",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of sas assessed problems 3"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "workspaces:Manage workspace layouts": false,
-          "remotely-save:Remotely Save": false,
-          "pdf-plus:PDF++: Toggle auto-copy": false,
-          "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false,
-          "omnisearch:Omnisearch": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false
-        }
-      },
-      "active": "6ea6886d3cc3e231",
-      "mtime": "2025-01-28T11:04:44+00:00"
-    },
-    "vgla conics form": {
-      "main": {
-        "id": "8d2a2d15cbd13f54",
-        "type": "split",
-        "children": [
-          {
-            "id": "202ef3904c4237c8",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8ad6b1be5b314e55",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Year 1/Formative Problems/Problem sheet/CONICS.pdf",
-                    "page": 1,
-                    "left": -14,
-                    "top": 845,
-                    "zoom": 1.1162889147219106
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "CONICS"
-                }
-              }
-            ]
-          },
-          {
-            "id": "675f5a4d7d95a596",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "55b9ca12bdefdf61",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Year 1/EM/Notes/EM note 1.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "EM note 1"
-                }
-              },
-              {
-                "id": "cce6d624561ec2ab",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Year 1/Formative Problems/My solutions/vgla conic form.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "vgla conic form"
-                }
-              },
-              {
-                "id": "bc683a866d458427",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Year 1/Formative Problems/Solutions/CONICS solutions.pdf",
-                    "page": 2,
-                    "left": -14,
-                    "top": 14,
-                    "zoom": 1.1162889147219106
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "CONICS solutions"
-                }
-              },
-              {
-                "id": "c30cdbd143170588",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Year 1/VGLA/Lecture/1VGLA_AU.pdf",
-                    "page": 119,
-                    "left": -13,
-                    "top": 827,
-                    "zoom": 1.1162889147219108
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "1VGLA_AU"
-                }
-              },
-              {
-                "id": "f40b94cb229a8259",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://www.desmos.com/calculator",
-                    "title": "Desmos | Graphing Calculator",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Desmos | Graphing Calculator"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "9f3f9ee7b32a39c8",
-        "type": "split",
-        "children": [
-          {
-            "id": "1839376d950e0755",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a88cbd3316f49191",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": true
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "bb56949daa6006dc",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "3a5e40a13b080568",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "887926e865db3298",
-                "type": "leaf",
-                "state": {
-                  "type": "mk-path-view",
-                  "state": {},
-                  "icon": "layout-grid",
-                  "title": "Navigator"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 200,
-        "collapsed": true
-      },
-      "right": {
-        "id": "fa325a863e3241af",
-        "type": "split",
-        "children": [
-          {
-            "id": "87d5f87c72802259",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c3c737e6ad3a0a52",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Year 1/Summative Assessed Problem/My solutions/data analysis 3.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": true,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for data analysis 3"
-                }
-              },
-              {
-                "id": "66fb400312d30714",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Year 1/Summative Assessed Problem/My solutions/data analysis 3.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from data analysis 3"
-                }
-              },
-              {
-                "id": "216eb2f638907dbf",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "84024db2b41a63b8",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of sas assessed problems 3"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "obsidian-excalidraw-plugin:Create new drawing": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "workspaces:Manage workspace layouts": false,
-          "remotely-save:Remotely Save": false,
-          "pdf-plus:PDF++: Toggle auto-copy": false,
-          "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false,
-          "omnisearch:Omnisearch": false
-        }
-      },
-      "active": "cce6d624561ec2ab",
-      "mtime": "2025-02-04T17:07:16+00:00"
-    },
-    "ra lecture": {
-      "main": {
-        "id": "8d2a2d15cbd13f54",
-        "type": "split",
-        "children": [
-          {
-            "id": "4e6ac2cf34d70848",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0fdd4eb319350109",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              },
-              {
-                "id": "ce8dca44698a047d",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Year 1/RA/Lecture/1RA_Lecture_Notes_2024-2025.pdf",
-                    "page": 1,
-                    "left": -13,
-                    "top": 845,
-                    "zoom": 1.1162889147219106
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "1RA_Lecture_Notes_2024-2025"
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "801291d97561b02c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a42696223273755d",
-                "type": "leaf",
-                "state": {
-                  "type": "mk-space",
-                  "state": {
-                    "path": "Year 1/RA/Notes"
-                  },
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              },
-              {
-                "id": "5b8c985a74b50dcb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Year 1/RA/Notes/ra note 5.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "ra note 5"
-                }
-              },
-              {
-                "id": "2493b75787619978",
-                "type": "leaf",
-                "state": {
-                  "type": "surfing-view",
-                  "state": {
-                    "url": "https://www.desmos.com/calculator"
-                  },
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "9f3f9ee7b32a39c8",
-        "type": "split",
-        "children": [
-          {
-            "id": "1839376d950e0755",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a88cbd3316f49191",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "bb56949daa6006dc",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "3a5e40a13b080568",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "91c08e46b39f8218",
-                "type": "leaf",
-                "state": {
-                  "type": "mk-path-view",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "right": {
-        "id": "fa325a863e3241af",
-        "type": "split",
-        "children": [
-          {
-            "id": "87d5f87c72802259",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c3c737e6ad3a0a52",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for sas assessed problems 3"
-                }
-              },
-              {
-                "id": "66fb400312d30714",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from sas assessed problems 3"
-                }
-              },
-              {
-                "id": "216eb2f638907dbf",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "84024db2b41a63b8",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of sas assessed problems 3"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "workspaces:Manage workspace layouts": false,
-          "remotely-save:Remotely Save": false,
-          "pdf-plus:PDF++: Toggle auto-copy": false,
-          "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false,
-          "omnisearch:Omnisearch": false
-        }
-      },
-      "active": "ce8dca44698a047d",
-      "mtime": "2025-02-07T12:32:23+00:00"
-    },
-    "mech form": {
-      "main": {
-        "id": "8d2a2d15cbd13f54",
-        "type": "split",
-        "children": [
-          {
-            "id": "4e6ac2cf34d70848",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0fdd4eb319350109",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              },
-              {
-                "id": "ce8dca44698a047d",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Year 1/Summative Assessed Problem/Problem sheet/Year 1 Assessed Problems 3.pdf",
-                    "page": 4,
-                    "left": -16,
-                    "top": 699,
-                    "zoom": 0.927294718451821
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Year 1 Assessed Problems 3"
-                }
-              },
-              {
-                "id": "dc43af70f99aa5e5",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Year 1/EM/Lecture/Lecture-4-Gauss's-Law2.pdf",
-                    "page": 2,
-                    "left": -20,
-                    "top": 444,
-                    "zoom": 0.7666666666666667
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Lecture-4-Gauss's-Law2"
-                }
-              },
-              {
-                "id": "fbb5b395d8b70671",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Year 1/EM/Lecture/lect2.pdf",
-                    "page": 2,
-                    "left": -16,
-                    "top": 236,
-                    "zoom": 0.9277310924369748
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "lect2"
-                }
-              },
-              {
-                "id": "d20162f8bd714fba",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Year 1/EM/Lecture/Lecture-4c.pdf",
-                    "page": 5,
-                    "left": -22,
-                    "top": 526,
-                    "zoom": 0.6921875
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Lecture-4c"
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "801291d97561b02c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5b8c985a74b50dcb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Year 1/Formative Problems/My solutions/Mech formative 1.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Mech formative 1"
-                }
-              },
-              {
-                "id": "1814f72dc55990e0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Year 1/Summative Assessed Problem/My solutions/EM assessed week 3.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "EM assessed week 3"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "9f3f9ee7b32a39c8",
-        "type": "split",
-        "children": [
-          {
-            "id": "1839376d950e0755",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a88cbd3316f49191",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "bb56949daa6006dc",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "3a5e40a13b080568",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "a412a9a085de4422",
-                "type": "leaf",
-                "state": {
-                  "type": "mk-path-view",
-                  "state": {},
-                  "icon": "layout-grid",
-                  "title": "Navigator"
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300
-      },
-      "right": {
-        "id": "fa325a863e3241af",
-        "type": "split",
-        "children": [
-          {
-            "id": "87d5f87c72802259",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c3c737e6ad3a0a52",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for sas assessed problems 3"
-                }
-              },
-              {
-                "id": "66fb400312d30714",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from sas assessed problems 3"
-                }
-              },
-              {
-                "id": "216eb2f638907dbf",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "84024db2b41a63b8",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of sas assessed problems 3"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "workspaces:Manage workspace layouts": false,
-          "remotely-save:Remotely Save": false,
-          "pdf-plus:PDF++: Toggle auto-copy": false,
-          "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false,
-          "omnisearch:Omnisearch": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false
-        }
-      },
-      "active": "5b8c985a74b50dcb",
-      "mtime": "2025-02-11T11:11:17+00:00"
-    },
-    "vgla 2022": {
-      "main": {
-        "id": "8d2a2d15cbd13f54",
-        "type": "split",
-        "children": [
-          {
-            "id": "4e6ac2cf34d70848",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "822edac9cd3f98fe",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Year 1/Formative Problems/Problem sheet/Exam papers/2022/Paper/1VGLA.pdf",
-                    "page": 1,
-                    "left": -24,
-                    "top": 111,
-                    "zoom": 0.6135809271665581
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "1VGLA"
-                }
-              }
-            ]
-          },
-          {
-            "id": "801291d97561b02c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "15bf09a6e2b43f6d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Year 1/Formative Problems/My solutions/vgla 2022 exam.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "vgla 2022 exam"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "9f3f9ee7b32a39c8",
-        "type": "split",
-        "children": [
-          {
-            "id": "1839376d950e0755",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a88cbd3316f49191",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "bb56949daa6006dc",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "3a5e40a13b080568",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "91c08e46b39f8218",
-                "type": "leaf",
-                "state": {
-                  "type": "mk-path-view",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 361.5
-      },
-      "right": {
-        "id": "fa325a863e3241af",
-        "type": "split",
-        "children": [
-          {
-            "id": "87d5f87c72802259",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c3c737e6ad3a0a52",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Year 1/Summative Assessed Problem/My solutions/Solved/vgla assessed 4.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for vgla assessed 4"
-                }
-              },
-              {
-                "id": "66fb400312d30714",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from sas assessed problems 3"
-                }
-              },
-              {
-                "id": "216eb2f638907dbf",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "84024db2b41a63b8",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Summative Assessed Problem/My solutions/sas assessed problems 3.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of sas assessed problems 3"
-                }
-              },
-              {
-                "id": "aad3d64fdf222242",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "3915640b1a3d9630",
-                "type": "leaf",
-                "state": {
-                  "type": "copilot-chat-view",
-                  "state": {},
-                  "icon": "message-square",
-                  "title": "Copilot"
-                }
-              },
-              {
-                "id": "307043deb998a63f",
-                "type": "leaf",
-                "state": {
-                  "type": "smart-connections-view",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              },
-              {
-                "id": "dd64d805acc7c246",
-                "type": "leaf",
-                "state": {
-                  "type": "smart-chat-view",
-                  "state": {},
-                  "icon": "message-square",
-                  "title": "Smart Chat"
-                }
-              }
-            ],
-            "currentTab": 7
-          }
-        ],
-        "direction": "horizontal",
-        "width": 436.5
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "markdown-importer:Open format converter": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "workspaces:Manage workspace layouts": false,
-          "pdf-plus:PDF++: Toggle auto-copy": false,
-          "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false,
-          "copilot:Open Copilot Chat": false,
-          "omnisearch:Omnisearch": false,
-          "obsidian-excalidraw-plugin:New drawing": false,
-          "smart-connections:Open: View Smart Connections": false,
-          "smart-connections:Open: Smart Chat Conversation": false
-        }
-      },
-      "active": "15bf09a6e2b43f6d",
-      "mtime": "2025-05-05T12:56:26+01:00"
-    },
     "topology": {
       "main": {
         "id": "17bcb7776f02a803",
         "type": "split",
         "children": [
           {
-            "id": "abcf22b2137d76ad",
-            "type": "tabs",
-            "dimension": 53.12925170068027,
-            "children": [
-              {
-                "id": "cd7eaa80c3f0c05f",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
-                    "page": 20,
-                    "left": -22,
-                    "top": 524,
-                    "zoom": 0.6753169958137067
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "0. Topology Notes (pre project)"
-                }
-              }
-            ]
-          },
-          {
             "id": "387e960b2842b75d",
             "type": "tabs",
-            "dimension": 46.87074829931973,
+            "dimension": 51.85185185185184,
             "children": [
               {
-                "id": "41a640f90ce287a5",
+                "id": "942cd95217adf03f",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Independent Learning/TQFT/Notes/Topology note 3.md",
+                    "file": "Independent Learning/TQFT/Notes/Spin Structure.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": true,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Spin Structure"
+                }
+              },
+              {
+                "id": "e398e2652ac8abba",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Independent Learning/TQFT/Notes/Spinor Bundles.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -1807,10 +55,373 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Topology note 3"
+                  "title": "Spinor Bundles"
+                }
+              },
+              {
+                "id": "6d72b099c5b03818",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Independent Learning/TQFT/Notes/Fundamental Group.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Fundamental Group"
+                }
+              },
+              {
+                "id": "e0880e74d3a4df8c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Independent Learning/TQFT/Notes/Spinor Bundles.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Spinor Bundles"
+                }
+              },
+              {
+                "id": "6cd18e31860d7cd6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Independent Learning/TQFT/Notes/Connectedness.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Connectedness"
+                }
+              },
+              {
+                "id": "104fa568452db44a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Independent Learning/TQFT/Notes/Product space.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Product space"
+                }
+              },
+              {
+                "id": "234e9355edad8e44",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Independent Learning/TQFT/Notes/Super Vector Space.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Super Vector Space"
+                }
+              },
+              {
+                "id": "f6e7a7df1997dbe1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Independent Learning/TQFT/Notes/Manifolds.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Manifolds"
                 }
               }
-            ]
+            ],
+            "currentTab": 7
+          },
+          {
+            "id": "4c4c0fe102b11ff7",
+            "type": "tabs",
+            "dimension": 48.14814814814816,
+            "children": [
+              {
+                "id": "b0aa63471c98e951",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
+                    "title": "Spinor bundle - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Spinor bundle - Wikipedia"
+                }
+              },
+              {
+                "id": "99fee2c25d370af7",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Frame_bundle",
+                    "title": "Frame bundle - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Frame bundle - Wikipedia"
+                }
+              },
+              {
+                "id": "1f91da1b17a763da",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Tangent_bundle",
+                    "title": "Tangent bundle - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Tangent bundle - Wikipedia"
+                }
+              },
+              {
+                "id": "1a6d488804a05768",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Differentiable_manifold",
+                    "title": "Differentiable manifold - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Differentiable manifold - Wikipedia"
+                }
+              },
+              {
+                "id": "fd4ac57778c7e9e2",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Symmetry_group",
+                    "title": "Symmetry group - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Symmetry group - Wikipedia"
+                }
+              },
+              {
+                "id": "30805bf71593e3cf",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Covering_space#Universal_covering",
+                    "title": "Covering space - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Covering space - Wikipedia"
+                }
+              },
+              {
+                "id": "44ef827ae410d999",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Spin_representation",
+                    "title": "Spin representation - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Spin representation - Wikipedia"
+                }
+              },
+              {
+                "id": "821abfd9fcda7b35",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Spin_structure",
+                    "title": "Spin structure - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Spin structure - Wikipedia"
+                }
+              },
+              {
+                "id": "2aa346a90129e76d",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
+                    "title": "Spinor bundle - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Spinor bundle - Wikipedia"
+                }
+              },
+              {
+                "id": "333996791021136c",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Vector_bundle",
+                    "title": "Vector bundle - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Vector bundle - Wikipedia"
+                }
+              },
+              {
+                "id": "a8d313b42e85dbbd",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Principal_bundle",
+                    "title": "Principal bundle - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Principal bundle - Wikipedia"
+                }
+              },
+              {
+                "id": "4dabbc50e6fababc",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
+                    "title": "Spinor bundle - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Spinor bundle - Wikipedia"
+                }
+              },
+              {
+                "id": "8d4c68f161014c9a",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Covering_group",
+                    "title": "Covering group - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Covering group - Wikipedia"
+                }
+              },
+              {
+                "id": "6226641c234f5306",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://en.wikipedia.org/wiki/Covering_space",
+                    "title": "Covering space - Wikipedia",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Covering space - Wikipedia"
+                }
+              },
+              {
+                "id": "9f8b9dfa1d9c6d94",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://commons.wikimedia.org/wiki/File:Spinor_on_the_circle.png",
+                    "title": "File:Spinor on the circle.png - Wikimedia Commons",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "File:Spinor on the circle.png - Wikimedia Commons"
+                }
+              }
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1842,7 +453,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "tag:#differentials",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -1867,7 +478,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 364.5
+        "width": 364.5,
+        "collapsed": true
       },
       "right": {
         "id": "f8f6d84d1165094d",
@@ -1883,17 +495,16 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Year 1/Formative Problems/My solutions/vgla 2024 exam.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
                     "showSearch": false,
                     "searchQuery": "",
                     "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
+                    "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for vgla 2024 exam"
+                  "title": "Backlinks"
                 }
               },
               {
@@ -1902,12 +513,11 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Year 1/Formative Problems/My solutions/vgla 2024 exam.md",
                     "linksCollapsed": false,
-                    "unlinkedCollapsed": true
+                    "unlinkedCollapsed": false
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from vgla 2024 exam"
+                  "title": "Outgoing links"
                 }
               },
               {
@@ -1923,6 +533,20 @@
                   },
                   "icon": "lucide-tags",
                   "title": "Tags"
+                }
+              },
+              {
+                "id": "120eaf048f7bd193",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://player.sw.arm.fm/",
+                    "title": "Swarm FM Player",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Swarm FM Player"
                 }
               },
               {
@@ -1945,23 +569,12 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Year 1/Formative Problems/Problem sheet/Exam papers/2022/Paper/CHAOS (A) 2022.pdf",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of CHAOS (A) 2022"
-                }
-              },
-              {
-                "id": "257bc188c2d0a54b",
-                "type": "leaf",
-                "state": {
-                  "type": "smart-chat-view",
-                  "state": {},
-                  "icon": "smart-chat",
-                  "title": "Smart Chat"
+                  "title": "Outline"
                 }
               },
               {
@@ -1970,82 +583,41 @@
                 "state": {
                   "type": "copilot-chat-view",
                   "state": {},
-                  "icon": "message-square",
-                  "title": "Copilot"
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 3
           }
         ],
         "direction": "horizontal",
-        "width": 405.5
+        "width": 242.5
       },
       "left-ribbon": {
         "hiddenItems": {
-          "pdf-plus:PDF++: Toggle auto-copy": false,
-          "copilot:Open Copilot Chat": false,
-          "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false,
-          "omnisearch:Omnisearch": false,
-          "obsidian-excalidraw-plugin:New drawing": false,
-          "smart-connections:Open: Smart Chat": false,
-          "smart-connections:Open: View Smart Connections": false,
-          "obsidian-git:Open Git source control": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "daily-notes:Open today's daily note": false,
+          "markdown-importer:Open format converter": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
-          "markdown-importer:Open format converter": false,
           "workspaces:Manage workspace layouts": false,
-          "remotely-save:Remotely Save": false,
-          "templater-obsidian:Templater": false
+          "copilot:Open Copilot Chat": false,
+          "omnisearch:Omnisearch": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "templater-obsidian:Templater": false,
+          "soundscapes:Soundscapes: My Music": false,
+          "edge-tts:Read note aloud": false,
+          "pdf-plus:PDF++: Toggle auto-copy": false,
+          "pdf-plus:PDF++: Toggle auto-focus": false,
+          "pdf-plus:PDF++: Toggle auto-paste": false
         }
       },
-      "floating": {
-        "id": "3140a81632041a00",
-        "type": "floating",
-        "children": [
-          {
-            "id": "d79d9758a5ef7f9e",
-            "type": "window",
-            "children": [
-              {
-                "id": "25fe00e2bbc4e7e7",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "7c9584501073fe42",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://silentvoid13.github.io/Templater/",
-                        "title": "Introduction - Templater",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "Introduction - Templater"
-                    }
-                  }
-                ]
-              }
-            ],
-            "direction": "vertical",
-            "x": 927,
-            "y": 194,
-            "width": 1024,
-            "height": 800,
-            "maximize": false,
-            "zoom": 0
-          }
-        ]
-      },
-      "active": "41a640f90ce287a5",
-      "mtime": "2025-05-30T10:53:26+01:00"
+      "active": "f6e7a7df1997dbe1",
+      "mtime": "2025-08-06T09:25:39+01:00"
     }
   },
   "active": "topology"

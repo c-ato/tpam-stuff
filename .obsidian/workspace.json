@@ -6,7 +6,6 @@
       {
         "id": "387e960b2842b75d",
         "type": "tabs",
-        "dimension": 51.85185185185184,
         "children": [
           {
             "id": "942cd95217adf03f",
@@ -33,12 +32,12 @@
             }
           },
           {
-            "id": "e398e2652ac8abba",
+            "id": "6d3197ef8a2bb73a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Spinor Bundles.md",
+                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -53,7 +52,175 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Spinor Bundles"
+              "title": "Manifolds"
+            }
+          },
+          {
+            "id": "e398e2652ac8abba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Connectedness.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Connectedness"
+            }
+          },
+          {
+            "id": "ef31fe3b593677cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Fundamental Group.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Fundamental Group"
+            }
+          },
+          {
+            "id": "09b1eba3f1905b42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/General Linear Group.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "General Linear Group"
+            }
+          },
+          {
+            "id": "f942c87cda2616cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Equivariant.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Equivariant"
+            }
+          },
+          {
+            "id": "ed360c355f1a3197",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Fundamental Group.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Fundamental Group"
+            }
+          },
+          {
+            "id": "79812c4533e67d1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Homotogy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Homotogy"
+            }
+          },
+          {
+            "id": "aecfae9ae0668986",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Manifolds"
             }
           },
           {
@@ -201,225 +368,7 @@
             }
           }
         ],
-        "currentTab": 7
-      },
-      {
-        "id": "4c4c0fe102b11ff7",
-        "type": "tabs",
-        "dimension": 48.14814814814816,
-        "children": [
-          {
-            "id": "b0aa63471c98e951",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
-                "title": "Spinor bundle - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Spinor bundle - Wikipedia"
-            }
-          },
-          {
-            "id": "99fee2c25d370af7",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Frame_bundle",
-                "title": "Frame bundle - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Frame bundle - Wikipedia"
-            }
-          },
-          {
-            "id": "1f91da1b17a763da",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Tangent_bundle",
-                "title": "Tangent bundle - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Tangent bundle - Wikipedia"
-            }
-          },
-          {
-            "id": "1a6d488804a05768",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Differentiable_manifold",
-                "title": "Differentiable manifold - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Differentiable manifold - Wikipedia"
-            }
-          },
-          {
-            "id": "fd4ac57778c7e9e2",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Symmetry_group",
-                "title": "Symmetry group - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Symmetry group - Wikipedia"
-            }
-          },
-          {
-            "id": "30805bf71593e3cf",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Covering_space#Universal_covering",
-                "title": "Covering space - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Covering space - Wikipedia"
-            }
-          },
-          {
-            "id": "44ef827ae410d999",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Spin_representation",
-                "title": "Spin representation - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Spin representation - Wikipedia"
-            }
-          },
-          {
-            "id": "821abfd9fcda7b35",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Spin_structure",
-                "title": "Spin structure - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Spin structure - Wikipedia"
-            }
-          },
-          {
-            "id": "2aa346a90129e76d",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
-                "title": "Spinor bundle - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Spinor bundle - Wikipedia"
-            }
-          },
-          {
-            "id": "333996791021136c",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Vector_bundle",
-                "title": "Vector bundle - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Vector bundle - Wikipedia"
-            }
-          },
-          {
-            "id": "a8d313b42e85dbbd",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Principal_bundle",
-                "title": "Principal bundle - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Principal bundle - Wikipedia"
-            }
-          },
-          {
-            "id": "4dabbc50e6fababc",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
-                "title": "Spinor bundle - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Spinor bundle - Wikipedia"
-            }
-          },
-          {
-            "id": "8d4c68f161014c9a",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Covering_group",
-                "title": "Covering group - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Covering group - Wikipedia"
-            }
-          },
-          {
-            "id": "6226641c234f5306",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Covering_space",
-                "title": "Covering space - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Covering space - Wikipedia"
-            }
-          },
-          {
-            "id": "9f8b9dfa1d9c6d94",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://commons.wikimedia.org/wiki/File:Spinor_on_the_circle.png",
-                "title": "File:Spinor on the circle.png - Wikimedia Commons",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "File:Spinor on the circle.png - Wikimedia Commons"
-            }
-          }
-        ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -492,16 +441,17 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Manifolds"
             }
           },
           {
@@ -510,11 +460,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Manifolds"
             }
           },
           {
@@ -580,17 +531,16 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 242.5,
-    "collapsed": true
+    "width": 404.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -614,35 +564,36 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f6e7a7df1997dbe1",
+  "active": "6d3197ef8a2bb73a",
   "lastOpenFiles": [
-    "Independent Learning/TQFT/Material/1. Riemann Surfaces (recommended).pdf",
-    "Independent Learning/TQFT/Notes/Manifolds.md",
-    "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
-    "Independent Learning/TQFT/Notes/Riemann Surface.md",
-    "Independent Learning/TQFT/Notes/Spinor Bundles.md",
-    "Utility/Excalidraw/Drawing 2025-07-18 12.57.42.excalidraw.md",
-    "Independent Learning/TQFT/Notes/Spin Structure.md",
-    "Independent Learning/TQFT/Notes/Fundamental Group.md",
-    "Independent Learning/TQFT/Notes/Lie Group.md",
+    "Independent Learning/TQFT/Notes/Morphisms.md",
+    "Independent Learning/TQFT/Notes/Neighbourhoods.md",
+    "Independent Learning/TQFT/Notes/Orthogonal Groups.md",
+    "Independent Learning/TQFT/Notes/Product space.md",
     "Independent Learning/TQFT/Notes/Quotient Space.md",
+    "Independent Learning/TQFT/Notes/Riemann Surface.md",
     "Independent Learning/TQFT/Notes/Super Vector Space.md",
-    "Independent Learning/TQFT/Notes/TQFT.md",
+    "Independent Learning/TQFT/Notes/Surfaces.md",
+    "Independent Learning/TQFT/Notes/Spin Structure.md",
+    "Independent Learning/TQFT/Notes/Connectedness.md",
+    "Independent Learning/TQFT/Notes/Fundamental Group.md",
+    "Independent Learning/TQFT/Notes/Equivariant.md",
     "Independent Learning/TQFT/Notes/Frobenius Algebra.md",
+    "Independent Learning/TQFT/Notes/General Linear Group.md",
+    "Independent Learning/TQFT/Notes/Spinor Bundles.md",
+    "Independent Learning/TQFT/Notes/Tangent Space.md",
+    "Independent Learning/TQFT/Notes/Homotogy.md",
+    "Independent Learning/TQFT/Notes/Manifolds.md",
+    "Independent Learning/TQFT/Notes/Lie Group.md",
+    "Independent Learning/TQFT/Material/1. Riemann Surfaces (recommended).pdf",
+    "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
+    "Utility/Excalidraw/Drawing 2025-07-18 12.57.42.excalidraw.md",
+    "Independent Learning/TQFT/Notes/TQFT.md",
     "Independent Learning/TQFT/Notes/Monoidal Category.md",
     "Independent Learning/TQFT/Notes/Vertices.md",
     "Independent Learning/TQFT/Notes/Topology.md",
     "Utility/Excalidraw/Drawing 2025-07-11 11.16.43.excalidraw.md",
-    "Independent Learning/TQFT/Notes/Surfaces.md",
     "Independent Learning/TQFT/Notes/Countable Spaces.md",
-    "Independent Learning/TQFT/Notes/Identification Space.md",
-    "Independent Learning/TQFT/Notes/Homotogy.md",
-    "Utility/Excalidraw/Drawing 2025-07-18 11.55.27.excalidraw.md",
-    "Utility/Excalidraw/Drawing 2025-07-05 09.14.10.excalidraw.md",
-    "Utility/Excalidraw/Drawing 2025-05-06 12.16.07.excalidraw.md",
-    "Utility/Excalidraw/Drawing 2025-07-30 14.23.41.excalidraw.md",
-    "Utility/Excalidraw/Drawing 2025-07-18 12.48.44.excalidraw.md",
-    "Utility/Excalidraw/Drawing 2025-07-18 12.33.56.excalidraw.md",
     "Independent Learning/TQFT/Material/5. D-branes and K-theory in 2D TFT.pdf",
     "Independent Learning/TQFT/Material/9. Spin structures (parafermion background).pdf",
     "Independent Learning/TQFT/Material/7. Invariants of r-spin TQFT and non-semisimplicity.pdf",
