@@ -41,7 +41,7 @@ $$\begin{tikzcd}
  ^def-top-princ-bund
 
 > [!definition|*]- Frame Bundle
-> 
+>  This is built atop a vector bundle where the fibre is the collection all frames. A frame, $F_{x}$ is the ordered basis of the vector space, $E_{x}$ that is associated at a point $x$ of the base space. We also have a natural transformation by the general linear group, $g \in GL(V)$, that moves between frames by composition, $p \circ g:\mathbb{R}^{k}\to E_{x}$
  ^def-top-fram-bundle
 
 > [!definition|*]- [[Spin Structure|Spinor]] Bundle

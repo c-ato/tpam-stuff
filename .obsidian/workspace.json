@@ -8,246 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "942cd95217adf03f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Spin Structure.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Spin Structure"
-            }
-          },
-          {
-            "id": "6d3197ef8a2bb73a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Manifolds"
-            }
-          },
-          {
-            "id": "e398e2652ac8abba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Connectedness.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Connectedness"
-            }
-          },
-          {
-            "id": "ef31fe3b593677cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Fundamental Group.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Fundamental Group"
-            }
-          },
-          {
-            "id": "09b1eba3f1905b42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/General Linear Group.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "General Linear Group"
-            }
-          },
-          {
-            "id": "f942c87cda2616cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Equivariant.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Equivariant"
-            }
-          },
-          {
-            "id": "ed360c355f1a3197",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Fundamental Group.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Fundamental Group"
-            }
-          },
-          {
-            "id": "79812c4533e67d1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Homotogy.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Homotogy"
-            }
-          },
-          {
-            "id": "aecfae9ae0668986",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Manifolds"
-            }
-          },
-          {
-            "id": "6d72b099c5b03818",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Fundamental Group.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Fundamental Group"
-            }
-          },
-          {
             "id": "e0880e74d3a4df8c",
             "type": "leaf",
             "state": {
@@ -366,9 +126,32 @@
               "icon": "lucide-file",
               "title": "Manifolds"
             }
+          },
+          {
+            "id": "c37070291dce439f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Fundamental Representation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Fundamental Representation"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -391,7 +174,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "File explorer"
             }
           },
           {
@@ -544,8 +327,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:Open today's daily note": false,
-      "markdown-importer:Open format converter": false,
+      "daily-notes:Open today's note": false,
+      "markdown-importer:Open Markdown importer": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -564,8 +347,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6d3197ef8a2bb73a",
+  "active": "e0880e74d3a4df8c",
   "lastOpenFiles": [
+    "Independent Learning/TQFT/Notes/Spin Structure.md",
+    "Independent Learning/TQFT/Notes/Spinor Bundles.md",
+    "Independent Learning/TQFT/Notes/Fundamental Representation.md",
+    "Independent Learning/TQFT/Notes/Fundamental Group.md",
+    "Independent Learning/TQFT/Notes/Manifolds.md",
+    "Independent Learning/TQFT/Notes/Homotogy.md",
+    "Independent Learning/TQFT/Notes/Equivariant.md",
+    "Independent Learning/TQFT/Notes/General Linear Group.md",
+    "Independent Learning/TQFT/Notes/Connectedness.md",
     "Independent Learning/TQFT/Notes/Morphisms.md",
     "Independent Learning/TQFT/Notes/Neighbourhoods.md",
     "Independent Learning/TQFT/Notes/Orthogonal Groups.md",
@@ -574,16 +366,8 @@
     "Independent Learning/TQFT/Notes/Riemann Surface.md",
     "Independent Learning/TQFT/Notes/Super Vector Space.md",
     "Independent Learning/TQFT/Notes/Surfaces.md",
-    "Independent Learning/TQFT/Notes/Spin Structure.md",
-    "Independent Learning/TQFT/Notes/Connectedness.md",
-    "Independent Learning/TQFT/Notes/Fundamental Group.md",
-    "Independent Learning/TQFT/Notes/Equivariant.md",
     "Independent Learning/TQFT/Notes/Frobenius Algebra.md",
-    "Independent Learning/TQFT/Notes/General Linear Group.md",
-    "Independent Learning/TQFT/Notes/Spinor Bundles.md",
     "Independent Learning/TQFT/Notes/Tangent Space.md",
-    "Independent Learning/TQFT/Notes/Homotogy.md",
-    "Independent Learning/TQFT/Notes/Manifolds.md",
     "Independent Learning/TQFT/Notes/Lie Group.md",
     "Independent Learning/TQFT/Material/1. Riemann Surfaces (recommended).pdf",
     "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
@@ -593,7 +377,6 @@
     "Independent Learning/TQFT/Notes/Vertices.md",
     "Independent Learning/TQFT/Notes/Topology.md",
     "Utility/Excalidraw/Drawing 2025-07-11 11.16.43.excalidraw.md",
-    "Independent Learning/TQFT/Notes/Countable Spaces.md",
     "Independent Learning/TQFT/Material/5. D-branes and K-theory in 2D TFT.pdf",
     "Independent Learning/TQFT/Material/9. Spin structures (parafermion background).pdf",
     "Independent Learning/TQFT/Material/7. Invariants of r-spin TQFT and non-semisimplicity.pdf",
