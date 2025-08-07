@@ -300,7 +300,7 @@
   "embeddingRequestsPerMin": 90,
   "embeddingBatchSize": 16,
   "disableIndexOnMobile": true,
-  "showSuggestedPrompts": true,
+  "showSuggestedPrompts": false,
   "showRelevantNotes": true,
   "numPartitions": 1,
   "promptUsageTimestamps": {},
