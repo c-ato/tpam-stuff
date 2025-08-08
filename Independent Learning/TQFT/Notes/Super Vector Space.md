@@ -4,6 +4,8 @@ tags:
   - maths/category
   - maths/vectors
   - maths/algebra
+aliases:
+  - super vector spaces
 ---
 
 > [!definition|*]- Super Vector Space ($\mathbb{Z}_{2}$-Graded Vector Space) 

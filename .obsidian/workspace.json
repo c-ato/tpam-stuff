@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Spinor Bundles.md",
+                "file": "Independent Learning/TQFT/Notes/Equivariant.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Spinor Bundles"
+              "title": "Equivariant"
+            }
+          },
+          {
+            "id": "c89f11128e075068",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/TQFT.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TQFT"
             }
           },
           {
@@ -247,7 +271,8 @@
               "title": "Equivariant"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -320,7 +345,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Spinor Bundles.md",
+                "file": "Independent Learning/TQFT/Notes/TQFT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -330,7 +355,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Spinor Bundles"
+              "title": "Backlinks for TQFT"
             }
           },
           {
@@ -339,12 +364,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Spinor Bundles.md",
+                "file": "Independent Learning/TQFT/Notes/TQFT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Spinor Bundles"
+              "title": "Outgoing links from TQFT"
             }
           },
           {
@@ -442,16 +467,21 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e0880e74d3a4df8c",
+  "active": "1ce47dbf2d3785ea",
   "lastOpenFiles": [
-    "Independent Learning/TQFT/Notes/Tangent Space.md",
-    "Independent Learning/TQFT/Notes/Spinor Bundles.md",
-    "Independent Learning/TQFT/Notes/Group Representation.md",
+    "Independent Learning/TQFT/Notes/Super Vector Space.md",
+    "Independent Learning/TQFT/Notes/TQFT.md",
     "Independent Learning/TQFT/Notes/Spin Structure.md",
+    "Independent Learning/TQFT/Notes/Bordisms.md",
+    "Independent Learning/TQFT/Notes/Spinor Bundles.md",
+    "Independent Learning/TQFT/Notes/General Linear Group.md",
+    "Independent Learning/TQFT/Notes/Orthogonal Groups.md",
+    "Independent Learning/TQFT/Notes/Group Representation.md",
+    "Independent Learning/TQFT/Notes/Fundamental Group.md",
     "Independent Learning/TQFT/Notes/Equivariant.md",
+    "Independent Learning/TQFT/Notes/Tangent Space.md",
     "Independent Learning/TQFT/Notes/Surfaces.md",
     "Independent Learning/TQFT/Notes/Topology.md",
-    "Independent Learning/TQFT/Notes/General Linear Group.md",
     "Year 1/Formative Problems/Problem sheet/Subjects/RA/Practice Questions 3 - 2024.pdf~RF1cb196b.TMP",
     "Year 1/Formative Problems/Problem sheet/Subjects/RA/RA6.pdf~RF1cb18af.TMP",
     "Year 1/Formative Problems/Problem sheet/Subjects/QM/L6 - Non-Assessed Problems - qm_L6_q.pdf~RF1cb166d.TMP",
@@ -460,7 +490,6 @@
     "Year 1/Formative Problems/Problem sheet/Subjects/Chaos/example.pdf~RF1cb0bde.TMP",
     "Year 1/Formative Problems/Problem sheet/Subjects/Chaos/example2.pdf~RF1cb0b71.TMP",
     "Year 1/Summative Assessed Problem/Problem sheet/Solved/Year 1 Assessed Problems 2.pdf~RF1cb0093.TMP",
-    "Independent Learning/TQFT/Notes/Fundamental Group.md",
     "Year 1/TM/Lecture/lecture_5_slides.pdf~RF1ca4487.TMP",
     "Year 1/SR/Lecture/SR-09-Energy-momentum_relation_Problems.pdf~RF1ca3c1b.TMP",
     "Utility/Excalidraw/chaos 2024 exam 2025-05-21 11.31.48.excalidraw.md",
@@ -476,10 +505,6 @@
     "Utility/Excalidraw/em tm ec 2024 2025-05-12 11.30.24.excalidraw.md",
     "Utility/Excalidraw/em tm ec 2024 2025-05-12 14.09.43.excalidraw.md",
     "Utility/Excalidraw/em tm ec 2024 2025-05-12 11.45.05.excalidraw.md",
-    "Utility/Excalidraw/mech 2024 exam 2025-05-13 09.08.29.excalidraw.md",
-    "Utility/Excalidraw/mech 2024 exam 2025-05-13 09.11.28.excalidraw.md",
-    "schedule.md",
-    "Year 1/Formative Problems/My solutions/SR and P 2024.md",
     "Utility/Images/{E0C819E7-67B4-422F-B737-12AAADCBDD8C}.png",
     "Utility/Images/{CE29CD0B-27E5-4737-BC4D-EBAE35F38AE6}.png",
     "Utility/Images/{BF0F1B53-1AA0-49AB-8178-98FDA8347A7F}.png",
