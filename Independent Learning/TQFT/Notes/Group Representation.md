@@ -4,7 +4,7 @@ tags:
   - maths/vectors
   - maths/geometry
 aliases:
-  - group representation
+  - fundamental representation
   - spin representation
   - subrepresentation
   - representation

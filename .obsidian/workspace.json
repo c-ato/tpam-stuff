@@ -32,6 +32,78 @@
             }
           },
           {
+            "id": "b66c6e179984cbb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Tangent Space.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tangent Space"
+            }
+          },
+          {
+            "id": "c34916e654c8d583",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Spin Structure.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Spin Structure"
+            }
+          },
+          {
+            "id": "840c3caeb02cd498",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Group Representation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Group Representation"
+            }
+          },
+          {
             "id": "6cd18e31860d7cd6",
             "type": "leaf",
             "state": {
@@ -150,6 +222,30 @@
               "icon": "lucide-file",
               "title": "Fundamental Representation"
             }
+          },
+          {
+            "id": "09d64f9893ece51e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Equivariant.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Equivariant"
+            }
           }
         ]
       }
@@ -174,7 +270,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "File explorer"
+              "title": "Files"
             }
           },
           {
@@ -224,7 +320,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
+                "file": "Independent Learning/TQFT/Notes/Spinor Bundles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +330,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Manifolds"
+              "title": "Backlinks for Spinor Bundles"
             }
           },
           {
@@ -243,12 +339,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
+                "file": "Independent Learning/TQFT/Notes/Spinor Bundles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Manifolds"
+              "title": "Outgoing links from Spinor Bundles"
             }
           },
           {
@@ -327,73 +423,72 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:Open today's note": false,
-      "markdown-importer:Open Markdown importer": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
       "copilot:Open Copilot Chat": false,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "soundscapes:Soundscapes: My Music": false,
       "edge-tts:Read note aloud": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "daily-notes:Open today's daily note": false,
+      "markdown-importer:Open format converter": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
   "active": "e0880e74d3a4df8c",
   "lastOpenFiles": [
-    "Independent Learning/TQFT/Notes/Spin Structure.md",
-    "Independent Learning/TQFT/Notes/Spinor Bundles.md",
-    "Independent Learning/TQFT/Notes/Fundamental Representation.md",
-    "Independent Learning/TQFT/Notes/Fundamental Group.md",
-    "Independent Learning/TQFT/Notes/Manifolds.md",
-    "Independent Learning/TQFT/Notes/Homotogy.md",
-    "Independent Learning/TQFT/Notes/Equivariant.md",
-    "Independent Learning/TQFT/Notes/General Linear Group.md",
-    "Independent Learning/TQFT/Notes/Connectedness.md",
-    "Independent Learning/TQFT/Notes/Morphisms.md",
-    "Independent Learning/TQFT/Notes/Neighbourhoods.md",
-    "Independent Learning/TQFT/Notes/Orthogonal Groups.md",
-    "Independent Learning/TQFT/Notes/Product space.md",
-    "Independent Learning/TQFT/Notes/Quotient Space.md",
-    "Independent Learning/TQFT/Notes/Riemann Surface.md",
-    "Independent Learning/TQFT/Notes/Super Vector Space.md",
-    "Independent Learning/TQFT/Notes/Surfaces.md",
-    "Independent Learning/TQFT/Notes/Frobenius Algebra.md",
     "Independent Learning/TQFT/Notes/Tangent Space.md",
-    "Independent Learning/TQFT/Notes/Lie Group.md",
-    "Independent Learning/TQFT/Material/1. Riemann Surfaces (recommended).pdf",
-    "Independent Learning/TQFT/Material/0. Topology Notes (pre project).pdf",
-    "Utility/Excalidraw/Drawing 2025-07-18 12.57.42.excalidraw.md",
-    "Independent Learning/TQFT/Notes/TQFT.md",
-    "Independent Learning/TQFT/Notes/Monoidal Category.md",
-    "Independent Learning/TQFT/Notes/Vertices.md",
+    "Independent Learning/TQFT/Notes/Spinor Bundles.md",
+    "Independent Learning/TQFT/Notes/Group Representation.md",
+    "Independent Learning/TQFT/Notes/Spin Structure.md",
+    "Independent Learning/TQFT/Notes/Equivariant.md",
+    "Independent Learning/TQFT/Notes/Surfaces.md",
     "Independent Learning/TQFT/Notes/Topology.md",
+    "Independent Learning/TQFT/Notes/General Linear Group.md",
+    "Year 1/Formative Problems/Problem sheet/Subjects/RA/Practice Questions 3 - 2024.pdf~RF1cb196b.TMP",
+    "Year 1/Formative Problems/Problem sheet/Subjects/RA/RA6.pdf~RF1cb18af.TMP",
+    "Year 1/Formative Problems/Problem sheet/Subjects/QM/L6 - Non-Assessed Problems - qm_L6_q.pdf~RF1cb166d.TMP",
+    "Year 1/Formative Problems/Problem sheet/Subjects/Mech/Mechsheet2qn.pdf~RF1cb1341.TMP",
+    "Year 1/Formative Problems/Problem sheet/Subjects/EM/em1_ps7_q.pdf~RF1cb1014.TMP",
+    "Year 1/Formative Problems/Problem sheet/Subjects/Chaos/example.pdf~RF1cb0bde.TMP",
+    "Year 1/Formative Problems/Problem sheet/Subjects/Chaos/example2.pdf~RF1cb0b71.TMP",
+    "Year 1/Summative Assessed Problem/Problem sheet/Solved/Year 1 Assessed Problems 2.pdf~RF1cb0093.TMP",
+    "Independent Learning/TQFT/Notes/Fundamental Group.md",
+    "Year 1/TM/Lecture/lecture_5_slides.pdf~RF1ca4487.TMP",
+    "Year 1/SR/Lecture/SR-09-Energy-momentum_relation_Problems.pdf~RF1ca3c1b.TMP",
+    "Utility/Excalidraw/chaos 2024 exam 2025-05-21 11.31.48.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-18 11.55.27.excalidraw.md",
     "Utility/Excalidraw/Drawing 2025-07-11 11.16.43.excalidraw.md",
-    "Independent Learning/TQFT/Material/5. D-branes and K-theory in 2D TFT.pdf",
-    "Independent Learning/TQFT/Material/9. Spin structures (parafermion background).pdf",
-    "Independent Learning/TQFT/Material/7. Invariants of r-spin TQFT and non-semisimplicity.pdf",
-    "Independent Learning/TQFT/Material/6. Spin TQFTs and fermionic phases of matter.pdf",
-    "Independent Learning/TQFT/Material/8. 2-D defects (Project end).pdf",
-    "Independent Learning/TQFT/Material/11. Parafermions.pdf",
-    "Independent Learning/TQFT/Material/10. Topological phase with parafermions theory.pdf",
-    "Independent Learning/TQFT/Material/4. TQFT UG notes.pdf",
-    "Independent Learning/TQFT/Material/Google Gemini_files/gemini_sparkle_red_4ed1cbfcbc6c9e84c31b987da73fc4168aec8445.svg",
+    "Utility/Excalidraw/Drawing 2025-07-18 12.33.56.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-18 12.34.43.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-18 12.48.44.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-18 12.57.42.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-30 14.23.41.excalidraw.md",
+    "Utility/Excalidraw/Drawing 2025-07-30 14.25.32.excalidraw.md",
+    "Utility/Excalidraw/em tm ec 2024 2025-05-12 10.50.43.excalidraw.md",
+    "Utility/Excalidraw/em tm ec 2024 2025-05-12 11.30.24.excalidraw.md",
+    "Utility/Excalidraw/em tm ec 2024 2025-05-12 14.09.43.excalidraw.md",
+    "Utility/Excalidraw/em tm ec 2024 2025-05-12 11.45.05.excalidraw.md",
+    "Utility/Excalidraw/mech 2024 exam 2025-05-13 09.08.29.excalidraw.md",
+    "Utility/Excalidraw/mech 2024 exam 2025-05-13 09.11.28.excalidraw.md",
+    "schedule.md",
+    "Year 1/Formative Problems/My solutions/SR and P 2024.md",
+    "Utility/Images/{E0C819E7-67B4-422F-B737-12AAADCBDD8C}.png",
+    "Utility/Images/{CE29CD0B-27E5-4737-BC4D-EBAE35F38AE6}.png",
+    "Utility/Images/{BF0F1B53-1AA0-49AB-8178-98FDA8347A7F}.png",
+    "Utility/Images/{306CE8F0-A5E5-492A-A0AB-A7FB46BF1356}.png",
+    "Utility/Images/Pasted image 20250530102441.png",
+    "Utility/Images/Pasted Image 20250513090900_628.png",
+    "Independent Learning/SMMC/Questions/SMMC - More sample problems.png",
     "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed_002.jpg",
-    "Independent Learning/TQFT/Material/Google Gemini_files/unnamed_003.jpg",
-    "Independent Learning/TQFT/Material/Google Gemini_files/unnamed_002.jpg",
-    "Independent Learning/TQFT/Material/Google Gemini_files/account_data/photo.png",
     "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed.jpg",
-    "Independent Learning/TQFT/Material/Google Gemini_files/unnamed.jpg",
-    "Independent Learning/TQFT/Material/Google Gemini_files/unnamed.png",
-    "Utility/Images/{D39D60E4-2697-4021-AA9D-37BEF2A7D664}.png",
-    "Utility/Images/{3F1453D8-AE35-4D6D-807F-A059D6F9D923}.png"
+    "Independent Learning/TQFT/Material/Google Gemini_files/account_data/photo.png"
   ]
 }

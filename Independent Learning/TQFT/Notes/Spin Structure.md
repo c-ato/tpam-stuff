@@ -6,6 +6,7 @@ tags:
 aliases:
   - spinor
   - spinors
+  - spin group
 ---
 
 > [!definition|*]- Spin Group

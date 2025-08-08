@@ -11,6 +11,14 @@ aliases:
   - principle bundles
   - principal bundle
   - principal bundles
+  - frame
+  - frames
+  - orthonormal frames
+  - orthonormal frame
+  - orthonormal frame bundle
+  - orthonormal frame bundles
+  - frame bundle
+  - frame bundles
 ---
 
 > [!definition|*]- Fibre Bundle
@@ -30,7 +38,7 @@ $$\begin{tikzcd}
  ^def-top-vec-bund
 
 > [!definition|*]- Tangent Bundle
-> A fibre bundle where the fibre is a [[tangent space]], this requires the base space to be a differentiable [[Manifolds|manifold]].
+> A vector bundle where the vector space is a [[tangent space]], this requires the base space to be a differentiable [[Manifolds|manifold]].
  ^def-top-tang-bund
 
 > [!definition|*]- Principal $G$-Bundle
@@ -41,10 +49,23 @@ $$\begin{tikzcd}
  ^def-top-princ-bund
 
 > [!definition|*]- Frame Bundle
->  This is built atop a vector bundle where the fibre is the collection all frames. A frame, $F_{x}$ is the ordered basis of the vector space, $E_{x}$ that is associated at a point $x$ of the base space. We also have a natural transformation by the general linear group, $g \in GL(V)$, that moves between frames by composition, $p \circ g:\mathbb{R}^{k}\to E_{x}$
+>  A principal $G$-bundle where:
+>  - The base space is instead a manifold, $M$
+>  - A single frame is a linear transformation from the basis of $\mathbb{R}^{n}$ to the ordered basis of the tangent space, $T_{x}M$ that is associated at a point $x$ of the base space, $p:\mathbb{R}^{n}\to E_{x}$.
+>  - $G=GL(n,\mathbb{R})$ and group action of $GL$ on a frame at $x$ is another frame of $x$, $p\cdot g=p\circ g: \mathbb{R}^{n}\to E_{x},g \in GL(n,\mathbb{R})$. The collection of all frames at $x$ is $F_{x}$.
+>  - The total space is the collection of all frames, $F(M)=\bigsqcup_{x \in M}F_{x}$
  ^def-top-fram-bundle
 
+> [!definition|*]- Orthonormal Frame Bundle
+> This is the sub-bundle of the frame bundle where we restrict the frames by restricting the general linear group into either the orthogonal group, $O(n)$, or the special orthogonal group, $\text{SO}(n)$. This typically requires a Riemannian manifold. As this is equivalent to principal $G$-bundles and the total space will be denoted as $P_{O}$ or $P_{SO}$.
+ ^def-top-orth-fram-bundle
+
+> [!definition|*]- Associated Bundle
+> This is constructed from a principal bundle $f: E\to X$ and a vector space such that the associated bundles total space is the group action on the vector space, $E\times_{G}V$ and the fibres of this bundle are copies of $V$. This also requires the equivalence relation $(e,v)\sim (eg,g^{-1}v)$ for $e \in E, v \in V$, and $g \in G$.
+ ^def-top-assoc-bund
+
 > [!definition|*]- [[Spin Structure|Spinor]] Bundle
-> We require a [[spin structure]] which naturally needs $n$-dimensional [[Surfaces|orientable]] Riemannian [[Manifolds|manifold]] $M$
+> We require a [[spin structure]] which naturally needs $n$-dimensional [[Surfaces|orientable]] Riemannian [[Manifolds|manifold]] $M$ allowing for orthonormal frame bundles, $P_{\text{SO}}$ in the spin representation.
+> This is a complex vector bundle over $M$. The spinor bundle is then defined as an associated bundle to the principal $\text{Spin}(n)$-bundle using spin representation
  ^def-top-spin-bund
 
