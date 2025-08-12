@@ -31,3 +31,6 @@ aliases:
 > [!theorem|*]- [[TQFT]] is [[Equivalence|equivalent]] to cFA
  ^thm-cat-cFA-equiv-TQFT
 
+> [!definition|*]- Super Frobenius Algebra
+> 
+ ^def-

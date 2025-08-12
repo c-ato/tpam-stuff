@@ -15,6 +15,10 @@ aliases:
 > 	- $V_{\bar{1}}$ is hence, the odd subspace, $\bar{1}$ is then the set of all integers that corresponds to $1$ in $\text{mod}(2)$ - this is also known as the fermionic subspace.
 > - The degree of a vector is defined $\forall v \in V\exists \text{deg}(v)$ where it is defined as: $$\text{deg}(v)=\left\{ \begin{matrix}\bar{0} & \text{if }v \in V_{\bar{0}} \\ \bar{1} & \text{if }v \in V_{\bar{1}}\end{matrix} \right. $$
 > 	- And as such any $v \in V$ can be uniquely written as a sum of its homogeneous components: $v=v_{\bar{0}}+v_{\bar{1}}$ where $v_{\bar{0}}\in V_{\bar{0}}$ and $v_{\bar{1}}\in V_{\bar{1}}$ 
-> - The [[Functors|tensor product]] of two of these SVS is given as:$$\sum_{k=0}^{1}(V\oplus W)_{\bar{k}}=\bigoplus_{\bar{i}+\bar{j}=\bar{k}}(V_{\bar{i}}\oplus W_{\bar{j}})$$
+> - The [[Functors|tensor product]] of two of these SVS is given as:
+> $$V\otimes W=\sum^{1}_{k=0}(V\otimes W)_{\bar{k}}$$
+> $$(V\otimes W)_{\bar{0}}=(V_{\bar{0}}\otimes W_{\bar{0}})\oplus (V_{\bar{1}}\otimes W_{\bar{1}})$$
+> $$(V\otimes W)_{\bar{1}}=(V_{\bar{0}}\otimes W_{\bar{1}})\oplus (V_{\bar{1}}\otimes W_{\bar{0}})$$
+> 
 > - We will also have a super commutativity relation for the symmetry [[Morphisms|isomorphism]] $T:V\otimes W\to W\otimes V$ is given by: $$T(v\otimes w)=(-1)^{\text{deg}(v)\text{deg}(w)}(w\otimes v)$$
  ^def-vect-svs
