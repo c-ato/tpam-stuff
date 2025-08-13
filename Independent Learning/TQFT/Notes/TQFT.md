@@ -25,6 +25,19 @@ aliases:
 > - It respects symmetry (commutations of the [[Functors|tensor products]]) as seen in the diagram of the definition of symmetric [[Monoidal Category|monoidal]] [[Functors|functor]].
  ^def-cat-tqft
 
-> [!definition|*]- Spin TQFT (sTQFT)
-> This is a TQFT, except the bordism has a manifold equiped with a spin structure and spin bundle, and we replace the vector space with super vector spaces
+> [!definition|*]- $2$D Spin TQFT ($2$D-sTQFT)
+> This is a symmetric [[Monoidal Category|monoidal]] [[Functors|functor]] between a spin [[Bordisms|bordism]] and super vector space $Z:\text{Bord}^{\text{Spin}}_{2 }\to\text{sVect}_{k}$. 
+> The bordism will have two distinct spin structures:
+> - Neveu-Schwarz, a loop in the spin bundle for its spin structure $s_{NS}$, which is perioidic
+> - Ramond, a path in the spin bundle of its spin structure that results in a sign change, $s_{R}$, which is anti-periodic
+> It will naturally have the properties of a [[Functors|functor]], while also respect the grading of the super vector space using the aforementioned spin structures:
+> - The objects of $\text{Bord}^{\text{Spin}}_{d}$ are pairs $(\Sigma,s)$, where $s$ is one of the aforementioned spin structures, and $\Sigma$ 
+
+
+> [!definition|*]- $2$D Spin TQFT ($2$D-sTQFT)
+> This is much like a TQFT that it is a functor, albeit from the category of spin bordisms to super vector spaces, $Z:Bord_{2}^{spin}\to sVect_{k}$. Specifically the spin bordism's manifold is equipped with a spin structure, $s$, and will be described as a pair, $(\Sigma,s)$ where $\Sigma$ is an object of the $Bord_{2}$ category like $S_{1}$.
+> These will have two distinct spin structures: Neveu-Schwarz, a loop in the spin bundle for its spin structure $s_{NS}$, which is perioidic; Ramond, a path in the spin bundle of its spin structure that results in a sign change, $s_{R}$, which is anti-periodic.
+> $$Z(\Sigma,s_{NS})=A_{NS}\qquad Z(\Sigma,S_{R})=A_{R}$$
+> Unlike in regular TQFTs we can no longer describe the state spaces through a single vector space, but with a pair, as shown above. This easily lends itself to the structure that a super vector space has, $A=A_{NS}+A_{R}$, where $A_{NS}$ behaves equivalently to $A_{\bar{0}}$ and $A_{R}$ to $A_{\bar{1}}$.
  ^def-cat-stqft
+ 

@@ -21,3 +21,10 @@ aliases:
 > - Finally for the identity $\text{id}_{A}\otimes \text{id}_{B}=\text{id}_{A\otimes B}$ to be true
  ^def-cat-tens-prod
 
+> [!definition|*]- Direct sum
+> This binary operator $\oplus$ takes two objects, $A$ and $B$, of a single [[Categories|category]], $\mathcal{C}$ to make a new object $A\oplus B$ together with four morphisms
+> - The projective morphisms $p_{A}:A\oplus B\to A$ and $p_{B}:A\oplus B\to B$
+> - The injective morphisms $i_{A}:A\to A\oplus B$ and $i_{B}:B\to B$, 
+> - Finally for the identity $p_{A}\circ i_{A}=\text{id}_{A}$ and $p_{B}\circ i_{B}=\text{id}_{B}$ to be true
+ ^def-cat-tens-prod
+

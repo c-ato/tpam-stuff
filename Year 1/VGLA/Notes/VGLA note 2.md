@@ -47,7 +47,7 @@ tags:
 > - Every element of $V$ have an inverse element.
  ^def-group
 
-> [!definition|*]- Abelian
+> [!definition|*]- Abelian Group
 > A group with binary operation $∗$ is called abelian if and only if $∗$ is commutative
  ^def-abelian
 
