@@ -8,7 +8,7 @@ tags:
  ^thm-
 
 > [!definition|*]- Binary operation
-> A binary operation on a set $V$ to a set $C$ is a function
+> A binary operation takes two values from a set $V$ to a set $C$ as a function:
 > $$B:V\times V\mapsto C$$
  ^def-binary-oper
 

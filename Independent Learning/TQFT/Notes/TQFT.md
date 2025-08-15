@@ -35,9 +35,10 @@ aliases:
 
 
 > [!definition|*]- $2$D Spin TQFT ($2$D-sTQFT)
-> This is much like a TQFT that it is a functor, albeit from the category of spin bordisms to super vector spaces, $Z:Bord_{2}^{spin}\to sVect_{k}$. Specifically the spin bordism's manifold is equipped with a spin structure, $s$, and will be described as a pair, $(\Sigma,s)$ where $\Sigma$ is an object of the $Bord_{2}$ category like $S_{1}$.
-> These will have two distinct spin structures: Neveu-Schwarz, a loop in the spin bundle for its spin structure $s_{NS}$, which is perioidic; Ramond, a path in the spin bundle of its spin structure that results in a sign change, $s_{R}$, which is anti-periodic.
-> $$Z(\Sigma,s_{NS})=A_{NS}\qquad Z(\Sigma,S_{R})=A_{R}$$
-> Unlike in regular TQFTs we can no longer describe the state spaces through a single vector space, but with a pair, as shown above. This easily lends itself to the structure that a super vector space has, $A=A_{NS}+A_{R}$, where $A_{NS}$ behaves equivalently to $A_{\bar{0}}$ and $A_{R}$ to $A_{\bar{1}}$.
+> This is much like a TQFT that it is a functor, albeit from the category of spin bordisms to super vector spaces, $Z:Bord_{2}^{spin}\to sVect_{k}$.
+> These will have two distinct spin structures: 
+> - Neveu-Schwarz, a loop in the spin bundle for its spin structure, $s_{NS}$, which is perioidic, $Z(\Sigma,s_{NS})=A_{NS}$
+> - Ramond, a path in the spin bundle of its spin structure that results in a sign change, $s_{R}$, which is anti-periodic, $Z(\Sigma,S_{R})=A_{R}$
+> In contrast to regular TQFTs we can no longer map objects to a single state spaces, but instead two different types, as shown above. It is then easily seen how sTQFTs are equivalent to sFA where the total state space can be constructed as, $A=A_{NS}\oplus A_{R}$, where $A_{NS}$ behaves equivalently to $A_{\bar{0}}$ and $A_{R}$ to $A_{\bar{1}}$.
  ^def-cat-stqft
  

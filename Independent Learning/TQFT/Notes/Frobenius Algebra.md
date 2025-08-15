@@ -33,7 +33,7 @@ aliases:
  ^thm-cat-cFA-equiv-TQFT
 
 > [!definition|*]- Super Frobenius Algebra (sFA)
-> This builds off a super vector space with its grading, so let a sFA be $A=A_{\bar{0}}+A_{\bar{1}}$ where it is an object in the symmetric monoidal category of super vector spaces, $(sVect,\otimes,k)$ equipped with the following structures that respect the grading of the super vector space:
+> This builds off a super vector space with its grading, so let a sFA be $A=A_{\bar{0}}\oplus A_{\bar{1}}$ where it is an object in the symmetric monoidal category of super vector spaces, $(sVect,\otimes,k)$ equipped with the following structures that respect the grading of the super vector space:
 > - A multiplication [[Morphisms|morphism]] $m:A\otimes A\to A$, which satisfies $m(A_{\bar{i}}\otimes A_{\bar{j}})\subseteq A_{\bar{i}+\bar{j}\,\text{mod }2}$
 > - A unit [[Morphisms|morphism]] $\eta :I\to A$ such that unit object is in the evens, $1_{A}\in A_{\bar{0}}$. These satisfy the usual associativity and unit axioms for an algebra
 > 	- $m\circ (m\otimes id_{A} ​)$=$m\circ (id_{A} ​\otimes m)$ (associativity)
