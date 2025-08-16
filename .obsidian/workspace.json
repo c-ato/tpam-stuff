@@ -8,7 +8,79 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e0880e74d3a4df8c",
+            "id": "36ea7bef33f1b8b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 1/VGLA/Notes/Group Proper.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Group Proper"
+            }
+          },
+          {
+            "id": "6cd18e31860d7cd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Connectedness.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Connectedness"
+            }
+          },
+          {
+            "id": "104fa568452db44a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Learning/TQFT/Notes/Product space.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Product space"
+            }
+          },
+          {
+            "id": "234e9355edad8e44",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,12 +104,12 @@
             }
           },
           {
-            "id": "c89f11128e075068",
+            "id": "f6e7a7df1997dbe1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/TQFT.md",
+                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,107 +124,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TQFT"
-            }
-          },
-          {
-            "id": "1220ca7b4785640b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Frobenius Algebra.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Frobenius Algebra"
-            }
-          },
-          {
-            "id": "07a61de8139e392c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Bordisms.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Bordisms"
-            }
-          },
-          {
-            "id": "6a146635e279d8a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Functors.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Functors"
-            }
-          },
-          {
-            "id": "e8c6edd9ca396700",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year 1/VGLA/Notes/vgla note 7.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "vgla note 7"
+              "title": "Manifolds"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,7 +150,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "File explorer"
             }
           },
           {
@@ -225,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/TQFT.md",
+                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +210,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TQFT"
+              "title": "Backlinks for Manifolds"
             }
           },
           {
@@ -244,12 +219,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/TQFT.md",
+                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TQFT"
+              "title": "Outgoing links from Manifolds"
             }
           },
           {
@@ -328,8 +303,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:Open today's daily note": false,
-      "markdown-importer:Open format converter": false,
+      "daily-notes:Open today's note": false,
+      "markdown-importer:Open Markdown importer": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -341,59 +316,60 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
+      "soundscapes:Soundscapes: My Music": false,
       "edge-tts:Read note aloud": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "c89f11128e075068",
+  "active": "36ea7bef33f1b8b2",
   "lastOpenFiles": [
-    "Year 1/VGLA/Notes/vgla note 7.md",
-    "Year 1/VGLA/Notes/VGLA note 2.md",
-    "Year 1/VGLA/Notes/vgla note 6.md",
-    "Year 1/VGLA/Notes/VGLA note 3.md",
-    "Year 1/VGLA/Notes/vgla note 4.md",
-    "Year 1/VGLA/Notes/vgla note 5.md",
+    "Year 1/VGLA/Notes/Functions.md",
     "Year 1/VGLA/Notes/VGLA note 1.md",
-    "Independent Learning/TQFT/Notes/Functors.md",
-    "Year 1/Summative Assessed Problem/My solutions/Solved/vgla assessed 4.md",
-    "Independent Learning/TQFT/Notes/TQFT.md",
-    "Independent Learning/TQFT/Notes/Bordisms.md",
-    "Independent Learning/TQFT/Notes/Monoidal Category.md",
-    "Independent Learning/TQFT/Notes/Product space.md",
-    "Independent Learning/TQFT/Notes/Frobenius Algebra.md",
-    "Independent Learning/TQFT/Notes/Categories.md",
-    "Independent Learning/TQFT/Notes/Bilinear form.md",
-    "Independent Learning/TQFT/Notes/Morphisms.md",
-    "Independent Learning/TQFT/Notes/Super Vector Space.md",
-    "Independent Learning/TQFT/Notes/Equivariant.md",
-    "Independent Learning/TQFT/Notes/Spin Structure.md",
-    "Utility/Template/temp.md",
-    "Utility/Template/desktop.ini",
-    "Year 1/Formative Problems/Problem sheet/Exam papers/2024/Paper/SR,P 2024.pdf~RF2163fa3.TMP",
-    "Year 1/Formative Problems/Problem sheet/Subjects/OW/Ps5_nq_OW.pdf~RF2163330.TMP",
-    "Year 1/Formative Problems/Problem sheet/Exam papers/Ancient/msm1cexam2001.pdf~RF2162cb7.TMP",
-    "Year 1/Summative Assessed Problem/Problem sheet/Solved/Year 1 Assessed Problems_6.pdf~RF21623ce.TMP",
-    "Independent Learning/TQFT/Material/Google Gemini_files/gemini_sparkle_red_4ed1cbfcbc6c9e84c31b987da73fc4168aec8445.svg~RF2161e31.TMP",
-    "Utility/Template",
-    "Year 1/TM/Lecture/lecture_12_slides.pdf~RF2155999.TMP",
-    "Year 1/TM/Derivations/average_speed.pdf~RF21554e5.TMP",
-    "Year 1/TM/Derivations/standard_integral_proof.pdf~RF21553bd.TMP",
-    "Independent Learning/TQFT/Notes/Metric space.md",
     "Independent Learning/TQFT/Notes/Spinor Bundles.md",
-    "Independent Learning/TQFT/Notes/General Linear Group.md",
-    "Independent Learning/TQFT/Notes/Orthogonal Groups.md",
+    "Utility/Template/temp.md",
+    "Utility/Template",
+    "Independent Learning/TQFT/Notes/Bilinear form.md",
+    "Independent Learning/TQFT/Notes/Fundamental Representation.md",
     "Independent Learning/TQFT/Notes/Group Representation.md",
-    "Utility/Images/{E0C819E7-67B4-422F-B737-12AAADCBDD8C}.png",
-    "Utility/Images/{CE29CD0B-27E5-4737-BC4D-EBAE35F38AE6}.png",
-    "Utility/Images/{BF0F1B53-1AA0-49AB-8178-98FDA8347A7F}.png",
-    "Utility/Images/{306CE8F0-A5E5-492A-A0AB-A7FB46BF1356}.png",
-    "Utility/Images/Pasted image 20250530102441.png",
-    "Utility/Images/Pasted Image 20250513090900_628.png",
+    "Utility/Images/2017 A 2025-08-07 15.22.47.excalidraw.md",
+    "Independent Learning/SMMC/Solutions/smmc_2024_solutions.pdf",
+    "Independent Learning/SMMC/Solutions/smmc2023solutions.pdf",
+    "Independent Learning/SMMC/Solutions/smmc-2022-solutions.pdf",
+    "Independent Learning/SMMC/Solutions/smmc-2021-solutions.pdf",
+    "Independent Learning/SMMC/Solutions/smmc-2019-solutions_1.pdf",
+    "Independent Learning/SMMC/Solutions/smmc-2020-solutions_1.pdf",
+    "Independent Learning/SMMC/Solutions/smmc-2018-solutions_1.pdf",
+    "Independent Learning/SMMC/Solutions/smmc-2017-solutions-preliminary_1.pdf",
+    "Independent Learning/SMMC/Solutions",
     "Independent Learning/SMMC/Questions/SMMC - More sample problems.png",
+    "Independent Learning/SMMC/Mines Sol/2017 A.md",
+    "Independent Learning/TQFT/Notes/Spin Structure.md",
+    "Independent Learning/TQFT/Notes/Fundamental Group.md",
+    "Independent Learning/TQFT/Notes/Manifolds.md",
+    "Independent Learning/TQFT/Notes/Homotogy.md",
+    "Independent Learning/TQFT/Notes/Equivariant.md",
+    "Independent Learning/TQFT/Notes/General Linear Group.md",
+    "Independent Learning/TQFT/Notes/Connectedness.md",
+    "Independent Learning/TQFT/Notes/Morphisms.md",
+    "Independent Learning/TQFT/Notes/Neighbourhoods.md",
+    "Independent Learning/TQFT/Notes/Orthogonal Groups.md",
+    "Independent Learning/TQFT/Notes/Product space.md",
+    "Independent Learning/TQFT/Notes/Quotient Space.md",
+    "Independent Learning/TQFT/Notes/Riemann Surface.md",
+    "Independent Learning/TQFT/Notes/Super Vector Space.md",
+    "Independent Learning/TQFT/Notes/Surfaces.md",
+    "Independent Learning/TQFT/Notes/Frobenius Algebra.md",
+    "Independent Learning/TQFT/Notes/Tangent Space.md",
+    "Independent Learning/TQFT/Material/Google Gemini_files/gemini_sparkle_red_4ed1cbfcbc6c9e84c31b987da73fc4168aec8445.svg",
     "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed_002.jpg",
+    "Independent Learning/TQFT/Material/Google Gemini_files/unnamed_003.jpg",
+    "Independent Learning/TQFT/Material/Google Gemini_files/unnamed_002.jpg",
+    "Independent Learning/TQFT/Material/Google Gemini_files/account_data/photo.png",
     "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed.jpg",
-    "Independent Learning/TQFT/Material/Google Gemini_files/account_data/photo.png"
+    "Independent Learning/TQFT/Material/Google Gemini_files/unnamed.jpg",
+    "Independent Learning/TQFT/Material/Google Gemini_files/unnamed.png",
+    "Utility/Images/{D39D60E4-2697-4021-AA9D-37BEF2A7D664}.png"
   ]
 }
