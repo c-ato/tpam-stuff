@@ -28,3 +28,11 @@ aliases:
 > - Finally for the identity $p_{A}\circ i_{A}=\text{id}_{A}$ and $p_{B}\circ i_{B}=\text{id}_{B}$ to be true
  ^def-cat-tens-prod
 
+
+> [!definition|*]- Super Tensor Product
+> This binary operator $\otimes_{s}$ takes two objects of a single [[Categories|category]], $\mathcal{C}$ satisfies the following:
+> - $A,B$ of $\mathcal{C}$, a super vector space, to make a new object $A\otimes_{s} B$, where the grade of the new object is given as $\text{deg}(a\otimes_{s}b)=\text{deg}(a)+\text{deg}(b)\, \text{mod(2)}$, where $a \in A,b \in B$
+> - It also needs to satisfy for composition for [[morphisms]]: $A',B'$ are of $\mathcal{C}$, $f:A\to A'$ and $g:B\to B'$ such that $f\otimes_{s} g:A\otimes_{s} B\to A'\otimes_{s} B'$, where the grade of the new morphism is given as $\text{deg}(f\otimes_{s}g)=\text{deg}(f)+\text{deg}(g)\, \text{mod(2)}$
+> - For the identity $\text{id}_{A}\otimes_{s} \text{id}_{B}=\text{id}_{A\otimes_{s} B}$ to be true where it is an morphism contained in the bosonic space of the super vector space, so its degree is always $0$
+> - Finally for supersymmetry to hold as such, $a\otimes_{s}b=(-1)^{\text{deg}(a)\cdot \text{deg}(b)}b\otimes_{s}a$
+ ^def-cat-sup-tens-prod
