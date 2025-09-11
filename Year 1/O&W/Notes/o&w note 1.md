@@ -1,7 +1,6 @@
 ---
 tags:
-  - physics
-  - optics
+  - physics/optics
 ---
 > [!exercise|*] Derivation of SHM, Acceleration and energy
 > 

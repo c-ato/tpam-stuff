@@ -3,6 +3,7 @@ tags:
   - maths/topology
   - maths/vectors
   - maths/algebra
+  - concepts
 aliases:
   - spinor
   - spinors

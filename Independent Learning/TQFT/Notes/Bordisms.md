@@ -1,8 +1,8 @@
 ---
 tags:
-  - maths
   - maths/topology
   - maths/category
+  - concepts
 aliases:
   - bord
   - bordism

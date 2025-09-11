@@ -3,6 +3,7 @@ tags:
   - maths/algebra
   - maths/vectors
   - maths/geometry
+  - concepts
 aliases:
   - fundamental representation
   - spin representation

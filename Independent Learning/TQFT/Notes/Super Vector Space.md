@@ -1,6 +1,6 @@
 ---
 tags:
-  - maths
+  - concepts
   - maths/category
   - maths/vectors
   - maths/algebra

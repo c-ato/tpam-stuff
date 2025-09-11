@@ -1,7 +1,6 @@
 ---
 tags:
-  - physics
-  - relativity
+  - physics/relativity
 ---
 $$
 \underline{r}'=\underline{r}-\underline{v}\cdot t

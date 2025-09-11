@@ -2,10 +2,9 @@
 tags:
   - maths/algebra
   - maths/vectors
+  - concepts
 aliases:
   - orthogonal group
-  - O(n)
-  - SO(n)
   - special orthogonal group
   - special orthogonal groups
   - orthogonal groups

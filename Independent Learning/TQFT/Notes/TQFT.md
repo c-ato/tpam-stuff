@@ -1,9 +1,7 @@
 ---
 tags:
-  - maths
-  - physics
+  - concepts
   - maths/topology
-  - quantum
   - maths/category
 aliases:
   - TQFTs

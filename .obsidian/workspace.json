@@ -56,6 +56,33 @@
             }
           },
           {
+            "id": "b094fe8bd34871b2",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Untitled.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "9e8e725cc088dbba",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://help.obsidian.md/bases/functions",
+                "title": "Functions - Obsidian Help",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Functions - Obsidian Help"
+            }
+          },
+          {
             "id": "6cd18e31860d7cd6",
             "type": "leaf",
             "state": {
@@ -176,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,7 +235,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#differentials",
+                "query": "tag:#physics/optics",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -229,7 +256,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -344,7 +372,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -352,6 +380,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "daily-notes:Open today's daily note": false,
       "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
@@ -371,26 +400,37 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "1f25958540505340",
+  "active": "5ea501e83b8a10a9",
   "lastOpenFiles": [
-    "Independent Learning/TQFT/Notes/Frobenius Algebra.md",
-    "Independent Learning/TQFT/Notes/Super Vector Space.md",
-    "Independent Learning/TQFT/Notes/Functors.md",
+    "Untitled.md",
+    "Year 1/Prob/Lecture/Lecture.md",
+    "Untitled.base",
+    "Year 1/RA/Notes/ra note 5.md",
+    "Independent Learning/TQFT/Notes/Vertices.md",
     "Independent Learning/TQFT/Notes/TQFT.md",
-    "Independent Learning/TQFT/Notes/Lie Group.md",
-    "Independent Learning/TQFT/Notes/Pullback.md",
-    "Independent Learning/TQFT/Notes/Bordisms.md",
-    "Independent Learning/TQFT/Notes/test.md",
-    "Year 1/VGLA/Notes/Group Proper.md",
-    "Year 1/VGLA/Notes/Functions.md",
-    "Year 1/VGLA/Notes/VGLA note 1.md",
+    "Independent Learning/TQFT/Notes/Topology.md",
+    "Independent Learning/TQFT/Notes/Tangent Space.md",
+    "Independent Learning/TQFT/Notes/Surfaces.md",
+    "Independent Learning/TQFT/Notes/Super Vector Space.md",
     "Independent Learning/TQFT/Notes/Spinor Bundles.md",
-    "Utility/Template/temp.md",
-    "Utility/Template",
-    "Independent Learning/TQFT/Notes/Bilinear form.md",
-    "Independent Learning/TQFT/Notes/Fundamental Representation.md",
+    "Independent Learning/TQFT/Notes/Spin Structure.md",
+    "Independent Learning/TQFT/Notes/Riemann Surface.md",
+    "Independent Learning/TQFT/Notes/Quotient Space.md",
+    "Independent Learning/TQFT/Notes/Pullback.md",
+    "Independent Learning/TQFT/Notes/Product space.md",
+    "Independent Learning/TQFT/Notes/Neighbourhoods.md",
+    "Independent Learning/TQFT/Notes/Morphisms.md",
+    "Independent Learning/TQFT/Notes/Monoidal Category.md",
+    "Independent Learning/TQFT/Notes/Metric space.md",
+    "Independent Learning/TQFT/Notes/Manifolds.md",
+    "Independent Learning/TQFT/Notes/Limit points.md",
+    "Independent Learning/TQFT/Notes/Lie Group.md",
+    "Independent Learning/TQFT/Notes/Identification Space.md",
+    "Independent Learning/TQFT/Notes/Homotogy.md",
+    "Independent Learning/TQFT/Notes/Hausdorff.md",
     "Independent Learning/TQFT/Notes/Group Representation.md",
-    "Utility/Images/2017 A 2025-08-07 15.22.47.excalidraw.md",
+    "Utility/Images/{3EC11749-F92D-43DA-8184-08111DA5A730}.png",
+    "Utility/Template",
     "Independent Learning/SMMC/Solutions/smmc_2024_solutions.pdf",
     "Independent Learning/SMMC/Solutions/smmc2023solutions.pdf",
     "Independent Learning/SMMC/Solutions/smmc-2022-solutions.pdf",
@@ -399,17 +439,7 @@
     "Independent Learning/SMMC/Solutions/smmc-2020-solutions_1.pdf",
     "Independent Learning/SMMC/Solutions/smmc-2018-solutions_1.pdf",
     "Independent Learning/SMMC/Solutions/smmc-2017-solutions-preliminary_1.pdf",
-    "Independent Learning/SMMC/Solutions",
     "Independent Learning/SMMC/Questions/SMMC - More sample problems.png",
-    "Independent Learning/SMMC/Mines Sol/2017 A.md",
-    "Independent Learning/TQFT/Notes/Spin Structure.md",
-    "Independent Learning/TQFT/Notes/Fundamental Group.md",
-    "Independent Learning/TQFT/Notes/Manifolds.md",
-    "Independent Learning/TQFT/Notes/Homotogy.md",
-    "Independent Learning/TQFT/Notes/Equivariant.md",
-    "Independent Learning/TQFT/Notes/General Linear Group.md",
-    "Independent Learning/TQFT/Notes/Connectedness.md",
-    "Independent Learning/TQFT/Notes/Morphisms.md",
     "Independent Learning/TQFT/Material/Google Gemini_files/gemini_sparkle_red_4ed1cbfcbc6c9e84c31b987da73fc4168aec8445.svg",
     "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed_002.jpg",
     "Independent Learning/TQFT/Material/Google Gemini_files/unnamed_003.jpg",
@@ -417,7 +447,6 @@
     "Independent Learning/TQFT/Material/Google Gemini_files/account_data/photo.png",
     "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed.jpg",
     "Independent Learning/TQFT/Material/Google Gemini_files/unnamed.jpg",
-    "Independent Learning/TQFT/Material/Google Gemini_files/unnamed.png",
-    "Utility/Images/{D39D60E4-2697-4021-AA9D-37BEF2A7D664}.png"
+    "Independent Learning/TQFT/Material/Google Gemini_files/unnamed.png"
   ]
 }

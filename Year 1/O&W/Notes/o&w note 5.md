@@ -1,7 +1,6 @@
 ---
 tags:
-  - physics
-  - optics
+  - physics/optics
 ---
 ![[lecture 16.pdf#page=2|lecture 16, p.2]]
 ![[lecture 16.pdf#page=9|lecture 16, p.9]]

@@ -1,6 +1,6 @@
 ---
 tags:
-  - maths
+  - concepts
   - maths/topology
 aliases:
   - homomorphisms

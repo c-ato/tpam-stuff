@@ -1,6 +1,5 @@
 ---
 tags:
-  - maths
   - maths/algebra
 ---
 > [!theorem|*] Dot product

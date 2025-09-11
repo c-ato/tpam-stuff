@@ -1,6 +1,5 @@
 ---
 tags:
-  - maths
   - maths/geometry
   - maths/algebra
 ---

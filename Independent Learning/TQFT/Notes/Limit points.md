@@ -1,7 +1,8 @@
 ---
 tags:
-  - maths
+  - concepts
   - maths/topology
+  - concepts
 aliases:
   - limit point
 ---

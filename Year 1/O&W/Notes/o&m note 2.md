@@ -1,7 +1,6 @@
 ---
 tags:
-  - physics
-  - optics
+  - physics/optics
 ---
 ![[lecture 2-R.pdf#page=5&rect=4,72,302,456|lecture 2-R, p.5]]
 

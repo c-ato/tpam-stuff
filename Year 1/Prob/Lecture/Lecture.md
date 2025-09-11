@@ -1,5 +1,0 @@
----
-tags:
-  - maths
-  - prob
----

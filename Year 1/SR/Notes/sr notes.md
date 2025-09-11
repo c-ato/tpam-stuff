@@ -1,7 +1,6 @@
 ---
 tags:
-  - physics
-  - relativity
+  - physics/relativity
 ---
 French - Special Relativity
 Lawder - Elements of Relativity Theory

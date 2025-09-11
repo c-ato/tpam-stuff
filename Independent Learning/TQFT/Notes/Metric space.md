@@ -1,7 +1,7 @@
 ---
 tags:
   - maths/topology
-  - maths
+  - concepts
 aliases:
   - metric
   - metric space

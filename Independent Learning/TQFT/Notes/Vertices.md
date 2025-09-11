@@ -1,9 +1,7 @@
 ---
 tags:
-  - maths
-
+  - concepts
   - maths/topology
-
 aliases:
   - vertex
 ---

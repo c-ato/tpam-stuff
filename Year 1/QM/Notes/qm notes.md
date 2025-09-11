@@ -1,8 +1,7 @@
 ---
 tags:
-  - physics
-  - matter
-  - temperature
+  - physics/matter
+  - physics/temperature
 ---
 Coulomb Potential Energy: $u(r)=\frac{qQ}{4\pi \epsilon_{0}r}$
 

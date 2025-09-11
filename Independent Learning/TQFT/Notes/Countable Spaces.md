@@ -1,11 +1,9 @@
 ---
 tags:
-  - maths
   - maths/topology
+  - concepts
 aliases:
   - countable space
-  - first countable
-  - second countable
 ---
 
 > [!definition|*]- First Countable Spaces

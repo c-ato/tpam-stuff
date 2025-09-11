@@ -1,6 +1,5 @@
 ---
 tags:
-  - maths
   - sequences
   - series
 ---

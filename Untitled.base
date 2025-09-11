@@ -1,0 +1,28 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("maths", "physics")
+    order:
+      - file.name
+      - aliases
+      - tags
+      - file.size
+    sort:
+      - property: aliases
+        direction: ASC
+      - property: file.size
+        direction: DESC
+      - property: tags
+        direction: DESC
+      - property: file.backlinks
+        direction: DESC
+      - property: file.tags
+        direction: ASC
+      - property: formula.Untitled
+        direction: DESC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.aliases: 601

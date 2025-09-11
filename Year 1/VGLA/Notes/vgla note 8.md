@@ -1,6 +1,5 @@
 ---
 tags:
-  - maths
   - maths/vectors
 ---
 [[1VGLA_AU.pdf#page=179|1VGLA_AU, p.170]]

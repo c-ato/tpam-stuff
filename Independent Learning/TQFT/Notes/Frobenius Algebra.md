@@ -1,11 +1,9 @@
 ---
 tags:
-  - maths
-  - physics
   - maths/topology
-  - quantum
   - maths/category
   - maths/algebra
+  - concepts
 aliases:
   - frobenius
   - Frobenius

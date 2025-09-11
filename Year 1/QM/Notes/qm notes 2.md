@@ -1,8 +1,7 @@
 ---
 tags:
-  - physics
-  - matter
-  - temperature
+  - physics/matter
+  - physics/temperature
 ---
 ![[Pasted image 20241010091502.png]]
 $I(\lambda)$ is the intensity per wavelength at wavelength.

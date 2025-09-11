@@ -1,6 +1,7 @@
 ---
 tags:
   - maths/category
+  - concepts
 aliases:
   - pullbacks
 ---

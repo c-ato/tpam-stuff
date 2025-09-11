@@ -1,6 +1,6 @@
 ---
 tags:
-  - maths
+  - concepts
   - maths/topology
   - maths/category
 aliases:

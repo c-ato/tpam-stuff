@@ -2,6 +2,7 @@
 tags:
   - maths/topology
   - maths/category
+  - concepts
 aliases:
   - category
 ---

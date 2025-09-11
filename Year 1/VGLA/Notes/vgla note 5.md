@@ -1,6 +1,5 @@
 ---
 tags:
-  - maths
   - maths/algebra
 ---
 > [!definition|*]- Permutation

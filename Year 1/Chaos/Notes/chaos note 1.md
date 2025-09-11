@@ -1,8 +1,6 @@
 ---
 tags:
-  - maths
-  - physics
-  - chaos
+  - physics/chaos
   - differentials
 ---
 > [!definition|*]- Lagrangian (dissipative) systems

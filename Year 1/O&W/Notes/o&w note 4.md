@@ -1,7 +1,6 @@
 ---
 tags:
-  - physics
-  - optics
+  - physics/optics
 ---
 If wave speed depends on frequency, the medium is called dispersive
 

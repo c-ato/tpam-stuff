@@ -1,6 +1,5 @@
 ---
 tags:
-  - maths
   - prob
 ---
 > [!definition|*]- Binomial equation/notation

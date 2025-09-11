@@ -1,7 +1,7 @@
 ---
 tags:
-  - maths
   - maths/category
+  - concepts
 aliases:
   - functor
   - tensor product

@@ -1,6 +1,7 @@
 ---
 tags:
   - maths/algebra
+  - concepts
 aliases:
   - equvariance
   - equivariants

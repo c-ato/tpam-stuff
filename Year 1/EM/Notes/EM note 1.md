@@ -1,7 +1,6 @@
 ---
 tags:
-  - physics
-  - electromagnetism
+  - physics/electromagnetism
 ---
 Charge is conserved in a closed system
 

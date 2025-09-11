@@ -1,6 +1,7 @@
 ---
 tags:
   - maths/topology
+  - concepts
 aliases:
   - curve
   - loop

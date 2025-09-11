@@ -1,7 +1,6 @@
 ---
 tags:
-  - physics
-  - optics
+  - physics/optics
 ---
 ![[lecture 4-R.pdf#page=3]]
 $$

@@ -1,6 +1,6 @@
 ---
 tags:
-  - chaos
+  - physics/chaos
 ---
 [[CHAOS (A) 2022.pdf]]
 
