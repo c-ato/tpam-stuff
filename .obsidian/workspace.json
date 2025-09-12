@@ -32,40 +32,15 @@
             }
           },
           {
-            "id": "1f25958540505340",
+            "id": "784189fc6d6fdd3b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Functors.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Utility/Excalidraw/equiv.md"
               },
-              "icon": "lucide-file",
-              "title": "Functors"
-            }
-          },
-          {
-            "id": "b094fe8bd34871b2",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "excalidraw-icon",
+              "title": "equiv"
             }
           },
           {
@@ -203,7 +178,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -256,8 +231,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -277,17 +251,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
+                "file": "Utility/Excalidraw/equiv.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Manifolds"
+              "title": "Backlinks for equiv"
             }
           },
           {
@@ -296,12 +270,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
+                "file": "Utility/Excalidraw/equiv.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Manifolds"
+              "title": "Outgoing links from equiv"
             }
           },
           {
@@ -371,8 +345,7 @@
               "title": "Copilot"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -400,35 +373,35 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5ea501e83b8a10a9",
+  "active": "784189fc6d6fdd3b",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Year 1/Prob/Lecture/Lecture.md",
+    "Utility/Excalidraw/even more circuit for qu.md",
+    "Utility/Excalidraw/equiv.md",
+    "Utility/Excalidraw/more circuit for qu.md",
+    "Utility/Excalidraw/another circuit for qu.md",
+    "Utility/Excalidraw/sr Assessed problems week 3.md",
+    "Utility/Excalidraw/deriv of sinx x`-1.md",
+    "Utility/Excalidraw/qm note.md",
+    "Year 1/QM/Notes/qm notes.md",
+    "Utility/Excalidraw/chaos 2024 exam.md",
+    "Utility/Excalidraw/mech assessed 4.md",
+    "Utility/Excalidraw/mech 2024 exam.md",
+    "Utility/Excalidraw/em around wire for qu.md",
+    "Utility/Excalidraw/discrete to contin diagram for qu.md",
+    "Utility/Excalidraw/derive one of em eq for qu.md",
+    "Utility/Excalidraw/deriving water tension diagram for qu.md",
+    "Utility/Excalidraw/more jeasn but wth repulse and attract for qu.md",
+    "Utility/Excalidraw/jeans law stuff for qu.md",
+    "Utility/Excalidraw/B graph agains x for qu.md",
+    "Utility/Excalidraw/mag field diafram for qu.md",
+    "Utility/Excalidraw/counit law.md",
+    "Utility/Excalidraw/circle stuff qu.md",
+    "Utility/Excalidraw/force diagram of wire mesh and mag field.md",
+    "Utility/Excalidraw/volt thevenin thm.md",
+    "Utility/Excalidraw/thevenins thm current.md",
+    "Utility/Excalidraw/another pres vol graph for a qu.md",
+    "Independent Learning/TQFT/Notes/Functors.md",
     "Untitled.base",
-    "Year 1/RA/Notes/ra note 5.md",
-    "Independent Learning/TQFT/Notes/Vertices.md",
-    "Independent Learning/TQFT/Notes/TQFT.md",
-    "Independent Learning/TQFT/Notes/Topology.md",
-    "Independent Learning/TQFT/Notes/Tangent Space.md",
-    "Independent Learning/TQFT/Notes/Surfaces.md",
-    "Independent Learning/TQFT/Notes/Super Vector Space.md",
-    "Independent Learning/TQFT/Notes/Spinor Bundles.md",
-    "Independent Learning/TQFT/Notes/Spin Structure.md",
-    "Independent Learning/TQFT/Notes/Riemann Surface.md",
-    "Independent Learning/TQFT/Notes/Quotient Space.md",
-    "Independent Learning/TQFT/Notes/Pullback.md",
-    "Independent Learning/TQFT/Notes/Product space.md",
-    "Independent Learning/TQFT/Notes/Neighbourhoods.md",
-    "Independent Learning/TQFT/Notes/Morphisms.md",
-    "Independent Learning/TQFT/Notes/Monoidal Category.md",
-    "Independent Learning/TQFT/Notes/Metric space.md",
-    "Independent Learning/TQFT/Notes/Manifolds.md",
-    "Independent Learning/TQFT/Notes/Limit points.md",
-    "Independent Learning/TQFT/Notes/Lie Group.md",
-    "Independent Learning/TQFT/Notes/Identification Space.md",
-    "Independent Learning/TQFT/Notes/Homotogy.md",
-    "Independent Learning/TQFT/Notes/Hausdorff.md",
-    "Independent Learning/TQFT/Notes/Group Representation.md",
     "Utility/Images/{3EC11749-F92D-43DA-8184-08111DA5A730}.png",
     "Utility/Template",
     "Independent Learning/SMMC/Solutions/smmc_2024_solutions.pdf",

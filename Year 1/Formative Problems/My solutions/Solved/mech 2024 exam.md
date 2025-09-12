@@ -75,13 +75,13 @@ $$
 $$
 - 
 	- (ii) Show that the extension in the spring is given by $$2a\sin\left( \frac{\theta}{2} \right)-\frac{a}{2}$$
-![[mech 2024 exam 2025-05-13 09.08.29.excalidraw]]
+![[circle stuff qu]]
 $$
 a\sin\left( \frac{\theta}{2} \right)=\frac{l_{extended}}{2}\therefore l_{extended}=2a\sin\left( \frac{\theta}{2} \right)\qquad e=l_{extended}-l_{natural}=2a\sin\left( \frac{\theta}{2} \right)-\frac{a}{2}
 $$
 - 
 	- (iii) Find the height of the particle above the centre of the circle.
-![[mech 2024 exam 2025-05-13 09.11.28.excalidraw]]
+![[Utility/Excalidraw/mech 2024 exam]]
 $$
 h=a\cos \left( \frac{\theta}{2} \right)
 $$

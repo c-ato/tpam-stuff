@@ -3,19 +3,19 @@ views:
     name: Table
     filters:
       and:
-        - file.hasTag("maths", "physics")
+        - file.hasTag("excalidraw")
     order:
       - file.name
       - aliases
       - tags
       - file.size
     sort:
-      - property: aliases
-        direction: ASC
-      - property: file.size
-        direction: DESC
       - property: tags
         direction: DESC
+      - property: file.size
+        direction: DESC
+      - property: aliases
+        direction: ASC
       - property: file.backlinks
         direction: DESC
       - property: file.tags
@@ -25,4 +25,5 @@ views:
       - property: file.name
         direction: ASC
     columnSize:
-      note.aliases: 601
+      file.name: 352
+      note.aliases: 127

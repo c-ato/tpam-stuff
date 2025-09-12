@@ -102,7 +102,7 @@ $$
  & M[y]=8-8y & y\in\left[\frac{7}{8} , 8 \right] 
 \end{matrix}$$
 - (a) Depict this map on the interval $y \in [0,1]$
-![[chaos 2024 exam 2025-05-21 11.31.48.excalidraw]]
+![[Utility/Excalidraw/chaos 2024 exam]]
 - (b) Employ base 2 to find a useful representation for this map.
 $$
 \begin{matrix}

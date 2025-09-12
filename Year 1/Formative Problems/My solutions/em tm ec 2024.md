@@ -80,11 +80,11 @@ $\therefore$ top circuit has a lower total resistance and by $P=\frac{V^{2}}{R}$
 #### EITHER Part A
 - (a) Sketch the approximate form of the potential felt by an atom that is bound to another atom as a function of the interatomic distance. On this sketch, label both $\varepsilon$, the work done to separate the two atoms to infinity, and $r_{0}$, the equilibrium bond length between the two atoms. 
 
-![[em tm ec 2024 2025-05-12 10.30.01.excalidraw]]
+![[jeans law stuff for qu]]
 
 - (b) Now, instead sketch the force described by this potential as a function of interatomic distance, indicating where this force is attractive and repulsive, with $r_{0}$ clearly labelled. 
 
-![[em tm ec 2024 2025-05-12 10.32.58.excalidraw]]
+![[more jeasn but wth repulse and attract for qu]]
 - (c) The general form of the Lennard-Jones potential is given by $$V(r)=\frac{A}{r^{12}}-\frac{B}{r^{6}}$$Show that the generalised constants $A$ and $B$ can be related to $\varepsilon$ and $r_{0}$, with $A=\varepsilon r_{0}^{12}$ and B = $2\varepsilon r_{0}^{6}$.
 $$
 F(r)=-\frac{dV(r)}{dt}=\frac{6B}{r^{7}}-\frac{12A}{r^{13}}\qquad F(r_{0})=\frac{6B}{r_{0}^{7}}-\frac{12A}{r_{0}^{13}}=0\implies B=\frac{2A}{r_{0}^{6}}
@@ -97,7 +97,7 @@ $$
 $$
 - (d) A student puts some liquid argon, which has density $ρ$ and surface tension $γ$, into a refrigerated tank with a small tube of radius $r$ protruding vertically out of it. The liquid rises into the tube to a height $h$ and forms a meniscus, with a contact angle $θ$ between surface of the liquid and the wall of the tube. Derive an expression for the height the liquid reaches in the tube. You may assume the liquid undergoes an acceleration due to gravity of $g\,ms ^{-2}$.
 
-![[em tm ec 2024 2025-05-12 10.50.43.excalidraw]]
+![[deriving water tension diagram for qu]]
 $$
 F_{\gamma}\cos\theta=2\pi r\gamma \cos \theta=mg=V\rho g=\pi r^{2}h\rho g\implies h=\frac{2\gamma \cos\theta}{r\rho g}
 $$
@@ -151,7 +151,7 @@ Lets find the electric field for a single circle around the wire across $dl$ of 
 $$
 \int ^{}_{S} \mathbf{E}_{circ} \, d\mathbf{S}=\frac{Q_{encl}}{\varepsilon_{0}}=\frac{\lambda dl}{\varepsilon_{0}} \qquad \int ^{}_{S} \mathbf{E}_{circ} \, d\mathbf{S}=E_{circ}\int ^{}_{S}  \, dS=2\pi rE_{circ}  \implies E_{circ}=\frac{\lambda dl}{2\pi \varepsilon_{0}r}
 $$
-![[em tm ec 2024 2025-05-12 11.30.24.excalidraw]]
+![[derive one of em eq for qu]]
 Using symmetry we may ignore the vertical ($y$) component:
 $$
 dE=\frac{\lambda dl}{4\pi\varepsilon_{0}a^{2}}\cos \theta \qquad \tan \theta=\frac{l}{r}\implies dl=r\sec^{2}\theta \,d\theta\qquad \cos \theta=\frac{r}{a}\implies a=r\sec\theta
@@ -161,7 +161,7 @@ dE=\frac{\lambda dl}{4\pi\varepsilon_{0}a^{2}}\cos \theta=\frac{\lambda}{4\pi\va
 $$
 - (b) An infinite number of such infinite long wires, each identical to the one described in part (a), are placed in the $x$-$z$ plane, as shown in the figure below. All the wires are parallel to the $z$-axis and equally spaced so that there are $N$ wires per unit length along the $x$ direction. Use the superposition principle in combination with the result from (a) to derive an expression for the electric field at a point, with distance $d$ from the origin, along the $y$-axis. You may find the following sum useful: $$\sum^{\infty}_{n=-\infty} \frac{a}{a^{2}+n^{2}}=\frac{\pi \coth(\pi a)}{a}$$where a is any constant.
 
-![[em tm ec 2024 2025-05-12 11.45.05.excalidraw]]
+![[discrete to contin diagram for qu]]
 $$
 x=\frac{n}{N}\qquad dE_{y}=dE_{x}\cos\phi=\frac{\lambda}{2\pi\varepsilon_{0}(x^{2}+d^{2})^{\frac{1}{2}}}\frac{d}{(x^{2}+d^{2})^{\frac{1}{2}}}=\frac{\lambda d}{2\pi\varepsilon_{0}(x^{2}+d^{2})} 
 $$
@@ -191,7 +191,7 @@ $$
 $$
 - (b) Describe (or make a sketch showing) the direction of the magnetic field outside the wire mentioned in part (a) above. 
 
-![[em tm ec 2024 2025-05-12 14.09.43.excalidraw]]
+![[em around wire for qu]]
 
 - (c) The figure below shows the cross-section of an infinitely long conducting cylinder of radius 3a carrying a current density of J in the positive z direction (coming out of the page). Inside the cylinder is an infinitely long cylindrical hole of radius a, which is displaced so that its centre is at a distance a from the centre of the the conducting cylinder (obviously, no current flows inside the hole). Derive a vector expression for the magnitude and direction of the magnetic field inside the hole. (Hint: use the superposition principle and remember the magnetic field is perpendicular to both the current density and radial vector i.e. $\mathbf{B}\propto \mathbf{J \land \mathbf{r}}$.) 
 ![[{306CE8F0-A5E5-492A-A0AB-A7FB46BF1356}.png]]
@@ -215,11 +215,11 @@ $$
 
 Using superposition with the voltage source we get below as ideal current source and $AB$ are open circuited and all the detached resistors are short circuited:
 
-![[Untitled 2025-05-09 15.56.13.excalidraw]]
+![[another circuit for qu]]
 
 Using superposition with the current source we get below as ideal voltage source is close circuited and $AB$ are open circuited and resistor circuit equivalent is series parallel.
 
-![[Untitled 2025-05-09 16.02.35.excalidraw]]
+![[more circuit for qu]]
 $$
 I_{5}=1-1=0\qquad I_{2}=\frac{6}{5}\qquad I_{3}=\frac{4}{5}
 $$
@@ -234,7 +234,7 @@ $$
 $$
 R_{Th}=\left( \left( \frac{25}{10}+\frac{6}{5} \right)^{-1}+\frac{15}{50} \right)^{-1}=\frac{370}{211}=1.753\dots R
 $$
-![[Untitled 2025-05-09 16.27.36.excalidraw]]
+![[even more circuit for qu]]
 
 - (d) Add a $10 μF$ capacitor between $A$ and $B$, and calculate the time constant of the resulting circuit. What does the time constant represent in the dynamics of the circuit? 
 

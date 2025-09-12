@@ -2,7 +2,7 @@
 
 2. Assessed Let a particle of mass $m$ be attached to two springs, both with spring constant $k$. The end of one spring (denoted $α$, with natural length $a$) is attached at a point $A$, with the end of the other spring (denoted $β$, with natural length $2a$) attached at a point $B$, a distance $4a$ directly above $A$. The mass is attached to the free end of both springs. The particle is at a location $x(t)$, where $x$ is measured upwards such that $x = 0$ at point $A$.
 - (a)
-![[mech assessed 4 2025-03-22 03.58.47.excalidraw]]
+![[Utility/Excalidraw/mech assessed 4]]
 - (i) The extension in spring $α$ is given by $x − a$.
 As spring $\alpha$ starts from $A\,(x=0)$ and ends at where the mass is connected $(x)$ this gives the total length to be $x$ and the extension is the total length $-$ the original length so $x-a$
 - (ii) The extension in spring (β) is given by $(2a − x)$.
