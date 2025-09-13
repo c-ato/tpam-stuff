@@ -8,128 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "36ea7bef33f1b8b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Bordisms.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Bordisms"
-            }
-          },
-          {
-            "id": "784189fc6d6fdd3b",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Utility/Excalidraw/equiv.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "equiv"
-            }
-          },
-          {
-            "id": "9e8e725cc088dbba",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://help.obsidian.md/bases/functions",
-                "title": "Functions - Obsidian Help",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Functions - Obsidian Help"
-            }
-          },
-          {
-            "id": "6cd18e31860d7cd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Connectedness.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Connectedness"
-            }
-          },
-          {
-            "id": "104fa568452db44a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Product space.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Product space"
-            }
-          },
-          {
-            "id": "234e9355edad8e44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Learning/TQFT/Notes/Super Vector Space.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Super Vector Space"
-            }
-          },
-          {
             "id": "f6e7a7df1997dbe1",
             "type": "leaf",
             "state": {
@@ -176,9 +54,20 @@
               "icon": "lucide-file",
               "title": "Frobenius Algebra"
             }
+          },
+          {
+            "id": "92319104128dcbc9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Utility/Excalidraw/surface.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "surface"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Utility/Excalidraw/equiv.md",
+                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +150,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for equiv"
+              "title": "Backlinks for Manifolds"
             }
           },
           {
@@ -349,7 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 404.5
+    "width": 406.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -373,10 +262,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "784189fc6d6fdd3b",
+  "active": "f6e7a7df1997dbe1",
   "lastOpenFiles": [
-    "Utility/Excalidraw/even more circuit for qu.md",
+    "Utility/Excalidraw/riem holomorph.md",
+    "Utility/Images/Saddle_Point-1.png",
+    "Independent Learning/TQFT/Notes/Super Vector Space.md",
+    "Utility/Excalidraw/transit map and charts.md",
+    "Independent Learning/TQFT/Notes/Manifolds.md",
+    "Utility/Excalidraw/surface.md",
+    "Independent Learning/TQFT/Notes/Product space.md",
+    "Utility/Excalidraw/ident poly.md",
+    "Utility/Excalidraw/conn sum.md",
+    "Independent Learning/TQFT/Notes/Connectedness.md",
+    "Independent Learning/TQFT/Notes/Bordisms.md",
+    "Utility/Images/Pasted Image 20250913114256_928.png",
     "Utility/Excalidraw/equiv.md",
+    "Utility/Excalidraw/even more circuit for qu.md",
     "Utility/Excalidraw/more circuit for qu.md",
     "Utility/Excalidraw/another circuit for qu.md",
     "Utility/Excalidraw/sr Assessed problems week 3.md",
@@ -390,17 +291,6 @@
     "Utility/Excalidraw/discrete to contin diagram for qu.md",
     "Utility/Excalidraw/derive one of em eq for qu.md",
     "Utility/Excalidraw/deriving water tension diagram for qu.md",
-    "Utility/Excalidraw/more jeasn but wth repulse and attract for qu.md",
-    "Utility/Excalidraw/jeans law stuff for qu.md",
-    "Utility/Excalidraw/B graph agains x for qu.md",
-    "Utility/Excalidraw/mag field diafram for qu.md",
-    "Utility/Excalidraw/counit law.md",
-    "Utility/Excalidraw/circle stuff qu.md",
-    "Utility/Excalidraw/force diagram of wire mesh and mag field.md",
-    "Utility/Excalidraw/volt thevenin thm.md",
-    "Utility/Excalidraw/thevenins thm current.md",
-    "Utility/Excalidraw/another pres vol graph for a qu.md",
-    "Independent Learning/TQFT/Notes/Functors.md",
     "Untitled.base",
     "Utility/Images/{3EC11749-F92D-43DA-8184-08111DA5A730}.png",
     "Utility/Template",
@@ -418,8 +308,6 @@
     "Independent Learning/TQFT/Material/Google Gemini_files/unnamed_003.jpg",
     "Independent Learning/TQFT/Material/Google Gemini_files/unnamed_002.jpg",
     "Independent Learning/TQFT/Material/Google Gemini_files/account_data/photo.png",
-    "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed.jpg",
-    "Independent Learning/TQFT/Material/Google Gemini_files/unnamed.jpg",
-    "Independent Learning/TQFT/Material/Google Gemini_files/unnamed.png"
+    "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed.jpg"
   ]
 }
