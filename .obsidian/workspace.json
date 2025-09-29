@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
+                "file": "Year 1/VGLA/Notes/Groups.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Manifolds"
+              "title": "Groups"
             }
           },
           {
-            "id": "249114974948e2ac",
+            "id": "e269c5d1c4b012c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Frobenius Algebra.md",
+                "file": "Year 1/VGLA/Notes/Basis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,19 +52,234 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Frobenius Algebra"
+              "title": "Basis"
             }
           },
           {
-            "id": "92319104128dcbc9",
+            "id": "96d86d14fce06105",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Utility/Excalidraw/surface.md"
+                "file": "Year 1/VGLA/Notes/Basis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "surface"
+              "icon": "lucide-file",
+              "title": "Basis"
+            }
+          },
+          {
+            "id": "3d813651fae793f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 1/VGLA/Notes/Basis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Basis"
+            }
+          },
+          {
+            "id": "2b329d3f32846f85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 1/VGLA/Notes/Matrix properties.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Matrix properties"
+            }
+          },
+          {
+            "id": "e1c330352b75d07f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "LotM Volume 5.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "LotM Volume 5"
+            }
+          },
+          {
+            "id": "b0842d82adcb28e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 1/VGLA/Notes/Matrix types.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Matrix types"
+            }
+          },
+          {
+            "id": "8ccadbd0bce698e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 1/VGLA/Notes/Permutations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Permutations"
+            }
+          },
+          {
+            "id": "280adc1f82b69f11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 1/VGLA/Notes/Binary operations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Binary operations"
+            }
+          },
+          {
+            "id": "e94e66bd063416d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 1/VGLA/Notes/Field.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Field"
+            }
+          },
+          {
+            "id": "839315df31900e8b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Year 2/SP&E/Lectures/Sec_1_introduction.pdf",
+                "page": 2,
+                "left": -11,
+                "top": 432,
+                "zoom": 1.2599197683091543
+              },
+              "icon": "lucide-file-text",
+              "title": "Sec_1_introduction"
+            }
+          }
+        ],
+        "currentTab": 10
+      },
+      {
+        "id": "3369843265ba135b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d31075d2d1777fad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 2/SP&E/Notes/sp&e note 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "sp&e note 1"
             }
           }
         ]
@@ -99,7 +314,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#physics/optics",
+                "query": "tag:maths/algebra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,7 +339,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 364.5,
+    "collapsed": true
   },
   "right": {
     "id": "f8f6d84d1165094d",
@@ -140,7 +356,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Independent Learning/TQFT/Notes/Manifolds.md",
+                "file": "LotM Volume 5.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +366,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Manifolds"
+              "title": "Backlinks for LotM Volume 5"
             }
           },
           {
@@ -233,12 +449,24 @@
               "icon": "message-square",
               "title": "Copilot"
             }
+          },
+          {
+            "id": "321f5a1eb385060a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 406.5
+    "width": 406.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,46 +490,46 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f6e7a7df1997dbe1",
+  "active": "d31075d2d1777fad",
   "lastOpenFiles": [
-    "Utility/Excalidraw/riem holomorph.md",
-    "Utility/Images/Saddle_Point-1.png",
-    "Independent Learning/TQFT/Notes/Super Vector Space.md",
-    "Utility/Excalidraw/transit map and charts.md",
-    "Independent Learning/TQFT/Notes/Manifolds.md",
+    "Year 2/SP&E/Lectures/Sec_1_introduction.pdf",
+    "Year 2/SP&E/Notes/sp&e note 1.md",
+    "Year 2/SP&E/Lectures/Untitled.md",
+    "Year 2/SP&E/Lectures",
+    "Year 2/SP&E/Notes",
+    "Year 2/SP&E",
+    "Year 2",
+    "LotM Volume 5.pdf",
+    "Year 1/VGLA/Notes/Linear transformations.md",
+    "Year 1/VGLA/Notes/Linear combination.md",
+    "Year 1/VGLA/Notes/Matrix properties.md",
+    "Year 1/VGLA/Notes/Groups.md",
+    "Year 1/VGLA/Notes/Functions.md",
+    "Year 1/VGLA/Notes/Field.md",
+    "Year 1/VGLA/Notes/Conics.md",
+    "Year 1/VGLA/Notes/Complex numbers.md",
+    "Year 1/VGLA/Notes/Basis.md",
+    "Year 1/VGLA/Notes/Vector Space.md",
+    "Year 1/VGLA/Notes/vgla note 9.md",
+    "Year 1/VGLA/Notes/vgla note 8.md",
+    "Year 1/VGLA/Notes/Spanning set.md",
+    "Year 1/VGLA/Notes/Permutations.md",
+    "Year 1/VGLA/Notes/Matrix types.md",
+    "Year 1/VGLA/Notes/Binary operations.md",
+    "Year 1/VGLA/Notes/vgla note 6.md",
+    "Year 1/VGLA/Notes/Group Properties.md",
+    "Independent Learning/TQFT/Notes/Homotogy.md",
+    "Independent Learning/TQFT/Notes/Functors.md",
+    "Independent Learning/TQFT/Notes/Connected Sums.md",
+    "Year 1/VGLA/Notes/VGLA note 3.md",
     "Utility/Excalidraw/surface.md",
-    "Independent Learning/TQFT/Notes/Product space.md",
-    "Utility/Excalidraw/ident poly.md",
-    "Utility/Excalidraw/conn sum.md",
-    "Independent Learning/TQFT/Notes/Connectedness.md",
-    "Independent Learning/TQFT/Notes/Bordisms.md",
+    "Utility/Images/Saddle_Point-1.png",
     "Utility/Images/Pasted Image 20250913114256_928.png",
-    "Utility/Excalidraw/equiv.md",
-    "Utility/Excalidraw/even more circuit for qu.md",
-    "Utility/Excalidraw/more circuit for qu.md",
-    "Utility/Excalidraw/another circuit for qu.md",
-    "Utility/Excalidraw/sr Assessed problems week 3.md",
-    "Utility/Excalidraw/deriv of sinx x`-1.md",
-    "Utility/Excalidraw/qm note.md",
-    "Year 1/QM/Notes/qm notes.md",
-    "Utility/Excalidraw/chaos 2024 exam.md",
-    "Utility/Excalidraw/mech assessed 4.md",
-    "Utility/Excalidraw/mech 2024 exam.md",
-    "Utility/Excalidraw/em around wire for qu.md",
-    "Utility/Excalidraw/discrete to contin diagram for qu.md",
-    "Utility/Excalidraw/derive one of em eq for qu.md",
-    "Utility/Excalidraw/deriving water tension diagram for qu.md",
     "Untitled.base",
     "Utility/Images/{3EC11749-F92D-43DA-8184-08111DA5A730}.png",
     "Utility/Template",
     "Independent Learning/SMMC/Solutions/smmc_2024_solutions.pdf",
     "Independent Learning/SMMC/Solutions/smmc2023solutions.pdf",
-    "Independent Learning/SMMC/Solutions/smmc-2022-solutions.pdf",
-    "Independent Learning/SMMC/Solutions/smmc-2021-solutions.pdf",
-    "Independent Learning/SMMC/Solutions/smmc-2019-solutions_1.pdf",
-    "Independent Learning/SMMC/Solutions/smmc-2020-solutions_1.pdf",
-    "Independent Learning/SMMC/Solutions/smmc-2018-solutions_1.pdf",
-    "Independent Learning/SMMC/Solutions/smmc-2017-solutions-preliminary_1.pdf",
     "Independent Learning/SMMC/Questions/SMMC - More sample problems.png",
     "Independent Learning/TQFT/Material/Google Gemini_files/gemini_sparkle_red_4ed1cbfcbc6c9e84c31b987da73fc4168aec8445.svg",
     "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed_002.jpg",
