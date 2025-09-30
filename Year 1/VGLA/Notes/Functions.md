@@ -63,3 +63,7 @@ If $f:X\mapsto Y$ and $g: Y \mapsto Z$, then we can derive a function from $X \m
 > In this case, $$f^{-1}\circ f(x)=f^{-1}(f(x))=x\qquad\text{and}\qquad f\circ f^{-1}(y)=f(f^{-1}(y))=y$$
  >^thm-bijective
  
+> [!definition|*]- Continuous functions
+> Let $\Omega \in \mathbb{R}$ and consider the set
+> $$C^{k}(\Omega)=\left\{  f:\Omega\to \mathbb{R} |\frac{ d^{ j }f }{ dx^{ j } }  \text{ is continuous}, 0\leq j\leq k  \right\}$$
+ ^def-la-cont-funct
