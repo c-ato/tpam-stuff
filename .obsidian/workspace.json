@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "33e7d1c147a258fa",
+            "id": "8f23422a7a4f7dbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/LA/Notes/LA note 1.md",
+                "file": "Year 2/MVA/Notes/Multi-variable differentiate.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LA note 1"
+              "title": "Multi-variable differentiate"
             }
           },
           {
-            "id": "a676dcb09e8154a2",
+            "id": "5fef73eb68bb73ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/QM/Notes/qm note 1.md",
+                "file": "Year 2/QALids/Notes/QaLid note 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "qm note 1"
+              "title": "QaLid note 1"
             }
           },
           {
-            "id": "fd0cbf3819c4ba25",
+            "id": "7e0ddf0a64027b06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/EM/Notes/EM note 1.md",
+                "file": "Year 2/SP&E/Notes/sp&e note 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,28 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "EM note 1"
+              "title": "sp&e note 1"
             }
           },
           {
-            "id": "8f8068ba81e39101",
+            "id": "442bb8ba64ca73f8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Utility/Images/Qalids note 2 2025-10-03 15.21.44.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Qalids note 2 2025-10-03 15.21.44.excalidraw"
+            }
+          },
+          {
+            "id": "83fd0265f4b50478",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/VGLA/Notes/Functions.md",
+                "file": "Year 2/MVA/Notes/mva note 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,66 +112,33 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Functions"
+              "title": "mva note 1"
             }
           }
         ],
         "currentTab": 2
       },
       {
-        "id": "3c74db435e881d6b",
+        "id": "96253f862f20ae07",
         "type": "tabs",
         "children": [
           {
-            "id": "36f57ec765c5fac3",
+            "id": "0ecf79e3e6be876d",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Year 2/LA/Lectures/Lecture1.pdf",
-                "page": 4,
-                "left": -4,
-                "top": 237,
-                "zoom": 0.936121016886968
-              },
-              "icon": "lucide-file-text",
-              "title": "Lecture1"
-            }
-          },
-          {
-            "id": "650a7146fce4b09d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Year 2/QM/Lectures/Lecture1_2025.pdf",
-                "page": 8,
-                "left": -24,
-                "top": 292,
-                "zoom": 0.6619037313434609
-              },
-              "icon": "lucide-file-text",
-              "title": "Lecture1_2025"
-            }
-          },
-          {
-            "id": "707f6e1b21e520a1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Year 2/MVA/Lectures/2MVAa2025.pdf",
-                "page": 17,
+                "file": "Year 2/SP&E/Lectures/Sec_1_introduction.pdf",
+                "page": 1,
                 "left": -17,
-                "top": 40,
-                "zoom": 0.8869179451905204
+                "top": 846,
+                "zoom": 0.9361203878537017
               },
               "icon": "lucide-file-text",
-              "title": "2MVAa2025"
+              "title": "Sec_1_introduction"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -216,7 +195,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 364.5,
+    "collapsed": true
   },
   "right": {
     "id": "f8f6d84d1165094d",
@@ -322,8 +302,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           },
           {
@@ -332,8 +312,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -346,6 +326,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "daily-notes:Open today's daily note": false,
       "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
@@ -365,44 +346,43 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b11573e71d3c4468",
+  "active": "7e0ddf0a64027b06",
   "lastOpenFiles": [
-    "Year 2/MVA/Worksheets/Answers",
-    "Year 2/MVA/Worksheets/Questions",
-    "Year 2/MVA/Worksheets",
-    "Year 2/MVA/Notes/Partial derivative.md",
-    "Year 2/LA/Notes/Polynomials.md",
-    "Year 1/VGLA/Notes/Functions.md",
-    "Year 2/QM/Notes/qm note 1.md",
-    "Year 2/LA/Lectures/Lecture2.pdf",
+    "Year 2/SP&E/Lectures/Sec_1_introduction.pdf",
+    "Year 2/SP&E/Notes/sp&e note 1.md",
+    "Year 2/SP&E/Lectures/Sec_1_introduction (1).pdf",
+    "Year 2/QALids/Notes/Qalids note 2.md",
+    "Utility/Images/Qalids note 2 2025-10-03 15.21.44.excalidraw.md",
+    "Year 2/QALids/Notes/QaLid note 1.md",
+    "Year 2/MVA/Notes/mva note 1.md",
+    "Year 2/MVA/Notes/Multi-variable differentiate.md",
     "Year 2/MVA/Lectures/2MVAa2025.pdf",
-    "Year 2/LA/Lectures/Lecture1.pdf",
-    "Year 2/QM/Lectures/Y2 Quantum Mechanics_Notes_2025_Part1&2.pdf",
-    "Year 2/QM/Lectures/Lecture1_2025.pdf",
+    "Year 2/QM/Notes/qm note 1.md",
     "Year 2/QM/Lectures/Y2 Quantum Mechanics_Notes_2025_Part3&4.pdf",
-    "Year 2/QM/Notes",
-    "Year 2/QM/Lectures",
+    "Year 2/QM/Lectures/Lecture1_2025.pdf",
+    "Year 2/QM/Lectures/Y2 Quantum Mechanics_Notes_2025_Part1&2.pdf",
+    "Year 2/LA/Lectures/Lecture2.pdf",
+    "Year 2/MVA/Notes/Partial derivative.md",
+    "Year 2/QALids/Notes",
+    "Year 2/QALids/Lectures",
+    "Year 2/QALids",
+    "Year 2/LA/Notes/LA note 1.md",
+    "Year 2/MVA/Notes/MVA note 1.md",
     "Year 2/LA/Lectures/Untitled.md",
     "Utility/Images/2017 A 2025-08-07 15.22.47.excalidraw.md",
     "Year 1/VGLA/Notes/Field.md",
     "Year 1/VGLA/Notes/Groups.md",
     "Independent Learning/SMMC/Mines Sol/2017 A.md",
-    "Year 2/SP&E/Notes/sp&e note 1.md",
     "Year 2/SP&E/Lectures/Untitled.md",
     "Year 1/VGLA/Notes/Linear transformations.md",
     "Year 1/VGLA/Notes/Linear combination.md",
     "Year 1/VGLA/Notes/Matrix properties.md",
+    "Year 1/VGLA/Notes/Functions.md",
     "Year 1/VGLA/Notes/Conics.md",
     "Year 1/VGLA/Notes/Complex numbers.md",
     "Year 1/VGLA/Notes/Basis.md",
     "Year 1/VGLA/Notes/Vector Space.md",
     "Year 1/VGLA/Notes/vgla note 9.md",
-    "Year 1/VGLA/Notes/vgla note 8.md",
-    "Year 1/VGLA/Notes/Spanning set.md",
-    "Year 1/VGLA/Notes/Permutations.md",
-    "Year 1/VGLA/Notes/Matrix types.md",
-    "Year 1/VGLA/Notes/Binary operations.md",
-    "Year 1/VGLA/Notes/vgla note 6.md",
     "Utility/Images/Saddle_Point-1.png",
     "Utility/Images/Pasted Image 20250913114256_928.png",
     "Utility/Images/{3EC11749-F92D-43DA-8184-08111DA5A730}.png",

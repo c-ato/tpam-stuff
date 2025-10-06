@@ -11,4 +11,14 @@
 > $$\frac{ \partial  }{ \partial x } (uv)=\frac{ \partial u }{ \partial x } v+\frac{ \partial v }{ \partial x } u$$
 > $$\frac{ \partial  }{ \partial x } \left( \frac{u}{v} \right)=\frac{1}{v^{2}}\left( \frac{ \partial u }{ \partial x } v-\frac{ \partial v }{ \partial x } u \right)$$
  ^thm-mva-par-der-prop
- 
+
+> [!definition|*]- Higher Order Partial Derivative
+> - $\frac{ \partial  }{ \partial x }\left( \frac{ \partial f }{ \partial y } \right)=f_{xy}$
+> - $\frac{ \partial  }{ \partial y }\left( \frac{ \partial f }{ \partial x } \right)=f_{yx}$
+> - $\frac{ \partial  }{ \partial x }\left( \frac{ \partial^{n} f }{ \partial y^{n} } \right)=f_{x\underbrace{ y\dots y }_{ n }}$
+> - $\frac{ \partial^{n}  }{ \partial x^{n} }\left( \frac{ \partial f }{ \partial y } \right)=f_{\underbrace{ x\dots x }_{ n }y}$
+ ^def-mva-high-par-der
+
+> [!theorem|*]- Mixed partial derivative commute (if continuous)
+> If partial derivatives are continuous, the mixed derivatives commute:$f_{xy}\equiv f_{yx}\impliedby f_{x}\text{ and }f_{y}$ are continuous
+ ^thm-mva-par-der-comm
