@@ -8,96 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8f23422a7a4f7dbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year 2/LA/Notes/LA note 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "LA note 1"
-            }
-          },
-          {
-            "id": "5fef73eb68bb73ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year 2/QALids/Notes/QaLid note 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "QaLid note 1"
-            }
-          },
-          {
-            "id": "7e0ddf0a64027b06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year 2/SP&E/Notes/sp&e note 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "sp&e note 1"
-            }
-          },
-          {
-            "id": "442bb8ba64ca73f8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Utility/Images/Qalids note 2 2025-10-03 15.21.44.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Qalids note 2 2025-10-03 15.21.44.excalidraw"
-            }
-          },
-          {
             "id": "83fd0265f4b50478",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/QM/Notes/qm note 1.md",
+                "file": "Year 2/Assessed Problems/Answers/QM 2 - sheet 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,50 +28,32 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "qm note 1"
+              "title": "QM 2 - sheet 1"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
-        "id": "96253f862f20ae07",
+        "id": "00fb78d7e7dc04cd",
         "type": "tabs",
         "children": [
           {
-            "id": "0ecf79e3e6be876d",
+            "id": "38c35657606d380e",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Year 2/SP&E/Lectures/Sec_1_introduction.pdf",
-                "page": 1,
-                "left": -21,
-                "top": 822,
-                "zoom": 0.7068149900214356
+                "file": "Year 2/Assessed Problems/Problem Sheets/Assessed Problem Sheet 1.pdf",
+                "page": 3,
+                "left": -13,
+                "top": 796,
+                "zoom": 1.1168067226890757
               },
               "icon": "lucide-file-text",
-              "title": "Sec_1_introduction"
-            }
-          },
-          {
-            "id": "6894e6a56540c382",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Year 2/QM/Lectures/Lecture3_2025.pdf",
-                "page": 7,
-                "left": -24,
-                "top": 26,
-                "zoom": 0.6619037313434609
-              },
-              "icon": "lucide-file-text",
-              "title": "Lecture3_2025"
+              "title": "Assessed Problem Sheet 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -319,8 +217,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -329,8 +227,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -343,7 +241,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "daily-notes:Open today's daily note": false,
       "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
@@ -365,24 +262,25 @@
   },
   "active": "83fd0265f4b50478",
   "lastOpenFiles": [
-    "Year 2/QM/Lectures/Lecture3_2025.pdf",
+    "Year 2/Assessed Problems/Problem Sheets/Assessed Problem Sheet 1.pdf",
+    "Year 2/Assessed Problems/Answers/QM 2 - sheet 1.md",
     "Year 2/QM/Notes/qm note 1.md",
+    "Year 2/Assessed Problems/Answers",
+    "Year 2/Assessed Problems/New folder",
+    "Year 2/Assessed Problems/Problem Sheets",
+    "Year 2/Assessed Problems",
+    "Year 2/New folder",
+    "Year 2/SP&E/Lectures/Sec_1_introduction.pdf",
+    "Year 2/QM/Lectures/Lecture3_2025.pdf",
     "Year 2/MVA/Lectures/2MVAa2025.pdf",
     "Year 2/QM/Lectures/Lecture2_2025.pdf",
     "Year 2/MVA/Notes/mva note 1.md",
-    "Year 2/LA/Lectures/Lecture3.pdf",
     "Year 2/LA/Notes/LA note 1.md",
-    "Year 2/LA/Lectures/Lecture2.pdf",
-    "Year 2/LA/Lectures/Lecture4.pdf",
     "Year 2/MVA/Notes/Multi-variable differentiate.md",
-    "Year 2/SP&E/Lectures/Sec_1_introduction.pdf",
     "Year 2/SP&E/Notes/sp&e note 1.md",
-    "Year 2/SP&E/Lectures/Sec_1_introduction (1).pdf",
     "Year 2/QALids/Notes/Qalids note 2.md",
     "Utility/Images/Qalids note 2 2025-10-03 15.21.44.excalidraw.md",
     "Year 2/QALids/Notes/QaLid note 1.md",
-    "Year 2/QM/Lectures/Y2 Quantum Mechanics_Notes_2025_Part3&4.pdf",
-    "Year 2/QM/Lectures/Lecture1_2025.pdf",
     "Year 2/MVA/Notes/Partial derivative.md",
     "Year 2/MVA/Notes/MVA note 1.md",
     "Year 2/LA/Lectures/Untitled.md",
@@ -399,7 +297,6 @@
     "Year 1/VGLA/Notes/Complex numbers.md",
     "Year 1/VGLA/Notes/Basis.md",
     "Year 1/VGLA/Notes/Vector Space.md",
-    "Year 1/VGLA/Notes/vgla note 9.md",
     "Utility/Images/Saddle_Point-1.png",
     "Utility/Images/Pasted Image 20250913114256_928.png",
     "Utility/Images/{3EC11749-F92D-43DA-8184-08111DA5A730}.png",
