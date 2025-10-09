@@ -18,3 +18,4 @@
 > Let $B=\{ \vec{v}_{1},\vec{v}_{2},\dots,\vec{v}_{n} \}$ then $\vec{v}=\lambda_{1}\vec{v}_{1}+\lambda_{2}\vec{v_{2}+\dots+\lambda_{n}\vec{v_{n}}}$. The coordinate map is then defined as $\varphi:V\to \mathbb{F}^{n}$.
 > This is also a bijective that satisfy the linearity condition: $\varphi(a\mathbf{x}+b\mathbf{y})=a\varphi(\mathbf{x})+b\varphi(\mathbf{y})$ 
  ^prp-la-coord-map
+

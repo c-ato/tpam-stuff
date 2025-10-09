@@ -27,5 +27,16 @@ If $\vec{r}'$ is smooth then $\vec{r}'\neq 0$
  ^def-mva-grad
 
 > [!theorem|*]- Linearity of $\nabla$
-> $\nabla()$
- ^thm-
+> Let $x,y$ be functions and $a,b$ be constants. Then the following is true$$\nabla(ax+by)=a\nabla x+b\nabla y$$
+ ^thm-mva-lin-del
+
+> [!theorem|*]- Gradient as normal for level surface
+> Let $f(x,y,z)$ be sufficiently smooth and $\vec{a}$ be a point on the level surface $f(x, y, z) = k$ for some constant $k$. If $\nabla f(\vec{a})\neq 0$, then the vector $\nabla f(\vec{a})$ is normal to the level surface at the point $\vec{a}$.
+> That is $\nabla f\cdot \vec{r}'=0$ or $\nabla f \perp \vec{r}'$ where $\vec{r}'$ is the surface tangent vector, based on the derivative of parameterized variables 
+ ^thm-mva-grad-is-norm-lvl-surf
+
+> [!definition|*]- Directional Derivative
+> This is the rate change of a function, $f$ in the direction of a vector, $\vec{u}$ where $\vec{u}$ is a unit vector at a point $\vec{a}=(a,b,c)$:
+> $$\lim_{ t \to 0 } \frac{f(a+tu_{1},b+tu_{2},c+tu_{3})}{t}\equiv D_{u}(a,b,c)$$
+ ^def-mva-dir-deriv
+
