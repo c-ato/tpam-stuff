@@ -37,30 +37,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/P&N/Notes/S&N note 3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "S&N note 3"
-            }
-          },
-          {
-            "id": "7e0ddf0a64027b06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Year 2/SP&E/Notes/sp&e note 1.md",
                 "mode": "source",
                 "source": false,
@@ -80,24 +56,12 @@
             }
           },
           {
-            "id": "442bb8ba64ca73f8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Utility/Images/Qalids note 2 2025-10-03 15.21.44.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Qalids note 2 2025-10-03 15.21.44.excalidraw"
-            }
-          },
-          {
-            "id": "83fd0265f4b50478",
+            "id": "a1c35eb1e79495ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/QM/Notes/qm note 1.md",
+                "file": "Year 2/SP&E/Notes/SP&E note 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -107,26 +71,28 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": false,
+                  "backlinkCollapsed": true,
                   "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "qm note 1"
+              "title": "SP&E note 2"
             }
           },
           {
-            "id": "e2823a5f693b20cd",
+            "id": "a87d034cfb8becbb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "Utility/Images/SP&E note 2 2025-10-13 09.07.31.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "SP&E note 2 2025-10-13 09.07.31.excalidraw"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5,
-    "collapsed": true
+    "width": 364.5
   },
   "right": {
     "id": "f8f6d84d1165094d",
@@ -334,27 +299,32 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5fef73eb68bb73ae",
+  "active": "a1c35eb1e79495ba",
   "lastOpenFiles": [
-    "Year 2/P&N/Notes/S&N note 1.md",
-    "Year 2/P&N/Notes/S&N note 3.md",
-    "Year 2/P&N/Notes/S&N note 2.md",
+    "Year 2/Assessed Problems/Problem Sheets/Assessed Problem Sheet 1.pdf",
+    "Year 2/SP&E/Notes/SP&E note 2.md",
+    "Utility/Images/SP&E note 2 2025-10-13 09.07.31.excalidraw.md",
     "Year 2/SP&E/Notes/sp&e note 1.md",
-    "Year 2/LA/Lectures/Lecture4.pdf",
+    "Year 2/P&N/Notes/P&N note 3.md",
+    "Year 2/P&N/Notes/P&N note 2.md",
+    "Year 2/P&N/Notes/P&N note 1.md",
+    "Utility/Images/S&N note 3 2025-10-10 15.32.43.excalidraw.md",
+    "Year 2/QM/Notes/qm note 1.md",
+    "Independent Learning/TQFT/Notes/Identification Space.md",
+    "Year 2/QM/Lectures/Lecture4_2025.pdf",
     "Year 2/MVA/Notes/mva note 1.md",
     "Year 2/MVA/Lectures/2MVAa2025.pdf",
+    "Year 2/QM/Lectures/Untitled.md",
+    "Year 2/LA/Lectures/Lecture4.pdf",
     "Utility/Excalidraw/multi assoc.md",
     "Year 2/LA/Notes/LA note 1.md",
     "Year 2/QM/Lectures/Lecture3_2025.pdf",
     "Year 2/LA/Lectures/Lecture4 (1).pdf",
-    "Year 2/QM/Notes/qm note 1.md",
-    "Year 2/Assessed Problems/Problem Sheets/Assessed Problem Sheet 1.pdf",
     "Year 2/Assessed Problems/Answers/QM 2 - sheet 1.md",
     "Year 2/Assessed Problems/Problem Sheets",
     "Year 2/Assessed Problems/Answers",
     "Year 2/Assessed Problems",
     "Year 2/QM/Lectures/Lecture2_2025.pdf",
-    "Year 2/LA/Lectures/Lecture3.pdf",
     "Year 2/MVA/Notes/Multi-variable differentiate.md",
     "Utility/Images/Qalids note 2 2025-10-03 15.21.44.excalidraw.md",
     "Year 2/MVA/Notes/Partial derivative.md",
@@ -366,12 +336,6 @@
     "Independent Learning/SMMC/Mines Sol/2017 A.md",
     "Year 2/SP&E/Lectures/Untitled.md",
     "Year 1/VGLA/Notes/Linear transformations.md",
-    "Year 1/VGLA/Notes/Linear combination.md",
-    "Year 1/VGLA/Notes/Matrix properties.md",
-    "Year 1/VGLA/Notes/Functions.md",
-    "Year 1/VGLA/Notes/Conics.md",
-    "Year 1/VGLA/Notes/Complex numbers.md",
-    "Year 1/VGLA/Notes/Basis.md",
     "Utility/Images/Saddle_Point-1.png",
     "Utility/Images/Pasted Image 20250913114256_928.png",
     "Utility/Images/{3EC11749-F92D-43DA-8184-08111DA5A730}.png",

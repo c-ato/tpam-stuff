@@ -43,9 +43,36 @@ MEasure distance bewteen production and decay - get v from mass and momentum
 get life time
 $d=\beta ct'=\beta\gamma c\tau$
 
-Decay is spontaneous, mediated by fundemental foreces - a particle is ubstabl;e if there is at least one allowed finalstate
+Decay is spontaneous, mediated by fundamental forces - a particle is unstable if there is at least one allowed final state
 
 It has Poisson distribution $P(t)=e^{ -\frac{t}{\gamma E} }$
 
-Decay width $\Gamma$ has same dimensioons of energy and is related to the lifetime by a HUP $\tau\Gamma~\hbar$
+Decay width $\Gamma$ has same dimensions of energy and is related to the lifetime by a HUP $\tau\Gamma~\hbar$
 
+Reaction threshold: for interactioms where $A\to B$ where $A\geq 2B \geq 2$. this depends on mass of particles and the mediating force
+Reaction threshhold is the min energy for reaction Work in CoM: $\vec{P}_{tot}=0$ to make particle but no KE
+
+$E_{CM}=\sum_{i}m_{i}$ and can transform to other coordinates
+
+EM propagates by $\gamma$, coupling electric charge and has infinite range due to 0 mass of $\gamma$. Couple strength is ~ $0.1$.
+
+Fine structure constant is $\frac{e^{2}}{4\pi\varepsilon_{0}\hbar c}=\frac{1}{137}$
+Will use dimensionless quantities to compare rates of different processes - only relative.
+
+![[S&N note 3 2025-10-10 15.32.43.excalidraw]]
+Strong force is mediated by gluon, is massless and couples to electrically neutral, has colour charge. quarks and gluons have colour charge
+$g$~$1$(low energy)
+
+Stable states - atom has net 0 charge is em bound, hadrons have net white colour charge (neutral) is strong bound
+
+3 colour charges, red, green blue and anti-colours
+
+Baryons havequark of each colour and meson have colour and anti colour
+
+$$
+\begin{array}{l|r|r}
+x& o \\  
+0 & c \\
+b & 0
+\end{array}
+$$

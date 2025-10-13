@@ -39,3 +39,4 @@ experimentally determined.
 $U(T)= \int ^{T}_{0} dT'C_{V}=U(T_{0}+TC_{V})$
 
 $C_{V}=\frac{3}{2}nR\implies C_{p}=C_{V}+nR$
+

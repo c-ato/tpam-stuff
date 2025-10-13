@@ -38,5 +38,21 @@ If $\vec{r}'$ is smooth then $\vec{r}'\neq 0$
 > [!definition|*]- Directional Derivative
 > This is the rate change of a function, $f$ in the direction of a vector, $\vec{u}$ where $\vec{u}$ is a unit vector at a point $\vec{a}=(a,b,c)$:
 > $$\lim_{ t \to 0 } \frac{f(a+tu_{1},b+tu_{2},c+tu_{3})}{t}\equiv D_{u}(a,b,c)$$
+> or alternatively:
+> $$D_{u}f=\vec{u}\cdot \nabla f(a,b,c)$$
  ^def-mva-dir-deriv
+
+> [!theorem|*]- Linearity of directional derivative
+> $D_{u}(\lambda f+\mu g)=\lambda D_{u}f+\mu D_{u}g$
+ ^thm-mva-lin-dir-deriv
+
+> [!theorem|*]- Steepest ascent theorem
+> Let $\vec{u}$ be a unit vector, 
+> $$D_{u}f(a)=\left| \nabla f(\vec{a}) \right|\cos \theta \because\left| \vec{u} \right|=1$$
+ ^thm-mva-ste-asc
+
+> [!theorem|*]- Fubini theorem
+> Let $D:=\{ (x,y):a\leq x\leq b,y_{1}(x)\leq y\leq y_{2}(x) \}=\{ (x,y):e\leq y\leq f,x_{1}(y)\leq x\leq x_{2}(y) \}$, where, $y_{1}(x),y_{2}(x),x_{1}(y),x_{2}(y)$ are smooth, then:
+> $$\iint_{D}f(x,y)dxdy=\int ^{b}_{a}\left( \int ^{y_{2}(x)}_{y_{1}(x)} f(x,y)  \, dy  \right)  \, dx = \int ^{d}_{c} \left( \int ^{x_{2}(y)}_{x_{1}(y)} f(x,y) \, dx  \right) \, dy $$
+ ^thm-mva-fubini
 

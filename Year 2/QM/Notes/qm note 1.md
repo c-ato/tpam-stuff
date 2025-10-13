@@ -53,3 +53,13 @@ $\hat{p}\psi=p\psi$ then $\left< p \right>=\int_{-\infty}^{\infty} \psi^{*}\hat{
 
 $KE= \frac{1}{2m}\hat{p}\hat{p}=- \frac{\hbar^{2}}{2m}\frac{ \partial^{2}  }{ \partial x^{2} }$
 Total energy $=\hat{E}=i \hbar \frac{ \partial  }{ \partial t }$
+
+Complete set of all eigenvalues is the same as all possible results of measurements of observable $O$, for any quantum state.
+
+$\Psi(x,t)=\psi(x)\phi(t)$ and let $V(x,t)=V(x)$
+$\implies -\frac{\hbar^{2}}{2m}\frac{ \partial^{2} \Psi }{ \partial x^{2} }+V\Psi=i\hbar \frac{ \partial \Psi }{ \partial t }\implies -\frac{\hbar^{2}}{2m} \frac{1}{\psi}\frac{ \partial^{2} \psi }{ \partial x^{2} }+V=i\hbar \frac{1}{\phi}\frac{ \partial \phi }{ \partial t }$
+$\iff \text{ both sides are a const} \therefore i\hbar \frac{1}{\phi}\frac{ \partial \phi }{ \partial t }=C_{0}\implies \hat{E}\phi=C_{0}\phi \therefore C_{0}=E$
+$\implies \int ^{}_{} \frac{1}{\phi} \, d\phi=\int  ^{}_{}- \frac{iE}{\hbar}  \, dt\implies\phi=\phi_{0}e^{ - \frac{iEt}{\hbar} }$
+$\implies -\frac{\hbar^{2}}{2m} \frac{1}{\psi}\frac{ \partial^{2} \psi }{ \partial x^{2} }+V=E\implies \frac{d^{2}\psi}{dx^{2}}=-\frac{2m(E-V)}{\hbar^{2}}\psi$
+Let $k=\frac{\sqrt[  ]{ {2m(E-V_{0})} }}{\hbar}$  and assume it is a free particle so $V=V_{0}$ then $\psi=Ae^{ ikx }+Be^{ -ikx }$
+TISE: $-\frac{\hbar^{2}}{2m}\frac{ \partial^{2} \psi(x) }{ \partial x^{2} }+V(x)\psi(x)=E\psi$ may be real
