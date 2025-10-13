@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8f23422a7a4f7dbc",
+            "id": "83fd0265f4b50478",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/MVA/Notes/mva note 1.md",
+                "file": "Year 2/Assessed Problems/Answers/QM 2 - sheet 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "mva note 1"
+              "title": "QM 2 - sheet 1"
             }
           },
           {
-            "id": "5fef73eb68bb73ae",
+            "id": "ffd8a77f6bb153a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/SP&E/Notes/sp&e note 1.md",
+                "file": "Year 2/Assessed Problems/Answers/SP&E assessed 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,47 +52,33 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sp&e note 1"
-            }
-          },
-          {
-            "id": "a1c35eb1e79495ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year 2/SP&E/Notes/SP&E note 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SP&E note 2"
-            }
-          },
-          {
-            "id": "a87d034cfb8becbb",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Utility/Images/SP&E note 2 2025-10-13 09.07.31.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "SP&E note 2 2025-10-13 09.07.31.excalidraw"
+              "title": "SP&E assessed 1"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "00fb78d7e7dc04cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38c35657606d380e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Year 2/Assessed Problems/Problem Sheets/Assessed Problem Sheet 1.pdf",
+                "page": 1,
+                "left": -14,
+                "top": 150,
+                "zoom": 1.1162889147219106
+              },
+              "icon": "lucide-file-text",
+              "title": "Assessed Problem Sheet 1"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -149,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 364.5,
+    "collapsed": true
   },
   "right": {
     "id": "f8f6d84d1165094d",
@@ -165,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LotM Volume 5.pdf",
+                "file": "Year 2/Assessed Problems/Answers/SP&E assessed 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +162,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for LotM Volume 5"
+              "title": "Backlinks for SP&E assessed 1"
             }
           },
           {
@@ -184,12 +171,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Utility/Excalidraw/equiv.md",
+                "file": "Year 2/Assessed Problems/Answers/SP&E assessed 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from equiv"
+              "title": "Outgoing links from SP&E assessed 1"
             }
           },
           {
@@ -255,8 +242,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -265,12 +252,11 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "horizontal",
@@ -279,7 +265,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "daily-notes:Open today's daily note": false,
       "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
@@ -299,43 +284,43 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a1c35eb1e79495ba",
+  "active": "ffd8a77f6bb153a6",
   "lastOpenFiles": [
     "Year 2/Assessed Problems/Problem Sheets/Assessed Problem Sheet 1.pdf",
+    "Year 2/Assessed Problems/Answers/SP&E assessed 1.md",
+    "Year 2/Assessed Problems/Answers/QM 2 - sheet 1.md",
+    "Utility/Images/vt cycle.md",
+    "Utility/Images/pv cycle.md",
     "Year 2/SP&E/Notes/SP&E note 2.md",
-    "Utility/Images/SP&E note 2 2025-10-13 09.07.31.excalidraw.md",
-    "Year 2/SP&E/Notes/sp&e note 1.md",
+    "Year 2/QM/Lectures/Lecture4_2025.pdf",
     "Year 2/P&N/Notes/P&N note 3.md",
     "Year 2/P&N/Notes/P&N note 2.md",
     "Year 2/P&N/Notes/P&N note 1.md",
+    "Year 2/P&N/Notes",
+    "Year 2/P&N",
+    "Utility/Images/SP&E note 2 2025-10-13 09.07.31.excalidraw.md",
     "Utility/Images/S&N note 3 2025-10-10 15.32.43.excalidraw.md",
+    "Year 2/P&N/Notes/S&N note 3.md",
+    "Year 2/P&N/Notes/S&N note 2.md",
+    "Year 2/P&N/Notes/S&N note 1.md",
     "Year 2/QM/Notes/qm note 1.md",
-    "Independent Learning/TQFT/Notes/Identification Space.md",
-    "Year 2/QM/Lectures/Lecture4_2025.pdf",
-    "Year 2/MVA/Notes/mva note 1.md",
-    "Year 2/MVA/Lectures/2MVAa2025.pdf",
-    "Year 2/QM/Lectures/Untitled.md",
-    "Year 2/LA/Lectures/Lecture4.pdf",
-    "Utility/Excalidraw/multi assoc.md",
-    "Year 2/LA/Notes/LA note 1.md",
-    "Year 2/QM/Lectures/Lecture3_2025.pdf",
-    "Year 2/LA/Lectures/Lecture4 (1).pdf",
-    "Year 2/Assessed Problems/Answers/QM 2 - sheet 1.md",
-    "Year 2/Assessed Problems/Problem Sheets",
     "Year 2/Assessed Problems/Answers",
+    "Year 2/Assessed Problems/New folder",
+    "Year 2/Assessed Problems/Problem Sheets",
     "Year 2/Assessed Problems",
-    "Year 2/QM/Lectures/Lecture2_2025.pdf",
+    "Year 2/New folder",
+    "Year 2/SP&E/Lectures/Sec_1_introduction.pdf",
+    "Year 2/MVA/Notes/mva note 1.md",
+    "Year 2/LA/Notes/LA note 1.md",
     "Year 2/MVA/Notes/Multi-variable differentiate.md",
+    "Year 2/SP&E/Notes/sp&e note 1.md",
+    "Year 2/QALids/Notes/Qalids note 2.md",
     "Utility/Images/Qalids note 2 2025-10-03 15.21.44.excalidraw.md",
+    "Year 2/QALids/Notes/QaLid note 1.md",
     "Year 2/MVA/Notes/Partial derivative.md",
     "Year 2/MVA/Notes/MVA note 1.md",
     "Year 2/LA/Lectures/Untitled.md",
     "Utility/Images/2017 A 2025-08-07 15.22.47.excalidraw.md",
-    "Year 1/VGLA/Notes/Field.md",
-    "Year 1/VGLA/Notes/Groups.md",
-    "Independent Learning/SMMC/Mines Sol/2017 A.md",
-    "Year 2/SP&E/Lectures/Untitled.md",
-    "Year 1/VGLA/Notes/Linear transformations.md",
     "Utility/Images/Saddle_Point-1.png",
     "Utility/Images/Pasted Image 20250913114256_928.png",
     "Utility/Images/{3EC11749-F92D-43DA-8184-08111DA5A730}.png",
