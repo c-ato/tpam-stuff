@@ -55,3 +55,7 @@ If $\vec{r}'$ is smooth then $\vec{r}'\neq 0$
 > Let $D:=\{ (x,y):a\leq x\leq b,y_{1}(x)\leq y\leq y_{2}(x) \}=\{ (x,y):e\leq y\leq f,x_{1}(y)\leq x\leq x_{2}(y) \}$, where, $y_{1}(x),y_{2}(x),x_{1}(y),x_{2}(y)$ are smooth, then:
 > $$\iint_{D}f(x,y)dxdy=\int ^{b}_{a}\left( \int ^{y_{2}(x)}_{y_{1}(x)} f(x,y)  \, dy  \right)  \, dx = \int ^{d}_{c} \left( \int ^{x_{2}(y)}_{x_{1}(y)} f(x,y) \, dx  \right) \, dy $$
  ^thm-mva-fubini
+
+> [!theorem|*]- Fubini theorem for triple integrals
+> $$\iiint_{E}f(x,y,z)dxdydz=\iint_{D}F(x,z)dxdz$$
+ ^thm-
