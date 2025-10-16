@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/Problems/Assessed/Answers/MVA sheet 1.md",
+                "file": "Year 2/Problems/Non-Assessed/Answers/Completed - mva tutorial sheet 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MVA sheet 1"
+              "title": "Completed - mva tutorial sheet 1"
+            }
+          },
+          {
+            "id": "cf75c288c31c5424",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 2/LA/Notes/LA note 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "LA note 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "db74922bf3d1ab78",
@@ -41,10 +66,16 @@
             "id": "fffe512853af29b8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Year 2/LA/Lectures/notes2LA.pdf",
+                "page": 47,
+                "left": -10,
+                "top": 557,
+                "zoom": 1.1
+              },
+              "icon": "lucide-file-text",
+              "title": "notes2LA"
             }
           },
           {
@@ -62,9 +93,32 @@
               "icon": "lucide-file-text",
               "title": "2MVA Problem Sheet 1-2"
             }
+          },
+          {
+            "id": "c2a0842fae8de275",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "schedule.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "schedule"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 364.5,
+    "collapsed": true
   },
   "right": {
     "id": "f8f6d84d1165094d",
@@ -270,8 +325,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2f5ef00262af69bd",
+  "active": "cf75c288c31c5424",
   "lastOpenFiles": [
+    "Year 2/LA/Lectures/notes2LA.pdf",
+    "Year 2/LA/Notes/LA note 1.md",
+    "Year 2/Problems/Non-Assessed/Answers/Completed - mva tutorial sheet 1.md",
+    "schedule.md",
+    "Year 2/Problems/Non-Assessed/Problem Sheets/examples1_LA.pdf",
+    "Year 2/Problems/Non-Assessed/Problem Sheets/2MVA(1).pdf",
+    "Year 2/Problems/Non-Assessed/Problem Sheets/2LA(1).pdf",
     "Year 2/Problems/Assessed/Problem Sheets/2MVA Problem Sheet 1-2.pdf",
     "Year 2/Problems/Assessed/Answers/MVA sheet 1.md",
     "Year 2/Problems/Assessed/Answers/Completed - SP&E assessed 1.md",
@@ -281,14 +343,9 @@
     "Utility/Images/SP&E note 2 2025-10-13 09.07.31.excalidraw.md",
     "Year 2/SP&E/Notes/SP&E note 2.md",
     "Year 2/SP&E/Notes/sp&e note 1.md",
-    "Year 2/LA/Notes/LA note 1.md",
-    "Year 2/LA/Lectures/notes2LA.pdf",
     "Year 2/MVA/Notes/mva note 1.md",
     "Year 2/MVA/Lectures/2MVAa2025.pdf",
     "Year 2/Problems/Non-Assessed/Problem Sheets/examples2_LA.pdf",
-    "Year 2/Problems/Non-Assessed/Problem Sheets/examples1_LA.pdf",
-    "Year 2/Problems/Non-Assessed/Problem Sheets/2MVA(1).pdf",
-    "Year 2/Problems/Non-Assessed/Problem Sheets/2LA(1).pdf",
     "Year 2/Problems/Non-Assessed/Problem Sheets",
     "Year 2/Problems/Non-Assessed/Answers",
     "Year 2/Problems/Non-Assessed",
@@ -305,8 +362,6 @@
     "Utility/Excalidraw/multi assoc.md",
     "Year 2/Assessed Problems/Answers/QM 2 - sheet 1.md",
     "Year 2/MVA/Notes/Multi-variable differentiate.md",
-    "Utility/Images/Qalids note 2 2025-10-03 15.21.44.excalidraw.md",
-    "Year 2/MVA/Notes/Partial derivative.md",
     "Utility/Images/Saddle_Point-1.png",
     "Utility/Images/Pasted Image 20250913114256_928.png",
     "Utility/Images/{3EC11749-F92D-43DA-8184-08111DA5A730}.png",

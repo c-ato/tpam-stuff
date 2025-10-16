@@ -67,9 +67,54 @@
  ^def-la-orthog-set
 
 > [!theorem|*]- Orthogonal set is linearly independent
-> 
  ^thm-la-orthog-lin-indep
 
 > [!definition|*]- Orthogonal basis
 > Basis set of $(V,\left< \cdot,\cdot \right>)$ that is also an orthogonal set
  ^def-la-orthog-bas
+
+> [!theorem|*]- Coordinate inner product equality
+> Let $(V, ⟨·, ·⟩)$ be an inner product space, with $B=\{ \vec{v_{1}},\vec{v_{2}},\dots,\vec{v_{n}} \}$ as an orthogonal basis of $V$. Then the coordinates $a_{i}$ of any vector $\vec{v}\in V$ is given as $$a_{i}=\frac{\left< \vec{v},\vec{v_{i}} \right> }{\left< \vec{v_{i}},\vec{v_{i}} \right> }$$
+ ^thm-la-coord-inn-pro-eq
+
+> [!definition|*]- Orthonormal set
+> Let $(V, ⟨·, ·⟩)$ be an inner product space. A set $S$ of non-zero vectors $e_{i}$ is said to be orthonormal if it satisfies: $$\left< \vec{e_{i}},\vec{e_{j}} \right> =\delta_{ij}:=\left\{ \begin{matrix}0& i\neq j \\1 & i=j\end{matrix} \right. \quad\forall i,j \in 1,2,\dots,\left| S \right|$$
+ ^def-la-orth-norm-set
+
+> [!definition|*]- Orthonormal basis
+> Basis set of $(V,\left< \cdot,\cdot \right>)$ that is also an orthonormal set
+ ^def-la-orthog-bas
+
+> [!theorem|*]- Inner product operation
+> Let $(V, ⟨·, ·⟩)$ be an inner product space with dimension $n$, such the bases is $B=\{ \vec{e_{i}}:1\leq i\leq n,i \in \mathbb{N} \}$ and is also a orthonormal basis. Then let $\vec{u},\vec{v}$ have the respective coordinates of $a_{i},b_{j}$ with $i,j\in[1,2,..,n]$ so $$\left< \vec{u},\vec{v} \right> =a_{1}b_{1}+a_{2}b_{2}+\dots+a_{n}b_{n}$$
+ ^thm-la-inn-prod-op
+
+> [!definition|*]- Orthogonal (vector) projection 
+> Let $(V, ⟨·, ·⟩)$ be an inner product space and let $\vec{u}\in V\setminus \{ 0 \}$. The orthogonal projection of $\vec{v}$ onto $\vec{u}$ denoted $\vec{v_{u}}^{\parallel}$ is $$\vec{v_{u}}^{\parallel}:=\frac{\left< \vec{v},\vec{u} \right> }{\left< \vec{u},\vec{u} \right> }\vec{u}$$
+ ^def-la-orthog-vec-proj
+
+$$\vec{v}=\vec{v_{u}^{_{\parallel}}}+\vec{v_{u}^{_{\perp}}}\implies \vec{v_{u}^{_{\perp}}}=\vec{v}-\frac{\left< \vec{v},\vec{u} \right> }{\left< \vec{u},\vec{u} \right> }\vec{u}$$
+
+> [!theorem|*]- Orthonormal of a subspace is orthonormal to the span
+> Let $(V, ⟨·, ·⟩)$ be an inner product space and let $U$ be a subspace $V$ where $S$ is the spanning set of $U$. Then $$\vec{v} \perp U\iff \vec{v}\perp S$$
+ ^thm-la-orthon-sub-orthon-span
+
+> [!theorem|*]- Perpendicular vector of a subspace
+> Let $(V, ⟨·, ·⟩)$ be an inner product space and let $U$ be a subspace of $V$ . Let $\vec{v} ∈ V$ . Then there exists a unique vector $\vec{v}^{\parallel}_{U} ∈ U$ such that $\vec{v}^{\perp}_{U} := \vec{v} − \vec{v}^{\parallel}_{U} ⊥ U$ 
+ ^thm-la-perp-subspa
+
+> [!definition|*]- Orthogonal (vector) projection (onto a subspace)
+> Let $(V, ⟨·, ·⟩)$ be an inner product space and let $U$ be a subspace of $V$ spanned by an orthogonal basis set $B=\{ \vec{u_{i}}:i\in [1,2,\dots,k] \}$. Let $\vec{v}\in V$. The orthogonal projection of $\vec{v}$ onto $U$ is the vector $$\vec{v}_{U}^{\parallel}=\sum^{k}_{i=1} \frac{\left< \vec{v},\vec{u_{i}} \right> }{\left< \vec{u_{i}},\vec{u_{i}} \right> }\vec{u_{i}}$$
+ ^def-la-orthog-vec-proj-subspa
+
+> [!definition|*]- Orthogonal complement
+> Let $(V, ⟨·, ·⟩)$ be an inner product space and let $U$ be a subspace of $V$. The orthogonal complement of $U$ in $V$ is denoted by $U^{\perp}$ and is defined to be the set of vectors in $V$ perpendicular to $U$ $$U^{\perp}:=\{ \vec{v}\in V: \vec{v}\perp U \}$$
+ ^def-la-orthog-comple
+
+> [!lemma|*]- No intersection with orthogonal complement
+> $$U\cap U^{\perp}=\{ 0 \}$$
+ ^lem-int-orthog
+
+> [!lemma|*]- Direction sum of subspace and its complement is entire vector space
+> $$V=U\oplus U^{\perp}$$
+ ^lem-
