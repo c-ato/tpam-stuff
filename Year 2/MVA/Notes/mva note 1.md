@@ -58,4 +58,20 @@ If $\vec{r}'$ is smooth then $\vec{r}'\neq 0$
 
 > [!theorem|*]- Fubini theorem for triple integrals
 > $$\iiint_{E}f(x,y,z)dxdydz=\iint_{D}F(x,z)dxdz$$
- ^thm-
+ ^thm-mva-fubini-thm-tripl
+
+> [!theorem|*]- Even and odd functions in symmetric domains
+> If $D$ is symmetric to $x$ and $f(x,y)$ is odd in $x$, then $\iint_{D}f(x,y)dxdy=0$
+> If $D$ is symmetric to $x$ and $f(x,y)$ is even in $x$, then $\iint_{D}f(x,y)dxdy=2\iint_{D_{half}}f(x,y)d\times dy$
+ ^thm-mva-even-odd-sym-dom
+
+> [!theorem|*]- Change of integration variable
+> $$\int ^{b}_{a} f(x) \, dx=\int ^{\beta}_{\alpha} f(x(u)) \, x_{u}du  $$
+ ^thm-mva-change-int-var
+
+polar coordinates:
+$r=\sqrt[  ]{ x^{2}+y^{2} }$ and $\tan \theta=\frac{y}{x}$
+
+$x=r\cos \theta$ and $y=r\sin \theta$
+
+$dxdy=r d\theta dr$
