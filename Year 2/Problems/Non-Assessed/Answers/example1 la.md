@@ -15,4 +15,4 @@
 3. 
    Suppose $a\vec{w}+b\vec{x}$ has closure. This means that its constituent elements, $a\vec{w},b\vec{x}$ need closure. This naturally gives rise to $\vec{v}+\vec{u}$ having closure where $a\vec{w}=\vec{v},b\vec{x}=\vec{u}$.
 4. 
-   $$$$
+   $$u+u^{-}=z=u(e+e^{ - })=u(0)=z=e\cdot u+e^{ - }u$$
