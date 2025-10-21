@@ -75,3 +75,13 @@ $r=\sqrt[  ]{ x^{2}+y^{2} }$ and $\tan \theta=\frac{y}{x}$
 $x=r\cos \theta$ and $y=r\sin \theta$
 
 $dxdy=r d\theta dr$
+
+> [!theorem|*]- Jacobian for double integral
+> $$J\equiv \frac{ \partial (x,y) }{ \partial (u,v) } \equiv \begin{vmatrix}x_{u}&x_{v} \\ y_{u} & y_{v} \end{vmatrix}$$
+> A double integral is changed as $$\iint_{D}f(x,y)dxdy=\iint_{D'}f(x(u,v),y(u,v))\left| J \right|dudv$$
+ ^thm-mva-jacob-double-int
+
+> [!definition|*]- Jacobian for polar coordinates
+> $$J=\frac{ \partial (x,y) }{ \partial (r,\theta) } = \begin{vmatrix}x_{r} &  x_{\theta} \\y_{r} & y_{\theta}\end{vmatrix}=r\implies dA=rdr d\theta$$
+ ^thm-jacob-pol-coord
+

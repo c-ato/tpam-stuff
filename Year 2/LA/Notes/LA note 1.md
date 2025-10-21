@@ -117,4 +117,11 @@ $$\vec{v}=\vec{v_{u}^{_{\parallel}}}+\vec{v_{u}^{_{\perp}}}\implies \vec{v_{u}^{
 
 > [!lemma|*]- Direction sum of subspace and its complement is entire vector space
 > $$V=U\oplus U^{\perp}$$
- ^lem-
+ ^lem-la-comp-dir-sum
+
+> [!definition|*]- Linear transformation
+> Let $V$ and $W$ be vector spaces. A linear transformation is a map $f:V\to W$ satisfying linearity: $$f(au+bv)=af(u)+bf(v)\forall a,b \in \mathbb{F} ,u,v \in V$$
+ ^def-la-lin-trans
+
+The set of linear transformations is $f\in\mathcal{L}(V,W)$
+
