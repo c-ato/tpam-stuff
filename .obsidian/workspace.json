@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/LA/Notes/LA note 1.md",
+                "file": "Year 2/Problems/Assessed/Problem Sheets/P&N problem set 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "LA note 1"
+              "title": "P&N problem set 1"
+            }
+          },
+          {
+            "id": "dc00afdff59a66b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 2/Problems/Assessed/Problem Sheets/P&N problem set 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "P&N problem set 2"
+            }
+          },
+          {
+            "id": "7df99e9b16942720",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 2/QAtS/Notes/QAtS note 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "QAtS note 1"
             }
           },
           {
@@ -150,31 +198,19 @@
               "icon": "lucide-file",
               "title": "example1 la"
             }
-          }
-        ],
-        "currentTab": 6
-      },
-      {
-        "id": "dac51677abe1c521",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "2c159fe85e3d9ef8",
+            "id": "ca2343ec38f7c0c7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Year 2/LA/Lectures/notes2LA.pdf",
-                "page": 56,
-                "left": 28,
-                "top": 692,
-                "zoom": 1
-              },
-              "icon": "lucide-file-text",
-              "title": "notes2LA"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -231,8 +267,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5,
-    "collapsed": true
+    "width": 364.5
   },
   "right": {
     "id": "f8f6d84d1165094d",
@@ -382,41 +417,41 @@
       "pdf-plus:PDF++: Toggle auto-focus": false
     }
   },
-  "active": "73484a4ec64caa76",
+  "active": "dc00afdff59a66b3",
   "lastOpenFiles": [
-    "Year 2/LA/Lectures/notes2LA.pdf",
+    "Year 2/Problems/Assessed/Problem Sheets/P&N problem set 1.md",
+    "Year 2/Problems/Assessed/Problem Sheets/P&N problem set 2.md",
+    "Year 2/Problems/Assessed/Problem Sheets/2MVA Problem Sheet 1-2.pdf",
+    "Year 2/SP&E/Notes/SP&E note 3.md",
+    "Utility/Images/SP&E note 3 2025-10-27 09.19.11.excalidraw.md",
+    "Utility/Images/SP&E note 3 2025-10-24 16.23.30.excalidraw.md",
+    "Year 2/MVA/Notes/mva note 2.md",
+    "Year 2/MVA/Lectures/2MVAa2025.pdf",
+    "Year 2/MVA/Notes/mva note 1.md",
+    "Year 2/QAtS/Notes/QAtS note 1.md",
+    "Year 2/Problems/Assessed/Answers/MVA sheet 1.md",
+    "Utility/Images/QAtS note 1 2025-10-23 13.11.17.excalidraw.md",
     "Year 2/LA/Notes/LA note 1.md",
+    "Year 2/LA/Lectures/notes2LA.pdf",
     "Year 2/QM/Notes/qm note 1.md",
     "Year 2/QM/Notes/qm note 2.md",
     "Year 2/Problems/Non-Assessed/Problem Sheets/examples1_LA.pdf",
     "Year 1/VGLA/Lecture/1VGLA_AU.pdf",
     "Utility/Images/QAtS note 1 2025-10-17 15.06.23.excalidraw.md",
-    "Year 2/MVA/Notes/mva note 1.md",
     "Year 2/QM/Lectures/Y2 Quantum Mechanics_Notes_2025_Part1&2.pdf",
-    "Year 2/MVA/Lectures/2MVAa2025.pdf",
     "Year 1/VGLA/Notes/Matrix properties.md",
     "Independent Learning/TQFT/Notes/Morphisms.md",
-    "Year 2/SP&E/Notes/SP&E note 3.md",
     "Utility/Images/SP&E note 3 2025-10-20 09.34.06.excalidraw.md",
     "Utility/Images/SP&E note 3 2025-10-20 09.33.48.excalidraw.md",
     "Year 2/Problems/Non-Assessed/Answers/example1 la.md",
     "Utility/Images/SP&E note 3 2025-10-17 16.18.01.excalidraw.md",
     "Utility/Images/QAtS note 1 2025-10-17 15.50.16.excalidraw.md",
     "Year 2/SP&E/Notes/SP&E note 2.md",
-    "Year 2/QAtS/Notes/QAtS note 1.md",
     "Utility/Images/QAtS note 1 2025-10-17 15.22.59.excalidraw.md",
     "Utility/mus_paths.md",
     "Year 2/QAtS/Notes",
     "Year 2/QAtS",
-    "Year 2/Problems/Assessed/Answers/MVA sheet 1.md",
-    "Year 2/Problems/Assessed/Problem Sheets/2MVA Problem Sheet 1-2.pdf",
     "Year 2/Problems/Non-Assessed/Answers/Completed - mva tutorial sheet 1.md",
-    "Year 2/Problems/Assessed/Answers/Completed - SP&E assessed 1.md",
-    "Year 2/Problems/Assessed/Answers/Completed - QM 2 - sheet 1.md",
-    "Year 2/Problems/Non-Assessed/Answers/Completed - LA1 non-assessed.md",
-    "Year 2/Problems/Assessed/Problem Sheets/Untitled.md",
-    "Utility/Images/SP&E note 2 2025-10-13 09.07.31.excalidraw.md",
-    "Year 2/SP&E/Notes/sp&e note 1.md",
     "Year 2/Problems/Non-Assessed/Problem Sheets/examples2_LA.pdf",
     "Year 2/Problems/Non-Assessed/Problem Sheets/2MVA(1).pdf",
     "Utility/Images/Saddle_Point-1.png",

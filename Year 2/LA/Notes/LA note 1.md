@@ -125,3 +125,13 @@ $$\vec{v}=\vec{v_{u}^{_{\parallel}}}+\vec{v_{u}^{_{\perp}}}\implies \vec{v_{u}^{
 
 The set of linear transformations is $f\in\mathcal{L}(V,W)$
 
+> [!definition|*]- Trivial kernel
+> $$\ker f=\{ 0_{V} \}$$
+ ^def-la-triv-kern
+ ]
+
+> [!theorem|*]- 
+> Let $f:V\to W$ be a linear map. Then:
+> - $f$ is injective $\iff\ker f=\{ 0_{V} \}$ 
+> - $f$ is surjective $\iff \mathrm{im}f=W$ 
+ ^thm-la-map-prop
