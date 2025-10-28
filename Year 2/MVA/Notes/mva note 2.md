@@ -3,3 +3,7 @@
 > Or $r=\rho \sin\phi\qquad \theta=\theta\qquad z=\rho \cos \phi$
  ^def-mva-sph-coord
 
+> [!definition|*]- Taylor expansion
+> $f(x) = f(a) + f'(a)(x-a) + f''(a) \frac{(x-a)^{2}}{2!} + \dots$
+ ^def-mva-tayl
+
