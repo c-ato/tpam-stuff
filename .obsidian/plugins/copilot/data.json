@@ -380,5 +380,6 @@
   "memoryFolderName": "copilot/memory",
   "enableRecentConversations": false,
   "enableSavedMemory": false,
-  "maxRecentConversations": 30
+  "maxRecentConversations": 30,
+  "quickCommandIncludeNoteContext": true
 }
