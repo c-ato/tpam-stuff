@@ -1,73 +1,26 @@
 {
   "main": {
-    "id": "17bcb7776f02a803",
+    "id": "255be2bc5f82ea9f",
     "type": "split",
     "children": [
       {
-        "id": "785b80e509ddff81",
+        "id": "c169d291455dee54",
         "type": "tabs",
         "children": [
           {
-            "id": "4a9a92827a41b3ac",
+            "id": "82adac81bff4a402",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Year 2/Problems/Non-Assessed/Problem Sheets/2LA(1).pdf",
-                "page": 1,
-                "left": -17,
-                "top": 795,
-                "zoom": 0.9105392156862745
+                "file": "Year 2/Problems/Assessed/Problem Sheets/Assessed Problem Sheet 3.pdf",
+                "page": 2,
+                "left": -10,
+                "top": 144,
+                "zoom": 1.5597806731667325
               },
               "icon": "lucide-file-text",
-              "title": "2LA(1)"
-            }
-          },
-          {
-            "id": "b5e31676936e96ed",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Year 2/LA/Lectures/notes2LA.pdf",
-                "page": 68,
-                "left": 1,
-                "top": 495,
-                "zoom": 1
-              },
-              "icon": "lucide-file-text",
-              "title": "notes2LA"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "e6e7b50b02ccf9d8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ca2343ec38f7c0c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year 2/LA/Notes/la note 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "la note 2"
+              "title": "Assessed Problem Sheet 3"
             }
           }
         ]
@@ -76,15 +29,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2d274d7b3c225723",
+    "id": "e4db5dee405ed42d",
     "type": "split",
     "children": [
       {
-        "id": "3e63072c4c33a564",
+        "id": "4c01621f67c1ce7a",
         "type": "tabs",
         "children": [
           {
-            "id": "b11573e71d3c4468",
+            "id": "16a4b33f8f79181b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -97,12 +50,12 @@
             }
           },
           {
-            "id": "5ea501e83b8a10a9",
+            "id": "3384a2180190aae0",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:maths/algebra",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +67,7 @@
             }
           },
           {
-            "id": "32e030ac87d0b5d4",
+            "id": "0c9c885b920335aa",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -127,24 +80,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "f8f6d84d1165094d",
+    "id": "3dd5890b53b3a9da",
     "type": "split",
     "children": [
       {
-        "id": "cfc6280df4c2bcb8",
+        "id": "4fb24d7bccc4c3b5",
         "type": "tabs",
         "children": [
           {
-            "id": "2c99828b6fd4ae0e",
+            "id": "526cab7f78d93496",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LotM Volume 5.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,25 +105,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for LotM Volume 5"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "169451b74e10397d",
+            "id": "64b6fa889a391ec4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Utility/Excalidraw/equiv.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from equiv"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "403f603ddeeaaf0e",
+            "id": "bddaf5bbe152f916",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -187,21 +137,7 @@
             }
           },
           {
-            "id": "120eaf048f7bd193",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://player.sw.arm.fm/",
-                "title": "Swarm FM Player",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Swarm FM Player"
-            }
-          },
-          {
-            "id": "16f32d2d52905a1b",
+            "id": "f61f1561f40db48b",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -215,7 +151,7 @@
             }
           },
           {
-            "id": "25f2f2347c694b25",
+            "id": "eac1906d396f037c",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -227,46 +163,16 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
-          },
-          {
-            "id": "1ce47dbf2d3785ea",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "321f5a1eb385060a",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 406.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "daily-notes:Open today's daily note": false,
-      "markdown-importer:Open format converter": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
       "copilot:Open Copilot Chat": false,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:New drawing": false,
@@ -274,56 +180,23 @@
       "templater-obsidian:Templater": false,
       "edge-tts:Read note aloud": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false
     }
   },
-  "active": "b5e31676936e96ed",
+  "active": "82adac81bff4a402",
   "lastOpenFiles": [
-    "Year 2/LA/Notes/la note 2.md",
-    "Year 2/LA/Lectures/notes2LA.pdf",
-    "Independent Learning/TQFT/Notes/Group Representation.md",
-    "Year 2/Problems/Non-Assessed/Problem Sheets/2LA(1).pdf",
-    "Year 2/Problems/Non-Assessed/Answers/example1 la.md",
-    "Year 2/QAtS/Notes/QAtS note 1.md",
-    "Year 2/SP&E/Notes/SP&E note 2.md",
-    "Year 2/SP&E/Notes/SP&E note 3.md",
-    "Utility/Images/SP&E note 3 2025-10-17 16.18.01.excalidraw.md",
-    "Year 2/MVA/Lectures/2MVAa2025.pdf",
-    "Utility/Images/QAtS note 1 2025-10-17 15.50.16.excalidraw.md",
-    "Utility/Images/QAtS note 1 2025-10-17 15.22.59.excalidraw.md",
-    "Utility/Images/QAtS note 1 2025-10-17 15.06.23.excalidraw.md",
-    "Year 2/Problems/Assessed/Answers/P&N problem set 1.md",
-    "Year 2/MVA/Notes/mva note 2.md",
-    "Year 2/LA/Notes/LA note 1.md",
-    "Year 2/Problems/Assessed/Problem Sheets/P&N problem set 2.md",
-    "Year 2/Problems/Assessed/Problem Sheets/Assessed Problem Sheet 3.pdf",
-    "Year 2/Problems/Assessed/Problem Sheets/2MVA Problem Sheet 2.pdf",
     "Year 2/Problems/Assessed/Answers/P&N problem set 2.md",
-    "Year 2/Problems/Assessed/Answers/MVA sheet 2.md",
-    "Utility/Images/MVA sheet 2 2025-10-27 15.28.55.excalidraw.md",
-    "Utility/Images/MVA sheet 2 2025-10-27 13.59.03.excalidraw.md",
-    "Year 2/Problems/Assessed/Problem Sheets/P&N problem set 1.md",
-    "Year 2/Problems/Assessed/Problem Sheets/2MVA Problem Sheet 1-2.pdf",
-    "Utility/Images/SP&E note 3 2025-10-27 09.19.11.excalidraw.md",
-    "Utility/Images/SP&E note 3 2025-10-24 16.23.30.excalidraw.md",
-    "Year 2/MVA/Notes/mva note 1.md",
-    "Year 2/Problems/Assessed/Answers/MVA sheet 1.md",
-    "Utility/Images/QAtS note 1 2025-10-23 13.11.17.excalidraw.md",
-    "Year 2/QM/Notes/qm note 1.md",
-    "Year 2/Problems/Non-Assessed/Problem Sheets/examples1_LA.pdf",
-    "Year 1/VGLA/Lecture/1VGLA_AU.pdf",
-    "Year 2/QM/Lectures/Y2 Quantum Mechanics_Notes_2025_Part1&2.pdf",
-    "Year 2/QAtS/Notes",
-    "Utility/Images/Saddle_Point-1.png",
-    "Utility/Images/Pasted Image 20250913114256_928.png",
-    "Utility/Images/{3EC11749-F92D-43DA-8184-08111DA5A730}.png",
-    "Independent Learning/SMMC/Questions/SMMC - More sample problems.png",
-    "Independent Learning/TQFT/Material/Google Gemini_files/gemini_sparkle_red_4ed1cbfcbc6c9e84c31b987da73fc4168aec8445.svg",
-    "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed_002.jpg",
-    "Independent Learning/TQFT/Material/Google Gemini_files/unnamed_003.jpg",
-    "Independent Learning/TQFT/Material/Google Gemini_files/unnamed_002.jpg",
-    "Independent Learning/TQFT/Material/Google Gemini_files/account_data/photo.png",
-    "Independent Learning/TQFT/Material/Google Gemini_files/account_data/unnamed.jpg"
+    "Year 2/Problems/Assessed/Answers/P&N problem set 1.md",
+    "Year 2/Problems/Assessed/Problem Sheets/Assessed Problem Sheet 3.pdf"
   ]
 }
