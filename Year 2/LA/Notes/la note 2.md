@@ -22,4 +22,9 @@ Notation $S=\{ v_{1},v_{2},\dots,v_{k} \}$ for $v_{i}\in V$ then where $f:V\to W
 > $$\text{rank}(f)+\text{nullity}(f)=\dim V$$
  ^thm-la-rank-null-form
 
+> [!definition|*]- Matrix representations of a linear transformation
+> Let $f \in \mathcal{L}(V,W)$, where $B_{V}$ is a base vector for $V$, $B_{W}$ is a basis vector for $W$.
+> $B_{V}=\{ v_{1},v_{2},\dots,v_{n} \}$ and $B_{W}=\{ w_{1},w_{2},\dots,w_{m} \}$ where $w \in f(v_{i})=\sum^{M}_{j=1}a_{ji}w_{j}$
+> The matrix $A=\left[ a_{ji} \right]_{\begin{array}1 1\leq i\leq n \\ 1\leq j\leq m\end{array}}$ is the matrix representation of $f$ with respect to $B_{V}$ with $B_{W}$
+ ^def-la-mat-rep
 
