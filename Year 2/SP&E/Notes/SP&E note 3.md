@@ -37,4 +37,32 @@ For reversible we obtain $\oint q=T_{0}\oint \frac{dQ}{T}=0\implies$ path indepe
 
 For irreversible $\oint \frac{dQ}{T}<0\implies \int ^{B}_{A} \frac{dQ}{T_{ext}}<S_{B}-S_{A}$
 
+$$dU=TdS-pdV+\sum_{i}Y_{i}dX$$
 
+Extensive variables (proportional to the size of the system): $V$, $S$, $N$
+
+Internal energy is unique (as a potential) as it has all extensive variables.
+
+$$\frac{ \partial U }{ \partial S }=T \frac{ \partial U }{ \partial V }\qquad-p=\frac{ \partial U }{ \partial V } \qquad Y_{j}= \frac{ \partial U }{ \partial X_{j} }   $$
+there variables are independent of size
+
+"2 equations of state" are $p(S,V,N)= -\frac{ \partial U }{ \partial V }$ and $T(S,V,N)=\frac{ \partial U }{ \partial \sqrt{ x } }$, not a function of state
+
+To obtain "THE function of state" we want to eliminate $S$, that is, solving for $S(V,U,N)$ from one of these equations and substitute into the other
+
+May not want to use $S$, $V$, $N$, other choices are enthalpy, $H$, where $H=U+pV$.
+
+Legendre transformation changes variables $(S,V,N)\to (S,p,N)$
+
+$$dH=dU+pdV+Vdp=TdS+Vdp\implies H(S,p)$$
+$$T=\frac{ \partial H }{ \partial S } \qquad V= \frac{ \partial H }{ \partial p } $$
+Helmholte free energy: $F=U-TS\implies dF=-SdT-pdV$ so $\frac{ \partial F }{ \partial T }=-S$ and $\frac{ \partial F }{ \partial V }=-p$, $F(T,V,N)$
+
+Gibbs free energy
+$$G=U+pV-TS=H-TS\implies dG=-SdT+Vdp\implies G(T,P,N)\quad \frac{ \partial G }{ \partial T } =-S\qquad \frac{ \partial G }{ \partial p } =V$$
+
+"free energy" is 
+$$dF=dU-TdS-SdT=dQ-dW_{by}-TdS\leq TdS-pdV-TdS=-dW_{by}$$
+$$\implies \left| dF \right|\leq dW_{by}$$ some energy is bounded by work and can be obtained from the system
+
+$$\underline{\underline{A}}$$

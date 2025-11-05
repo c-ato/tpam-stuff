@@ -4,26 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "c169d291455dee54",
+        "id": "d4072c54bf15e51c",
         "type": "tabs",
         "children": [
           {
-            "id": "82adac81bff4a402",
+            "id": "c09e608553d4b7bb",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Year 2/Problems/Assessed/Problem Sheets/Assessed Problem Sheet 3.pdf",
-                "page": 2,
-                "left": -10,
-                "top": 144,
-                "zoom": 1.5597806731667325
+                "file": "Year 2/P&N/Notes/P&N note 3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Assessed Problem Sheet 3"
+              "icon": "lucide-file",
+              "title": "P&N note 3"
+            }
+          },
+          {
+            "id": "c10cf16f32b58242",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 2/Problems/Assessed/Answers/MVA sheet 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MVA sheet 2"
+            }
+          },
+          {
+            "id": "8eb0e4f5a74fe9f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 2/Problems/Assessed/Answers/SP&E assessed 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SP&E assessed 2"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,10 +250,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "82adac81bff4a402",
+  "active": "8eb0e4f5a74fe9f0",
   "lastOpenFiles": [
+    "Year 2/Problems/Assessed/Answers/MVA sheet 2.md",
+    "Year 2/Problems/Assessed/Answers/SP&E assessed 2.md",
+    "Year 2/Problems/Assessed/Problem Sheets/2MVA Problem Sheet 1-2.pdf",
+    "Year 2/SP&E/Notes/SP&E note 3.md",
+    "Year 2/P&N/Notes/p&n note 4.md",
+    "Year 2/P&N/Notes/P&N note 3.md",
+    "Year 2/SP&E/Notes/SP&E note 2.md",
+    "Year 2/MVA/Notes/mva note 2.md",
+    "Year 2/MVA/Lectures/2MVAa2025.pdf",
+    "Year 2/QAtS/Notes/QAtS note 1.md",
+    "Year 2/Problems/Assessed/Problem Sheets/Assessed Problem Sheet 3.pdf",
     "Year 2/Problems/Assessed/Answers/P&N problem set 2.md",
-    "Year 2/Problems/Assessed/Answers/P&N problem set 1.md",
-    "Year 2/Problems/Assessed/Problem Sheets/Assessed Problem Sheet 3.pdf"
+    "Year 2/Problems/Assessed/Answers/P&N problem set 1.md"
   ]
 }

@@ -26,3 +26,4 @@ $d_{hkl}=\frac{a}{\sqrt[  ]{ h^{2}+k^{2}+l^{2} }}$ distance for cubic axis
 $(1,\bar{1})\equiv(\bar{1},1)$
 
 bragg's eq $n\lambda=2d_{hkl}\sin \theta$, consequence is $\lambda\leq \frac{2d}{n}$
+
