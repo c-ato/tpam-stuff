@@ -28,5 +28,8 @@ $$x^{2}-\frac{1}{3}$$
 	(b)
 Proposition 6.5
 $$\mid\mid \vec{v}^{\perp}_{U} \mid\mid=\mid\mid \vec{v}-\vec{v}^{\parallel}_{U} \mid\mid\leq \mid\mid \vec{v}-\vec{z} \mid\mid \forall \vec{z} \in U$$
-Generate a new orthogonal polynomial of space $U$ where $P=a_{0}+a_{1}x+a_{2}x^{2}+a_{3}x^{3}$
-$$p_{2}=P-\sum^{3}_{j=1} \frac{\left< P,p_{j} \right>  }{\left< p_{j},p_{j} \right>}p_{j}$$
+
+$$\mid\mid q-p^{*} \mid\mid\leq \mid\mid q-p \mid\mid \forall \vec{z} \in U$$
+Construct parallel polynomial to $U$
+$$p^{*}=\sum_{j=1}^{3} \frac{\left< q,p_{j} \right>  }{\left< p_{j},p_{j} \right>  }p_{j}= \frac{\int ^{1}_{-1} x^{3} \, dx }{\int ^{1}_{-1} 1 \, dx }+\frac{\int ^{1}_{-1} x^{4} \, dx }{\int ^{1}_{-1} x^{2} \, dx }x+\frac{\int ^{1}_{-1} x^{5}-\frac{1}{3}x^{3} \, dx }{\int ^{1}_{-1} x^{4}-\frac{2}{3}x^{2}+\frac{1}{9} \, dx }\left( x^{2}-\frac{1}{3} \right)$$
+$$0+\frac{3}{5}x+0=p^{*}$$

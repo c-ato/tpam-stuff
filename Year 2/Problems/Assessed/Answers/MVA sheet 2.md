@@ -27,3 +27,9 @@ $$0\leq \theta\leq \frac{\pi}{2},0\leq \phi\leq \frac{\pi}{2}\qquad \int ^{\frac
 $$I=\int ^{2}_{0}  \, dz \int ^{2-z}_{0}  \, dy \int ^{2-z-y}_{0} z^{3} \, dx =\int ^{2}_{0}  \, dz \int ^{2-z}_{0}  \, dy (2-z-y)z^{3}=\int ^{2}_{0}  \, dz \left( 2-z-\frac{(2-z)^{2}}{2} \right)$$
 $$=4-2-2+2-\frac{2}{3}=\frac{4}{3}$$
 4. 
+(a) Express the integral as repeated integrals using Cartesian coordinates. 
+$$$$
+(b) Express the integral as repeated integrals using cylindrical coordinates. 
+(c) Express the integral as repeated integrals using spherical coordinates. 
+(d) Calculate the triple integral using one of the three coordinate systems. 
+(f) Using the result of (d), or otherwise, calculate the following integral
