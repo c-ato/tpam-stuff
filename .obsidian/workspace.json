@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "d3a81bc6d6077089",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Utility/Images/MVA sheet 2 2025-11-05 15.29.22.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "MVA sheet 2 2025-11-05 15.29.22.excalidraw"
+            }
+          },
+          {
             "id": "5108a84ab08ff4e6",
             "type": "leaf",
             "state": {
@@ -57,9 +69,9 @@
               "state": {
                 "file": "Year 2/Problems/Assessed/Problem Sheets/2MVA Problem Sheet 2.pdf",
                 "page": 1,
-                "left": -16,
+                "left": -11,
                 "top": 845,
-                "zoom": 0.9272323972446349
+                "zoom": 1.25982662669108
               },
               "icon": "lucide-file-text",
               "title": "2MVA Problem Sheet 2"
@@ -122,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3dd5890b53b3a9da",
@@ -237,8 +250,9 @@
   },
   "active": "c10cf16f32b58242",
   "lastOpenFiles": [
-    "Year 2/Problems/Assessed/Problem Sheets/2MVA Problem Sheet 2.pdf",
+    "Utility/Images/MVA sheet 2 2025-11-05 15.29.22.excalidraw.md",
     "Year 2/Problems/Assessed/Answers/MVA sheet 2.md",
+    "Year 2/Problems/Assessed/Problem Sheets/2MVA Problem Sheet 2.pdf",
     "Year 2/Problems/Assessed/Problem Sheets/Completed/Assessed Problem Sheet 4.pdf",
     "Year 2/Problems/Assessed/Answers/Complete/MVA sheet 1.md",
     "Year 2/Problems/Assessed/Answers/Complete/SP&E assessed 2.md",
