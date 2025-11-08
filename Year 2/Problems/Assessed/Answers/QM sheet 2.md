@@ -21,3 +21,6 @@ Hence show that, if the height of the barrier is $$V_{0}=E-\frac{\pi^{2}\hbar^{2
 $$V_{0}=E-\frac{\pi^{2}\hbar^{2}}{2mL^{2}}\implies k_{2}=\frac{\sqrt[  ]{ 2m\left( E-\left( E-\frac{\pi^{2}\hbar^{2}}{2mL^{2}} \right) \right) }}{\hbar}=\frac{\pi}{L}$$
 $$B=\frac{E}{4k_{1}k_{2}}\left(k_{1}+k_{2}\right)\left( k_{1}-k_{2} \right) \left( e^{ -i\pi }-e^{ i\pi } \right)e^{ iLk_{1} }$$
 $$B=\frac{E}{4k_{1}k_{2}}\left(k_{1}+k_{2}\right)\left( k_{1}-k_{2} \right) \left( -1-(-1) \right)e^{ iLk_{1} }=\frac{E}{4k_{1}k_{2}}\left(k_{1}+k_{2}\right)\left( k_{1}-k_{2} \right) \left( 0 \right)e^{ iLk_{1} }=0$$
+
+
+
