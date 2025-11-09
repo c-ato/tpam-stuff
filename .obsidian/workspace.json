@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f92b4be028181a4d",
+            "id": "7b52c79b569aca69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/SP&E/Notes/SP&E note 3.md",
+                "file": "Year 2/Problems/Non-Assessed/Answers/example1 la.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,48 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SP&E note 3"
-            }
-          },
-          {
-            "id": "3114578396ee2d03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year 2/SP&E/Notes/sp&e note 4.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "sp&e note 4"
-            }
-          },
-          {
-            "id": "881d20f8bde628a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year 2/Problems/Assessed/Answers/QM sheet 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "QM sheet 2"
+              "title": "example1 la"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "c1c511d130a7b8a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "168c8384c3d2da5a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Year 2/Problems/Non-Assessed/Problem Sheets/examples1_LA.pdf",
+                "page": 1,
+                "left": -17,
+                "top": 296,
+                "zoom": 0.9019607843137255
+              },
+              "icon": "lucide-file-text",
+              "title": "examples1_LA"
+            }
+          },
+          {
+            "id": "97702b006d18f1c7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Year 2/LA/Lectures/notes2LA.pdf",
+                "page": 10,
+                "left": -17,
+                "top": 252,
+                "zoom": 0.9019607843137255
+              },
+              "icon": "lucide-file-text",
+              "title": "notes2LA"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3dd5890b53b3a9da",
@@ -251,14 +239,21 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3114578396ee2d03",
+  "active": "7b52c79b569aca69",
   "lastOpenFiles": [
-    "Year 2/SP&E/Notes/SP&E note 3.md",
+    "Year 2/Problems/Non-Assessed/Problem Sheets/examples1_LA.pdf",
+    "Year 2/LA/Lectures/notes2LA.pdf",
+    "Year 2/Problems/Non-Assessed/Problem Sheets/2LA(1).pdf",
+    "Year 2/Problems/Non-Assessed/Answers/example1 la.md",
+    "Year 2/Problems/Non-Assessed/Answers/Complete/Completed - mva tutorial sheet 1.md",
+    "Year 2/Problems/Assessed/Answers/Complete/QM sheet 2.md",
+    "Year 2/Problems/Non-Assessed/Answers/Complete",
+    "Year 2/Problems/Assessed/Problem Sheets/Completed/Assessed Problem Sheet 5.pdf",
+    "Year 2/Problems/Non-Assessed/Problem Sheets/examples3_LA.pdf",
     "Year 2/SP&E/Notes/sp&e note 4.md",
-    "Year 2/Problems/Assessed/Answers/QM sheet 2.md",
+    "Year 2/SP&E/Notes/SP&E note 3.md",
     "Independent Learning/TQFT/Notes/Metric space.md",
     "Year 2/P&N/Notes/p&n note 4.md",
-    "Year 2/Problems/Assessed/Problem Sheets/Assessed Problem Sheet 5.pdf",
     "Utility/Images/QM sheet 2 2025-11-06 16.31.56.excalidraw.md",
     "Year 2/Problems/Assessed/Problem Sheets/Completed/2MVA Problem Sheet 2.pdf",
     "Utility/Images/SP&E assessed 2 2025-11-05 12.03.32.excalidraw.md",
@@ -271,13 +266,8 @@
     "Year 2/Problems/Assessed/Answers/Complete/LI sheet 1.md",
     "Year 2/Problems/Assessed/Problem Sheets/Completed/LIHW1.pdf",
     "Year 2/P&N/Notes/P&N note 3.md",
-    "Year 2/LA/Lectures/notes2LA.pdf",
     "Year 2/Problems/Assessed/Problem Sheets/Completed/Assessed Problem Sheet 1.pdf",
-    "Year 2/Problems/Assessed/Problem Sheets/2MVA Problem Sheet 2 1.pdf",
     "Year 2/Problems/Assessed/Answers/Complete/Completed - QM 2 - sheet 1.md",
-    "Year 2/Problems/Assessed/Problem Sheets/Completed",
-    "Year 2/Problems/Assessed/Answers/Complete",
-    "Year 2/Problems/Assessed/Problem Sheets/Completed/Completed - 2MVA Problem Sheet 1-2.pdf",
     "Year 2/SP&E/Notes/SP&E note 2.md",
     "Year 2/MVA/Notes/mva note 2.md",
     "Year 2/QAtS/Notes/QAtS note 1.md",
