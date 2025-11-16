@@ -40,5 +40,6 @@
    $$w^{-}+v^{-}=(w+v)^{-}=(v+w)^{-}=v^{-}+w^{-}$$
    $$z=(v+w)+(v+w)^{-}=(v+w)+(w+v)^{-}=$$
 6. 
-   
-   
+$$(1)\forall v_{i},w_{i}\in \mathbb{F} ,\forall i \in \mathbb{N} , v_{i}+w_{i}\in \mathbb{F} \therefore \vec{v}+\vec{w}\in V\qquad (2)\forall \vec{v}\in V,\forall a,v_{i}\in\mathbb{F},av_{i}\in \mathbb{F} \therefore a\vec{v}\in V$$
+
+7. 

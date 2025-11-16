@@ -16,7 +16,7 @@ $$B=\frac{E}{4}\left( \frac{k_{1}-k_{2}}{k_{1}} \right) \left( \frac{k_{2}+k_{1}
 $$A= \frac{E}{4k_{1}k_{2}}\left( \left(k_{1}+k_{2} \right)^{2}e^{ iL(k_{1}-k_{2}) }- \left( k_{1}-k_{2} \right)^{2} e^{ iL(k_{1}+k_{2}) } \right) $$
 $$B=\frac{E}{4k_{1}k_{2}}\left(k_{1}+k_{2}\right)\left( k_{1}-k_{2} \right) \left( e^{ -iLk_{2} }-e^{ iLk_{2} } \right)e^{ iLk_{1} }$$
 
-Hence show that, if the height of the barrier is $$V_{0}=E-\frac{\pi^{2}\hbar^{2}}{2mL^{2}}$$then there is no relection from the barrier for this particle. [4]
+Hence show that, if the height of the barrier is $$V_{0}=E-\frac{\pi^{2}\hbar^{2}}{2mL^{2}}$$then there is no reflection from the barrier for this particle. [4]
 
 $$V_{0}=E-\frac{\pi^{2}\hbar^{2}}{2mL^{2}}\implies k_{2}=\frac{\sqrt[  ]{ 2m\left( E-\left( E-\frac{\pi^{2}\hbar^{2}}{2mL^{2}} \right) \right) }}{\hbar}=\frac{\pi}{L}$$
 $$B=\frac{E}{4k_{1}k_{2}}\left(k_{1}+k_{2}\right)\left( k_{1}-k_{2} \right) \left( e^{ -i\pi }-e^{ i\pi } \right)e^{ iLk_{1} }$$
