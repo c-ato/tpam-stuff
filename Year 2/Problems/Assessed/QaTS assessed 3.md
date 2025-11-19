@@ -5,3 +5,4 @@ At room temperature, iron is a metal with a body-centered cubic crystal structur
 	$$a=2.86\mathring{A}\implies d=\sqrt[  ]{ 3a^{2} }\implies r=\frac{d}{4}=\frac{a\sqrt[  ]{ 3 }}{4}$$
 	$$\implies \frac{V_{I}}{V_{tot}}=\frac{2\cdot \frac{4}{3}\pi r^{3}}{a^{3}}=\frac{8\pi}{3a^{3}} \frac{3a^{3}\sqrt[  ]{ 3 }}{64}= \frac{\pi \sqrt[  ]{ 3 }}{8}$$
 	(c) Draw several repeats of the unit cell and sketch on the (1, 1, 0) plane. [1]
+![[QaTS assessed 3 2025-11-19 10.33.07.excalidraw]]
