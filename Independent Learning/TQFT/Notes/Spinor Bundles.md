@@ -28,6 +28,8 @@ aliases:
 > - The base space $X$, a [[Topology|topological]] space beneath the total space
 > - The [[Product space|projection]] $\pi: E\to X$ which is a continuous surjective map. For any $x \in X$, $\pi ^{-1}(x)$ is called the fibre over $x$ and is required to be [[Morphisms|homomorphic]] to some standard $F$
 > - A local triviality condition, where locally $E$ is [[Morphisms|homomorphic]] to a [[product space]] on a [[Neighbourhoods|neighbourhood]], $U$, of $X$, $\phi_{U}:\pi ^{-1}(U)\to U\times F$
+
+^0ea0de
 $$\begin{tikzcd} 
 \pi^{-1}(U) \arrow[rr, "\phi_{U}"] \arrow[rd, "\pi"] & & U \times F \arrow[ld, "p_1"] \\ & U & 
 \end{tikzcd}$$

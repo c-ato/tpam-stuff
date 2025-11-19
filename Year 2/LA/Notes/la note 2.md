@@ -28,3 +28,23 @@ Notation $S=\{ v_{1},v_{2},\dots,v_{k} \}$ for $v_{i}\in V$ then where $f:V\to W
 > The matrix $A=\left[ a_{ji} \right]_{\begin{array}1 1\leq i\leq n \\ 1\leq j\leq m\end{array}}$ is the matrix representation of $f$ with respect to $B_{V}$ with $B_{W}$
  ^def-la-mat-rep
 
+> [!definition|*]- Equivalent matrices
+> Let $A,B\in\mathbb{R}^{m\times n}$. We say that $A$ and $B$ are equivalent if there exists invertible matrices, $M$, $N$ such that $B=M^{-1}AN$ where $M\in \mathbb{R}^{m\times m}$ and $N\in \mathbb{R}^{n\times n}$ 
+ ^def-la-equiv-mat
+
+> [!definition|*]- Isomorphism
+> A linear bijection $f:V\to W$ is called isomorphic. When then can say that $V$ and $W$ are isomorphic and written as $V\cong W$
+ ^def-la-isomorph
+
+> [!definition|*]- Endomorphism
+> A linear map $f:V\to V$, mapping $V$ onto itself, and is then called an endomorphism
+ ^def-la-endomorp
+
+> [!definition|*]- Similar matrices
+> Matrices $A,B \in \mathbb{F}^{n\times n}$ are said to be similar if there exists an invertible matrix $M \in \mathbb{F}^{n\times n}$ such that: $$B=M^{-1}AM$$
+ ^def-la-sim-mat
+
+> [!definition|*]- Automorphism
+> An invertible endomorphism
+ ^def-la-automor
+
