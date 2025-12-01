@@ -6,7 +6,9 @@ Simultaneous eigenfunctions: free particles $\psi(x,t)=Ae^{ i(kx-\omega t) }$
 $$\hat{p}=-i \hbar \frac{ \partial  }{ \partial x } \qquad \hat{p}\psi=\hbar k\psi\implies p=\hbar k$$
 $$\hat{E}=i \hbar \frac{ \partial  }{ \partial t } \qquad \hat{E}\psi=\hbar \omega\psi\implies p=\hbar \omega$$
 So $\psi$ is eigenfunction of both, this happens if operators commute
-Operators, $\hat{A}$, $\hat{B}$ do not compute if:
+Operators, $\hat{A}$, $\hat{B}$ do 
+
+not compute if:
 $$\hat{A}(\hat{B}\psi)\neq \hat{B}(\hat{A}\psi)\implies [\hat{A},\hat{B}]=\hat{A}\hat{B}-\hat{B}\hat{A}\neq 0$$
 Above is commutator
 

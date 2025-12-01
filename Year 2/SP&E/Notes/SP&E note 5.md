@@ -10,4 +10,3 @@ For $V\gg a,b$ we recover ideal gas
 Note that $p\to \infty$ as $V\to b$: 
 $$p=\underset{ \text{Reduced - vande} }{ -\frac{a}{v^{2}} }+\underset{ \text{min V - pauli} }{ \frac{RT}{V-b} }$$
 
-wavenumber/vector, spring constant, isothermal compressibility,boltzmann, electromag const,
