@@ -14,7 +14,7 @@
   "googleApiKey": "AIzaSyBJvQSMgDBLErPngx96vrCPrVbnEM7ins0",
   "openRouterAiApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "gpt-4.1|openai",
+  "defaultModelKey": "google/gemini-2.5-flash|openrouterai",
   "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
   "maxTokens": 1000,
@@ -391,5 +391,7 @@
   "enableSavedMemory": false,
   "maxRecentConversations": 30,
   "quickCommandIncludeNoteContext": true,
-  "defaultSendShortcut": "enter"
+  "defaultSendShortcut": "enter",
+  "lastDismissedVersion": "3.1.3",
+  "autoIncludeTextSelection": false
 }
