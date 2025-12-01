@@ -1,4 +1,3 @@
-Nuclear force - acts between hadrons, usually nucleons and binds the nuclei, originates from a leakage of the strong force of the quark gluon field- resulting in short range force. is modeled by pion exchange 
 mesons
 
 Mesons have integer spin and angular momentum is already int so total J is also int so are bosons.
@@ -27,5 +26,3 @@ $\Omega:J=\frac{3}{2},\Omega^{-}(sss)$
 
 Sequential weak decay of strange quark of strange containing baryons
 
-Semi-empirical mass formula is a tool for modeling nuclear masses and binding model, based on the binding energies by parametrising the nucleus mass as sum of constituents plus a series of corrections: $$M(Z,A)=\sum^{5}_{i=9}f_{i}(Z,A)$$
-where $f_{i}(Z,A)$ is experimentally provided and is why it is semi-empirical. Assume all nucleas have the same number of neighbours and correction is proportial to volume
