@@ -13,8 +13,8 @@
   "enabledCss": false,
   "concurrency": "5",
   "prevConfig": {
-    "pageSize": "Letter",
-    "marginType": "0",
+    "pageSize": "A4",
+    "marginType": "1",
     "showTitle": true,
     "open": false,
     "scale": 0,

@@ -3,10 +3,10 @@
  ^def-mva-curl
 
 > [!theorem|*]- Green's Theorem
-> Let $C$ be a closed curve, oriented counterclockwise and enclosing a region $R \in \mathbb{R}^{2}$. If $\underline{F}$ is a vector field defined and differentiable everywhere in $R$, then $$\oint_{C}\underline{F}\cdot d\underline{r}=\iint_{R}\text{curl}(\underline{F})dA$$
+> Let $C$ be a closed curve, oriented counterclockwise and enclosing a region $R \in \mathbb{R}^{2}$. If $\underline{F}$ is a vector field defined and differentiable everywhere in $R$, then $$\oint_{C}\underline{F}\cdot d\underline{r}=\iint_{R}\underline{\nabla}\times\underline{F}dA$$
  ^thm-mva-green
 
-> [!definition|*]- DIvergence
+> [!definition|*]- Divergence
 > $$\underline{F}=(M(x,y),N(x,y))\qquad Div(\underline{F})=\underline{\nabla}\cdot \underline{F}= \frac{ \partial M }{ \partial x } +\frac{ \partial N }{ \partial y } $$
  ^def-mva-div
 
@@ -17,3 +17,7 @@
 > [!theorem|*]- Green's Theorem in normal form
 > $$\int ^{}_{C}  \, \mathbf{F}\cdot \hat{n}\,ds =\iint_{R} \underline{\nabla}\cdot\mathbf{F}\,dA$$
  ^thm-mva-green-thm-norm
+
+> [!theorem|*]- Gauss' Divergence Theorem
+> Let $S$ be a closed orientable surface, and an enclosing a solid region $D\subset\mathbb{R}^{3}$ If $\mathbf{F}$ is a vector field defined and differentiable in $D$, then $$\iint_{S}\mathbf{F}\cdot dS=\iiint_{D}\underline{\nabla}\cdot \mathbf{F}dV$$
+ ^thm-mva-gaus-div-thm
