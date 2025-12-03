@@ -33,4 +33,31 @@ infers that $n$ complex eigenvalues, $\lambda_{i }\in \mathbb{C}\forall i\leq n\
 
 > [!definition|*]- Geometric multiplicity
 > The geometric multiplicity of $\lambda$ is denoted as $\gamma(\lambda)$ and is the dimension of the eigenspace associated with it: $\gamma(\lambda):=\dim kerE_{\lambda}$
- ^def-
+ ^def-la-geo-mult
+
+> [!definition|*]- Defective matrix
+> We say a matrix $A \in \mathbb{C}^{n\times n}$ is defective if it does not have $n$ linearly independent eigenvectors. Or mathematically
+> $$\sum^{k}_{i=1}\gamma(\lambda_{i})<n$$
+ ^def-la-defec-mat
+
+> [!theorem|*]- Eigenvalue decomposition and canonical form
+> Let $A \in \mathbb{C}^{n\times n}$ be a square, non-defective matrix. Then $A$ is diagonalisable with canonical form $A = X^{-1}DX$, where $$D_{ii} = λ_{i} ∈ \mathbb{C},\qquad\mathbf{c}_{i}(X) = \mathbf{x}_{i} ∈ \mathbb{C} ^{n}, \qquad i = 1, 2, \dots , n$$
+> where $(\mathbf{v}_{i},\lambda_{i})$ are eigenpairs of A for $1\leq i\leq n$.
+ ^thm-la-eig-decomp
+
+> [!proposition|*]- Invariant Subspace
+> Where $f\in \mathcal{L}(V)$ and $U\leq V$, with $\dim U=k$ and $\dim V=n$. Then $U$ is $f$-invariant $\iff$ it has a block triangular matrix representation of the form:
+> $$A=\begin{bmatrix}A_{U}&B \\O&C\end{bmatrix}$$
+> where $A_{U}\in \mathbb{C}^{k\times k},O\in \mathbb{C}^{(n-k)\times k},B\in \mathbb{C}^{k\times (n-k)},C\in \mathbb{C}^{(n-k)\times (n-k)}$
+ ^prp-la-invar-subspa
+
+> [!proposition|*]- 
+> Where $\lambda=a+bi$
+> $$\text{sp}\begin{bmatrix}\lambda &  \\& \bar{\lambda}\end{bmatrix}=\text{sp}\begin{bmatrix}a & b \\-b& a\end{bmatrix}$$
+ ^prp-
+
+complex vector broken into real and imaginary components are linearly independent
+
+> [!theorem|*]- Real decompostion of $A$
+> Let $A \in \mathbb{R}^{n\times n}$ be non-defective. Then $A=MDM^{-1}$ where
+ ^thm-

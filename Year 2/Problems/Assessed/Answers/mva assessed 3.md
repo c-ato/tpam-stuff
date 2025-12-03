@@ -25,9 +25,7 @@ $$\begin{vmatrix}
 x+y+z & \sin(xz) & yx 
 \end{vmatrix} =(x-x\cos(xz))\mathbf{i}-(y-1)\mathbf{j}+(z\cos(xz)-1)\mathbf{k}$$
 4. The field $\mathbf{F} = \left( 2x + \frac{1}{y} , 2y − \frac{x}{y^{2}}  \right)$ is a gradient field in $\mathbb{R}^{2}$. Determine the scalar function $f = f (x, y)$ such that $\mathbf{F} = \nabla f$ . Calculate $\int ^{}_{C} \mathbf{F} \cdot d\mathbf{r}$ where $C$ is the straight line segment from $(1, 1) to (2, 2)$.
-$$\frac{ \partial P }{ \partial x } =N=2x+\frac{1}{y}\qquad \frac{ \partial Q }{ \partial y }=M=2y-\frac{x}{y^{2}}\qquad N_{y}=-\frac{1}{y^{2}}=M_{x}$$
-Field is conservative
-$$\int ^{}_{} \frac{ \partial P }{ \partial x }  \, dx =x^{2}+c_{1}(y)+\frac{x}{y} =\int ^{}_{} \frac{ \partial Q }{ \partial y }  \, dy =y^{2}+c_{2}(x)+\frac{x}{y}$$
-$$\implies x^{2}+c_{1}(y)=y^{2}+c_{2}(x) \therefore c_{1}=y^{2}\qquad c_{2}=x^{2}$$
-$$f=x^{2}+y^{2}+\frac{x}{y}$$
+$$\mathbf{F}=\left( \frac{ \partial f }{ \partial x } ,\frac{ \partial f }{ \partial y }  \right)=\left( 2x+\frac{1}{y} ,2y- \frac{x}{y^{2}}\right)$$
+$$\int ^{}_{} \frac{ \partial f }{ \partial x }  \, dx =x^{2}+c_{1}(y)+\frac{x}{y} =\int ^{}_{} \frac{ \partial f }{ \partial y }  \, dy =y^{2}+c_{2}(x)+\frac{x}{y}$$
+$$\implies x^{2}+c_{1}(y)=y^{2}+c_{2}(x) \therefore c_{1}=y^{2}\qquad c_{2}=x^{2}\implies f=x^{2}+y^{2}+\frac{x}{y}$$
 $$\int ^{}_{C} \mathbf{F}\cdot d\mathbf{r}=\int ^{}_{C} \nabla f\cdot d\mathbf{r} =f(2,2)-f(1,1)=9-3=6$$
