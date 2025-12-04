@@ -14,10 +14,22 @@
 > Let $\mathbf{F}:\mathbb{R}^{2}\to \mathbb{R}^{2}$ be a vector field and let $C$ be a planar curve with planar unit normal vector $\hat{n}$. The flux is then defined as the line integral: $$\int ^{}_{C}  \, \mathbf{F}\cdot \hat{n}\,ds $$
  ^def-mva-flux
 
+> [!definition|*]- Parameterised normal of a parameterised surface
+> Where $\mathbf{r}(u,v)$ is the parameterised surface
+> $$\hat{n}= \frac{\frac{ \partial \mathbf{r} }{ \partial u } \times \frac{ \partial \mathbf{r} }{ \partial v } }{\left| \frac{ \partial \mathbf{r} }{ \partial u } \times \frac{ \partial \mathbf{r} }{ \partial v } \right|}$$
+ ^def-mva-para-norm
+
+> [!definition|*]- Surface differential
+> The surface differential is given by the parameterisation of $\mathbf{r}(u,v)$ of some surface $S$. 
+> $$dS=\left| \frac{ \partial \mathbf{r} }{ \partial u } \times \frac{ \partial \mathbf{r} }{ \partial v }  \right| dudv$$
+> and to vectorise it:
+> $$d\mathbf{S}=\hat{n}dS$$
+ ^def-mva-surface-diff
+
 > [!theorem|*]- Green's Theorem in normal form
-> $$\int ^{}_{C}  \, \mathbf{F}\cdot \hat{n}\,ds =\iint_{R} \underline{\nabla}\cdot\mathbf{F}\,dA$$
+> $$\int ^{}_{C}  \, \mathbf{F}\cdot \hat{n}\,dS =\iint_{R} \underline{\nabla}\cdot\mathbf{F}\,dA$$
  ^thm-mva-green-thm-norm
 
 > [!theorem|*]- Gauss' Divergence Theorem
-> Let $S$ be a closed orientable surface, and an enclosing a solid region $D\subset\mathbb{R}^{3}$ If $\mathbf{F}$ is a vector field defined and differentiable in $D$, then $$\iint_{S}\mathbf{F}\cdot dS=\iiint_{D}\underline{\nabla}\cdot \mathbf{F}dV$$
+> Let $S$ be a closed orientable surface, and an enclosing a solid region $D\subset\mathbb{R}^{3}$ If $\mathbf{F}$ is a vector field defined and differentiable in $D$, then $$\iint_{S}\mathbf{F}\cdot d\mathbf{S}=\iiint_{D}\underline{\nabla}\cdot \mathbf{F}dV$$
  ^thm-mva-gaus-div-thm
