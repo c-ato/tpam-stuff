@@ -27,7 +27,7 @@
  ^def-mva-surface-diff
 
 > [!theorem|*]- Green's Theorem in normal form
-> $$\int ^{}_{C}  \, \mathbf{F}\cdot \hat{n}\,dS =\iint_{R} \underline{\nabla}\cdot\mathbf{F}\,dA$$
+> $$\oint ^{}_{C}  \, \mathbf{F}\cdot \hat{n}\,dS =\iint_{R} \underline{\nabla}\cdot\mathbf{F}\,dA$$
  ^thm-mva-green-thm-norm
 
 > [!theorem|*]- Gauss' Divergence Theorem

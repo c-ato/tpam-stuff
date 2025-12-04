@@ -24,13 +24,25 @@ c_{2} & -c_{1} & 0
 \end{pmatrix}$$
 ![[LA sheet 2 2025-12-04 09.45.33.excalidraw]]
 	(b) Find $\ker A$ and hence derive $\ker f$ . State the rank of $f$. 
-$$f(\vec{v})=(v_{2}c_{3}-v_{3}c_{2})\mathbf{i}+(v_{3}c_{1}-v_{1}c_{3})\mathbf{j}+(v_{1}c_{2}-v_{2}c_{1})\mathbf{k}$$
-$$=v_{1}(-c_{3}\mathbf{j}+c_{2}\mathbf{k})+v_{2}(c_{3}\mathbf{i}-c_{1}\mathbf{k})+v_{3}(-c_{2}\mathbf{i}+c_{1}\mathbf{j})$$
-$$=c_{1}(v_{3}\mathbf{j}-v_{2}\mathbf{k})+c_{2}()$$
-$$\mathrm{Im}f=\text{span }\{ (-c_{3}\mathbf{j}+c_{2}\mathbf{k}),(c_{3}\mathbf{i}-c_{1}\mathbf{k}),(-c_{2}\mathbf{i}+c_{1}\mathbf{j}) \}=\{ \vec{a}_{1},\vec{a}_{2},\vec{a}_{3} \}$$
-$$v_{1}(-c_{3}\mathbf{j}+c_{2}\mathbf{k})+v_{2}(c_{3}\mathbf{i}-c_{1}\mathbf{k})+v_{3}(-c_{2}\mathbf{i}+c_{1}\mathbf{j})=0$$
-$\therefore$ not linearly independent so $\text{rank }f=\dim \ker f\leq 2$, and we also found from one of the vectors of the kernel so
-$$v_{2}c_{3}-v_{3}c_{2}=0\implies v_{3}=v_{2} \frac{c_{3}}{c_{2}}\qquad v_{3}c_{1}-v_{1}c_{3}=v_{2}\frac{c_{1}c_{3}}{c_{2}}-v_{1}=0\implies v_{1}=v_{2}\frac{c_{1}c_{3}}{c_{2}}$$
-$$\vec{u} \in \ker f,u=\frac{c_{1}c_{2}}{c_{3}}\mathbf{i}+\mathbf{j}+\frac{c_{3}}{c_{2}}\mathbf{k}$$
+$$A\mathbf{v}=\begin{pmatrix}
+v_{2}c_{3}-v_{3}c_{2} \\
+v_{3}c_{1}-v_{1}c_{3} \\
+v_{1}c_{2}-v_{2}c_{1}
+\end{pmatrix}=\mathbf{0}$$
+$$v_{2}c_{3}-v_{3}c_{2}=0\implies v_{3}=v_{2} \frac{c_{3}}{c_{2}}\qquad v_{3}c_{1}-v_{1}c_{3}=v_{2}\frac{c_{1}c_{3}}{c_{2}}-v_{1}c_{1}=0\implies v_{1}=v_{2}\frac{c_{3}}{c_{2}}$$
+$$\mathbf{v}=\begin{pmatrix}
+v_{2}\frac{c_{3}}{c_{2}} \\
+v_{2} \\
+v_{2}\frac{c_{3}}{c_{2}}
+\end{pmatrix}=v_{2}\begin{pmatrix}
+c_{3} \\
+c_{2}\\
+c_{3}
+\end{pmatrix}$$
+$$\mathbf{v} \in \ker A,\mathbf{v}=\begin{pmatrix}
+\frac{c_{3}}{c_{2}} \\
+1 \\
+\frac{c_{3}}{c_{2}}
+\end{pmatrix}$$
 	(c) Check directly (through calculations) that, for all x ∈ R3, cT Ax = xT Ax = 0
 	
