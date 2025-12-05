@@ -21,7 +21,7 @@
 
 > [!definition|*]- Surface differential
 > The surface differential is given by the parameterisation of $\mathbf{r}(u,v)$ of some surface $S$. 
-> $$dS=\left| \frac{ \partial \mathbf{r} }{ \partial u } \times \frac{ \partial \mathbf{r} }{ \partial v }  \right| dudv$$
+> $$dS=\left| \frac{ \partial \mathbf{r} }{ \partial u } \times \frac{ \partial \mathbf{r} }{ \partial v }  \right| dudv\qquad d\mathbf{S}=\frac{ \partial \mathbf{r} }{ \partial u } \times \frac{ \partial \mathbf{r} }{ \partial v }  dudv$$
 > and to vectorise it:
 > $$d\mathbf{S}=\hat{n}dS$$
  ^def-mva-surface-diff
