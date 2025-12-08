@@ -14,3 +14,15 @@ $$\frac{ \partial S_{AB} }{ \partial U_{A} }=\frac{ \partial S_{A} }{ \partial U
 so $\frac{ \partial S_{A} }{ \partial U_{A} }=\frac{ \partial S_{B} }{ \partial U_{B} }$ or that the properties of $A\equiv B$
 
 $$S_{eq}(U,U_{A})=k_{B}\ln\left( \sum \Omega_{A}\Omega_{B} \right)\gg S_{i}$$
+2 isothermal systems $A$ and $B$ with adiabatic wall between and generally the energy specific energy level state of $A$ is given by $E^{A}_{n}$ and for a specific energy level and a signular specific state is $E_{i}^{A}$. We assume for this system that $E=C_{B}\Delta T_{B}$ such that $\frac{\Delta T_{B}}{T_{B}}\ll 1$ so that $C_{B}$ is so large to preserve $T$.
+
+We have statistical weight of the combined system is given by $\Omega(U_{0}-E^{A}_{i})=\Omega(E^{B})$
+
+Assume that $B$ is not affected by presence except in terms of energy conservation.
+
+We will have that $U_{0}\approx C_{B}T\gg E^{A}_{i}$ so this suggests an taylor expansion of $\Omega$
+$$S_{B}(U_{0}-E^{A}_{i})\approx S_{B}(U_{0})- E_{i}^{A}\underbrace{ \left( \frac{ \partial S_{B} }{ \partial U_{B} }  \right) }_{ \frac{1}{T} }\implies \Omega(U_{0}-E^{A}_{i})\approx \exp \left[ \frac{S_{B}}{k_{B}} -\frac{E_{i}^{A}}{k_{B}T}\right]$$
+$$\implies p_{i}=  \exp \left[ -\frac{E_{i}}{k_{B}T} \right] $$
+Normalise we have partition function $Z$.
+$$Z=\sum_{i}\exp \left[ -\beta E_{i}^{A}\right]=\sum_{n}g_{n}\exp \left[ -\beta E_{n} \right]  $$
+$$\implies p(E_{n})=g_{n}p_{i}$$
