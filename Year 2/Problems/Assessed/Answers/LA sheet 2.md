@@ -36,15 +36,11 @@ c_{1}v_{2}-c_{2}v_{1}
 $$c_{3}v_{1}-c_{1}v_{3}0\implies v_{3}=v_{1}\frac{c_{3}}{c_{1}}\qquad c_{1}v_{2}-c_{2}v_{1}=0\implies v_{2}=v_{1} \frac{c_{2}}{c_{1}}$$
 Check if valid solution
 $$c_{2}v_{3}-c_{3}v_{2}= c_{2} v_{1} \frac{c_{3}}{c_{1}}-c_{3} v_{1} \frac{c_{2}}{c_{1}}=0$$
-$$\therefore \ker A=\{ \mathbf{v} \}=\left\{ \begin{pmatrix}
+$$\therefore \ker A=\text{span }\{ \mathbf{v} \}=\text{span }\left\{ \begin{pmatrix}
 v_{1} \\
 v_{1} \frac{c_{2}}{c_{1}} \\
 v_{1} \frac{c_{3}}{c_{1}}
-\end{pmatrix} \right\}=\left\{ \frac{v_{1}}{c_{1}}\begin{pmatrix}
-c_{1} \\
-c_{2} \\
-c_{3}
-\end{pmatrix} \right\}=\left\{ \begin{pmatrix}
+\end{pmatrix} \right\}= \text{span }\left\{ \begin{pmatrix}
 c_{1} \\
 c_{2} \\
 c_{3}
@@ -52,7 +48,7 @@ c_{3}
 $\therefore$ by the result $\ker f\cong \ker A$ so:
 $$\ker f=\{ c_{1}\mathbf{i}+c_{2}\mathbf{j}+c_{3}\mathbf{k} \}$$
 the $\text{rank }f$ is given by the rank nullity relation:
-$$\text{rank}f+\text{nullity}f=\dim\mathbb{E} ^{3}=3\therefore \text{rank}f=2$$
+$$\text{rank}f+\text{nullity}f=\text{rank}f+1=\dim\mathbb{E} ^{3}=3\therefore \text{rank}f=2$$
 If further reasoning is required consider that it has a basis of 3 vectors.
 
 (c) Check directly (through calculations) that, for all $x \in \mathbb{R}^{3}$, $$\mathbf{c}^{T}A\mathbf{x}=\mathbf{x}^{T}A\mathbf{x}=0$$Deduce that $f(\vec{v})\perp \text{span }\{ \vec{c},\vec{v} \}$. 
