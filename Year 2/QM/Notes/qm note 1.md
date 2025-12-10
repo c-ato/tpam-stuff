@@ -63,3 +63,4 @@ $\implies \int ^{}_{} \frac{1}{\phi} \, d\phi=\int  ^{}_{}- \frac{iE}{\hbar}  \,
 $\implies -\frac{\hbar^{2}}{2m} \frac{1}{\psi}\frac{ \partial^{2} \psi }{ \partial x^{2} }+V=E\implies \frac{d^{2}\psi}{dx^{2}}=-\frac{2m(E-V)}{\hbar^{2}}\psi$
 Let $k=\frac{\sqrt[  ]{ {2m(E-V_{0})} }}{\hbar}$  and assume it is a free particle so $V=V_{0}$ then $\psi=Ae^{ ikx }+Be^{ -ikx }$
 TISE: $-\frac{\hbar^{2}}{2m}\frac{ \partial^{2} \psi(x) }{ \partial x^{2} }+V(x)\psi(x)=E\psi$ may be real
+	

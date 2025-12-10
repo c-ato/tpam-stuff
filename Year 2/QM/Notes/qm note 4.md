@@ -18,3 +18,6 @@ So 2 different spots $2=2S+1\implies S=\frac{1}{2}\implies S_{z}=\pm \frac{1}{2}
 Bosons have int spin and fermions have half int spin
 
 Pauli exclusion principle: no 2 identical fermions can occupy the same quantum state
+
+Total angular momentum is given by $\underline{J}=\underline{L}+\underline{S}$, behaves like $\underline{L}$
+$$\left| l+s \right|\leq j< \left| l-s \right|\qquad m_{j}=m_{l}+m_{s}$$
