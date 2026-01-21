@@ -1,4 +1,6 @@
 {
+  "copyLinkToElemenetAnchorTo100": false,
+  "copyFrameLinkByName": false,
   "disableDoubleClickTextEditing": false,
   "folder": "Utility/Excalidraw",
   "cropFolder": "",
@@ -38,6 +40,8 @@
   "overrideObsidianFontSize": false,
   "dynamicStyling": "colorful",
   "isLeftHanded": false,
+  "desktopUIMode": "tray",
+  "tabletUIMode": "compact",
   "iframeMatchExcalidrawTheme": true,
   "matchTheme": false,
   "matchThemeAlways": false,
@@ -71,6 +75,7 @@
   "focusOnFileTab": false,
   "openInMainWorkspace": true,
   "showLinkBrackets": true,
+  "syncElementLinkWithText": false,
   "allowCtrlClick": true,
   "forceWrap": false,
   "pageTransclusionCharLimit": 200,
@@ -6581,9 +6586,7 @@
   "mdBorderColor": "Black",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "defaultTrayMode": true,
-  "compactModeOnTablets": true,
-  "previousRelease": "2.16.1",
+  "previousRelease": "2.19.2",
   "showReleaseNotes": true,
   "compareManifestToPluginVersion": true,
   "showNewVersionNotification": true,
@@ -6592,6 +6595,7 @@
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
   "pinnedScripts": [],
+  "sidepanelTabs": [],
   "customPens": [
     {
       "type": "default",
@@ -6942,6 +6946,7 @@
   "aiEnabled": true,
   "openAIAPIToken": "",
   "openAIDefaultTextModel": "",
+  "openAIDefaultTextModelMaxTokens": 4096,
   "openAIDefaultVisionModel": "",
   "openAIDefaultImageGenerationModel": "",
   "openAIURL": "",
@@ -7268,5 +7273,8 @@
     "customPaperColor": "#ffffff",
     "alignment": "center",
     "margin": "normal"
-  }
+  },
+  "disableContextMenu": false,
+  "defaultTrayMode": true,
+  "compactModeOnTablets": true
 }

@@ -393,5 +393,12 @@
   "quickCommandIncludeNoteContext": true,
   "defaultSendShortcut": "enter",
   "lastDismissedVersion": "3.1.3",
-  "autoIncludeTextSelection": false
+  "autoIncludeTextSelection": false,
+  "autoAddActiveContentToContext": true,
+  "autoCompactThreshold": 128000,
+  "autoAddSelectionToContext": false,
+  "autoAcceptEdits": false,
+  "chatHistorySortStrategy": "recent",
+  "projectListSortStrategy": "recent",
+  "userSystemPromptsFolder": "copilot/system-prompts"
 }
