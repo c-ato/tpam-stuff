@@ -33,3 +33,16 @@ $$\psi_{n}(x)=\frac{1}{\sqrt[  ]{ 2^{n}n!\sqrt[  ]{ \pi \ell } }}H_{n}\left( \fr
 Leibnitz theorem: pascal triangle but order of derivative rather than power
 where $y=uv$ then 
 $$y^{(n)}= \sum^{n}_{k=0}\begin{pmatrix}n \\ k\end{pmatrix}u^{(n-k)}v^{(k)}$$
+Rcursion relations
+$$H_{n+1}=2xH_{n}-2nH_{n-1}$$
+$$H_{n}'=$$
+$$H''_{n}=2nH_{n-1}$$
+
+Hermite generating function
+$$g(x,t)=\sum^{\infty}_{n=0}=H_{n}(x) \frac{t^{n}}{n!}$$
+$$H_{n}=(-1)^{n}e^{ x^{2} } \frac{ \partial ^{n} }{ \partial x^{n} } (e^{ -(x-t)^{2} })=e^{ x^{2} }\frac{ \partial ^{n} }{ \partial x^{n} } \left( e^{ -(x-t)^{2} } \right) $$
+Which follows $g(x,t)=e^{ x^{2} }e^{ -(x-t)^{2} }=e^{ 2xt-t^{2} }$
+$$g(x,t)=\sum^{\infty}_{k=0} \frac{(2xt)^{k}}{k!} \sum^{\infty}_{\ell=0} (-1)^{n} \frac{t^{2\ell}}{\ell!}=\sum^{\infty}_{k=0}\sum^{\infty}_{\ell=0}=(-1)^{\ell} \frac{(2x)^{k}}{k!\ell!}t^{k+2\ell}$$
+variable change
+$$g=\sum^{\infty}_{n=0}\sum^{\left[ \frac{n}{2} \right]}_{\ell=0} (-1)^{\ell} \frac{(2x)^{n-2\ell}}{\ell!(n-2\ell)!}t^{n}$$
+$$\implies H_{n}= \sum^{\left[ \frac{n}{2} \right]}_{\ell=0} (-1)^{\ell} \frac{(2x)^{n-2\ell}}{\ell!(n-2\ell)!}$$

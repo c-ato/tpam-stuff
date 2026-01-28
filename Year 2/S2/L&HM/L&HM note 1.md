@@ -29,3 +29,14 @@ $$d\underline{r}_{n}=d\underline{r}_{n}(q_{1},\dots,q_{s},t)=\frac{ \partial \un
 $$d\underline{\dot{r}}_{n}=d\underline{\dot{r}}_{n}(\dot{q}_{1},\dots,\dot{q}_{s},t)=\frac{ \partial \underline{r}_{n} }{ \partial q_{1} }d\dot{q}_{1}+\frac{ \partial \underline{r}_{n} }{ \partial q_{s} }d\dot{q}_{s}+ \frac{ \partial \underline{r}_{n} }{ \partial t }$$
 
 scleronomics
+
+bead on parabolic wire
+
+2 DoF, choose $y=\frac{x^{2}}{2a}$ 
+$$T=\frac{1}{2}m(\dot{x}^{2}+\dot{y}^{2})\qquad \dot{y}=\frac{x \dot{x}}{a}\impliedby \dot{y}^{2}=\frac{x^{2}\dot{x}^{2}}{a}\implies \frac{a\dot{y}^{2}}{y}=\dot{x}^{2}$$
+and then do the thigns and thte lagrangian and yh boom bang
+
+now rotating with $\omega$
+$$T=\frac{1}{2}m(\dot{r}^{2}+r^{2}\dot{\theta})+\frac{1}{2}m\dot{y}^{2}=\mathcal{L} +may\omega^{2}$$
+where $\mathcal{L}$ is from regular parabola and has effect of replacing $g$ with $g-a\omega^{2}$ in prev of $V$
+

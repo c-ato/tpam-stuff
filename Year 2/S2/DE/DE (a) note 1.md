@@ -18,4 +18,5 @@ $\dot{\underline{y}}=\begin{pmatrix}\dot{\theta} \\ \dot{x}\end{pmatrix}=\underl
 > [!definition|*]- Autonomous
 > A system is autonomous if there is no explicit time dependence in the equation 
  ^def-DE-autonomous
- 
+
+Heteroclinic orbits
