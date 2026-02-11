@@ -20,3 +20,11 @@ $\dot{\underline{y}}=\begin{pmatrix}\dot{\theta} \\ \dot{x}\end{pmatrix}=\underl
  ^def-DE-autonomous
 
 Heteroclinic orbits
+
+Reduction of order:
+
+Given a solution $y=u_{1}(x)$ we may find another solution of $y$ using $y=v(x)u_{1}(x)$
+
+Use liebenutz theorem
+
+

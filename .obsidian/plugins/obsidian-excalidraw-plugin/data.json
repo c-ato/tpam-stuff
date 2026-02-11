@@ -148,8 +148,8 @@
             "locked": false,
             "startBinding": null,
             "endBinding": {
-              "mode": "orbit",
               "elementId": "Mk1eFcNQ0ZwQoD5vKtiie",
+              "mode": "orbit",
               "fixedPoint": [
                 0.4118181818180536,
                 0.5881818181819375
@@ -200,8 +200,8 @@
             "link": null,
             "locked": false,
             "startBinding": {
-              "mode": "orbit",
               "elementId": "1LAvW7vEmth5nBU9NW3oY",
+              "mode": "orbit",
               "fixedPoint": [
                 0.32272727272732027,
                 0.677272727272665
@@ -1446,8 +1446,8 @@
             "locked": false,
             "startBinding": null,
             "endBinding": {
-              "mode": "orbit",
               "elementId": "Z-QsfH1oxFzCMnsEhYAZx",
+              "mode": "orbit",
               "fixedPoint": [
                 0.4118181818180536,
                 0.5881818181819375
@@ -1498,8 +1498,8 @@
             "link": null,
             "locked": false,
             "startBinding": {
-              "mode": "orbit",
               "elementId": "yiJ3_iab8vTADQrwaD1em",
+              "mode": "orbit",
               "fixedPoint": [
                 0.32272727272736573,
                 0.6772727272726377
