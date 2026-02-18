@@ -22,3 +22,33 @@ Faraday's law - not conservative, depends on path
 $$\bar{\nabla}\times \bar{E}=-\frac{ \partial \bar{B} }{ \partial t } \implies \oint_{S}\bar{E}\cdot d \bar{l}=\int ^{}_{S} (\bar{\nabla}\times \bar{E}) \, d\bar{S}=-\int ^{}_{S} \frac{ \partial \bar{B} }{ \partial t }  \, d\bar{S}=-\frac{d}{dt}\int ^{}_{S} \bar{B} \, d\bar{S}   =- \frac{d\phi_{B}}{dt}$$
 EMF 
 $$\varepsilon=\frac{1}{q}\oint\bar{F}_{lorentz}\cdot d\bar{l}=-\frac{d\phi}{dt}$$
+Dielectric (Insulators)
+- Not free charges, bounded
+- $E$-field permeates
+
+Dielectric polarisations, Field weaker inside than vacuum  
+- Polar dielectrics (permanent dipole moment) - isotropic distribution (direction of dipole moment are all equal). Partial alignment with external $E$-field
+- Non-polar dielectrics (induced dipole moment. Weak complete alignment. 
+
+Polarisation vector (Dipolar moment induced/volume)
+$$\bar{P}=\frac{1}{\Delta V}\sum_{\Delta V}\bar{p}_{i}\qquad dp=dq\cdot l=\sigma_{p}dS\cdot l=\sigma_{p}\cdot dV$$
+
+$$\sigma_{p}=P\qquad dp=P\cdot dV$$
+$$dQ=\sigma_{p}dS=\bar{P}\cdot d\bar{S}$$
+Total polarisation charge 
+$$Q_{p}=\int ^{}_{V}\rho_{p}dV=-\int ^{}_{S}  \, dQ_{p}=-\int ^{}_{S} \bar{P}\cdot  \, d\bar{S}=-\int ^{}_{V}(\nabla \bar{P})  \, dV=\rho_{p}=\nabla \bar{P}   $$
+Polarisation currents
+$$\nabla \bar{J}_{p}=-\frac{ \partial \rho_{p} }{ \partial t } =\nabla \frac{ \partial \bar{P} }{ \partial t } \implies \bar{J}_{p}=\frac{ \partial \bar{P} }{ \partial t } $$
+Linear, isotropic and homogeneous
+$$\left| \bar{P} \right|\sim \left| \bar{E} \right|\qquad \bar{P}\uparrow\uparrow\bar{E}$$
+$$\bar{P}=\chi_{E}\varepsilon_{0}\bar{E}$$
+$\chi_{E}$ is electric susceptibility
+
+Non-polar case
+$$\bar{p}=\alpha\varepsilon_{0}\bar{E}\qquad \chi_{E}=\frac{P}{\varepsilon_{0}E}=\frac{np}{\varepsilon_{0}E}=\frac{n\alpha\varepsilon_{0}E}{\varepsilon_{0}E}=n\alpha$$
+Polar case
+$$\text{No field: }dN=\frac{d\Omega}{4\pi}=\frac{2\pi \sin \theta d\theta }{4\pi}=\frac{1}{2}\sin \theta d\theta$$
+$$\text{E-field: }dN=\frac{1}{2}\sin \theta d\theta e^{ - \frac{U}{kT} }$$
+$$U=\frac{1}{2}\sin \theta d\theta \left( 1+\frac{pE\cos \theta}{kT} \right)$$
+$$\chi_{E}=\frac{P}{\varepsilon_{0}E}=\frac{np^{2}}{3\varepsilon_{0}kT}\implies\chi_{E}=n\left( \alpha+\frac{p^{2}}{3\varepsilon_{0}kT} \right)$$
+This gives the gaseous dielectric electric susceptibility
