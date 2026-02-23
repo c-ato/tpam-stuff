@@ -93,3 +93,15 @@ $$\det \left( \begin{pmatrix}
 \end{pmatrix} \right) =\sigma(\sigma+1)+1=\sigma^{2}+\sigma+1=0$$
 $$\sigma=-\frac{1}{2}\pm \frac{\sqrt[  ]{ 3 }}{2}i$$
 The imaginary component means it is a spiral, and the negative real component then means it is a stable spiral around $\mathbf{x}_{e}=\begin{pmatrix}0 \\ 1\end{pmatrix}$
+$$\begin{pmatrix}
+-1 & -1 \\
+1 & 0
+\end{pmatrix}\begin{pmatrix}
+1 \\
+0
+\end{pmatrix}=\begin{pmatrix}
+-1 \\
+1
+\end{pmatrix}$$
+This is anticlockwise movement.
+![[2DEb assessed 2d]]
