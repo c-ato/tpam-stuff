@@ -10,54 +10,7 @@ $$=I_{1}\left( \dot{\theta}^{2}+ \dot{\phi}^{2}\sin ^{2}\theta-\frac{\dot{\phi}^
 $$I_{3}\left( \dot{\phi}^{2}\cos ^{2} \theta+\dot{\phi}\dot{\psi}\cos \theta+\dot{\psi}\dot{\phi}\cos \theta+\dot{\psi}^{2}- \frac{(\dot{\phi}\cos \theta+\dot{\psi})^{2}}{2} \right)+mgh\cos \theta$$
 This is conserved as there is no time dependent constraints and $\mathcal{L}$ is not time dependent.
 (c)
-$$ \begin{pmatrix}
-I_{1}\sin ^{2}\theta+I_{3}\cos ^{2}\theta & I_{3}\cos \theta \\
-I_{3}\cos \theta & I_{3}
-\end{pmatrix}\begin{pmatrix}
-\dot{\phi} \\
-\dot{\psi}
-\end{pmatrix}=\begin{pmatrix}
-p_{\phi} \\
-p_{\psi}
-\end{pmatrix}=
-$$
-$$\begin{pmatrix}
-I_{1}\sin ^{2}\theta+I_{3}\cos ^{2}\theta & I_{3}\cos \theta \\
-I_{3}\cos \theta & I_{3}
-\end{pmatrix}^{-1}\begin{pmatrix}
-p_{\phi} \\
-p_{\psi}
-\end{pmatrix}=\begin{pmatrix}
-\dot{\phi} \\
-\dot{\psi}
-\end{pmatrix}=$$
-$$\frac{1}{I_{1}I_{3}\sin ^{2}\theta+I_{3}^{2}\cos ^{2}\theta-I_{3}^{2}\cos ^{2}\theta} \begin{pmatrix}
-I_{3} & -I_{3}\cos \theta \\
--I_{3}\cos \theta & I_{1}\sin ^{2}\theta+I_{3}\cos ^{2}\theta
-\end{pmatrix}\begin{pmatrix}
-p_{\phi} \\
-p_{\psi}
-\end{pmatrix}=$$
-$$\frac{1}{I_{1}I_{3}\sin ^{2}\theta}\begin{pmatrix}
-I_{3} & -I_{3}\cos \theta \\
--I_{3}\cos \theta & I_{1}\sin ^{2}\theta+I_{3}\cos ^{2}\theta
-\end{pmatrix}\begin{pmatrix}
-p_{\phi} \\
-p_{\psi}
-\end{pmatrix}= $$
-$$\begin{pmatrix}
-\frac{1}{I_{1}} \csc ^{2}\theta & - \frac{1}{I_{1}}\cot \theta \csc \theta \\
-- \frac{1}{I_{1}}\cot \theta \csc \theta & \frac{1}{I_{3}}+\frac{1}{I_{1}}\cot ^{2}\theta
-\end{pmatrix}\begin{pmatrix}
-p_{\phi} \\
-p_{\psi}
-\end{pmatrix}= \begin{pmatrix}
-\frac{p_{\phi}}{I_{1}} \csc ^{2}\theta - \frac{p_{\psi}}{I_{1}}\cot \theta \csc \theta \\
-\frac{p_{\psi}}{I_{3}}+\frac{p_{\psi}}{I_{1}}\cot ^{2}\theta - \frac{p_{\phi}}{I_{1}}\cot \theta \csc \theta
-\end{pmatrix}=\begin{pmatrix}
-\dot{\phi} \\
-\dot{\psi}
-\end{pmatrix}$$
+$$p_{\theta}=\frac{ \partial \mathcal{L}  }{ \partial \dot{\theta} } =I_{1}\dot{\theta}\qquad p_{\phi}=\frac{ \partial \mathcal{L}  }{ \partial \dot{\phi} } =I_{1}\dot{\phi}\sin ^{2}\theta+I_{3}(\dot{\phi}\cos \theta+\dot{\psi})\cos \theta\qquad p_{\psi}=\frac{ \partial \mathcal{L}  }{ \partial \psi } =I_{3}\dot{\phi}\cos \theta+I_{3}\dot{\psi}$$
 $$\dot{\phi}=\frac{p_{\phi}}{I_{1}} \csc ^{2}\theta - \frac{p_{\psi}}{I_{1}}\cot \theta \csc \theta\qquad\dot{\psi}=\frac{p_{\psi}}{I_{3}}+\frac{p_{\psi}}{I_{1}}\cot ^{2}\theta - \frac{p_{\phi}}{I_{1}}\cot \theta \csc \theta$$
 $$\mathcal{L} =\frac{I_{1}}{2}\left( \left( \frac{p_{\phi}}{I_{1}}\csc \theta - \frac{p_{\psi}}{I_{1}}\cot  \theta \right)^{2} + \dot{\theta}^{2}  \right) -mgh\cos \theta$$
 $$+\frac{I_{3}}{2}\left( \frac{p_{\phi}}{I_{1}}\cot \theta \csc \theta-\frac{p_{\psi}}{I_{1}}\cot ^{2}\theta+ \frac{p_{\psi}}{I_{3}}+\frac{p_{\psi}}{I_{1}}\cot ^{2}\theta - \frac{p_{\phi}}{I_{1}}\cot \theta \csc \theta \right)^{2}  =$$
