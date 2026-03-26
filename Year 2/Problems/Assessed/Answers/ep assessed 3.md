@@ -1,1 +1,0 @@
-![[Vector Space#^def-vgla-vec-space]] 
