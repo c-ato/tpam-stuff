@@ -47,7 +47,7 @@
     "y": 147
   },
   "autoPauseOnWindowBlur": false,
-  "chunkSize": 9000,
   "enableExperimentalFeatures": true,
-  "reducedNoticesOnMobile": true
+  "reducedNoticesOnMobile": true,
+  "chunkSize": 9000
 }

@@ -22,7 +22,7 @@ aliases:
 > When $X$ is a set and $τ$ is a topology on $X$, we say that the sets in $τ$ are open. Therefore, if $X$ does have a [[Metric space|metric]] (a notion of distance), then $τ =\{\text{all open sets as defined with the ball}\}$ is indeed a topology. We call this topology the Euclidean topology. It is also referred to as the usual or ordinary topology.
  ^def-top-euclidean-top
 
-> [!definition|*]- Induced Topology
+> [!definition|*]- Induced TopologyTopology
 > If $Y ⊆ X$ and $τ_{x}$ is a topology on $X$, one can define the Induced topology as $τ_{y} = \{O ⋂ Y |O ∈ τ_{x}\}$.
  ^def-top-induced-top
 > [!example|*]- Finite intersection of topology

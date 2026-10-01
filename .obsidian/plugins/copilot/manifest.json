@@ -1,13 +1,14 @@
 {
-	"id": "copilot",
-	"name": "Copilot",
-	"version": "3.2.4",
-	"minAppVersion": "0.15.0",
-	"description": "Your AI Copilot: Chat with Your Second Brain, Learn Faster, Work Smarter.",
-	"author": "Logan Yang",
-	"authorUrl": "https://twitter.com/logancyang",
-	"fundingUrl": {
-		"Buy Me a Coffee": "https://www.buymeacoffee.com/logancyang",
-		"GitHub Sponsor": "https://github.com/sponsors/logancyang"
-	}
+  "id": "copilot",
+  "name": "Copilot",
+  "version": "4.0.11",
+  "minAppVersion": "1.11.4",
+  "isDesktopOnly": false,
+  "description": "Run AI agents such as Claude Code, Codex, and OpenCode inside your vault. Turn your second brain into a smart assistant that gets knowledge work done.",
+  "author": "Logan Yang",
+  "authorUrl": "https://twitter.com/logancyang",
+  "fundingUrl": {
+    "Buy Me a Coffee": "https://www.buymeacoffee.com/logancyang",
+    "GitHub Sponsor": "https://github.com/sponsors/logancyang"
+  }
 }

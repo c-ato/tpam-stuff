@@ -1,44 +1,47 @@
 {
+  "userId": "cd850fc3-1bfe-42e9-b88d-db837e86cd16",
+  "isPaidUser": false,
   "isPlusUser": false,
+  "entitlementToken": "",
+  "entitlementExpiresAt": 0,
   "plusLicenseKey": "",
   "openAIApiKey": "",
   "openAIOrgId": "",
   "huggingfaceApiKey": "",
   "cohereApiKey": "",
   "anthropicApiKey": "",
-  "azureOpenAIApiKey": "",
-  "azureOpenAIApiInstanceName": "",
-  "azureOpenAIApiDeploymentName": "",
-  "azureOpenAIApiVersion": "",
-  "azureOpenAIApiEmbeddingDeploymentName": "",
-  "googleApiKey": "AIzaSyBJvQSMgDBLErPngx96vrCPrVbnEM7ins0",
+  "googleApiKey": "",
   "openRouterAiApiKey": "",
+  "xaiApiKey": "",
+  "mistralApiKey": "",
+  "deepseekApiKey": "",
+  "siliconflowApiKey": "",
   "defaultChainType": "llm_chain",
   "defaultModelKey": "google/gemini-2.5-flash|openrouterai",
-  "embeddingModelKey": "text-embedding-3-small|openai",
-  "temperature": 0.1,
-  "maxTokens": 1000,
   "contextTurns": 15,
   "userSystemPrompt": "",
   "openAIProxyBaseUrl": "",
-  "openAIEmbeddingProxyBaseUrl": "",
   "stream": true,
+  "copilotFolder": "copilot",
+  "copilotRootHistory": [
+    "copilot"
+  ],
+  "upgradedToV8FromLegacy": false,
   "defaultSaveFolder": "copilot-conversations",
   "defaultConversationTag": "copilot-conversation",
   "autosaveChat": false,
+  "autoAddActiveContentToContext": true,
   "defaultOpenArea": "view",
+  "defaultSendShortcut": "enter",
   "customPromptsFolder": "copilot-custom-prompts",
-  "indexVaultToVectorStore": "ON STARTUP",
   "qaExclusions": "copilot",
   "qaInclusions": "",
   "chatNoteContextPath": "",
   "chatNoteContextTags": [],
-  "enableIndexSync": true,
   "debug": false,
-  "enableEncryption": false,
   "maxSourceChunks": 9,
+  "enableInlineCitations": true,
   "groqApiKey": "",
-  "mistralApiKey": "",
   "activeModels": [
     {
       "name": "copilot-plus-flash",
@@ -47,10 +50,11 @@
       "isBuiltIn": true,
       "core": true,
       "plusExclusive": true,
-      "projectEnabled": false,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "projectEnabled": false,
+      "apiKey": ""
     },
     {
       "name": "google/gemini-2.5-flash",
@@ -58,10 +62,33 @@
       "enabled": true,
       "isBuiltIn": true,
       "core": true,
-      "projectEnabled": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "projectEnabled": true,
+      "apiKey": ""
+    },
+    {
+      "name": "gpt-5.5",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gpt-5.4-mini",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
     },
     {
       "name": "gpt-5.2",
@@ -71,7 +98,8 @@
       "core": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "gpt-5-mini",
@@ -81,7 +109,8 @@
       "core": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "google/gemini-2.5-flash-lite",
@@ -92,7 +121,8 @@
       "projectEnabled": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "google/gemini-2.5-pro",
@@ -103,7 +133,8 @@
       "projectEnabled": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "gpt-5",
@@ -113,7 +144,8 @@
       "core": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "gpt-4.1",
@@ -124,7 +156,8 @@
       "projectEnabled": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "gpt-4.1-mini",
@@ -135,7 +168,8 @@
       "projectEnabled": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "gpt-5-nano",
@@ -145,7 +179,8 @@
       "core": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "google/gemini-2.5-flash-lite-preview-06-17",
@@ -156,7 +191,8 @@
       "projectEnabled": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "gpt-4.1-nano",
@@ -166,7 +202,8 @@
       "core": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "o4-mini",
@@ -176,7 +213,8 @@
       "core": true,
       "capabilities": [
         "reasoning"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "claude-3-5-sonnet-latest",
@@ -186,7 +224,8 @@
       "core": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "claude-sonnet-4-20250514",
@@ -196,7 +235,8 @@
       "capabilities": [
         "reasoning",
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "claude-3-7-sonnet-latest",
@@ -206,25 +246,29 @@
       "capabilities": [
         "reasoning",
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "claude-3-5-haiku-latest",
       "provider": "anthropic",
       "enabled": false,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
       "name": "grok-3-beta",
       "provider": "xai",
       "enabled": false,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
       "name": "grok-3-mini-beta",
       "provider": "xai",
       "enabled": false,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
       "name": "gemini-2.5-flash",
@@ -234,7 +278,8 @@
       "projectEnabled": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "gemini-2.5-pro",
@@ -244,31 +289,29 @@
       "projectEnabled": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "command-r",
       "provider": "cohereai",
       "enabled": false,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
       "name": "command-r-plus",
       "provider": "cohereai",
       "enabled": false,
-      "isBuiltIn": true
-    },
-    {
-      "name": "azure-openai",
-      "provider": "azure openai",
-      "enabled": false,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
       "name": "deepseek-chat",
       "provider": "deepseek",
       "enabled": false,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
       "name": "deepseek-reasoner",
@@ -277,148 +320,282 @@
       "isBuiltIn": true,
       "capabilities": [
         "reasoning"
-      ]
+      ],
+      "apiKey": ""
     }
   ],
-  "activeEmbeddingModels": [
-    {
-      "name": "copilot-plus-small",
-      "provider": "copilot-plus",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true,
-      "plusExclusive": true
-    },
-    {
-      "name": "copilot-plus-large",
-      "provider": "copilot-plus-jina",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true,
-      "plusExclusive": true,
-      "believerExclusive": true,
-      "dimensions": 1024
-    },
-    {
-      "name": "copilot-plus-multilingual",
-      "provider": "copilot-plus-jina",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true,
-      "plusExclusive": true,
-      "dimensions": 512
-    },
-    {
-      "name": "openai/text-embedding-3-small",
-      "provider": "openrouterai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true
-    },
-    {
-      "name": "text-embedding-3-small",
-      "provider": "openai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true
-    },
-    {
-      "name": "gemini-embedding-001",
-      "provider": "google",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true
-    },
-    {
-      "name": "Qwen/Qwen3-Embedding-0.6B",
-      "provider": "siliconflow",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true,
-      "baseUrl": "https://api.siliconflow.com/v1"
-    },
-    {
-      "name": "text-embedding-3-large",
-      "provider": "openai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true
-    },
-    {
-      "name": "embed-multilingual-light-v3.0",
-      "provider": "cohereai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true
-    },
-    {
-      "name": "text-embedding-004",
-      "provider": "google",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true
-    },
-    {
-      "name": "azure-openai",
-      "provider": "azure openai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true
-    }
-  ],
-  "embeddingRequestsPerMin": 90,
-  "embeddingBatchSize": 16,
-  "disableIndexOnMobile": true,
-  "showSuggestedPrompts": false,
-  "showRelevantNotes": true,
-  "numPartitions": 1,
+  "lexicalSearchRamLimit": 100,
   "promptUsageTimestamps": {},
+  "promptSortStrategy": "timestamp",
+  "chatHistorySortStrategy": "recent",
+  "projectsFolder": "copilot/projects",
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
-  "userId": "cd850fc3-1bfe-42e9-b88d-db837e86cd16",
+  "projectList": [],
+  "lastDismissedVersion": "3.1.3",
+  "lastShownStartupVersion": "4.0.12",
   "passMarkdownImages": true,
+  "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
-  "includeActiveNoteAsContext": true,
-  "allowAdditionalContext": true,
-  "enableWordCompletion": false,
+  "enableSelfHostMode": false,
+  "enableMiyo": false,
+  "enableMiyoSearchSkill": false,
+  "miyoSearchAll": false,
+  "relevantNotesLiveUpdate": true,
+  "miyoServerUrl": "",
+  "selfHostSearchProvider": "firecrawl",
+  "firecrawlApiKey": "",
+  "perplexityApiKey": "",
+  "parallelApiKey": "",
+  "exaApiKey": "",
+  "supadataApiKey": "",
+  "docProcessorBackend": "plus",
+  "enableLexicalBoosts": true,
   "suggestedDefaultCommands": true,
-  "lexicalSearchRamLimit": 100,
-  "generateAIChatTitleOnSave": true,
-  "enableInlineCitations": true,
-  "enableAutocomplete": false,
-  "autonomousAgentMaxIterations": 4,
   "autonomousAgentEnabledToolIds": [
     "localSearch",
     "readNote",
     "webSearch",
     "pomodoro",
     "youtubeTranscription",
-    "writeToFile",
-    "replaceInFile",
+    "writeFile",
+    "editFile",
     "memoryTool"
   ],
+  "reasoningEffort": "low",
+  "verbosity": "medium",
   "memoryFolderName": "copilot/memory",
   "enableRecentConversations": false,
-  "enableSavedMemory": false,
   "maxRecentConversations": 30,
+  "enableSavedMemory": false,
   "quickCommandIncludeNoteContext": true,
-  "defaultSendShortcut": "enter",
-  "lastDismissedVersion": "3.1.3",
-  "autoIncludeTextSelection": false,
-  "autoAddActiveContentToContext": true,
-  "autoCompactThreshold": 128000,
-  "autoAddSelectionToContext": false,
   "autoAcceptEdits": false,
-  "chatHistorySortStrategy": "recent",
-  "projectListSortStrategy": "recent",
+  "diffViewMode": "split",
   "userSystemPromptsFolder": "copilot/system-prompts",
-  "enableMiyo": false,
-  "selfHostSearchProvider": "firecrawl"
+  "defaultSystemPromptTitle": "",
+  "autoCompactThreshold": 128000,
+  "convertedDocOutputFolder": "",
+  "agentMode": {
+    "byok": {},
+    "activeBackend": "opencode",
+    "backends": {},
+    "debugFullFrames": true,
+    "notificationSound": true,
+    "notificationSoundId": "piano",
+    "welcomeDismissed": false,
+    "skills": {
+      "folder": "copilot/skills"
+    }
+  },
+  "providers": {},
+  "configuredModels": [],
+  "backends": {},
+  "copilotPlusCatalog": {
+    "models": [
+      {
+        "id": "copilot-plus-flash",
+        "displayName": "Copilot Plus Flash",
+        "description": "The default model: fastest responses and the most quota.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "kimi-k2.6",
+        "displayName": "Kimi K2.6",
+        "description": "Good for long-running reasoning tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 262144
+        }
+      },
+      {
+        "id": "glm-5.2",
+        "displayName": "GLM-5.2",
+        "description": "A frontier open-weight model.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [
+          "none",
+          "high"
+        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "glm-5.3-flash",
+        "displayName": "GLM-5.3-Flash",
+        "description": "Fast, cost-efficient coding and long-horizon agent tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "deepseek-v4-pro",
+        "displayName": "DeepSeek V4 Pro",
+        "description": "A top-tier model for the hardest reasoning and agentic tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "deepseek-v4-flash-0731",
+        "displayName": "DeepSeek V4 Flash 0731",
+        "description": "The July 2026 DeepSeek V4 Flash snapshot: fast, cheap, and broadly capable.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [
+          "none",
+          "high"
+        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "deepseek-v4.1-flash",
+        "displayName": "DeepSeek V4.1 Flash",
+        "description": "Fast multimodal reasoning for coding and agentic tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "mimo-v2.6-flash",
+        "displayName": "MiMo V2.6 Flash",
+        "description": "Cost-effective model for everyday use.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "minimax-m3",
+        "displayName": "MiniMax M3",
+        "description": "Long-context model for coding and agentic tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 524288
+        }
+      }
+    ],
+    "defaultEnabledIds": [
+      "copilot-plus-flash",
+      "glm-5.2",
+      "glm-5.3-flash",
+      "deepseek-v4-pro",
+      "deepseek-v4.1-flash",
+      "minimax-m3"
+    ]
+  },
+  "temperature": 0.1,
+  "showSuggestedPrompts": false,
+  "showRelevantNotes": true,
+  "includeActiveNoteAsContext": true,
+  "allowAdditionalContext": true,
+  "enableWordCompletion": false,
+  "generateAIChatTitleOnSave": true,
+  "enableAutocomplete": false,
+  "autonomousAgentMaxIterations": 4,
+  "autoIncludeTextSelection": false,
+  "autoAddSelectionToContext": false,
+  "projectListSortStrategy": "recent",
+  "miyoConnectionMode": "local",
+  "_keychainVaultId": "d14d267b",
+  "settingsVersion": 14
 }
