@@ -1,46 +1,22 @@
 {
   "workspaces": {
-    "topology": {
+    "QM": {
       "main": {
-        "id": "17bcb7776f02a803",
+        "id": "0bbf1ccf71b196ec",
         "type": "split",
         "children": [
           {
-            "id": "387e960b2842b75d",
+            "id": "4b315754f4c5e414",
             "type": "tabs",
-            "dimension": 51.85185185185184,
+            "dimension": 50,
             "children": [
               {
-                "id": "942cd95217adf03f",
+                "id": "ff330bdb8b99eac1",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Independent Learning/TQFT/Notes/Spin Structure.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": true,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Spin Structure"
-                }
-              },
-              {
-                "id": "e398e2652ac8abba",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Spinor Bundles.md",
+                    "file": "Year 3/S1/QM3/Notes/lecture 3.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -55,1022 +31,30 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Spinor Bundles"
-                }
-              },
-              {
-                "id": "6d72b099c5b03818",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Fundamental Group.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Fundamental Group"
-                }
-              },
-              {
-                "id": "e0880e74d3a4df8c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Spinor Bundles.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Spinor Bundles"
-                }
-              },
-              {
-                "id": "6cd18e31860d7cd6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Connectedness.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Connectedness"
-                }
-              },
-              {
-                "id": "104fa568452db44a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Product space.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Product space"
-                }
-              },
-              {
-                "id": "234e9355edad8e44",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Super Vector Space.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Super Vector Space"
-                }
-              },
-              {
-                "id": "f6e7a7df1997dbe1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Manifolds.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Manifolds"
-                }
-              }
-            ],
-            "currentTab": 7
-          },
-          {
-            "id": "4c4c0fe102b11ff7",
-            "type": "tabs",
-            "dimension": 48.14814814814816,
-            "children": [
-              {
-                "id": "b0aa63471c98e951",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
-                    "title": "Spinor bundle - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Spinor bundle - Wikipedia"
-                }
-              },
-              {
-                "id": "99fee2c25d370af7",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Frame_bundle",
-                    "title": "Frame bundle - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Frame bundle - Wikipedia"
-                }
-              },
-              {
-                "id": "1f91da1b17a763da",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Tangent_bundle",
-                    "title": "Tangent bundle - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Tangent bundle - Wikipedia"
-                }
-              },
-              {
-                "id": "1a6d488804a05768",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Differentiable_manifold",
-                    "title": "Differentiable manifold - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Differentiable manifold - Wikipedia"
-                }
-              },
-              {
-                "id": "fd4ac57778c7e9e2",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Symmetry_group",
-                    "title": "Symmetry group - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Symmetry group - Wikipedia"
-                }
-              },
-              {
-                "id": "30805bf71593e3cf",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Covering_space#Universal_covering",
-                    "title": "Covering space - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Covering space - Wikipedia"
-                }
-              },
-              {
-                "id": "44ef827ae410d999",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Spin_representation",
-                    "title": "Spin representation - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Spin representation - Wikipedia"
-                }
-              },
-              {
-                "id": "821abfd9fcda7b35",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Spin_structure",
-                    "title": "Spin structure - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Spin structure - Wikipedia"
-                }
-              },
-              {
-                "id": "2aa346a90129e76d",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
-                    "title": "Spinor bundle - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Spinor bundle - Wikipedia"
-                }
-              },
-              {
-                "id": "333996791021136c",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Vector_bundle",
-                    "title": "Vector bundle - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Vector bundle - Wikipedia"
-                }
-              },
-              {
-                "id": "a8d313b42e85dbbd",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Principal_bundle",
-                    "title": "Principal bundle - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Principal bundle - Wikipedia"
-                }
-              },
-              {
-                "id": "4dabbc50e6fababc",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Spinor_bundle",
-                    "title": "Spinor bundle - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Spinor bundle - Wikipedia"
-                }
-              },
-              {
-                "id": "8d4c68f161014c9a",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Covering_group",
-                    "title": "Covering group - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Covering group - Wikipedia"
-                }
-              },
-              {
-                "id": "6226641c234f5306",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://en.wikipedia.org/wiki/Covering_space",
-                    "title": "Covering space - Wikipedia",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Covering space - Wikipedia"
-                }
-              },
-              {
-                "id": "9f8b9dfa1d9c6d94",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://commons.wikimedia.org/wiki/File:Spinor_on_the_circle.png",
-                    "title": "File:Spinor on the circle.png - Wikimedia Commons",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "File:Spinor on the circle.png - Wikimedia Commons"
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "2d274d7b3c225723",
-        "type": "split",
-        "children": [
-          {
-            "id": "3e63072c4c33a564",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b11573e71d3c4468",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "5ea501e83b8a10a9",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#differentials",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "32e030ac87d0b5d4",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 364.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "f8f6d84d1165094d",
-        "type": "split",
-        "children": [
-          {
-            "id": "cfc6280df4c2bcb8",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2c99828b6fd4ae0e",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks"
-                }
-              },
-              {
-                "id": "169451b74e10397d",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": false
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links"
-                }
-              },
-              {
-                "id": "403f603ddeeaaf0e",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "120eaf048f7bd193",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://player.sw.arm.fm/",
-                    "title": "Swarm FM Player",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Swarm FM Player"
-                }
-              },
-              {
-                "id": "16f32d2d52905a1b",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "25f2f2347c694b25",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline"
-                }
-              },
-              {
-                "id": "1ce47dbf2d3785ea",
-                "type": "leaf",
-                "state": {
-                  "type": "copilot-chat-view",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "horizontal",
-        "width": 242.5
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "daily-notes:Open today's daily note": false,
-          "markdown-importer:Open format converter": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "workspaces:Manage workspace layouts": false,
-          "copilot:Open Copilot Chat": false,
-          "omnisearch:Omnisearch": false,
-          "obsidian-excalidraw-plugin:New drawing": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "templater-obsidian:Templater": false,
-          "soundscapes:Soundscapes: My Music": false,
-          "edge-tts:Read note aloud": false,
-          "pdf-plus:PDF++: Toggle auto-copy": false,
-          "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false
-        }
-      },
-      "active": "f6e7a7df1997dbe1",
-      "mtime": "2025-08-06T09:25:39+01:00"
-    },
-    "top 1": {
-      "main": {
-        "id": "17bcb7776f02a803",
-        "type": "split",
-        "children": [
-          {
-            "id": "387e960b2842b75d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "942cd95217adf03f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Spin Structure.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": true,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Spin Structure"
-                }
-              },
-              {
-                "id": "e398e2652ac8abba",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Spinor Bundles.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Spinor Bundles"
-                }
-              },
-              {
-                "id": "6d72b099c5b03818",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Fundamental Group.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Fundamental Group"
-                }
-              },
-              {
-                "id": "e0880e74d3a4df8c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Spinor Bundles.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Spinor Bundles"
-                }
-              },
-              {
-                "id": "6cd18e31860d7cd6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Connectedness.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Connectedness"
-                }
-              },
-              {
-                "id": "104fa568452db44a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Product space.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Product space"
-                }
-              },
-              {
-                "id": "234e9355edad8e44",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Super Vector Space.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Super Vector Space"
-                }
-              },
-              {
-                "id": "f6e7a7df1997dbe1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/TQFT/Notes/Manifolds.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Manifolds"
-                }
-              }
-            ],
-            "currentTab": 7
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "2d274d7b3c225723",
-        "type": "split",
-        "children": [
-          {
-            "id": "3e63072c4c33a564",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b11573e71d3c4468",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "5ea501e83b8a10a9",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#differentials",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "32e030ac87d0b5d4",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 364.5
-      },
-      "right": {
-        "id": "f8f6d84d1165094d",
-        "type": "split",
-        "children": [
-          {
-            "id": "cfc6280df4c2bcb8",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2c99828b6fd4ae0e",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks"
-                }
-              },
-              {
-                "id": "169451b74e10397d",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": false
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links"
-                }
-              },
-              {
-                "id": "403f603ddeeaaf0e",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "120eaf048f7bd193",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://player.sw.arm.fm/",
-                    "title": "Swarm FM Player",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Swarm FM Player"
-                }
-              },
-              {
-                "id": "16f32d2d52905a1b",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "25f2f2347c694b25",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline"
-                }
-              },
-              {
-                "id": "1ce47dbf2d3785ea",
-                "type": "leaf",
-                "state": {
-                  "type": "copilot-chat-view",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "horizontal",
-        "width": 242.5
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "daily-notes:Open today's daily note": false,
-          "markdown-importer:Open format converter": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "workspaces:Manage workspace layouts": false,
-          "copilot:Open Copilot Chat": false,
-          "omnisearch:Omnisearch": false,
-          "obsidian-excalidraw-plugin:New drawing": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "templater-obsidian:Templater": false,
-          "soundscapes:Soundscapes: My Music": false,
-          "edge-tts:Read note aloud": false,
-          "pdf-plus:PDF++: Toggle auto-copy": false,
-          "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false
-        }
-      },
-      "active": "f6e7a7df1997dbe1",
-      "mtime": "2025-08-07T15:14:44+01:00"
-    },
-    "SMMC": {
-      "main": {
-        "id": "17bcb7776f02a803",
-        "type": "split",
-        "children": [
-          {
-            "id": "387e960b2842b75d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "6922b551909bffd4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Independent Learning/SMMC/Mines Sol/2017 A.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "2017 A"
+                  "title": "lecture 3"
                 }
               }
             ]
           },
           {
-            "id": "4b59975ce9a365b4",
+            "id": "8b31fdef3e6c6adb",
             "type": "tabs",
+            "dimension": 50,
             "children": [
               {
-                "id": "6b2e44f5d7eccb16",
+                "id": "d25e14b630a578d9",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "Independent Learning/SMMC/Questions/SMMC 2017 Paper A.pdf",
-                    "page": 2,
-                    "left": 28,
-                    "top": 517,
-                    "zoom": 1.3
+                    "file": "Year 3/S1/SP/Lectures/Sec_2_3_Temperature_canonical.pdf",
+                    "page": 5,
+                    "left": -22,
+                    "top": 547,
+                    "zoom": 0.68539635396018
                   },
                   "icon": "lucide-file-text",
-                  "title": "SMMC 2017 Paper A"
+                  "title": "Sec_2_3_Temperature_canonical"
                 }
               }
             ]
@@ -1079,33 +63,35 @@
         "direction": "vertical"
       },
       "left": {
-        "id": "2d274d7b3c225723",
+        "id": "8bfeb36952039f6c",
         "type": "split",
         "children": [
           {
-            "id": "3e63072c4c33a564",
+            "id": "6ada863dbc026427",
             "type": "tabs",
             "children": [
               {
-                "id": "b11573e71d3c4468",
+                "id": "21360c530200b3df",
                 "type": "leaf",
                 "state": {
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical",
-                    "autoReveal": false
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
                 }
               },
               {
-                "id": "5ea501e83b8a10a9",
+                "id": "26d6fbbf4264570e",
                 "type": "leaf",
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#differentials",
+                    "query": "norm",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -1117,11 +103,14 @@
                 }
               },
               {
-                "id": "32e030ac87d0b5d4",
+                "id": "9ee8cac79f013f37",
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {},
+                  "state": {
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
                   "icon": "lucide-bookmark",
                   "title": "Bookmarks"
                 }
@@ -1130,50 +119,51 @@
           }
         ],
         "direction": "horizontal",
-        "width": 364.5,
-        "collapsed": true
+        "width": 300
       },
       "right": {
-        "id": "f8f6d84d1165094d",
+        "id": "8956b5b3a828ef71",
         "type": "split",
         "children": [
           {
-            "id": "cfc6280df4c2bcb8",
+            "id": "140b9a2346b01309",
             "type": "tabs",
             "children": [
               {
-                "id": "2c99828b6fd4ae0e",
+                "id": "6384603e34e96af2",
                 "type": "leaf",
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "Utility/mus_paths.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
                     "showSearch": false,
                     "searchQuery": "",
                     "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
+                    "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
                   "title": "Backlinks"
                 }
               },
               {
-                "id": "169451b74e10397d",
+                "id": "3e218b751335bbf7",
                 "type": "leaf",
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "Utility/mus_paths.md",
                     "linksCollapsed": false,
-                    "unlinkedCollapsed": false
+                    "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
                   "title": "Outgoing links"
                 }
               },
               {
-                "id": "403f603ddeeaaf0e",
+                "id": "d0968a5df30a7734",
                 "type": "leaf",
                 "state": {
                   "type": "tag",
@@ -1188,21 +178,7 @@
                 }
               },
               {
-                "id": "120eaf048f7bd193",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://player.sw.arm.fm/",
-                    "title": "Swarm FM Player",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Swarm FM Player"
-                }
-              },
-              {
-                "id": "16f32d2d52905a1b",
+                "id": "f3d84cc2c34f85a4",
                 "type": "leaf",
                 "state": {
                   "type": "all-properties",
@@ -1216,11 +192,12 @@
                 }
               },
               {
-                "id": "25f2f2347c694b25",
+                "id": "58457446c0b54eeb",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
                   "state": {
+                    "file": "Year 3/S1/F&FA/Lectures/3FFA-20.pdf",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
@@ -1230,85 +207,873 @@
                 }
               },
               {
-                "id": "1ce47dbf2d3785ea",
+                "id": "e886c1cdb2bc51cf",
                 "type": "leaf",
                 "state": {
-                  "type": "copilot-chat-view",
+                  "type": "git-view",
                   "state": {},
-                  "icon": "message-square",
-                  "title": "Copilot"
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
-        "width": 260.5,
+        "width": 300,
         "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
-          "daily-notes:Open today's daily note": false,
-          "markdown-importer:Open format converter": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
           "workspaces:Manage workspace layouts": false,
-          "copilot:Open Copilot Chat": false,
+          "bases:Create new base": false,
           "omnisearch:Omnisearch": false,
           "obsidian-excalidraw-plugin:New drawing": false,
           "table-editor-obsidian:Advanced Tables Toolbar": false,
           "templater-obsidian:Templater": false,
-          "soundscapes:Soundscapes: My Music": false,
           "edge-tts:Read note aloud": false,
           "pdf-plus:PDF++: Toggle auto-copy": false,
           "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false
+          "pdf-plus:PDF++: Toggle auto-paste": false,
+          "copilot:Open Copilot Agent Chat": false,
+          "obsidian-git:Open Git source control": false
         }
       },
-      "floating": {
-        "id": "08fd364dde17e414",
-        "type": "floating",
+      "active": "ff330bdb8b99eac1",
+      "mtime": "2026-10-13T14:01:31+01:00"
+    },
+    "BP": {
+      "main": {
+        "id": "0bbf1ccf71b196ec",
+        "type": "split",
         "children": [
           {
-            "id": "958915fb1bd7bdfe",
-            "type": "window",
+            "id": "4b315754f4c5e414",
+            "type": "tabs",
             "children": [
               {
-                "id": "08194c85fc60f3ce",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "11d7589b88e53910",
-                    "type": "leaf",
-                    "state": {
-                      "type": "excalidraw",
-                      "state": {
-                        "file": "Utility/Images/2017 A 2025-08-07 15.22.47.excalidraw.md"
-                      },
-                      "icon": "excalidraw-icon",
-                      "title": "2017 A 2025-08-07 15.22.47.excalidraw"
+                "id": "ff330bdb8b99eac1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Year 3/S1/BP/Notes/lecture 3.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
                     }
-                  }
-                ]
+                  },
+                  "icon": "lucide-file",
+                  "title": "lecture 3"
+                }
+              },
+              {
+                "id": "fba3156f4b8fca58",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Year 3/S1/BP/Notes/lecture 4.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "lecture 4"
+                }
+              },
+              {
+                "id": "e73a4520f89e3aa7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Year 3/S1/BP/Notes/lecture 5.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "lecture 5"
+                }
               }
             ],
-            "direction": "vertical",
-            "x": 448,
-            "y": 116,
-            "width": 1024,
-            "height": 800,
-            "maximize": false,
-            "zoom": 0
+            "currentTab": 2
           }
-        ]
+        ],
+        "direction": "vertical"
       },
-      "active": "6922b551909bffd4",
-      "mtime": "2025-08-07T17:36:35+01:00"
+      "left": {
+        "id": "8bfeb36952039f6c",
+        "type": "split",
+        "children": [
+          {
+            "id": "6ada863dbc026427",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "21360c530200b3df",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "26d6fbbf4264570e",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "norm",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "9ee8cac79f013f37",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "8956b5b3a828ef71",
+        "type": "split",
+        "children": [
+          {
+            "id": "140b9a2346b01309",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6384603e34e96af2",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Utility/mus_paths.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
+                }
+              },
+              {
+                "id": "3e218b751335bbf7",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Utility/mus_paths.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
+                }
+              },
+              {
+                "id": "d0968a5df30a7734",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "f3d84cc2c34f85a4",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "58457446c0b54eeb",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Year 3/S1/F&FA/Lectures/3FFA-20.pdf",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline"
+                }
+              },
+              {
+                "id": "e886c1cdb2bc51cf",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "workspaces:Manage workspace layouts": false,
+          "bases:Create new base": false,
+          "omnisearch:Omnisearch": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "templater-obsidian:Templater": false,
+          "edge-tts:Read note aloud": false,
+          "pdf-plus:PDF++: Toggle auto-copy": false,
+          "pdf-plus:PDF++: Toggle auto-focus": false,
+          "pdf-plus:PDF++: Toggle auto-paste": false,
+          "copilot:Open Copilot Agent Chat": false,
+          "obsidian-git:Open Git source control": false
+        }
+      },
+      "active": "e73a4520f89e3aa7",
+      "mtime": "2026-10-12T13:58:03+01:00"
+    },
+    "CM": {
+      "main": {
+        "id": "0bbf1ccf71b196ec",
+        "type": "split",
+        "children": [
+          {
+            "id": "4b315754f4c5e414",
+            "type": "tabs",
+            "dimension": 26.80965147453083,
+            "children": [
+              {
+                "id": "fba3156f4b8fca58",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Year 3/S1/CM/Notes/lecture note 4.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "lecture note 4"
+                }
+              },
+              {
+                "id": "63ec79810dec2687",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Year 3/S1/CM/Notes/lecture note 5.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "lecture note 5"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "64d89bdb923408c6",
+            "type": "tabs",
+            "dimension": 73.19034852546918,
+            "children": [
+              {
+                "id": "5d13cb83c00b0551",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Year 3/S1/CM/Lectures/3CMa.pdf",
+                    "page": 13,
+                    "left": -11,
+                    "top": 616,
+                    "zoom": 1.3103165590415204
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "3CMa"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "8bfeb36952039f6c",
+        "type": "split",
+        "children": [
+          {
+            "id": "6ada863dbc026427",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "21360c530200b3df",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "26d6fbbf4264570e",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "norm",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "9ee8cac79f013f37",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "8956b5b3a828ef71",
+        "type": "split",
+        "children": [
+          {
+            "id": "140b9a2346b01309",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6384603e34e96af2",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Utility/mus_paths.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
+                }
+              },
+              {
+                "id": "3e218b751335bbf7",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Utility/mus_paths.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
+                }
+              },
+              {
+                "id": "d0968a5df30a7734",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "f3d84cc2c34f85a4",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "58457446c0b54eeb",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Year 3/S1/F&FA/Lectures/3FFA-20.pdf",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline"
+                }
+              },
+              {
+                "id": "e886c1cdb2bc51cf",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "workspaces:Manage workspace layouts": false,
+          "bases:Create new base": false,
+          "omnisearch:Omnisearch": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "templater-obsidian:Templater": false,
+          "edge-tts:Read note aloud": false,
+          "pdf-plus:PDF++: Toggle auto-copy": false,
+          "pdf-plus:PDF++: Toggle auto-focus": false,
+          "pdf-plus:PDF++: Toggle auto-paste": false,
+          "copilot:Open Copilot Agent Chat": false,
+          "obsidian-git:Open Git source control": false
+        }
+      },
+      "active": "5d13cb83c00b0551",
+      "mtime": "2026-10-12T11:13:48+01:00"
+    },
+    "CVT": {
+      "main": {
+        "id": "0bbf1ccf71b196ec",
+        "type": "split",
+        "children": [
+          {
+            "id": "4b315754f4c5e414",
+            "type": "tabs",
+            "dimension": 33.37801608579088,
+            "children": [
+              {
+                "id": "ff330bdb8b99eac1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Year 3/S1/QM3/Notes/lecture 5.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "lecture 5"
+                }
+              },
+              {
+                "id": "e2ceccdc6d6382a4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Year 3/S1/QM3/Notes/lecture 6.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "lecture 6"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "8b31fdef3e6c6adb",
+            "type": "tabs",
+            "dimension": 66.62198391420911,
+            "children": [
+              {
+                "id": "187b7ed84008911e",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Year 3/S1/CVT/Lectures/complex.pdf",
+                    "page": 25,
+                    "left": -13,
+                    "top": 491,
+                    "zoom": 1.1873949579831935
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "complex"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "8bfeb36952039f6c",
+        "type": "split",
+        "children": [
+          {
+            "id": "6ada863dbc026427",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "21360c530200b3df",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "26d6fbbf4264570e",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "norm",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "9ee8cac79f013f37",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "8956b5b3a828ef71",
+        "type": "split",
+        "children": [
+          {
+            "id": "140b9a2346b01309",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6384603e34e96af2",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Utility/mus_paths.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
+                }
+              },
+              {
+                "id": "3e218b751335bbf7",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Utility/mus_paths.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
+                }
+              },
+              {
+                "id": "d0968a5df30a7734",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "f3d84cc2c34f85a4",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "58457446c0b54eeb",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Year 3/S1/F&FA/Lectures/3FFA-20.pdf",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline"
+                }
+              },
+              {
+                "id": "e886c1cdb2bc51cf",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "workspaces:Manage workspace layouts": false,
+          "bases:Create new base": false,
+          "omnisearch:Omnisearch": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "templater-obsidian:Templater": false,
+          "edge-tts:Read note aloud": false,
+          "pdf-plus:PDF++: Toggle auto-copy": false,
+          "pdf-plus:PDF++: Toggle auto-focus": false,
+          "pdf-plus:PDF++: Toggle auto-paste": false,
+          "copilot:Open Copilot Agent Chat": false,
+          "obsidian-git:Open Git source control": false
+        }
+      },
+      "active": "187b7ed84008911e",
+      "mtime": "2026-10-16T11:03:31+01:00"
     }
   },
-  "active": "top 1"
+  "active": "BP"
 }

@@ -15,4 +15,3 @@ Categories of spaces
 > - $0_{X}\in Y$
 > - $y,y' \in Y\implies y+_{X}y\in Y$
  ^def-ffa-lin-subspa
- 
